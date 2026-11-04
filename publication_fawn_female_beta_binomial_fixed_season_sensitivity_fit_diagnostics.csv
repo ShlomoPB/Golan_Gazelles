@@ -1,0 +1,4 @@
+model,n_observations,AIC,log_likelihood,convergence_code,positive_definite_hessian,dispersion
+no_season_interaction,221,438.9123663293036,-211.4561831646518,0,TRUE,50.850236729085914
+fixed_season_interaction,221,436.3573150559429,-209.17865752797144,0,TRUE,64.35124361788777
+fixed_season_additive,221,434.7502634730023,-209.37513173650115,0,TRUE,66.74301861760432

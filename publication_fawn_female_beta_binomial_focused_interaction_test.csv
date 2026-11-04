@@ -1,0 +1,2 @@
+comparison,additive_AIC,interaction_AIC,delta_AIC_interaction_minus_additive,df_difference,likelihood_ratio,p_value
+Wolf x jackal interaction,437.2218863853443,438.9123663293036,1.6904799439593035,1,0.30952005604069655,0.5779748475314638

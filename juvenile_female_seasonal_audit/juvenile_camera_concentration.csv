@@ -1,0 +1,4 @@
+population,juvenile_count,cameras_with_juveniles,top_camera_id,top_camera_count,top_camera_share,top_3_camera_share,top_5_camera_share,cameras_for_50_percent,cameras_for_80_percent
+Overall,199,31,6,28,0.1407035175879397,0.3316582914572864,0.46733668341708545,6,14
+Early,74,18,6,11,0.14864864864864866,0.43243243243243246,0.6216216216216217,4,10
+Late,125,28,4,17,0.136,0.34400000000000003,0.47200000000000003,6,14

@@ -1,0 +1,4 @@
+demographic_class,rows,successes_detection_days,cameras_represented,survey_rounds,zero_detection_rows,minimum_denominator,maximum_denominator,time_scale,history_type
+Juvenile,8256,183,60,7,8097,5,33,Equal-duration apparent solar time,Raw sighting camera-day-hour presence
+Adult female,8256,1576,60,7,7281,5,33,Equal-duration apparent solar time,Raw sighting camera-day-hour presence
+Adult male,8256,2307,60,7,6723,5,33,Equal-duration apparent solar time,Raw sighting camera-day-hour presence

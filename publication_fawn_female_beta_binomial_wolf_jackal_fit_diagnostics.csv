@@ -1,0 +1,7 @@
+model,n_observations,AIC,convergence_code,positive_definite_hessian,dispersion
+overall,221,444.91252244542204,0,TRUE,39.214057643901576
+overall_additive,221,443.22240387968156,0,TRUE,40.839727233541595
+seasonal,221,444.19407924036284,0,TRUE,39.67890375360628
+seasonal_no_predator_interaction,221,444.1048265388341,0,TRUE,39.77523612657359
+seasonal_stable_response,221,442.72176266120505,0,TRUE,40.19268128975718
+seasonal_additive_stable,221,441.0754863031773,0,TRUE,41.81330190613131

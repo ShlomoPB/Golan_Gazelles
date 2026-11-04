@@ -1,0 +1,161 @@
+Model: lfMsNMix
+Family: NB 
+n_factors: 2 
+Detection model: design_effort 
+Abundance formula: ~ Nature.Reserves.z + Open.Spaces.z + null.boar.abundance.z + null.jackal.abundance.z + Null.Wolf.Abundance.z
+Detection formula: ~path_type + camera_model + vegetation_structure + area_behind_camera +      log_days_operational.z 
+
+
+Call:
+lfMsNMix(abund.formula = abund_formula, det.formula = det_formula, 
+    data = data_list, inits = inits, priors = priors, tuning = tuning, 
+    n.factors = n_factors, n.batch = n_batch, batch.length = batch_length, 
+    family = family_name, n.omp.threads = 1, verbose = TRUE, 
+    n.report = max(1L, floor(n_batch/10)), n.burn = if (is.null(n_burn)) round(0.1 * 
+        n_batch * batch_length) else n_burn, n.thin = n_thin, 
+    n.chains = n_chains)
+
+Samples per Chain: 125000
+Burn-in: 12500
+Thinning Rate: 5
+Number of Chains: 3
+Total Posterior Samples: 67500
+Run Time (min): 38.7505
+
+----------------------------------------
+	Community Level
+----------------------------------------
+Abundance Means (log scale): 
+                           Mean     SD    2.5%     50%  97.5%   Rhat   ESS
+(Intercept)              5.9457 1.1556  3.4824  6.0758 7.7086 1.3376   916
+Nature.Reserves.z       -0.3818 0.5800 -1.4047 -0.3787 0.6430 1.0055  3835
+Open.Spaces.z            0.6779 0.5472 -0.2459  0.6787 1.6150 1.0002 13563
+null.boar.abundance.z    0.3548 0.4947 -0.4729  0.3568 1.1866 1.0008  7581
+null.jackal.abundance.z -0.7538 0.5012 -1.6032 -0.7553 0.0839 1.0009  7426
+Null.Wolf.Abundance.z    0.4546 0.4736 -0.3632  0.4544 1.2676 1.0091 11758
+
+Abundance Variances (log scale): 
+                          Mean      SD   2.5%    50%   97.5%   Rhat   ESS
+(Intercept)             4.0051 46.0249 0.0615 0.8148 22.7708 1.3666 41668
+Nature.Reserves.z       1.1192 19.1015 0.0388 0.2317  5.2092 1.1559 61563
+Open.Spaces.z           0.9624 15.4911 0.0355 0.1974  4.4147 1.1052 67500
+null.boar.abundance.z   0.6729  6.7950 0.0300 0.1555  3.2276 1.0128 66341
+null.jackal.abundance.z 0.7182  8.8450 0.0303 0.1573  3.4342 1.0642 67500
+Null.Wolf.Abundance.z   0.6448  4.9529 0.0304 0.1572  3.2969 1.0050 61988
+
+Detection Means (logit scale): 
+                                                               Mean     SD
+(Intercept)                                                 -2.7946 1.9781
+path_typeAnimal path without vehicles                       -0.4696 0.8051
+path_typeDirt path less than 1m wide                         0.0825 0.9908
+path_typeDirt path more than 1m wide                         0.4404 0.4729
+path_typePaved road                                         -0.5691 0.6851
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity   -0.1162 0.4098
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity -0.3308 0.5218
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW        -0.0740 0.3978
+vegetation_structureShrubs < 2 m                            -0.5456 0.8161
+vegetation_structureShrubs > 2 m                            -0.8273 0.6912
+vegetation_structureTree Cover Overhead                     -0.0171 0.6360
+area_behind_cameraFence                                      0.2147 0.7335
+area_behind_cameraImpassable due to topography              -0.4475 0.5803
+area_behind_cameraObstructed by vegetation                  -0.1408 0.5391
+log_days_operational.z                                       0.2323 0.3181
+                                                               2.5%     50%
+(Intercept)                                                 -5.6668 -3.0517
+path_typeAnimal path without vehicles                       -1.9795 -0.4941
+path_typeDirt path less than 1m wide                        -1.7393  0.0469
+path_typeDirt path more than 1m wide                        -0.5147  0.4433
+path_typePaved road                                         -1.9888 -0.5379
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity   -0.9167 -0.1178
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity -1.3505 -0.3445
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW        -0.9060 -0.0641
+vegetation_structureShrubs < 2 m                            -2.0197 -0.5794
+vegetation_structureShrubs > 2 m                            -2.1825 -0.8320
+vegetation_structureTree Cover Overhead                     -1.2279 -0.0182
+area_behind_cameraFence                                     -1.2476  0.2131
+area_behind_cameraImpassable due to topography              -1.5685 -0.4529
+area_behind_cameraObstructed by vegetation                  -1.1419 -0.1532
+log_days_operational.z                                      -0.4190  0.2366
+                                                             97.5%   Rhat   ESS
+(Intercept)                                                 1.3828 1.2486  1658
+path_typeAnimal path without vehicles                       1.1288 1.4269    87
+path_typeDirt path less than 1m wide                        2.0451 1.6773    59
+path_typeDirt path more than 1m wide                        1.3622 1.0140   583
+path_typePaved road                                         0.7612 1.5140    73
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity   0.7095 1.0225  1309
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity 0.7737 1.0150  2280
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW        0.7067 1.0002 56177
+vegetation_structureShrubs < 2 m                            1.1379 1.1143   157
+vegetation_structureShrubs > 2 m                            0.6308 1.6141    93
+vegetation_structureTree Cover Overhead                     1.2046 1.1659   123
+area_behind_cameraFence                                     1.5966 1.5354    70
+area_behind_cameraImpassable due to topography              0.7059 1.1461   171
+area_behind_cameraObstructed by vegetation                  0.9242 1.0032   157
+log_days_operational.z                                      0.8451 1.0004 67500
+
+Detection Variances (logit scale): 
+                                                               Mean       SD
+(Intercept)                                                 33.6143 253.9611
+path_typeAnimal path without vehicles                        1.0540   9.6587
+path_typeDirt path less than 1m wide                         1.7809  53.7162
+path_typeDirt path more than 1m wide                         0.7634   5.3705
+path_typePaved road                                          0.9720   5.2613
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity    0.5879   4.5850
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity  1.1825   7.2995
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW         0.6603   3.7004
+vegetation_structureShrubs < 2 m                             2.2125   9.5880
+vegetation_structureShrubs > 2 m                             0.9849   5.4259
+vegetation_structureTree Cover Overhead                      0.9336   7.5937
+area_behind_cameraFence                                      1.0231   5.8513
+area_behind_cameraImpassable due to topography               0.8237   3.8010
+area_behind_cameraObstructed by vegetation                   0.7744  12.6772
+log_days_operational.z                                       0.4060   2.1369
+                                                              2.5%    50%
+(Intercept)                                                 0.1054 8.5288
+path_typeAnimal path without vehicles                       0.0412 0.2891
+path_typeDirt path less than 1m wide                        0.0499 0.4710
+path_typeDirt path more than 1m wide                        0.0394 0.2392
+path_typePaved road                                         0.0432 0.2898
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity   0.0332 0.1851
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity 0.0650 0.3922
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW        0.0349 0.2039
+vegetation_structureShrubs < 2 m                            0.0609 0.7009
+vegetation_structureShrubs > 2 m                            0.0411 0.2872
+vegetation_structureTree Cover Overhead                     0.0425 0.2794
+area_behind_cameraFence                                     0.0417 0.2954
+area_behind_cameraImpassable due to topography              0.0395 0.2531
+area_behind_cameraObstructed by vegetation                  0.0369 0.2247
+log_days_operational.z                                      0.0265 0.1299
+                                                               97.5%   Rhat
+(Intercept)                                                 189.0271 1.1057
+path_typeAnimal path without vehicles                         5.7825 1.1056
+path_typeDirt path less than 1m wide                          9.2765 1.2868
+path_typeDirt path more than 1m wide                          4.2473 1.1896
+path_typePaved road                                           5.5236 1.0148
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity     3.2412 1.1148
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity   6.3000 1.0278
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW          3.6613 1.0293
+vegetation_structureShrubs < 2 m                             12.8244 1.0301
+vegetation_structureShrubs > 2 m                              5.6577 1.0325
+vegetation_structureTree Cover Overhead                       4.9243 1.0514
+area_behind_cameraFence                                       5.7667 1.0730
+area_behind_cameraImpassable due to topography                4.7186 1.0417
+area_behind_cameraObstructed by vegetation                    4.0864 1.2406
+log_days_operational.z                                        2.2460 1.0590
+                                                              ESS
+(Intercept)                                                 62372
+path_typeAnimal path without vehicles                       66724
+path_typeDirt path less than 1m wide                        67500
+path_typeDirt path more than 1m wide                        61985
+path_typePaved road                                         44182
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity   67500
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity 67500
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW        67500
+vegetation_structureShrubs < 2 m                            14715
+vegetation_structureShrubs > 2 m                            37826
+vegetation_structureTree Cover Overhead                     67500
+area_behind_cameraFence                                     31901
+area_behind_cameraImpassable due to topography              47906
+area_behind_cameraObstructed by vegetation                  67500
+log_days_operational.z                                      63671
+NULL

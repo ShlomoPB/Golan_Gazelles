@@ -1,0 +1,7 @@
+"source_dataset","definition","raw_sighting_rows","raw_sighting_quantity","collapsed_30min_events","collapsed_30min_summed_event_max","active_round_collapsed_events","active_round_summed_event_max","treatment_in_current_focal_analyses"
+"full-export_2026-04-15_2006.csv","Sex recorded as Not Adult Male",311,462,43,55,43,55,"Excluded"
+"full-export_2026-04-15_2006.csv","Life stage recorded as Sub-adult",22,31,5,7,5,7,"Excluded"
+"full-export_2026-04-15_2006.csv","Either subadult-related label",333,493,48,62,48,62,"Excluded"
+"full-export_2026-04-15_1717.csv","Sex recorded as Not Adult Male",311,462,43,55,43,55,"Excluded"
+"full-export_2026-04-15_1717.csv","Life stage recorded as Sub-adult",22,31,5,7,5,7,"Excluded"
+"full-export_2026-04-15_1717.csv","Either subadult-related label",333,493,48,62,48,62,"Excluded"

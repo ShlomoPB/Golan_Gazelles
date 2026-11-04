@@ -1,0 +1,82 @@
+period,wolf_level,jackal_level,n_cameras,n_camera_sessions,fawn_count,female_count,ratio,method,label
+Overall,Low,Low,6,34,30,354,0.0847457627118644,Pooled counts,"0.08
+(30/354)
+C=6"
+Overall,Low,Middle,5,29,25,116,0.21551724137931033,Pooled counts,"0.22
+(25/116)
+C=5"
+Overall,Low,High,9,52,2,18,0.1111111111111111,Pooled counts,"0.11
+(2/18)
+C=9"
+Overall,Middle,Low,6,34,9,158,0.056962025316455694,Pooled counts,"0.06
+(9/158)
+C=6"
+Overall,Middle,Middle,9,46,27,288,0.09375,Pooled counts,"0.09
+(27/288)
+C=9"
+Overall,Middle,High,5,26,22,124,0.1774193548387097,Pooled counts,"0.18
+(22/124)
+C=5"
+Overall,High,Low,8,49,63,664,0.09487951807228916,Pooled counts,"0.09
+(63/664)
+C=8"
+Overall,High,Middle,6,38,8,99,0.08080808080808081,Pooled counts,"0.08
+(8/99)
+C=6"
+Overall,High,High,6,36,13,130,0.1,Pooled counts,"0.10
+(13/130)
+C=6"
+Early (hotter),Low,Low,6,18,3,109,0.027522935779816515,Pooled counts,"0.03
+(3/109)
+C=6"
+Early (hotter),Low,Middle,5,14,8,46,0.17391304347826086,Pooled counts,"0.17
+(8/46)
+C=5"
+Early (hotter),Low,High,9,25,1,7,0.14285714285714285,Pooled counts,"0.14
+(1/7)
+C=9"
+Early (hotter),Middle,Low,6,16,0,44,0,Pooled counts,"0.00
+(0/44)
+C=6"
+Early (hotter),Middle,Middle,9,25,14,155,0.09032258064516129,Pooled counts,"0.09
+(14/155)
+C=9"
+Early (hotter),Middle,High,5,13,12,70,0.17142857142857143,Pooled counts,"0.17
+(12/70)
+C=5"
+Early (hotter),High,Low,8,25,32,422,0.07582938388625593,Pooled counts,"0.08
+(32/422)
+C=8"
+Early (hotter),High,Middle,6,20,0,33,0,Pooled counts,"0.00
+(0/33)
+C=6"
+Early (hotter),High,High,6,18,4,48,0.08333333333333333,Pooled counts,"0.08
+(4/48)
+C=6"
+Late (mild-cold),Low,Low,6,16,27,245,0.11020408163265306,Pooled counts,"0.11
+(27/245)
+C=6"
+Late (mild-cold),Low,Middle,5,15,17,70,0.24285714285714285,Pooled counts,"0.24
+(17/70)
+C=5"
+Late (mild-cold),Low,High,9,27,1,11,0.09090909090909091,Pooled counts,"0.09
+(1/11)
+C=9"
+Late (mild-cold),Middle,Low,6,18,9,114,0.07894736842105263,Pooled counts,"0.08
+(9/114)
+C=6"
+Late (mild-cold),Middle,Middle,8,21,13,133,0.09774436090225563,Pooled counts,"0.10
+(13/133)
+C=8"
+Late (mild-cold),Middle,High,5,13,10,54,0.18518518518518517,Pooled counts,"0.19
+(10/54)
+C=5"
+Late (mild-cold),High,Low,8,24,31,242,0.128099173553719,Pooled counts,"0.13
+(31/242)
+C=8"
+Late (mild-cold),High,Middle,6,18,8,66,0.12121212121212122,Pooled counts,"0.12
+(8/66)
+C=6"
+Late (mild-cold),High,High,6,18,9,82,0.10975609756097561,Pooled counts,"0.11
+(9/82)
+C=6"

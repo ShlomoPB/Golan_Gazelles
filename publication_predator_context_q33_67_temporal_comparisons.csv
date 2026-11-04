@@ -1,0 +1,28 @@
+group1,group2,n1,n2,overlap_type,overlap,overlap_lwr,overlap_upr,activity1,activity2,activity_diff_p,class,class_code,period,contrast_id,overlap_ci,activity_diff_p_fmt
+High jackal / Low wolf,Low jackal / High wolf,17,471,Dhat1,NA,NA,NA,NA,NA,NA,Female,female,All detections,HJLW_vs_LJHW,NA,NA
+High both,Low both,108,281,Dhat4,0.87261672879191865,0.8179669453137961,0.9272665122700412,0.45673277739785006,0.4360323142009437,0.2727272727272727,Female,female,All detections,HB_vs_LB,"0.873 [0.818, 0.927]",0.273
+Extreme predator contexts,Intermediate / mixed,877,602,Dhat4,0.8446733854934296,0.8014361372190923,0.8879106337677669,0.5111860953516035,0.5715638365586269,0,Female,female,All detections,Extreme_vs_Mixed,"0.845 [0.801, 0.888]",<0.001
+High jackal / Low wolf,Low jackal / High wolf,2,58,Dhat1,NA,NA,NA,NA,NA,NA,Fawn,juvenile,All detections,HJLW_vs_LJHW,NA,NA
+High both,Low both,12,30,Dhat1,NA,NA,NA,NA,NA,NA,Fawn,juvenile,All detections,HB_vs_LB,NA,NA
+Extreme predator contexts,Intermediate / mixed,102,78,Dhat4,0.8436990296325634,0.7387971103745543,0.9486009488905724,0.34541199720750076,0.42958904433448747,0.26262626262626265,Fawn,juvenile,All detections,Extreme_vs_Mixed,"0.844 [0.739, 0.949]",0.263
+High jackal / Low wolf,Low jackal / High wolf,87,582,Dhat4,0.8009686909629161,0.7325348582714035,0.8694025236544287,0.460529190056778,0.6015319361848697,0,Male,male,All detections,HJLW_vs_LJHW,"0.801 [0.733, 0.869]",<0.001
+High both,Low both,180,335,Dhat4,0.8609513378501881,0.7940236239970504,0.9278790517033257,0.50963813145548,0.6745091707002764,0.050505050505050504,Male,male,All detections,HB_vs_LB,"0.861 [0.794, 0.928]",0.051
+Extreme predator contexts,Intermediate / mixed,1184,1089,Dhat4,0.8622299639336446,0.824088883362868,0.9003710445044212,0.5652804961665647,0.5984766124804779,0,Male,male,All detections,Extreme_vs_Mixed,"0.862 [0.824, 0.900]",<0.001
+High jackal / Low wolf,Low jackal / High wolf,7,302,Dhat1,NA,NA,NA,NA,NA,NA,Female,female,Early (hotter),HJLW_vs_LJHW,NA,NA
+High both,Low both,42,91,Dhat1,0.8119101814215858,0.6944307280755836,0.929389634767588,0.4985784078815567,0.5796712210711272,0.20202020202020202,Female,female,Early (hotter),HB_vs_LB,"0.812 [0.694, 0.929]",0.202
+Extreme predator contexts,Intermediate / mixed,442,300,Dhat4,0.7607038707684934,0.7049352146778367,0.8164725268591502,0.5312497956605243,0.6180767921817645,0,Female,female,Early (hotter),Extreme_vs_Mixed,"0.761 [0.705, 0.816]",<0.001
+High jackal / Low wolf,Low jackal / High wolf,1,31,Dhat1,NA,NA,NA,NA,NA,NA,Fawn,juvenile,Early (hotter),HJLW_vs_LJHW,NA,NA
+High both,Low both,4,3,Dhat1,NA,NA,NA,NA,NA,NA,Fawn,juvenile,Early (hotter),HB_vs_LB,NA,NA
+Extreme predator contexts,Intermediate / mixed,39,27,Dhat1,0.800175728644104,0.6434016664931193,0.9569497907950888,0.42924645884582074,0.5378150922843247,0.35353535353535354,Fawn,juvenile,Early (hotter),Extreme_vs_Mixed,"0.800 [0.643, 0.957]",0.354
+High jackal / Low wolf,Low jackal / High wolf,42,339,Dhat1,0.7639736833995469,0.6629724724617436,0.8649748943373501,0.5344727778865285,0.5595630664104609,0,Male,male,Early (hotter),HJLW_vs_LJHW,"0.764 [0.663, 0.865]",<0.001
+High both,Low both,71,108,Dhat1,0.8590541872277373,0.7598380446241736,0.958270329831301,0.7480895993111474,0.47235381385215386,0.20202020202020202,Male,male,Early (hotter),HB_vs_LB,"0.859 [0.760, 0.958]",0.202
+Extreme predator contexts,Intermediate / mixed,560,598,Dhat4,0.8382775825073131,0.7922819199547149,0.8842732450599113,0.5914595518287704,0.6932261576797432,0,Male,male,Early (hotter),Extreme_vs_Mixed,"0.838 [0.792, 0.884]",<0.001
+High jackal / Low wolf,Low jackal / High wolf,10,169,Dhat1,NA,NA,NA,NA,NA,NA,Female,female,Late (mild-cold),HJLW_vs_LJHW,NA,NA
+High both,Low both,66,190,Dhat1,0.8150105167044892,0.7329641637491053,0.8970568696598731,0.4488783707551832,0.40822312959802987,0.09090909090909091,Female,female,Late (mild-cold),HB_vs_LB,"0.815 [0.733, 0.897]",0.091
+Extreme predator contexts,Intermediate / mixed,435,302,Dhat4,0.90398119246737,0.8548168766653745,0.9531455082693654,0.4945798966389081,0.42784863147371877,0.29292929292929293,Female,female,Late (mild-cold),Extreme_vs_Mixed,"0.904 [0.855, 0.953]",0.293
+High jackal / Low wolf,Low jackal / High wolf,1,27,Dhat1,NA,NA,NA,NA,NA,NA,Fawn,juvenile,Late (mild-cold),HJLW_vs_LJHW,NA,NA
+High both,Low both,8,27,Dhat1,NA,NA,NA,NA,NA,NA,Fawn,juvenile,Late (mild-cold),HB_vs_LB,NA,NA
+Extreme predator contexts,Intermediate / mixed,63,51,Dhat1,0.8549685117412903,0.7408508923027797,0.9690861311798009,0.3139303229025561,0.3947260032042319,0.6666666666666666,Fawn,juvenile,Late (mild-cold),Extreme_vs_Mixed,"0.855 [0.741, 0.969]",0.667
+High jackal / Low wolf,Low jackal / High wolf,45,243,Dhat1,0.7500623467977802,0.6417065416883253,0.858418151907235,0.34356710820538566,0.5062708837274401,0.030303030303030304,Male,male,Late (mild-cold),HJLW_vs_LJHW,"0.750 [0.642, 0.858]",0.030
+High both,Low both,109,227,Dhat4,0.805134244200077,0.7295848844533942,0.8806836039467597,0.38211353919442387,0.5850160011548711,0,Male,male,Late (mild-cold),HB_vs_LB,"0.805 [0.730, 0.881]",<0.001
+Extreme predator contexts,Intermediate / mixed,624,491,Dhat4,0.8748105105917525,0.8236340649094187,0.9259869562740863,0.5188654607204802,0.4850957705609447,0,Male,male,Late (mild-cold),Extreme_vs_Mixed,"0.875 [0.824, 0.926]",<0.001

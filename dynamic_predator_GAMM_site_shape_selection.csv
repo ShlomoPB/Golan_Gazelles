@@ -1,0 +1,3 @@
+class,random_intercept_AIC,site_shape_AIC,delta_AIC,site_shape_convergence,selected
+Adult female,6121.405549421711,5898.010191319194,-223.3953581025171,full convergence,TRUE
+Adult male,8695.569858906141,8524.3563332736,-171.21352563254186,full convergence,TRUE

@@ -1,0 +1,8 @@
+comparison,df_difference,likelihood_ratio,p_value
+Overall wolf x jackal interaction,1,0.3098814342595233,0.577752951122349
+Common Early-Late shift,1,4.1907597842169935,0.04064487744727654
+Common Early-Late shift in additive model,1,4.146917576504279,0.04171038734204568
+Any seasonal structure,4,8.718443205059202,0.06853553826896557
+Seasonal wolf x jackal terms,2,3.9107472984712786,0.1415115911165667
+Seasonal change in predator response,3,4.527683420842209,0.20983424150732213
+Seasonal change in additive predator slopes,2,0.9706597643431678,0.6154941227330712

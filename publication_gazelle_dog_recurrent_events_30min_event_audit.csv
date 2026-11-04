@@ -1,0 +1,5 @@
+taxon,analysis_events,cameras,sessions,first_event,last_event,median_raw_rows_per_event,max_raw_rows_per_event,direct_person_events,raw_annotated_rows,distinct_timestamps,exact_duplicate_rows_collapsed,raw_rows_total,valid_sessions,inconsistent_session_dates,unclassified_gazelle_rows,sampling_frame,event_definition,event_gap_minutes
+Fawn,174,31,76,2020-08-23T03:32:00Z,2020-12-13T15:39:00Z,7,64,,1839,283,1556,359844,296,0,2168,camelot_sessions,gap,30
+Female,1427,50,217,2020-05-12T15:10:00Z,2020-12-14T05:53:00Z,8,184,,21099,3288,17811,359844,296,0,2168,camelot_sessions,gap,30
+Male,2204,52,258,2020-01-13T11:49:00Z,2020-12-14T15:29:00Z,5,192,,16671,3010,13661,359844,296,0,2168,camelot_sessions,gap,30
+Dog,221,35,74,2020-02-20T18:40:00Z,2020-12-13T14:49:00Z,5,45,,1606,323,1283,359844,296,0,2168,camelot_sessions,gap,30

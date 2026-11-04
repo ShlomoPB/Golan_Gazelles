@@ -1,0 +1,5 @@
+context,wolf_level,jackal_level,peak_solar_hour,daytime_06_18_fraction,mean_hours_from_solar_noon
+Low wolf / Low jackal,-1 SD,-1 SD,8.750000000000002,0.6250874525949588,5.3188807910784135
+Low wolf / High jackal,-1 SD,+1 SD,16.650000000000002,0.6285848549229199,5.294348991297637
+High wolf / Low jackal,+1 SD,-1 SD,16.75,0.6164831733753499,5.413540868252299
+High wolf / High jackal,+1 SD,+1 SD,16.650000000000002,0.6574324065401558,5.096399041358986

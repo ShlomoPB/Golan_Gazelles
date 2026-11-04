@@ -1,0 +1,31 @@
+predator_context_label,class_label,season_period,n_events
+High jackal / Low wolf,Fawn,Early (hotter),1
+High jackal / Low wolf,Fawn,Late (mild-cold),1
+High jackal / Low wolf,Female,Early (hotter),7
+High jackal / Low wolf,Female,Late (mild-cold),10
+High jackal / Low wolf,Male,Early (hotter),42
+High jackal / Low wolf,Male,Late (mild-cold),45
+Low jackal / High wolf,Fawn,Early (hotter),31
+Low jackal / High wolf,Fawn,Late (mild-cold),27
+Low jackal / High wolf,Female,Early (hotter),302
+Low jackal / High wolf,Female,Late (mild-cold),169
+Low jackal / High wolf,Male,Early (hotter),339
+Low jackal / High wolf,Male,Late (mild-cold),243
+High both,Fawn,Early (hotter),4
+High both,Fawn,Late (mild-cold),8
+High both,Female,Early (hotter),42
+High both,Female,Late (mild-cold),66
+High both,Male,Early (hotter),71
+High both,Male,Late (mild-cold),109
+Low both,Fawn,Early (hotter),3
+Low both,Fawn,Late (mild-cold),27
+Low both,Female,Early (hotter),91
+Low both,Female,Late (mild-cold),190
+Low both,Male,Early (hotter),108
+Low both,Male,Late (mild-cold),227
+Intermediate / mixed,Fawn,Early (hotter),27
+Intermediate / mixed,Fawn,Late (mild-cold),51
+Intermediate / mixed,Female,Early (hotter),300
+Intermediate / mixed,Female,Late (mild-cold),302
+Intermediate / mixed,Male,Early (hotter),598
+Intermediate / mixed,Male,Late (mild-cold),491

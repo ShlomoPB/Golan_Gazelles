@@ -1,0 +1,13 @@
+demographic_class,combination_id,predator_combination,wolf_z,jackal_z,posterior_summary,relative_estimate,lower_95_CrI,upper_95_CrI,relative_to_mean_predator_reference,reference_condition,retained_posterior_draws
+Juvenile,low_low,Low wolf / Low jackal,-1,-1,Median,2.755101117616012,0.920139708881484,10.268924145457373,TRUE,"wolf_z = 0, jackal_z = 0",13500
+Juvenile,low_wolf_high_jackal,Low wolf / High jackal,-1,1,Median,0.21564775190949712,0.045664792413347075,0.7719352385631124,TRUE,"wolf_z = 0, jackal_z = 0",13500
+Juvenile,high_wolf_low_jackal,High wolf / Low jackal,1,-1,Median,1.7357589997724343,0.7933390004621896,4.331222518840043,TRUE,"wolf_z = 0, jackal_z = 0",13500
+Juvenile,high_high,High wolf / High jackal,1,1,Median,0.9289298415400193,0.32359579099426494,3.356662408828023,TRUE,"wolf_z = 0, jackal_z = 0",13500
+Adult female,low_low,Low wolf / Low jackal,-1,-1,Median,1.9974115858753314,1.0676528576875763,4.038510089447588,TRUE,"wolf_z = 0, jackal_z = 0",13500
+Adult female,low_wolf_high_jackal,Low wolf / High jackal,-1,1,Median,0.1676018048794889,0.07741071044753427,0.3665023725839551,TRUE,"wolf_z = 0, jackal_z = 0",13500
+Adult female,high_wolf_low_jackal,High wolf / Low jackal,1,-1,Median,2.0681775019401316,1.102998787117111,4.2267345789703406,TRUE,"wolf_z = 0, jackal_z = 0",13500
+Adult female,high_high,High wolf / High jackal,1,1,Median,1.3813659657878197,0.5466875943574903,3.9997841375474437,TRUE,"wolf_z = 0, jackal_z = 0",13500
+Adult male,low_low,Low wolf / Low jackal,-1,-1,Median,1.8970905162841492,1.0895671641141846,3.5143478859863295,TRUE,"wolf_z = 0, jackal_z = 0",13500
+Adult male,low_wolf_high_jackal,Low wolf / High jackal,-1,1,Median,0.25683141089869715,0.1348617171592875,0.5049040156812521,TRUE,"wolf_z = 0, jackal_z = 0",13500
+Adult male,high_wolf_low_jackal,High wolf / Low jackal,1,-1,Median,1.7441807308596644,1.107588903785003,2.939127682353223,TRUE,"wolf_z = 0, jackal_z = 0",13500
+Adult male,high_high,High wolf / High jackal,1,1,Median,1.135201675684618,0.5822064329022676,2.457513857634095,TRUE,"wolf_z = 0, jackal_z = 0",13500

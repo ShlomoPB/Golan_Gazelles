@@ -1,0 +1,7 @@
+class,open_space_group,gazelle_events,gazelle_cameras,predator_events,predator_cameras
+Male,Q1: low open-space cover,354,13,3557,14
+Male,Q4: high open-space cover,910,15,1816,15
+Female,Q1: low open-space cover,149,11,3557,14
+Female,Q4: high open-space cover,731,15,1816,15
+Fawn,Q1: low open-space cover,5,2,3557,14
+Fawn,Q4: high open-space cover,90,11,1816,15

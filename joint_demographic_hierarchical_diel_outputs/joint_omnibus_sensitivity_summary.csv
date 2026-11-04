@@ -1,0 +1,4 @@
+predator_effect,primary_P,number_supported,number_tested,failed_specifications,robust_across_all_specifications
+Jackal x time,0.9999999999999999,1,7,Primary apparent solar; k = 8; k = 16; Sun time; Alternate camera-only hierarchy; Independent 30-min histories,FALSE
+Wolf x jackal x time,0.9908471412599197,0,7,Primary apparent solar; k = 8; k = 16; Sun time; Alternate camera-only hierarchy; Independent 30-min histories; Sun time + camera-only hierarchy,FALSE
+Wolf x time,0.9999699191807814,0,7,Primary apparent solar; k = 8; k = 16; Sun time; Alternate camera-only hierarchy; Independent 30-min histories; Sun time + camera-only hierarchy,FALSE

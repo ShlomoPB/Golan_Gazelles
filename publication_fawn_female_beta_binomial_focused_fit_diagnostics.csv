@@ -1,0 +1,3 @@
+model,n_observations,n_cameras,n_polygons,AIC,log_likelihood,convergence_code,positive_definite_hessian,dispersion
+focused_interaction,221,50,12,438.9123663293036,-211.4561831646518,0,TRUE,50.850236729085914
+focused_additive,221,50,12,437.2218863853443,-211.61094319267215,0,TRUE,52.589250514587235

@@ -1,0 +1,44 @@
+Species: female 
+Model: NMix 
+Habitat covariate: Nature.Reserves 
+Wolf covariate: Null.Wolf.Abundance 
+Detection model: effort 
+Model scope: nonspatial 
+Family: NB 
+
+
+Call:
+NMix(abund.formula = abund_formula, det.formula = det_formula, 
+    data = data_list, inits = inits, priors = priors, tuning = tuning, 
+    n.batch = n_batch, batch.length = batch_length, family = family_name, 
+    n.omp.threads = 1, verbose = TRUE, n.report = max(1L, floor(n_batch/10)), 
+    n.burn = if (is.null(n_burn)) round(0.1 * n_batch * batch_length) else n_burn, 
+    n.thin = n_thin, n.chains = n_chains)
+
+Samples per Chain: 30000
+Burn-in: 3000
+Thinning Rate: 5
+Number of Chains: 3
+Total Posterior Samples: 16200
+Run Time (min): 2.4015
+
+Abundance (log scale): 
+                           Mean     SD    2.5%     50%   97.5%   Rhat  ESS
+(Intercept)              6.3580 0.3306  5.6190  6.3899  6.9197 1.0122   31
+Nature.Reserves.z       -0.1001 0.2293 -0.5486 -0.1006  0.3489 1.0056 5335
+null.jackal.abundance.z -0.8121 0.2656 -1.3449 -0.8093 -0.2998 1.0007 7055
+null.boar.abundance.z    0.2686 0.2843 -0.2749  0.2647  0.8484 1.0038 7210
+human.abundance.z       -0.1190 0.2558 -0.5900 -0.1290  0.4113 1.0003 6796
+Null.Wolf.Abundance.z    0.4198 0.2106  0.0103  0.4178  0.8394 1.0025 6210
+
+Detection (logit scale): 
+                          Mean     SD    2.5%     50%   97.5%   Rhat  ESS
+(Intercept)            -4.8396 0.2798 -5.2377 -4.8765 -4.2018 1.0187   19
+log_days_operational.z  0.2797 0.0245  0.2315  0.2795  0.3279 1.0006 9867
+cattle_sightings.z      0.0089 0.0310 -0.0542  0.0100  0.0673 1.0070  608
+
+NB overdispersion: 
+      Mean     SD   2.5%    50%  97.5%   Rhat  ESS
+kappa 0.55 0.1047 0.3645 0.5428 0.7758 1.0006 2276
+      Mean     SD   2.5%    50%  97.5%   Rhat  ESS
+kappa 0.55 0.1047 0.3645 0.5428 0.7758 1.0006 2276

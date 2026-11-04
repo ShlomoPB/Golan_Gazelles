@@ -1,0 +1,13 @@
+term,focal_basis_overlap_with_other_focal_smooths,squared_correlation_of_fitted_contributions,sampled_rows,method
+s(Time):demographic_classJuvenile,0.058082607803691566,5.1945759123642186e-5,5000,Focal ecological design-space audit; full mgcv concurvity was not computationally feasible with 120 camera-specific cyclic deviations
+s(Time):demographic_classAdult female,0.05847322136096511,4.518987197680766e-7,5000,Focal ecological design-space audit; full mgcv concurvity was not computationally feasible with 120 camera-specific cyclic deviations
+s(Time):demographic_classAdult male,0.05793594676042835,3.109564594940866e-5,5000,Focal ecological design-space audit; full mgcv concurvity was not computationally feasible with 120 camera-specific cyclic deviations
+s(Time):wolf_juvenile,0.06626245777865214,3.2739584710793055e-5,5000,Focal ecological design-space audit; full mgcv concurvity was not computationally feasible with 120 camera-specific cyclic deviations
+s(Time):jackal_juvenile,0.06795392376454368,4.885422927345035e-4,5000,Focal ecological design-space audit; full mgcv concurvity was not computationally feasible with 120 camera-specific cyclic deviations
+s(Time):interaction_juvenile,0.08147034677992082,0.0014404684416273912,5000,Focal ecological design-space audit; full mgcv concurvity was not computationally feasible with 120 camera-specific cyclic deviations
+s(Time):wolf_female,0.0672511214515995,1.0769919269180056e-4,5000,Focal ecological design-space audit; full mgcv concurvity was not computationally feasible with 120 camera-specific cyclic deviations
+s(Time):jackal_female,0.06401495504801769,3.826913524919318e-5,5000,Focal ecological design-space audit; full mgcv concurvity was not computationally feasible with 120 camera-specific cyclic deviations
+s(Time):interaction_female,0.07251092662521674,8.888960389918101e-4,5000,Focal ecological design-space audit; full mgcv concurvity was not computationally feasible with 120 camera-specific cyclic deviations
+s(Time):wolf_male,0.059214990596541894,4.754185280347182e-5,5000,Focal ecological design-space audit; full mgcv concurvity was not computationally feasible with 120 camera-specific cyclic deviations
+s(Time):jackal_male,0.08564879694576999,5.932935442232503e-5,5000,Focal ecological design-space audit; full mgcv concurvity was not computationally feasible with 120 camera-specific cyclic deviations
+s(Time):interaction_male,0.09447730281054023,8.238616133457251e-4,5000,Focal ecological design-space audit; full mgcv concurvity was not computationally feasible with 120 camera-specific cyclic deviations

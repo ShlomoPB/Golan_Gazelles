@@ -1,0 +1,55 @@
+period,wolf_level,jackal_level,mean_fawn_proportion,n_informative_cameras,n_informative_sessions,ratio,method,label
+Overall,Low,Low,0.05227264486937927,6,31,0.05515578355567755,Equal camera/session weight,"0.06
+C=6, S=31"
+Overall,Low,Middle,0.09099355036855036,4,19,0.10010220544138392,Equal camera/session weight,"0.10
+C=4, S=19"
+Overall,Low,High,0.0375,5,10,0.03896103896103896,Equal camera/session weight,"0.04
+C=5, S=10"
+Overall,Middle,Low,0.040634920634920635,5,24,0.042356055592322965,Equal camera/session weight,"0.04
+C=5, S=24"
+Overall,Middle,Middle,0.14449065817099874,6,26,0.16889430787756313,Equal camera/session weight,"0.17
+C=6, S=26"
+Overall,Middle,High,0.12834821428571427,4,18,0.14724711907810498,Equal camera/session weight,"0.15
+C=4, S=18"
+Overall,High,Low,0.13794881957425056,8,40,0.16002393211284793,Equal camera/session weight,"0.16
+C=8, S=40"
+Overall,High,Middle,0.02435897435897436,6,25,0.024967148488830488,Equal camera/session weight,"0.02
+C=6, S=25"
+Overall,High,High,0.05697681947681948,6,28,0.060419320175363306,Equal camera/session weight,"0.06
+C=6, S=28"
+Early (hotter),Low,Low,0.014351851851851852,6,17,0.01456082667919211,Equal camera/session weight,"0.01
+C=6, S=17"
+Early (hotter),Low,Middle,0.1046401515151515,4,10,0.11686938127974615,Equal camera/session weight,"0.12
+C=4, S=10"
+Early (hotter),Low,High,0.0625,4,5,0.06666666666666667,Equal camera/session weight,"0.07
+C=4, S=5"
+Early (hotter),Middle,Low,0,5,11,0,Equal camera/session weight,"0.00
+C=5, S=11"
+Early (hotter),Middle,Middle,0.04427170868347339,5,13,0.04632248420990929,Equal camera/session weight,"0.05
+C=5, S=13"
+Early (hotter),Middle,High,0.1043154761904762,4,9,0.11646452899152684,Equal camera/session weight,"0.12
+C=4, S=9"
+Early (hotter),High,Low,0.15782800681256445,8,21,0.18740590768783488,Equal camera/session weight,"0.19
+C=8, S=21"
+Early (hotter),High,Middle,0,6,12,0,Equal camera/session weight,"0.00
+C=6, S=12"
+Early (hotter),High,High,0.06401709401709402,5,13,0.06839558031230024,Equal camera/session weight,"0.07
+C=5, S=13"
+Late (mild-cold),Low,Low,0.11202350324638381,6,14,0.1261559327931926,Equal camera/session weight,"0.13
+C=6, S=14"
+Late (mild-cold),Low,Middle,0.06526412776412777,4,9,0.06982092985050106,Equal camera/session weight,"0.07
+C=4, S=9"
+Late (mild-cold),Low,High,0.041666666666666664,3,5,0.043478260869565216,Equal camera/session weight,"0.04
+C=3, S=5"
+Late (mild-cold),Middle,Low,0.07105820105820106,5,13,0.07649370621404568,Equal camera/session weight,"0.08
+C=5, S=13"
+Late (mild-cold),Middle,Middle,0.16875489243910297,6,13,0.2030145993090732,Equal camera/session weight,"0.20
+C=6, S=13"
+Late (mild-cold),Middle,High,0.15238095238095237,4,9,0.1797752808988764,Equal camera/session weight,"0.18
+C=4, S=9"
+Late (mild-cold),High,Low,0.12587467451597886,8,19,0.1440007180277948,Equal camera/session weight,"0.14
+C=8, S=19"
+Late (mild-cold),High,Middle,0.05205128205128205,5,13,0.05490938598863944,Equal camera/session weight,"0.05
+C=5, S=13"
+Late (mild-cold),High,High,0.06060606060606061,6,15,0.06451612903225806,Equal camera/session weight,"0.06
+C=6, S=15"

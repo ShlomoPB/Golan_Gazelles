@@ -1,0 +1,42 @@
+Species: fawn 
+Model: spNMix
+Habitat covariate: Open.Spaces 
+Wolf covariate: Null.Wolf.Abundance 
+Detection model: effort 
+Family: Poisson 
+
+
+Call:
+spNMix(abund.formula = abund_formula, det.formula = det_formula, 
+    data = data_list, inits = inits, priors = priors, tuning = tuning, 
+    cov.model = "exponential", NNGP = TRUE, n.neighbors = n_neighbors, 
+    n.batch = n_batch, batch.length = batch_length, family = family_name, 
+    n.omp.threads = 1, verbose = TRUE, n.report = max(1L, floor(n_batch/10)), 
+    n.burn = if (is.null(n_burn)) round(0.1 * n_batch * batch_length) else n_burn, 
+    n.thin = n_thin, n.chains = n_chains)
+
+Samples per Chain: 10000
+Burn-in: 1000
+Thinning Rate: 5
+Number of Chains: 3
+Total Posterior Samples: 5400
+Run Time (min): 1.4812
+
+Abundance (log scale): 
+                           Mean     SD    2.5%     50%  97.5%   Rhat ESS
+(Intercept)              1.6562 0.6597  0.5241  1.5287 3.0666 1.3158  11
+Open.Spaces.z            1.1588 0.3361  0.6066  1.1134 1.9617 1.1864  35
+null.jackal.abundance.z -0.5244 0.3930 -1.3576 -0.4961 0.1456 1.3356  30
+Null.Wolf.Abundance.z    0.4481 0.2794 -0.0605  0.4403 0.9872 1.3380  38
+
+Detection (logit scale): 
+                          Mean     SD    2.5%     50%   97.5%   Rhat  ESS
+(Intercept)            -3.7253 0.4879 -4.7090 -3.6673 -2.9012 1.3553   14
+log_days_operational.z  0.2521 0.0772  0.1055  0.2506  0.4078 1.0000 3322
+cattle_sightings.z      0.2283 0.0902  0.0466  0.2304  0.3984 1.0180  539
+
+Spatial Covariance: 
+           Mean    SD   2.5%    50%  97.5%   Rhat  ESS
+sigma.sq 2.5991 1.066 1.1819 2.3779 5.3731 1.0254   60
+phi      2.1199 0.662 0.7827 2.1809 3.1197 1.0080 2325
+NULL

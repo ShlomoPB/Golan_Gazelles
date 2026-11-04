@@ -1,0 +1,20 @@
+variable,level,n_camera_rounds,n_cameras,reference
+season,Early (hotter),111,47,TRUE
+season,Late (mild-cold),110,47,FALSE
+path_type,4x4 Road with off-road vehicles,136,31,TRUE
+path_type,Animal path without vehicles,11,3,FALSE
+path_type,Dirt path less than 1m wide,6,1,FALSE
+path_type,Dirt path more than 1m wide,47,11,FALSE
+path_type,Paved road,21,5,FALSE
+camera_model,Browning DARK OPS HD MAX,49,16,TRUE
+camera_model,Browning DARK OPS HD PRO X - Long Sensitivity,43,19,FALSE
+camera_model,Browning DARK OPS HD PRO X - Normal Sensitivity,108,29,FALSE
+camera_model,Bushnell TROPHY CAM HD AGGRESSOR NO-GLOW,21,12,FALSE
+vegetation_structure,Grassland,161,35,TRUE
+vegetation_structure,Shrubs < 2 m,6,2,FALSE
+vegetation_structure,Shrubs > 2 m,28,6,FALSE
+vegetation_structure,Tree Cover Overhead,26,7,FALSE
+area_behind_camera,Clear,101,23,TRUE
+area_behind_camera,Fence,23,5,FALSE
+area_behind_camera,Impassable due to topography,28,7,FALSE
+area_behind_camera,Obstructed by vegetation,69,15,FALSE

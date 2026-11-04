@@ -1,0 +1,13 @@
+response_class,effect,primary_P,primary_supported,supported_specifications,tested_specifications,failed_specifications,term_retained,robustness_status
+Juvenile,wolf x time,0.05914237392329335,FALSE,0,7,Primary apparent-solar full model; k8; k16; sun_time; alternate_hierarchy; independent; sun_time + alternate_hierarchy,TRUE,unsupported
+Juvenile,jackal x time,0.8998087153911289,FALSE,0,7,Primary apparent-solar full model; k8; k16; sun_time; alternate_hierarchy; independent; sun_time + alternate_hierarchy,TRUE,unsupported
+Juvenile,wolf x jackal x time,1.9378038258976993e-4,TRUE,7,7,None,TRUE,robust
+Adult female,wolf x time,2.498789664027168e-4,TRUE,7,7,None,TRUE,robust
+Adult female,jackal x time,0.4324367190417224,FALSE,2,7,Primary apparent-solar full model; k8; k16; sun_time; independent,TRUE,unsupported
+Adult female,wolf x jackal x time,0.03130854159591056,TRUE,6,7,sun_time,TRUE,sensitivity-dependent
+Adult male,wolf x time,0.03707859056682761,TRUE,4,7,sun_time; alternate_hierarchy; sun_time + alternate_hierarchy,TRUE,sensitivity-dependent
+Adult male,jackal x time,0.520588406650959,FALSE,1,7,Primary apparent-solar full model; k8; k16; sun_time; alternate_hierarchy; independent,TRUE,unsupported
+Adult male,wolf x jackal x time,4.98532688424369e-4,TRUE,6,7,sun_time + alternate_hierarchy,TRUE,sensitivity-dependent
+Pooled species,wolf x time,7.399822828706437e-4,TRUE,7,7,None,TRUE,robust
+Pooled species,jackal x time,0.606434278865102,FALSE,2,7,Primary apparent-solar full model; k8; k16; sun_time; independent,FALSE,not retained
+Pooled species,wolf x jackal x time,2.567830801368798e-4,TRUE,7,7,None,FALSE,not retained

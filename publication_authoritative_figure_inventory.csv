@@ -1,0 +1,7 @@
+"figure","placement","status","script","png","pdf","file_check"
+"Class-specific wolf x jackal relative-abundance curves","Main","PRESENT","make_spabundance_relative_wolf_jackal_figure.R","publication_spabundance_wolf_jackal_relative_interaction_curves.png","publication_spabundance_wolf_jackal_relative_interaction_curves.pdf","Present"
+"Fawn-representation beta-binomial coefficient plot","Main","PRESENT","make_fawn_female_beta_binomial_coefficient_plot.R","publication_fawn_female_beta_binomial_coefficients.png","publication_fawn_female_beta_binomial_coefficients.pdf","Present"
+"Class-specific gazelle diel activity across wolf-jackal contexts","Main","PRESENT","make_predator_context_diel_by_class.R","publication_predator_context_diel_by_class_median_combined.png","publication_predator_context_diel_by_class_median_combined.pdf","Present"
+"Overall gazelle class diel activity","SI","PRESENT","make_overall_gazelle_diel_activity.R","publication_overall_gazelle_diel_activity.png","publication_overall_gazelle_diel_activity.pdf","Present"
+"Relative-abundance 3 x 3 heatmap","SI","PRESENT","make_spabundance_relative_wolf_jackal_figure.R","publication_spabundance_wolf_jackal_relative_heatmap.png","publication_spabundance_wolf_jackal_relative_heatmap.pdf","Present"
+"Within-class diel context overlap forest plot","SI","PRESENT","analyze_predator_context_diel_pairwise_overlap.R","publication_predator_context_diel_pairwise_overlap_median.png","publication_predator_context_diel_pairwise_overlap_median.pdf","Present"

@@ -1,0 +1,16 @@
+predator_context_label,class_label,early_n,late_n
+High jackal / Low wolf,Fawn,1,1
+High jackal / Low wolf,Female,7,10
+High jackal / Low wolf,Male,42,45
+Low jackal / High wolf,Fawn,31,27
+Low jackal / High wolf,Female,302,169
+Low jackal / High wolf,Male,339,243
+High both,Fawn,4,8
+High both,Female,42,66
+High both,Male,71,109
+Low both,Fawn,3,27
+Low both,Female,91,190
+Low both,Male,108,227
+Intermediate / mixed,Fawn,27,51
+Intermediate / mixed,Female,300,302
+Intermediate / mixed,Male,598,491

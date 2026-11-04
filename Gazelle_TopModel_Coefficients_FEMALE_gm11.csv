@@ -1,0 +1,20 @@
+"Parameter","Coefficient"
+"lam(Int)",4.57026850866048
+"lam(Null.Wolf.Abundance)",-0.200892012685183
+"lam(Nature.Reserves)",-0.867956427447007
+"lam(null.jackal.abundance)",-1.60451235136532
+"lam(Null.Wolf.Abundance:Nature.Reserves)",3.18951386857339
+"p(Int)",-1.62850473463646
+"p(Path.TypeAnimal path without vehicles)",-1.17482572568311
+"p(Path.TypeDirt path less than 1m wide)",0.346456805243799
+"p(Path.TypeDirt path more than 1m wide)",0.955960108853283
+"p(Path.TypePaved road)",0.375029009819717
+"p(Camera.ModelBrowning DARK OPS HD PRO X - Long Sensitivity)",-0.276565218717478
+"p(Camera.ModelBrowning DARK OPS HD PRO X - Normal Sensitivity)",-0.826760628598409
+"p(Camera.ModelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW)",-0.284079480545824
+"p(Vegetation.StructureShrubs < 2 m)",-1.92611495785604
+"p(Vegetation.StructureShrubs > 2 m)",-1.09807687818389
+"p(Vegetation.StructureTree Cover Overhead)",-1.2744825716282
+"p(Area.Behind.CameraFence)",-0.231537333497363
+"p(Area.Behind.CameraImpassable due to topography)",-0.933773385058822
+"p(Area.Behind.CameraObstructed by vegetation)",0.0782119665483652

@@ -1,0 +1,56 @@
+Model: lfMsNMix
+Family: NB 
+n_factors: 2 
+Abundance formula: ~ Nature.Reserves.z + Open.Spaces.z + Built.and.Roads.z + null.jackal.abundance.z + Null.Wolf.Abundance.z
+Detection formula: ~ log_days_operational.z + cattle_sightings.z
+
+
+Call:
+lfMsNMix(abund.formula = abund_formula, det.formula = det_formula, 
+    data = data_list, inits = inits, priors = priors, tuning = tuning, 
+    n.factors = n_factors, n.batch = n_batch, batch.length = batch_length, 
+    family = family_name, n.omp.threads = 1, verbose = TRUE, 
+    n.report = max(1L, floor(n_batch/10)), n.burn = if (is.null(n_burn)) round(0.1 * 
+        n_batch * batch_length) else n_burn, n.thin = n_thin, 
+    n.chains = n_chains)
+
+Samples per Chain: 10000
+Burn-in: 1000
+Thinning Rate: 5
+Number of Chains: 3
+Total Posterior Samples: 5400
+Run Time (min): 1.1472
+
+----------------------------------------
+	Community Level
+----------------------------------------
+Abundance Means (log scale): 
+                           Mean     SD    2.5%     50%  97.5%   Rhat  ESS
+(Intercept)              4.3059 1.3587  1.5787  4.3162 6.8975 1.0782  564
+Nature.Reserves.z       -0.2371 0.5331 -1.1623 -0.2390 0.6820 1.0030  986
+Open.Spaces.z            0.6548 0.5854 -0.3489  0.6492 1.7513 1.0037 1078
+Built.and.Roads.z       -0.4431 0.5915 -1.5200 -0.4483 0.6155 1.0119  789
+null.jackal.abundance.z -0.7730 0.4810 -1.6217 -0.7734 0.0675 1.0144 1069
+Null.Wolf.Abundance.z    0.4784 0.5050 -0.3150  0.4690 1.3669 1.0139 1950
+
+Abundance Variances (log scale): 
+                          Mean      SD   2.5%    50%   97.5%   Rhat  ESS
+(Intercept)             7.1877 45.8511 0.2459 1.9719 39.3374 1.0746 5400
+Nature.Reserves.z       0.8433  6.0880 0.0345 0.1923  3.9825 1.1573 5400
+Open.Spaces.z           0.9533  5.7463 0.0387 0.2276  5.0025 1.1139 5400
+Built.and.Roads.z       1.1180  7.1431 0.0405 0.2510  5.5455 1.1497 4131
+null.jackal.abundance.z 0.6578  4.6175 0.0327 0.1766  3.5827 1.0588 5400
+Null.Wolf.Abundance.z   0.8727 12.2608 0.0294 0.1615  3.4273 1.2710 5400
+
+Detection Means (logit scale): 
+                          Mean     SD    2.5%     50%   97.5%   Rhat  ESS
+(Intercept)            -3.7407 1.1471 -5.0515 -4.0316 -0.4080 1.1228  204
+log_days_operational.z  0.2347 0.3041 -0.3933  0.2396  0.8420 1.0069 5400
+cattle_sightings.z      0.0634 0.3198 -0.5823  0.0575  0.7484 0.9999 5400
+
+Detection Variances (logit scale): 
+                         Mean      SD   2.5%    50%   97.5%   Rhat  ESS
+(Intercept)            4.8276 36.8867 0.0431 0.3961 32.1501 1.1867 5189
+log_days_operational.z 0.3871  1.3944 0.0252 0.1263  2.2438 1.0391 5037
+cattle_sightings.z     0.4195  1.8850 0.0294 0.1411  2.2372 1.0246 4813
+NULL

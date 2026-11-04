@@ -1,0 +1,21 @@
+mgcv::bam(
+  formula = cbind(success, failure) ~ demographic_class * round_factor + 
+      demographic_class * wolf_z * jackal_z + s(Time, by = demographic_class, 
+      bs = "cc", k = 12) + s(Time, by = wolf_juvenile, bs = "cc", 
+      k = 12) + s(Time, by = jackal_juvenile, bs = "cc", k = 12) + 
+      s(Time, by = interaction_juvenile, bs = "cc", k = 12) + s(Time, 
+      by = wolf_female, bs = "cc", k = 12) + s(Time, by = jackal_female, 
+      bs = "cc", k = 12) + s(Time, by = interaction_female, bs = "cc", 
+      k = 12) + s(Time, by = wolf_male, bs = "cc", k = 12) + s(Time, 
+      by = jackal_male, bs = "cc", k = 12) + s(Time, by = interaction_male, 
+      bs = "cc", k = 12) + s(Time, by = female_camera, bs = "cc", 
+      k = 12, m = 1, id = 21) + s(Time, by = male_camera, bs = "cc", 
+      k = 12, m = 1, id = 22) + s(camera_id, bs = "re") + s(camera_round, 
+      bs = "re") + s(camera_class, bs = "re") + s(camera_round_class, 
+      bs = "re"),
+  data = primary_data,
+  family = binomial(link = "logit"),
+  method = "fREML", discrete = TRUE, select = TRUE,
+  knots = list(Time = c(0, 24)), nthreads = 2,
+  control = gam.control(trace = FALSE)
+)

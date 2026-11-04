@@ -1,0 +1,7 @@
+species,period,n_sites,n_nonmissing_cells,total_count
+Fawn,Early,60,174,74
+Fawn,Late,59,170,125
+Female,Early,60,174,934
+Female,Late,59,170,1017
+Male,Early,60,174,1135
+Male,Late,59,170,1220

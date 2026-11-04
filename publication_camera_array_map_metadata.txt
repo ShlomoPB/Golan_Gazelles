@@ -1,0 +1,6 @@
+Generated: 2026-08-18 09:36:11 UTC
+Coordinate source: Camera Coordinates.xlsx
+Sampling-stratum source: SiteCovs_060324.csv
+Input CRS: EPSG:4326
+Plot CRS: EPSG:32636 (WGS 84 / UTM zone 36N)
+Scope: camera-array and sampling-stratum layout only; no boundary layer used.

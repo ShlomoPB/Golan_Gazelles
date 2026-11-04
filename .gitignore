@@ -1,0 +1,16 @@
+# R session and editor state
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Transient graphics and temporary files
+Rplots.pdf
+*.tmp
+*.temp
+~$*
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+desktop.ini

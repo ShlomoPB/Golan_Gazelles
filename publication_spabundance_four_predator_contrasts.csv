@@ -1,0 +1,19 @@
+demographic_class,contrast_id,contrast,ratio_orientation,abundance_ratio,lower_95_CrI,upper_95_CrI,posterior_probability_ratio_gt_1,retained_posterior_draws
+Juvenile,low_low_vs_high_high,Low wolf / Low jackal vs High wolf / High jackal,first condition / second condition,2.928753560992904,0.4561137459818947,18.66963628195998,0.8819259259259259,13500
+Juvenile,low_wolf_high_jackal_vs_high_wolf_high_jackal,Low wolf / High jackal vs High wolf / High jackal,first condition / second condition,0.2304781913148789,0.020821763134785887,1.597288927843532,0.06918518518518518,13500
+Juvenile,low_vs_high_jackal_at_low_wolf,Low jackal vs High jackal at low wolf,first condition / second condition,12.793222720518063,1.4984013489500962,163.9122416871694,0.9889629629629629,13500
+Juvenile,low_vs_high_jackal_at_high_wolf,Low jackal vs High jackal at high wolf,first condition / second condition,1.8607250878165806,0.3299315797905821,10.022808694798545,0.7685185185185185,13500
+Juvenile,low_vs_high_wolf_at_low_jackal,Low wolf vs High wolf at low jackal,first condition / second condition,1.5662231259740742,0.3647386623580127,7.797549728250152,0.7224444444444444,13500
+Juvenile,low_vs_high_wolf_at_high_jackal,Low wolf vs High wolf at high jackal,first condition / second condition,0.2304781913148789,0.020821763134785887,1.597288927843532,0.06918518518518518,13500
+Adult female,low_low_vs_high_high,Low wolf / Low jackal vs High wolf / High jackal,first condition / second condition,1.452347226648158,0.3560559821121585,5.727403162337941,0.7022962962962963,13500
+Adult female,low_wolf_high_jackal_vs_high_wolf_high_jackal,Low wolf / High jackal vs High wolf / High jackal,first condition / second condition,0.12362890317057645,0.023606888561864433,0.5128078936371951,0.0022222222222222222,13500
+Adult female,low_vs_high_jackal_at_low_wolf,Low jackal vs High jackal at low wolf,first condition / second condition,12.155117428353066,3.6637917005304974,38.04177245806912,0.9999259259259259,13500
+Adult female,low_vs_high_jackal_at_high_wolf,Low jackal vs High jackal at high wolf,first condition / second condition,1.5028415233654786,0.3293758167739529,6.484192285394414,0.7057037037037037,13500
+Adult female,low_vs_high_wolf_at_low_jackal,Low wolf vs High wolf at low jackal,first condition / second condition,0.9692972396724023,0.3616518922270029,2.5704907035119837,0.4728888888888889,13500
+Adult female,low_vs_high_wolf_at_high_jackal,Low wolf vs High wolf at high jackal,first condition / second condition,0.12362890317057645,0.023606888561864433,0.5128078936371951,0.0022222222222222222,13500
+Adult male,low_low_vs_high_high,Low wolf / Low jackal vs High wolf / High jackal,first condition / second condition,1.6870729565626807,0.5591925575329495,4.862622779805063,0.8274074074074074,13500
+Adult male,low_wolf_high_jackal_vs_high_wolf_high_jackal,Low wolf / High jackal vs High wolf / High jackal,first condition / second condition,0.22826220198437452,0.06525247232828701,0.7054521734870908,0.004148148148148148,13500
+Adult male,low_vs_high_jackal_at_low_wolf,Low jackal vs High jackal at low wolf,first condition / second condition,7.473619020503479,2.6104260311342546,20.561714384337083,0.9997777777777778,13500
+Adult male,low_vs_high_jackal_at_high_wolf,Low jackal vs High jackal at high wolf,first condition / second condition,1.52811152212164,0.5458096858976784,4.149429337772885,0.8051111111111111,13500
+Adult male,low_vs_high_wolf_at_low_jackal,Low wolf vs High wolf at low jackal,first condition / second condition,1.0887175091620294,0.48448714220247674,2.4834271936586445,0.5798518518518518,13500
+Adult male,low_vs_high_wolf_at_high_jackal,Low wolf vs High wolf at high jackal,first condition / second condition,0.22826220198437452,0.06525247232828701,0.7054521734870908,0.004148148148148148,13500

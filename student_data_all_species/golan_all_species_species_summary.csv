@@ -1,0 +1,40 @@
+species,species_label_corrected,species_common_name,raw_rows,cameras,summed_sighting_quantity,corrected_timestamp_rows
+Bos taurus,Bos taurus,Domestic cattle,96846,48,162508,60
+Canis aureus,Canis aureus,Golden jackal,65030,60,68056,4322
+Gazella gazella,Gazella gazella,Mountain gazelle,43433,53,50570,233
+Sus scrofa,Sus scrofa,Wild boar,33835,58,43068,5023
+Vehicle civilian,Civilian vehicle,Civilian vehicle,26489,52,26937,341
+Vulpes vulpes,Vulpes vulpes,Red fox,18907,58,19268,152
+[missing species label],[missing species label],[missing species label],17745,60,0,954
+Hystrix indica,Hystrix indica,Indian crested porcupine,7248,57,8301,235
+Vehicle military,Military vehicle,Military vehicle,6458,21,6836,89
+Canis lupus,Canis lupus,Gray wolf,5653,57,6914,105
+Felis silvesteris,Felis silvestris,Wildcat,5332,55,5417,22
+Homo sapiens,Homo sapiens,Human,5327,52,7060,35
+Bird unknown,Unidentified bird,Unidentified bird,4014,59,4507,87
+Chukar partridge,Chukar partridge,Chukar,2975,33,7795,0
+Vehicle construction,Construction vehicle,Construction vehicle,2464,9,2488,0
+Equus ferus caballus,Equus ferus caballus,Domestic horse,2450,27,3922,0
+Ovis aries,Ovis aries,Domestic sheep,2328,6,21371,0
+Canis familiaris,Canis familiaris,Domestic dog,1776,37,2114,55
+Homo sapiens-solider,Homo sapiens-soldier,Soldier,1624,19,2749,8
+Capra aegagrus_hircus,Capra aegagrus hircus,Domestic goat,1512,3,12754,0
+Bicycle Rider,Bicycle rider,Bicycle rider,1424,25,1807,26
+Unidentified Animal,Unidentified animal,Unidentified animal,1143,58,1211,9
+Lepus capensis,Lepus capensis,Cape hare,1008,26,1048,0
+Meles meles,Meles meles,European badger,991,50,991,35
+Martes Foina,Martes foina,Beech marten,825,13,825,15
+Canid unknown,Unidentified canid,Unidentified canid,573,38,597,0
+Herpestes ichneumon,Herpestes ichneumon,Egyptian mongoose,473,18,674,3
+Corvus cornix,Corvus cornix,Hooded crow,452,16,500,0
+Rodent Small,Small rodent,Small rodent,364,16,372,0
+Equus africanus,Equus africanus,Domestic donkey,304,3,383,0
+Bubulcus ibis,Bubulcus ibis,Cattle egret,291,4,591,0
+Hyaena hyaena,Hyaena hyaena,Striped hyena,177,7,180,0
+Erinaceus concolor,Erinaceus concolor,Southern white-breasted hedgehog,132,17,132,0
+Procavia capensis,Procavia capensis,Rock hyrax,114,1,247,0
+Red-backed shrike,Red-backed shrike,Red-backed shrike,93,2,93,0
+Stellagama stellio,Stellagama stellio,Starred agama,16,1,16,0
+Testudo graeca,Testudo graeca,Spur-thighed tortoise,7,3,7,0
+Lanius collurio,Lanius collurio,Red-backed shrike,6,1,6,0
+Alectoris chukar,Alectoris chukar,Chukar,5,1,10,0

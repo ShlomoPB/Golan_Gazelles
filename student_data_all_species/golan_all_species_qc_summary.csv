@@ -1,0 +1,23 @@
+metric,value
+Source file,C:/Users/preissbloom/Documents/Github Repositories/Golan_Gazelles/full-export_2026-04-15_2006.csv
+Source MD5,c8ffc3fd532534832fa3c065edeb5d35
+Source rows,359844
+Output rows,359844
+Source columns,18
+Output columns,47
+Output CSV MD5,45b2bb2349d69ab676a9e91e5675838b
+Compressed output MD5,807a04204a1d6f601068d3bdc465173a
+Station cameras,60
+Distinct nonmissing species/category labels,38
+Rows with missing species/category label,17745
+Exactly duplicated source rows beyond first copy,279958
+Exact-record groups in collapsed file,79886
+Corrected rows total,11809
+Corrected camera 22 rows,987
+Corrected camera 24 rows,10822
+Corrected rows outside nominal deployment dates,130
+Rows with unchanged local clock time,359844
+Rows without assigned survey round,179
+Corrected timestamp minimum,2020-08-20 07:46
+Corrected timestamp maximum,2020-12-15 17:03
+Authoritative coordinate rows missing,0

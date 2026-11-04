@@ -1,0 +1,493 @@
+Model: lfMsNMix
+Family: NB 
+n_factors: 2 
+Detection model: design_effort 
+Abundance formula: ~ Nature.Reserves.z + Open.Spaces.z + null.boar.abundance.z + null.jackal.abundance.z + Null.Wolf.Abundance.z
+Detection formula: ~path_type + camera_model + vegetation_structure + area_behind_camera +      log_days_operational.z 
+
+
+Call:
+lfMsNMix(abund.formula = abund_formula, det.formula = det_formula, 
+    data = data_list, inits = inits, priors = priors, tuning = tuning, 
+    n.factors = n_factors, n.batch = n_batch, batch.length = batch_length, 
+    family = family_name, n.omp.threads = 1, verbose = TRUE, 
+    n.report = max(1L, floor(n_batch/10)), n.burn = if (is.null(n_burn)) round(0.1 * 
+        n_batch * batch_length) else n_burn, n.thin = n_thin, 
+    n.chains = n_chains)
+
+Samples per Chain: 125000
+Burn-in: 12500
+Thinning Rate: 5
+Number of Chains: 3
+Total Posterior Samples: 67500
+Run Time (min): 38.7505
+
+----------------------------------------
+	Community Level
+----------------------------------------
+Abundance Means (log scale): 
+                           Mean     SD    2.5%     50%  97.5%   Rhat   ESS
+(Intercept)              5.9457 1.1556  3.4824  6.0758 7.7086 1.3376   916
+Nature.Reserves.z       -0.3818 0.5800 -1.4047 -0.3787 0.6430 1.0055  3835
+Open.Spaces.z            0.6779 0.5472 -0.2459  0.6787 1.6150 1.0002 13563
+null.boar.abundance.z    0.3548 0.4947 -0.4729  0.3568 1.1866 1.0008  7581
+null.jackal.abundance.z -0.7538 0.5012 -1.6032 -0.7553 0.0839 1.0009  7426
+Null.Wolf.Abundance.z    0.4546 0.4736 -0.3632  0.4544 1.2676 1.0091 11758
+
+Abundance Variances (log scale): 
+                          Mean      SD   2.5%    50%   97.5%   Rhat   ESS
+(Intercept)             4.0051 46.0249 0.0615 0.8148 22.7708 1.3666 41668
+Nature.Reserves.z       1.1192 19.1015 0.0388 0.2317  5.2092 1.1559 61563
+Open.Spaces.z           0.9624 15.4911 0.0355 0.1974  4.4147 1.1052 67500
+null.boar.abundance.z   0.6729  6.7950 0.0300 0.1555  3.2276 1.0128 66341
+null.jackal.abundance.z 0.7182  8.8450 0.0303 0.1573  3.4342 1.0642 67500
+Null.Wolf.Abundance.z   0.6448  4.9529 0.0304 0.1572  3.2969 1.0050 61988
+
+Detection Means (logit scale): 
+                                                               Mean     SD
+(Intercept)                                                 -2.7946 1.9781
+path_typeAnimal path without vehicles                       -0.4696 0.8051
+path_typeDirt path less than 1m wide                         0.0825 0.9908
+path_typeDirt path more than 1m wide                         0.4404 0.4729
+path_typePaved road                                         -0.5691 0.6851
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity   -0.1162 0.4098
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity -0.3308 0.5218
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW        -0.0740 0.3978
+vegetation_structureShrubs < 2 m                            -0.5456 0.8161
+vegetation_structureShrubs > 2 m                            -0.8273 0.6912
+vegetation_structureTree Cover Overhead                     -0.0171 0.6360
+area_behind_cameraFence                                      0.2147 0.7335
+area_behind_cameraImpassable due to topography              -0.4475 0.5803
+area_behind_cameraObstructed by vegetation                  -0.1408 0.5391
+log_days_operational.z                                       0.2323 0.3181
+                                                               2.5%     50%
+(Intercept)                                                 -5.6668 -3.0517
+path_typeAnimal path without vehicles                       -1.9795 -0.4941
+path_typeDirt path less than 1m wide                        -1.7393  0.0469
+path_typeDirt path more than 1m wide                        -0.5147  0.4433
+path_typePaved road                                         -1.9888 -0.5379
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity   -0.9167 -0.1178
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity -1.3505 -0.3445
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW        -0.9060 -0.0641
+vegetation_structureShrubs < 2 m                            -2.0197 -0.5794
+vegetation_structureShrubs > 2 m                            -2.1825 -0.8320
+vegetation_structureTree Cover Overhead                     -1.2279 -0.0182
+area_behind_cameraFence                                     -1.2476  0.2131
+area_behind_cameraImpassable due to topography              -1.5685 -0.4529
+area_behind_cameraObstructed by vegetation                  -1.1419 -0.1532
+log_days_operational.z                                      -0.4190  0.2366
+                                                             97.5%   Rhat   ESS
+(Intercept)                                                 1.3828 1.2486  1658
+path_typeAnimal path without vehicles                       1.1288 1.4269    87
+path_typeDirt path less than 1m wide                        2.0451 1.6773    59
+path_typeDirt path more than 1m wide                        1.3622 1.0140   583
+path_typePaved road                                         0.7612 1.5140    73
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity   0.7095 1.0225  1309
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity 0.7737 1.0150  2280
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW        0.7067 1.0002 56177
+vegetation_structureShrubs < 2 m                            1.1379 1.1143   157
+vegetation_structureShrubs > 2 m                            0.6308 1.6141    93
+vegetation_structureTree Cover Overhead                     1.2046 1.1659   123
+area_behind_cameraFence                                     1.5966 1.5354    70
+area_behind_cameraImpassable due to topography              0.7059 1.1461   171
+area_behind_cameraObstructed by vegetation                  0.9242 1.0032   157
+log_days_operational.z                                      0.8451 1.0004 67500
+
+Detection Variances (logit scale): 
+                                                               Mean       SD
+(Intercept)                                                 33.6143 253.9611
+path_typeAnimal path without vehicles                        1.0540   9.6587
+path_typeDirt path less than 1m wide                         1.7809  53.7162
+path_typeDirt path more than 1m wide                         0.7634   5.3705
+path_typePaved road                                          0.9720   5.2613
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity    0.5879   4.5850
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity  1.1825   7.2995
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW         0.6603   3.7004
+vegetation_structureShrubs < 2 m                             2.2125   9.5880
+vegetation_structureShrubs > 2 m                             0.9849   5.4259
+vegetation_structureTree Cover Overhead                      0.9336   7.5937
+area_behind_cameraFence                                      1.0231   5.8513
+area_behind_cameraImpassable due to topography               0.8237   3.8010
+area_behind_cameraObstructed by vegetation                   0.7744  12.6772
+log_days_operational.z                                       0.4060   2.1369
+                                                              2.5%    50%
+(Intercept)                                                 0.1054 8.5288
+path_typeAnimal path without vehicles                       0.0412 0.2891
+path_typeDirt path less than 1m wide                        0.0499 0.4710
+path_typeDirt path more than 1m wide                        0.0394 0.2392
+path_typePaved road                                         0.0432 0.2898
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity   0.0332 0.1851
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity 0.0650 0.3922
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW        0.0349 0.2039
+vegetation_structureShrubs < 2 m                            0.0609 0.7009
+vegetation_structureShrubs > 2 m                            0.0411 0.2872
+vegetation_structureTree Cover Overhead                     0.0425 0.2794
+area_behind_cameraFence                                     0.0417 0.2954
+area_behind_cameraImpassable due to topography              0.0395 0.2531
+area_behind_cameraObstructed by vegetation                  0.0369 0.2247
+log_days_operational.z                                      0.0265 0.1299
+                                                               97.5%   Rhat
+(Intercept)                                                 189.0271 1.1057
+path_typeAnimal path without vehicles                         5.7825 1.1056
+path_typeDirt path less than 1m wide                          9.2765 1.2868
+path_typeDirt path more than 1m wide                          4.2473 1.1896
+path_typePaved road                                           5.5236 1.0148
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity     3.2412 1.1148
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity   6.3000 1.0278
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW          3.6613 1.0293
+vegetation_structureShrubs < 2 m                             12.8244 1.0301
+vegetation_structureShrubs > 2 m                              5.6577 1.0325
+vegetation_structureTree Cover Overhead                       4.9243 1.0514
+area_behind_cameraFence                                       5.7667 1.0730
+area_behind_cameraImpassable due to topography                4.7186 1.0417
+area_behind_cameraObstructed by vegetation                    4.0864 1.2406
+log_days_operational.z                                        2.2460 1.0590
+                                                              ESS
+(Intercept)                                                 62372
+path_typeAnimal path without vehicles                       66724
+path_typeDirt path less than 1m wide                        67500
+path_typeDirt path more than 1m wide                        61985
+path_typePaved road                                         44182
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity   67500
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity 67500
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW        67500
+vegetation_structureShrubs < 2 m                            14715
+vegetation_structureShrubs > 2 m                            37826
+vegetation_structureTree Cover Overhead                     67500
+area_behind_cameraFence                                     31901
+area_behind_cameraImpassable due to topography              47906
+area_behind_cameraObstructed by vegetation                  67500
+log_days_operational.z                                      63671
+
+----------------------------------------
+	Species Level
+----------------------------------------
+Abundance (log scale): 
+                                  Mean     SD    2.5%     50%   97.5%   Rhat
+(Intercept)-fawn                5.2080 0.9423  3.0831  5.4016  6.7085 3.3112
+(Intercept)-male                6.4038 0.3780  5.5850  6.4262  7.0831 2.2424
+(Intercept)-female              6.4220 0.4947  5.4719  6.4328  7.4164 2.2573
+Nature.Reserves.z-fawn         -0.1080 0.2850 -0.6678 -0.1091  0.4593 1.0227
+Nature.Reserves.z-male         -0.5971 0.2480 -1.0894 -0.5948 -0.1221 1.0411
+Nature.Reserves.z-female       -0.4385 0.2722 -1.0008 -0.4294  0.0682 1.0275
+Open.Spaces.z-fawn              0.8877 0.2432  0.4200  0.8839  1.3717 1.0047
+Open.Spaces.z-male              0.4881 0.1981  0.1013  0.4889  0.8786 1.0090
+Open.Spaces.z-female            0.6578 0.2071  0.2587  0.6550  1.0753 1.0058
+null.boar.abundance.z-fawn      0.3103 0.2491 -0.1843  0.3120  0.7936 1.0196
+null.boar.abundance.z-male      0.3869 0.2027 -0.0062  0.3878  0.7883 1.0022
+null.boar.abundance.z-female    0.3690 0.2199 -0.0622  0.3688  0.7979 1.0061
+null.jackal.abundance.z-fawn   -0.6848 0.2592 -1.1911 -0.6857 -0.1751 1.0046
+null.jackal.abundance.z-male   -0.7928 0.2095 -1.2067 -0.7923 -0.3855 1.0009
+null.jackal.abundance.z-female -0.7956 0.2211 -1.2396 -0.7927 -0.3686 1.0023
+Null.Wolf.Abundance.z-fawn      0.3547 0.2121 -0.0500  0.3516  0.7793 1.0533
+Null.Wolf.Abundance.z-male      0.4663 0.1903  0.1016  0.4635  0.8431 1.0424
+Null.Wolf.Abundance.z-female    0.5396 0.1957  0.1629  0.5368  0.9362 1.0399
+                                ESS
+(Intercept)-fawn                 21
+(Intercept)-male                133
+(Intercept)-female               78
+Nature.Reserves.z-fawn          395
+Nature.Reserves.z-male          626
+Nature.Reserves.z-female        427
+Open.Spaces.z-fawn             1070
+Open.Spaces.z-male             1690
+Open.Spaces.z-female           1562
+null.boar.abundance.z-fawn      914
+null.boar.abundance.z-male     1817
+null.boar.abundance.z-female   1280
+null.jackal.abundance.z-fawn    880
+null.jackal.abundance.z-male   1742
+null.jackal.abundance.z-female 1362
+Null.Wolf.Abundance.z-fawn     1048
+Null.Wolf.Abundance.z-male     1701
+Null.Wolf.Abundance.z-female   1745
+
+Detection (logit scale): 
+                                                                      Mean
+(Intercept)-fawn                                                   -6.6549
+(Intercept)-male                                                   -4.9198
+(Intercept)-female                                                 -5.0567
+path_typeAnimal path without vehicles-fawn                         -0.4981
+path_typeAnimal path without vehicles-male                         -0.5723
+path_typeAnimal path without vehicles-female                       -0.4498
+path_typeDirt path less than 1m wide-fawn                           0.1648
+path_typeDirt path less than 1m wide-male                           0.3952
+path_typeDirt path less than 1m wide-female                        -0.3126
+path_typeDirt path more than 1m wide-fawn                           0.6289
+path_typeDirt path more than 1m wide-male                           0.2224
+path_typeDirt path more than 1m wide-female                         0.5631
+path_typePaved road-fawn                                           -0.4974
+path_typePaved road-male                                           -0.8659
+path_typePaved road-female                                         -0.4732
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-fawn     -0.0839
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-male     -0.0895
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-female   -0.1942
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-fawn   -0.1110
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-male   -0.1020
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-female -0.8654
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-fawn          -0.2892
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-male           0.1006
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-female        -0.0575
+vegetation_structureShrubs < 2 m-fawn                              -0.1620
+vegetation_structureShrubs < 2 m-male                              -0.4521
+vegetation_structureShrubs < 2 m-female                            -1.2842
+vegetation_structureShrubs > 2 m-fawn                              -0.6344
+vegetation_structureShrubs > 2 m-male                              -0.9791
+vegetation_structureShrubs > 2 m-female                            -1.0636
+vegetation_structureTree Cover Overhead-fawn                       -0.0423
+vegetation_structureTree Cover Overhead-male                        0.2173
+vegetation_structureTree Cover Overhead-female                     -0.2279
+area_behind_cameraFence-fawn                                        0.5260
+area_behind_cameraFence-male                                        0.0680
+area_behind_cameraFence-female                                      0.1018
+area_behind_cameraImpassable due to topography-fawn                -0.3879
+area_behind_cameraImpassable due to topography-male                -0.3962
+area_behind_cameraImpassable due to topography-female              -0.6646
+area_behind_cameraObstructed by vegetation-fawn                    -0.0350
+area_behind_cameraObstructed by vegetation-male                    -0.3389
+area_behind_cameraObstructed by vegetation-female                  -0.0659
+log_days_operational.z-fawn                                         0.2202
+log_days_operational.z-male                                         0.2155
+log_days_operational.z-female                                       0.2884
+                                                                       SD
+(Intercept)-fawn                                                   0.9987
+(Intercept)-male                                                   0.4095
+(Intercept)-female                                                 0.5526
+path_typeAnimal path without vehicles-fawn                         0.8449
+path_typeAnimal path without vehicles-male                         0.7659
+path_typeAnimal path without vehicles-female                       0.7931
+path_typeDirt path less than 1m wide-fawn                          1.0312
+path_typeDirt path less than 1m wide-male                          0.9445
+path_typeDirt path less than 1m wide-female                        1.0850
+path_typeDirt path more than 1m wide-fawn                          0.4144
+path_typeDirt path more than 1m wide-male                          0.2797
+path_typeDirt path more than 1m wide-female                        0.2956
+path_typePaved road-fawn                                           0.6481
+path_typePaved road-male                                           0.5704
+path_typePaved road-female                                         0.6703
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-fawn     0.3635
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-male     0.2029
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-female   0.2367
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-fawn   0.3708
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-male   0.2123
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-female 0.2422
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-fawn          0.3506
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-male          0.0947
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-female        0.1045
+vegetation_structureShrubs < 2 m-fawn                              0.8589
+vegetation_structureShrubs < 2 m-male                              0.6415
+vegetation_structureShrubs < 2 m-female                            0.7934
+vegetation_structureShrubs > 2 m-fawn                              0.6549
+vegetation_structureShrubs > 2 m-male                              0.6450
+vegetation_structureShrubs > 2 m-female                            0.5889
+vegetation_structureTree Cover Overhead-fawn                       0.5970
+vegetation_structureTree Cover Overhead-male                       0.5467
+vegetation_structureTree Cover Overhead-female                     0.5616
+area_behind_cameraFence-fawn                                       0.6774
+area_behind_cameraFence-male                                       0.6842
+area_behind_cameraFence-female                                     0.7120
+area_behind_cameraImpassable due to topography-fawn                0.5647
+area_behind_cameraImpassable due to topography-male                0.4382
+area_behind_cameraImpassable due to topography-female              0.5002
+area_behind_cameraObstructed by vegetation-fawn                    0.4672
+area_behind_cameraObstructed by vegetation-male                    0.4204
+area_behind_cameraObstructed by vegetation-female                  0.4467
+log_days_operational.z-fawn                                        0.0765
+log_days_operational.z-male                                        0.0231
+log_days_operational.z-female                                      0.0255
+                                                                      2.5%
+(Intercept)-fawn                                                   -8.1975
+(Intercept)-male                                                   -5.6293
+(Intercept)-female                                                 -5.9928
+path_typeAnimal path without vehicles-fawn                         -2.1427
+path_typeAnimal path without vehicles-male                         -2.0239
+path_typeAnimal path without vehicles-female                       -1.9043
+path_typeDirt path less than 1m wide-fawn                          -1.8401
+path_typeDirt path less than 1m wide-male                          -1.2235
+path_typeDirt path less than 1m wide-female                        -2.2594
+path_typeDirt path more than 1m wide-fawn                          -0.1915
+path_typeDirt path more than 1m wide-male                          -0.3240
+path_typeDirt path more than 1m wide-female                        -0.0651
+path_typePaved road-fawn                                           -1.7913
+path_typePaved road-male                                           -2.0860
+path_typePaved road-female                                         -2.0250
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-fawn     -0.7968
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-male     -0.4798
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-female   -0.6487
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-fawn   -0.8452
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-male   -0.5043
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-female -1.3353
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-fawn          -1.0585
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-male          -0.0880
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-female        -0.2654
+vegetation_structureShrubs < 2 m-fawn                              -1.6643
+vegetation_structureShrubs < 2 m-male                              -1.7528
+vegetation_structureShrubs < 2 m-female                            -2.6164
+vegetation_structureShrubs > 2 m-fawn                              -1.9121
+vegetation_structureShrubs > 2 m-male                              -2.3952
+vegetation_structureShrubs > 2 m-female                            -2.1939
+vegetation_structureTree Cover Overhead-fawn                       -1.2068
+vegetation_structureTree Cover Overhead-male                       -0.7697
+vegetation_structureTree Cover Overhead-female                     -1.2808
+area_behind_cameraFence-fawn                                       -0.7253
+area_behind_cameraFence-male                                       -1.3097
+area_behind_cameraFence-female                                     -1.3791
+area_behind_cameraImpassable due to topography-fawn                -1.5060
+area_behind_cameraImpassable due to topography-male                -1.2680
+area_behind_cameraImpassable due to topography-female              -1.6886
+area_behind_cameraObstructed by vegetation-fawn                    -0.9210
+area_behind_cameraObstructed by vegetation-male                    -1.1303
+area_behind_cameraObstructed by vegetation-female                  -0.8363
+log_days_operational.z-fawn                                         0.0700
+log_days_operational.z-male                                         0.1701
+log_days_operational.z-female                                       0.2388
+                                                                       50%
+(Intercept)-fawn                                                   -6.8474
+(Intercept)-male                                                   -4.9656
+(Intercept)-female                                                 -5.0839
+path_typeAnimal path without vehicles-fawn                         -0.5081
+path_typeAnimal path without vehicles-male                         -0.5958
+path_typeAnimal path without vehicles-female                       -0.4789
+path_typeDirt path less than 1m wide-fawn                           0.1653
+path_typeDirt path less than 1m wide-male                           0.2982
+path_typeDirt path less than 1m wide-female                        -0.3621
+path_typeDirt path more than 1m wide-fawn                           0.6260
+path_typeDirt path more than 1m wide-male                           0.2154
+path_typeDirt path more than 1m wide-female                         0.5557
+path_typePaved road-fawn                                           -0.5008
+path_typePaved road-male                                           -0.7975
+path_typePaved road-female                                         -0.3726
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-fawn     -0.0857
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-male     -0.0890
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-female   -0.2003
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-fawn   -0.1150
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-male   -0.1009
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-female -0.8687
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-fawn          -0.2633
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-male           0.1011
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-female        -0.0568
+vegetation_structureShrubs < 2 m-fawn                              -0.2022
+vegetation_structureShrubs < 2 m-male                              -0.4297
+vegetation_structureShrubs < 2 m-female                            -1.3901
+vegetation_structureShrubs > 2 m-fawn                              -0.6419
+vegetation_structureShrubs > 2 m-male                              -0.9569
+vegetation_structureShrubs > 2 m-female                            -1.0430
+vegetation_structureTree Cover Overhead-fawn                       -0.0426
+vegetation_structureTree Cover Overhead-male                        0.1971
+vegetation_structureTree Cover Overhead-female                     -0.2193
+area_behind_cameraFence-fawn                                        0.5047
+area_behind_cameraFence-male                                        0.0672
+area_behind_cameraFence-female                                      0.1078
+area_behind_cameraImpassable due to topography-fawn                -0.3846
+area_behind_cameraImpassable due to topography-male                -0.3883
+area_behind_cameraImpassable due to topography-female              -0.6684
+area_behind_cameraObstructed by vegetation-fawn                    -0.0381
+area_behind_cameraObstructed by vegetation-male                    -0.3477
+area_behind_cameraObstructed by vegetation-female                  -0.0780
+log_days_operational.z-fawn                                         0.2205
+log_days_operational.z-male                                         0.2155
+log_days_operational.z-female                                       0.2885
+                                                                     97.5%
+(Intercept)-fawn                                                   -4.5251
+(Intercept)-male                                                   -4.0378
+(Intercept)-female                                                 -3.9141
+path_typeAnimal path without vehicles-fawn                          1.1773
+path_typeAnimal path without vehicles-male                          0.9509
+path_typeAnimal path without vehicles-female                        1.1448
+path_typeDirt path less than 1m wide-fawn                           2.1661
+path_typeDirt path less than 1m wide-male                           2.3252
+path_typeDirt path less than 1m wide-female                         1.8480
+path_typeDirt path more than 1m wide-fawn                           1.4577
+path_typeDirt path more than 1m wide-male                           0.7914
+path_typeDirt path more than 1m wide-female                         1.1457
+path_typePaved road-fawn                                            0.8304
+path_typePaved road-male                                            0.1098
+path_typePaved road-female                                          0.7106
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-fawn      0.6434
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-male      0.3003
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-female    0.2535
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-fawn    0.6260
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-male    0.3022
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-female -0.4055
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-fawn           0.3276
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-male           0.2843
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-female         0.1459
+vegetation_structureShrubs < 2 m-fawn                               1.5182
+vegetation_structureShrubs < 2 m-male                               0.7850
+vegetation_structureShrubs < 2 m-female                             0.4122
+vegetation_structureShrubs > 2 m-fawn                               0.7805
+vegetation_structureShrubs > 2 m-male                               0.3193
+vegetation_structureShrubs > 2 m-female                             0.2021
+vegetation_structureTree Cover Overhead-fawn                        1.1252
+vegetation_structureTree Cover Overhead-male                        1.2897
+vegetation_structureTree Cover Overhead-female                      0.8130
+area_behind_cameraFence-fawn                                        1.9165
+area_behind_cameraFence-male                                        1.3183
+area_behind_cameraFence-female                                      1.4480
+area_behind_cameraImpassable due to topography-fawn                 0.7203
+area_behind_cameraImpassable due to topography-male                 0.4295
+area_behind_cameraImpassable due to topography-female               0.3410
+area_behind_cameraObstructed by vegetation-fawn                     0.9024
+area_behind_cameraObstructed by vegetation-male                     0.4972
+area_behind_cameraObstructed by vegetation-female                   0.8452
+log_days_operational.z-fawn                                         0.3696
+log_days_operational.z-male                                         0.2606
+log_days_operational.z-female                                       0.3382
+                                                                     Rhat   ESS
+(Intercept)-fawn                                                   3.1296    28
+(Intercept)-male                                                   1.9206    33
+(Intercept)-female                                                 1.9851    23
+path_typeAnimal path without vehicles-fawn                         1.3594   149
+path_typeAnimal path without vehicles-male                         1.6488    62
+path_typeAnimal path without vehicles-female                       1.5815    67
+path_typeDirt path less than 1m wide-fawn                          1.8659   100
+path_typeDirt path less than 1m wide-male                          1.9023    55
+path_typeDirt path less than 1m wide-female                        1.7723    46
+path_typeDirt path more than 1m wide-fawn                          1.1042   191
+path_typeDirt path more than 1m wide-male                          1.0472   155
+path_typeDirt path more than 1m wide-female                        1.0549    77
+path_typePaved road-fawn                                           1.4468   109
+path_typePaved road-male                                           2.0472    42
+path_typePaved road-female                                         2.1536    23
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-fawn     1.0077   455
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-male     1.1217   220
+camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-female   1.1448   157
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-fawn   1.0174   427
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-male   1.1136   214
+camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-female 1.1371   147
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-fawn          1.0003 17084
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-male          1.0011 12417
+camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-female        1.0012 10705
+vegetation_structureShrubs < 2 m-fawn                              1.1323    65
+vegetation_structureShrubs < 2 m-male                              1.1199    49
+vegetation_structureShrubs < 2 m-female                            1.4185    46
+vegetation_structureShrubs > 2 m-fawn                              1.5133   139
+vegetation_structureShrubs > 2 m-male                              2.6401    31
+vegetation_structureShrubs > 2 m-female                            1.9969    43
+vegetation_structureTree Cover Overhead-fawn                       1.2104   167
+vegetation_structureTree Cover Overhead-male                       1.2310    61
+vegetation_structureTree Cover Overhead-female                     1.2905    56
+area_behind_cameraFence-fawn                                       1.3632   114
+area_behind_cameraFence-male                                       2.0148    42
+area_behind_cameraFence-female                                     1.9605    42
+area_behind_cameraImpassable due to topography-fawn                1.1737   217
+area_behind_cameraImpassable due to topography-male                1.1407    87
+area_behind_cameraImpassable due to topography-female              1.4514    63
+area_behind_cameraObstructed by vegetation-fawn                    1.0047   152
+area_behind_cameraObstructed by vegetation-male                    1.0201    47
+area_behind_cameraObstructed by vegetation-female                  1.0262    41
+log_days_operational.z-fawn                                        1.0005 34851
+log_days_operational.z-male                                        1.0013 28581
+log_days_operational.z-female                                      1.0015 26492
+
+----------------------------------------
+	NB overdispersion
+----------------------------------------
+               Mean     SD   2.5%    50%  97.5%   Rhat  ESS
+kappa-fawn   2.7301 2.1721 0.6566 1.8875 8.8913 1.0321  472
+kappa-male   6.7150 2.1092 2.6115 6.9297 9.8531 1.0062 3759
+kappa-female 5.4613 2.3502 1.8294 5.1947 9.7405 1.0141 1213
+               Mean     SD   2.5%    50%  97.5%   Rhat  ESS
+kappa-fawn   2.7301 2.1721 0.6566 1.8875 8.8913 1.0321  472
+kappa-male   6.7150 2.1092 2.6115 6.9297 9.8531 1.0062 3759
+kappa-female 5.4613 2.3502 1.8294 5.1947 9.7405 1.0141 1213

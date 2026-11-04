@@ -1,0 +1,13 @@
+predator_context,class_a,class_b,n_events_a,n_events_b,n_cameras_a,n_cameras_b,estimator,overlap,conf_low,conf_high,bootstrap_successes,estimable,reason,pair
+Low both,Fawn,Female,67,531,12,13,Dhat1,0.8268874044830826,0.6280612476326621,0.896243534430343,500,TRUE,NA,Fawn vs Female
+Low both,Fawn,Male,67,791,12,13,Dhat1,0.7390419504986154,0.48809320268626144,0.8411774975774033,500,TRUE,NA,Fawn vs Male
+Low both,Female,Male,531,791,13,13,Dhat4,0.8910729169057943,0.768093600244576,0.9131000124320308,500,TRUE,NA,Female vs Male
+High jackal / Low wolf,Fawn,Female,3,69,2,10,Dhat1,NA,NA,NA,0,FALSE,Fewer than 20 events in at least one class,Fawn vs Female
+High jackal / Low wolf,Fawn,Male,3,163,2,11,Dhat1,NA,NA,NA,0,FALSE,Fewer than 20 events in at least one class,Fawn vs Male
+High jackal / Low wolf,Female,Male,69,163,10,11,Dhat1,0.759775710857606,0.6111115736434762,0.8279416610097581,500,TRUE,NA,Female vs Male
+Low jackal / High wolf,Fawn,Female,72,601,9,14,Dhat1,0.7150518493206182,0.6226626145745687,0.8269482967641983,500,TRUE,NA,Fawn vs Female
+Low jackal / High wolf,Fawn,Male,72,770,9,15,Dhat1,0.7342589115321743,0.6339949759409831,0.7740561284947317,500,TRUE,NA,Fawn vs Male
+Low jackal / High wolf,Female,Male,601,770,14,15,Dhat4,0.9356923627790082,0.8291205996974698,0.938324914859298,500,TRUE,NA,Female vs Male
+High both,Fawn,Female,38,276,8,13,Dhat1,0.7609992326791394,0.5768566727033617,0.8147239145489169,500,TRUE,NA,Fawn vs Female
+High both,Fawn,Male,38,544,8,13,Dhat1,0.7194122801439915,0.5390554272670249,0.7508285712662235,500,TRUE,NA,Fawn vs Male
+High both,Female,Male,276,544,13,13,Dhat4,0.8867308353318797,0.7811392354795461,0.9113502690198028,500,TRUE,NA,Female vs Male

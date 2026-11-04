@@ -1,0 +1,4 @@
+model,maximum_absolute_gradient,minimum_hessian_eigenvalue,hessian_numerically_positive_semidefinite,coefficient_rank,coefficients,warnings
+adult_female_adult_male.rds,7.061993631264114e-5,-9.671597828393522e-14,TRUE,2551,2551,None
+juvenile_adult_female.rds,3.647008542016697e-5,-1.228418280964743e-13,TRUE,1951,1951,None
+juvenile_adult_male.rds,7.604211867118238e-5,-9.79069113068513e-14,TRUE,1951,1951,None

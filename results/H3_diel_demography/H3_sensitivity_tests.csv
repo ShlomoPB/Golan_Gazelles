@@ -1,0 +1,5 @@
+test,method,statistic,df,p_value,reduced_AIC,full_AIC
+Primary versus no wolf-jackal interaction,Likelihood-ratio test,2.7144779926402407,3,0.43777251560736835,5027.454626689241,5030.740148696601
+Full three-way versus reduced interactions,Likelihood-ratio test,1.5843901571879542,2,0.4528496628837332,5028.324538853789,5030.740148696601
+With versus without human adjustment,Likelihood-ratio test,4.467369159612645,1,0.034548147640876756,5033.207517856214,5030.740148696601
+Early/Late versus continuous date,AIC comparison; nonnested period parameterization,NA,NA,NA,5019.344537741439,5030.740148696601

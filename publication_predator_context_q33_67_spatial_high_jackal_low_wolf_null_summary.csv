@@ -1,0 +1,4 @@
+metric,observed,null_mean,null_median,null_q025,null_q975,p_lower
+juvenile_total,2,30.1645,28,6,65,0.00505
+juvenile_per_active_round_mean,0.031746031746031744,0.5689069576719576,0.5317460317460317,0.1111111111111111,1.2407407407407407,0.00305
+cameras_with_any_juvenile,1,4.66065,5,2,7,0.0107

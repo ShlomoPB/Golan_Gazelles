@@ -1,0 +1,17 @@
+"Parameter","Coefficient"
+"lam(Int)",4.11854565748985
+"lam(Null.Wolf.Abundance)",0.57145233368349
+"lam(null.boar.abundance)",1.4825727456176
+"lam(null.jackal.abundance)",-2.28379602317951
+"p(Int)",-1.73478073583165
+"p(Path.TypeAnimal path without vehicles)",-1.48090639022225
+"p(Path.TypeDirt path less than 1m wide)",0.199875179484946
+"p(Path.TypeDirt path more than 1m wide)",-0.155913202085687
+"p(Path.TypePaved road)",-0.787549814217008
+"p(Camera.ModelBrowning DARK OPS HD PRO X - Long Sensitivity)",-0.03889000351362
+"p(Camera.ModelBrowning DARK OPS HD PRO X - Normal Sensitivity)",-0.128076875438808
+"p(Camera.ModelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW)",-0.00562782606445703
+"p(Area.Behind.CameraFence)",0.150709424432869
+"p(Area.Behind.CameraImpassable due to topography)",-0.805209419720957
+"p(Area.Behind.CameraObstructed by vegetation)",-0.690619955453328
+"p(Bottleneck.Yes)",0.665363365044481

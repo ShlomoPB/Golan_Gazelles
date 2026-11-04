@@ -1,0 +1,7 @@
+metric,value
+prepared_event_rows,3925
+retained_active_round_event_rows,3925
+excluded_event_rows,0
+active_camera_rounds,344
+date_resolved_camera_days,5999
+timestamp_interpretation,Camera clock parsed as Asia/Jerusalem

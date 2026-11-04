@@ -1,0 +1,481 @@
+response_class,effect,p_label,Time,difference,lower,upper
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,0.05,-0.005225174285933619,-0.02536036674274635,0.012528599881988225
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,0.15000000000000002,-0.005145975453321277,-0.02516280563089246,0.012578348186012282
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,0.25,-0.00504204473038771,-0.02482171040336865,0.012684184063502212
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,0.35000000000000003,-0.004915256524389449,-0.02442326995185552,0.012425698400320869
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,0.45,-0.004767696975618394,-0.024049039373292384,0.012118164509380564
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,0.55,-0.004601577807489587,-0.023463278583855374,0.011938849679100754
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,0.6500000000000001,-0.004419159734735296,-0.022795949002979668,0.011921584525603367
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,0.7500000000000001,-0.004222687593757454,-0.02233405769013843,0.011877255927475343
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,0.8500000000000001,-0.004014338270079894,-0.02133941900837322,0.011651258102258779
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,0.9500000000000001,-0.0037961815496413563,-0.02046743244241622,0.01148995140577703
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,1.05,-0.0035701532515245798,-0.01960225049995289,0.01130386142436787
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,1.1500000000000001,-0.003338039422063826,-0.019168129798862808,0.011179933991520886
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,1.2500000000000002,-0.0031014699771331512,-0.018171720116896956,0.011062669604345302
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,1.35,-0.002861919951040149,-0.01725084527903609,0.010933322352231524
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,1.4500000000000002,-0.0026207164203581046,-0.01648187791277291,0.010761320174419426
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,1.55,-0.0023790491908953376,-0.01587006666431006,0.010648002787891752
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,1.6500000000000001,-0.0021379834390853033,-0.014830220708625387,0.01048907325493787
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,1.7500000000000002,-0.0018984726622457415,-0.014237583382339075,0.010268585639114855
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,1.85,-0.0016615188055718881,-0.01357233293250143,0.009961204311962946
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,1.9500000000000002,-0.001429135471280974,-0.012848031584446898,0.009664046776392784
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,2.05,-0.001203481245660107,-0.012261737078827202,0.00948572890934065
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,2.15,-9.86231039348414e-4,-0.01165083280570726,0.00918713028476543
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,2.25,-7.785960257458948e-4,-0.011244377073708949,0.009193415910939919
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,2.35,-5.813600121327363e-4,-0.01060977986426342,0.00886886871698782
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,2.45,-0.00039492400848325333,-0.009882488220791871,0.008703406716350469
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,2.55,-2.1935517458211996e-4,-0.009529384195855856,0.008619580684542704
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,2.65,-5.443691597257441e-5,-0.009128261148586631,0.008565416718492062
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,2.75,1.0028244618805153e-4,-0.00878312541551062,0.008432547129474662
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,2.85,2.4544435196689686e-4,-0.007788354966620574,0.008300358903696719
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,2.95,3.81839339723999e-4,-0.00758212279039256,0.008293762595085014
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,3.05,5.103718268965141e-4,-0.0072530605780617985,0.008291634791064838
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,3.15,6.320306795463449e-4,-0.006883414296918156,0.008245294207795482
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,3.25,7.478655712368764e-4,-0.0067525898540251655,0.008213472410913919
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,3.35,8.58968874438405e-4,-0.006613769442092026,0.008152214023392555
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,3.45,9.66462644127514e-4,-0.006570509819791366,0.008118063072795502
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,3.55,0.0010714901259189845,-0.006365456537545294,0.008244575637581904
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,3.65,0.0011752111292424217,-0.006286637899924839,0.008429564562220623
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,3.75,0.0012788005262274684,-0.006203852968159827,0.008675773133506603
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,3.85,0.0013834490418757474,-0.006259979160296116,0.008885616744033972
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,3.95,0.0014903653575943153,-0.006203986314432169,0.009164578903692105
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,4.05,0.0016007783120453702,-0.006165670899048714,0.00946461925973098
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,4.15,0.0017158912063761154,-0.006144810407369768,0.009873466899949973
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,4.25,0.0018366878449594412,-0.00627692651031934,0.010322683007030767
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,4.35,0.001963941454742213,-0.006465752785466716,0.010788799562673663
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,4.45,0.0020982396861931717,-0.00662220561080818,0.011302791869381738
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,4.55,0.0022399790134015516,-0.0067751423216562846,0.011828859689362085
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,4.65,0.0023893489769842334,-0.007149305900112196,0.012427191884923715
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,4.75,0.002546307717019219,-0.007583053926601952,0.013090914767791876
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,4.8500000000000005,0.0027105501535982656,-0.00783928698670405,0.013855260474916102
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,4.95,0.002881470290434235,-0.008370871492983609,0.014647183976944358
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,5.05,0.0030581194173644717,-0.008854720376659436,0.015312203713455838
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,5.15,0.003239162447995787,-0.009429430180360628,0.016270895185418785
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,5.25,0.00342283522156355,-0.009884403074802544,0.017191892264313596
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,5.3500000000000005,0.0036069062840269955,-0.010509094892135142,0.018096349314625334
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,5.45,0.0037886473855362657,-0.011178784443179152,0.018728817448345387
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,5.55,0.003964817610504687,-0.011891292972625667,0.019999185508792306
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,5.65,0.004131666589006701,-0.01274929785509001,0.02148822752409226
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,5.75,0.004284962497598005,-0.014019531591562596,0.0223409384465937
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,5.8500000000000005,0.004420050401183976,-0.014938861138559004,0.023186310185468545
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,5.95,0.004531945769371806,-0.01581832698153192,0.024170977429432784
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,6.05,0.0046154665919419325,-0.01676913025298303,0.024910103816097273
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,6.15,0.004665405333281384,-0.017704963157564715,0.025562066415492996
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,6.25,0.004676738993502134,-0.01892038812709427,0.02610742196452695
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,6.3500000000000005,0.004644885260905397,-0.01942148062041284,0.02681247480007264
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,6.45,0.004566829857061417,-0.02037495200345947,0.027460872808121754
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,6.55,0.004441759978143782,-0.021180303149904302,0.027971762787019187
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,6.65,0.004269719442556416,-0.02210225028092749,0.028615350544963825
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,6.75,0.0040514550087362294,-0.02249670770719433,0.029175099866395084
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,6.8500000000000005,0.0037883800500535074,-0.022983626741261504,0.028918087978289674
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,6.95,0.003482524697085233,-0.024161424327185325,0.02927314190912219
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,7.05,0.003136475258888193,-0.024650893993692878,0.029503915414136953
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,7.15,0.002753305763565178,-0.024825256524954924,0.029260150952849253
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,7.25,0.0023365043461237075,-0.025418418356441343,0.0293287665416488
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,7.3500000000000005,0.001889896989676691,-0.02615949448900788,0.02870626584639723
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,7.45,0.0014175708267966014,-0.027444994574976483,0.02757182729922189
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,7.55,9.237988622291269e-4,-0.02790106802165316,0.027537303744807243
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,7.65,4.1296761387319493e-4,-0.02805735556374413,0.0272007093913669
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,7.75,-1.1049119075922626e-4,-0.02829241017393152,0.026654148219913177
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,7.8500000000000005,-6.421640621154162e-4,-0.0289743726850066,0.026258502221975174
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,7.95,-0.0011777138401338125,-0.028894097168245484,0.02571632937224918
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,8.05,-0.0017129321852134578,-0.029041982619575937,0.025128667234978138
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,8.15,-0.002243786430515506,-0.029434715844519777,0.024434300906684223
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,8.250000000000002,-0.0027664609141794996,-0.030294472051786377,0.0239048079277913
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,8.350000000000001,-0.0032773930193766045,-0.031132179750199943,0.02372684720687128
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,8.450000000000001,-0.0037733042167724037,-0.03220328078323718,0.023315341523968646
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,8.55,-0.004251226434210908,-0.03230518915475814,0.02263211627326463
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,8.65,-0.004708596075820986,-0.03197690096579314,0.022080155077473632
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,8.750000000000002,-0.005144308507503511,-0.03193027718163516,0.021450228427774803
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,8.850000000000001,-0.005558454144415399,-0.03171667190891032,0.020933098955203597
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,8.950000000000001,-0.005951429232019089,-0.0320872708735677,0.02034027074575506
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,9.05,-0.006323882971274406,-0.03212380627197557,0.019175068579440305
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,9.15,-0.006676687239290528,-0.03230314321860538,0.018171849349146025
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,9.250000000000002,-0.007010906096669744,-0.03209321310000914,0.017549469588178948
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,9.350000000000001,-0.007327766100728243,-0.031909683896446474,0.01704692949136127
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,9.450000000000001,-0.00762862827169,-0.03199491134918169,0.016858176078116717
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,9.55,-0.007914962389512859,-0.03179119590939663,0.016413803814437654
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,9.650000000000002,-0.008188324140055492,-0.032272074790817666,0.01596619524170108
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,9.750000000000002,-0.008450335486712462,-0.032382116299719724,0.015503222851649503
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,9.850000000000001,-0.008702668521515418,-0.032633839738043666,0.015166525625172978
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,9.950000000000001,-0.008947032950532516,-0.033097343133106416,0.015040971756139106
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,10.05,-0.009185167293430104,-0.03358407652996823,0.01410052323672996
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,10.150000000000002,-0.009418833826554222,-0.033495992712684435,0.014422876061395253
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,10.250000000000002,-0.009649817272465704,-0.03380789127618769,0.013925088287409852
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,10.350000000000001,-0.009879927235812932,-0.03371826701096285,0.01366146011228197
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,10.450000000000001,-0.010111004405008825,-0.033827449488913676,0.013257655160047654
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,10.55,-0.010344930580911783,-0.03402536347521958,0.012989969129546822
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,10.650000000000002,-0.010583642657641135,-0.033776644313936816,0.012496992627397901
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,10.750000000000002,-0.010829150767646987,-0.033943338078721505,0.012182152192192267
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,10.850000000000001,-0.011083560915166473,-0.03395716793946024,0.01168342054551168
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,10.950000000000001,-0.011348425980646778,-0.03464041446502534,0.011033403902611106
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,11.05,-0.011621287233725984,-0.03492232899846402,0.010606310128294166
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,11.150000000000002,-0.011898069146517636,-0.03503931746328016,0.01049328224451408
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,11.250000000000002,-0.012174538260102669,-0.03533870700859349,0.010134246258765314
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,11.350000000000001,-0.012446273048356219,-0.03516627795855646,0.009661274235583163
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,11.450000000000001,-0.012708640020848453,-0.035803415187372685,0.009889528286211908
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,11.55,-0.012956779412602417,-0.03642583647817299,0.00970299552788663
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,11.650000000000002,-0.01318560143315612,-0.03723195356995113,0.009440238701327023
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,11.750000000000002,-0.013389794237001883,-0.038154396057329856,0.009547211366822891
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,11.850000000000001,-0.013563844885275959,-0.03908196684379457,0.00904929908462764
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,11.950000000000001,-0.013702074581887,-0.03882440134826216,0.009524732580176389
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,12.05,-0.013798689371530615,-0.03895387185341936,0.010222209160992854
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,12.150000000000002,-0.013847847267218069,-0.038982686018841695,0.010533942310039015
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,12.250000000000002,-0.013843742417392413,-0.0394524244745572,0.011463660137340658
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,12.350000000000001,-0.013780706417217185,-0.03959015352390276,0.012008290228451398
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,12.450000000000001,-0.013653326210876667,-0.039554755621025055,0.012732430887026183
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,12.55,-0.01345657722583001,-0.039648389765078555,0.01289220499275765
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,12.650000000000002,-0.01318596944102654,-0.03953640659295481,0.01351355011921322
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,12.750000000000002,-0.012837703047565594,-0.03917168881914942,0.014151147668087775
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,12.850000000000001,-0.012408829255731066,-0.038618181957055506,0.014314507582192895
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,12.950000000000001,-0.01189741069629662,-0.03802779555261806,0.014399967711874443
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,13.05,-0.011302674831594544,-0.03771106183588436,0.01461301085011509
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,13.150000000000002,-0.010625158632006207,-0.03699530607792563,0.01472589417048034
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,13.250000000000002,-0.00986998374146676,-0.03582946171671144,0.014586329546753757
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,13.350000000000001,-0.00905137873601847,-0.03416045395732843,0.015334824189684692
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,13.450000000000001,-0.008184289338245379,-0.03341889119377991,0.015700103813433237
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,13.55,-0.007282526700490851,-0.0307359890862826,0.015952488334131223
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,13.650000000000002,-0.006358506462399678,-0.02873893886528922,0.01556090677596915
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,13.750000000000002,-0.005423076735390823,-0.0271121359063165,0.01548084181370198
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,13.850000000000001,-0.004485425416761913,-0.02515766583347895,0.015290917193339512
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,13.950000000000001,-0.0035530548915909664,-0.02345961146285825,0.015527514243526759
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,14.05,-0.0026318110478786667,-0.02173364694680955,0.015764707379563384
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,14.150000000000002,-0.00172595339932787,-0.020319459028764475,0.01583792038467928
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,14.250000000000002,-8.382537445267814e-4,-0.019213133043998607,0.01599043828623132
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,14.350000000000001,2.9888044469822917e-5,-0.017371049529550542,0.016425611395262895
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,14.450000000000001,8.783210324146468e-4,-0.016222319385534978,0.017068280968197742
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,14.55,0.0017080213477906644,-0.015349787461083128,0.017561610726499536
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,14.650000000000002,0.0025209781463380004,-0.015060388331904899,0.018642935892470427
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,14.750000000000002,0.003320092650839141,-0.014316016889238649,0.01894285665162403
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,14.850000000000001,0.004109094212096967,-0.013511787453445742,0.020470954319539724
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,14.950000000000001,0.00489247626261047,-0.013184442675363697,0.0216637258049838
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,15.05,0.0056754541908412524,-0.01272670525725927,0.022239633413629965
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,15.150000000000002,0.006463946536076085,-0.012013287249192164,0.02338535783185227
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,15.250000000000002,0.007264580457940014,-0.01177494680979023,0.024971141577237697
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,15.350000000000001,0.008084722117325974,-0.011891517873866683,0.026554623990271326
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,15.450000000000001,0.008932480185913836,-0.011267520466330906,0.028212843983890866
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,15.55,0.009814586843097928,-0.011543754856828334,0.029972163411404157
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,15.650000000000002,0.010734298786066658,-0.012106159210808917,0.03174560229962741
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,15.750000000000002,0.011692797599080257,-0.012802374736389783,0.03418243185234945
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,15.850000000000001,0.012689180779129948,-0.012710260725397106,0.03557333737512737
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,15.950000000000001,0.013720272248184577,-0.012942984289423263,0.03785402865084322
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,16.05,0.014780407723656491,-0.01367828741661822,0.04017883387967207
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,16.150000000000002,0.015861219551286755,-0.013935625599629227,0.04196073917798751
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,16.25,0.016951448991385724,-0.014136921278766824,0.04426000880966869
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,16.35,0.01803681750306058,-0.01430979382431437,0.04716412214777457
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,16.450000000000003,0.01909999153627661,-0.014343867130793778,0.049874674830565936
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,16.55,0.020120676864726652,-0.014753244878008694,0.05229736722616582
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,16.650000000000002,0.021075877662487474,-0.015014700079979921,0.0548599859868825
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,16.75,0.021940351455880913,-0.0162077323573661,0.0568039684244799
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,16.85,0.022687283018406376,-0.01654252606653626,0.0587524123348196
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,16.950000000000003,0.023289187748612078,-0.01719662552873736,0.06018364299394157
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,17.05,0.02371903803007079,-0.0179038680893685,0.061464909131280616
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,17.150000000000002,0.023951585024250016,-0.018405020154520765,0.062266637667624296
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,17.25,0.023964824437074046,-0.018408465622075786,0.06278757363946987
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,17.35,0.02374152984201351,-0.018193602279484338,0.0633603353046151
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,17.450000000000003,0.023270753571956713,-0.018324144919790942,0.06238644040425231
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,17.55,0.022549175944807893,-0.01852322699265331,0.06134687337665845
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,17.650000000000002,0.02158217190427685,-0.01847849899396245,0.05972493154583959
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,17.75,0.020386258862646434,-0.017892013247533055,0.057575676528406526
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,17.85,0.019005516840107147,-0.017586504992463673,0.05439738234684252
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,17.950000000000003,0.017497582280105842,-0.017023524916334506,0.050829194884411955
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,18.05,0.015917258005003796,-0.01684764486315761,0.046854100961936575
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,18.150000000000002,0.01431392838431458,-0.015604985419154702,0.042857797241239566
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,18.25,0.012729961669410182,-0.01566009146594728,0.03924655302810014
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,18.35,0.011199868313562306,-0.015678427508171916,0.036292948199609217
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,18.450000000000003,0.009750117952571396,-0.014755718019169846,0.03275369186479206
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,18.55,0.008399482504300346,-0.014709347051042876,0.02948953311948837
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,18.650000000000002,0.007159759110540315,-0.014133419389426242,0.026463919455973157
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,18.75,0.0060367306000749165,-0.013460528059522272,0.024003887924404683
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,18.85,0.0050312377890999556,-0.013567778960880772,0.021605930440396794
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,18.950000000000003,0.004140262015019204,-0.012883699453203612,0.019429988775227527
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,19.05,0.003357943134034317,-0.012202389579916532,0.017516255004365464
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,19.150000000000002,0.002676484150755127,-0.011649493760149747,0.015712905327349747
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,19.250000000000004,0.0020869162582342533,-0.011122143891664578,0.014443352946565544
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,19.35,0.0015797160778411863,-0.010468767283086478,0.013101079692668488
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,19.450000000000003,0.0011452799731304607,-0.010309980910594317,0.011918345687508596
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,19.55,7.742688073755609e-4,-0.01037015367917131,0.010882431861714207
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,19.650000000000002,4.5784114605078655e-4,-0.010134068610869119,0.010208658834278836
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,19.750000000000004,1.8779455797969372e-4,-0.010015959413669367,0.009576688892811885
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,19.85,-4.3365777742912345e-5,-0.009971748207561349,0.008892190053623199
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,19.950000000000003,-2.4241372164298156e-4,-0.00999877556125542,0.008370003460762365
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,20.05,-4.155891701409893e-4,-0.010140142600879672,0.008012739066385006
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,20.150000000000002,-5.689539328932924e-4,-0.010080432224929782,0.007605738270452867
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,20.250000000000004,-7.075446458860603e-4,-0.010032793041641602,0.007472797227427126
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,20.35,-8.353805193454456e-4,-0.009883662727233834,0.007266096174483429
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,20.450000000000003,-9.557026680295488e-4,-0.00979022301890096,0.0071042520193259195
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,20.55,-0.0010711519980721176,-0.009951969757848293,0.006996022950072453
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,20.650000000000002,-0.001183901533675126,-0.010036598740155887,0.006901158837953932
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,20.750000000000004,-0.0012957545951684988,-0.010317003857606873,0.007002618214061346
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,20.85,-0.0014082170690087104,-0.010595803558652427,0.0070707485628319754
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,20.950000000000003,-0.0015225497647988707,-0.010754026937147743,0.0071995557764893674
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,21.05,-0.0016398052642960408,-0.011167278987697593,0.00722163770400284
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,21.150000000000002,-0.0017608525477737932,-0.011495544706204737,0.007482787912907014
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,21.250000000000004,-0.0018863919067214174,-0.012044844849154707,0.007665576972247236
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,21.35,-0.002016962130144503,-0.01237003468387146,0.007749653736321923
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,21.450000000000003,-0.0021529416219607383,-0.012649819367155287,0.007706551939086008
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,21.55,-0.002294544923165616,-0.013108368092993835,0.007846196715942493
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,21.650000000000002,-0.0024418160388024494,-0.013753429723550759,0.00817544879396986
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,21.750000000000004,-0.002594619976065561,-0.014384198476004268,0.008458078452893605
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,21.85,-0.0027526339580523558,-0.015021409480072677,0.008873091130799371
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,21.950000000000003,-0.002915339859732753,-0.015656278211769414,0.009270880068113755
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,22.05,-0.0030820194895141415,-0.016104995007318802,0.009389477772078667
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,22.150000000000002,-0.0032517543811329433,-0.016695323093404844,0.009793292081295438
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,22.250000000000004,-0.003423432505968153,-0.017438791555325687,0.01019252424626597
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,22.35,-0.0035958844792427984,-0.01812201656669905,0.010425670107904308
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,22.450000000000003,-0.003768060403718691,-0.018738073322472966,0.010454564792616545
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,22.55,-0.003938836394799714,-0.019328830560575116,0.010607005183341739
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,22.650000000000002,-0.004106973148649782,-0.02030255759325379,0.010902152489585148
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,22.750000000000004,-0.004271105107195814,-0.021093599824675183,0.011187991546940862
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,22.85,-0.004429732838285252,-0.021490248782729746,0.011396042322640814
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,22.950000000000003,-0.00458122000576994,-0.021899763754447788,0.01129385045811714
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,23.05,-0.004723796382803888,-0.022045644602787698,0.011563482143406491
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,23.150000000000002,-0.004855568381092575,-0.022393878132528206,0.011914030812647783
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,23.250000000000004,-0.004974538505557609,-0.02268208789797239,0.012393625919846706
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,23.35,-0.005078634970556099,-0.02299355855315424,0.012464625502079142
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,23.450000000000003,-0.005165752402456233,-0.023366962711185865,0.012597014424199741
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,23.55,-0.005233804079847306,-0.02376312432294119,0.012620928839535422
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,23.650000000000002,-0.005280785512254314,-0.02442668752476074,0.012755633098996303
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,23.750000000000004,-0.0053048483322346825,-0.024699864385635772,0.012587310600552824
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,23.85,-0.005304382498067975,-0.024962582478591736,0.012549610419960278
+Adult female,High minus low wolf (averaged over jackal),Global smooth P < 0.001,23.95,-0.005278103727006893,-0.02538783309237562,0.012702865102122733
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,0.05,-0.002800321547654634,-0.020258264705705402,0.014548425024447906
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,0.15000000000000002,-0.0026186515418636846,-0.020068658941040013,0.014685244418132643
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,0.25,-0.002425089408148491,-0.019811639709931016,0.014685269765303446
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,0.35000000000000003,-0.0022220665314457368,-0.01931801690335588,0.014625143464747307
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,0.45,-0.0020119395270669013,-0.018575535152998358,0.014844003735941896
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,0.55,-0.0017969033336264506,-0.01832490022778422,0.015163103495254692
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,0.6500000000000001,-0.0015789286615482767,-0.017851666961849977,0.01542638835034294
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,0.7500000000000001,-0.0013597226139399953,-0.017204090517807743,0.016282280160236258
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,0.8500000000000001,-0.0011407098350400477,-0.016991071572951613,0.01690901902617779
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,0.9500000000000001,-9.230306417166809e-4,-0.016698202524158982,0.01673739975924994
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,1.05,-7.075521997524994e-4,-0.016317917418408427,0.01646805113745657
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,1.1500000000000001,-4.948888143242256e-4,-0.015896355355343138,0.017367553184221493
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,1.2500000000000002,-2.854276885007183e-4,-0.015461108976708248,0.017403690075033385
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,1.35,-7.935694237188851e-5,-0.015063394819516247,0.01742412339610829
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,1.4500000000000002,1.2330682646695713e-4,-0.01455696812618178,0.017926457144004277
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,1.55,3.2269370289234365e-4,-0.014098094336010952,0.0179790769656537
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,1.6500000000000001,5.190602228900342e-4,-0.013786077001225985,0.01865411651350051
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,1.7500000000000002,7.127753785917823e-4,-0.013151602338036245,0.01890084997833872
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,1.85,9.043196450275317e-4,-0.012902175043317964,0.019005841113668546
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,1.9500000000000002,0.0010943301113041388,-0.012405352425902266,0.019283103723225812
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,2.05,0.001283599195518291,-0.012495937712089948,0.01936289191706211
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,2.15,0.0014730611439738276,-0.011894617495471282,0.0198975957369792
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,2.25,0.001663791628606279,-0.01147005161156467,0.02002930111967447
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,2.35,0.0018570052545354946,-0.01106273383191995,0.01986480112082339
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,2.45,0.002054052272410187,-0.010971709847940748,0.02019662391876638
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,2.55,0.002256415625802716,-0.010811626686660988,0.020402841508098634
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,2.65,0.002465709196931581,-0.010598573933657162,0.0208354024300074
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,2.75,0.0026836778903411612,-0.010214748210097461,0.021277633091039083
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,2.85,0.0029122000305040023,-0.00984181935821037,0.021384639668597046
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,2.95,0.003153292457802508,-0.009722002047162316,0.022365683481938882
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,3.05,0.0034091186976543068,-0.009595076510765773,0.023666837677138723
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,3.15,0.003682000658935639,-0.009463078416103027,0.024087715125797875
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,3.25,0.003974434501185483,-0.009325708264892645,0.024636943527506977
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,3.35,0.004289111609490274,-0.009188038490532898,0.025757364068031918
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,3.45,0.0046289460503373455,-0.00924375670031222,0.027236684147919275
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,3.55,0.004997110476040701,-0.009156309019633999,0.02870834230663031
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,3.65,0.00539708323220818,-0.009211750619448249,0.029646138116863695
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,3.75,0.0058327104448595915,-0.009225814220899724,0.030499026310652166
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,3.85,0.0063082881782425375,-0.009384040888077557,0.031574308079387825
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,3.95,0.00682867143977116,-0.00968332373318497,0.03290633523499385
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,4.05,0.007399418956118309,-0.009846898776218383,0.0347327253077229
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,4.15,0.00802670093377979,-0.00989171239919326,0.03646929609970406
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,4.25,0.008716625160537807,-0.009966730201274027,0.03760972148925131
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,4.35,0.009475843069098589,-0.010460199191745227,0.03897103409181509
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,4.45,0.010311780803328533,-0.01056994728605531,0.040549570500850105
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,4.55,0.01123267850944635,-0.009992672428858176,0.0425153260251294
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,4.65,0.012247617239020838,-0.00993236103454608,0.04473040082616075
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,4.75,0.013366528498500537,-0.009846270412155774,0.047166546865711964
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,4.8500000000000005,0.0146001803900763,-0.00976425595949982,0.049302197735555456
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,4.95,0.01596013311163306,-0.009690763000431136,0.05156360389651712
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,5.05,0.01745865539260983,-0.009534102369451203,0.05466123517732846
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,5.15,0.019108592350776003,-0.0095158386916666,0.058938350726535735
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,5.25,0.020923174422257017,-0.009728964261010263,0.061653477052197814
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,5.3500000000000005,0.022915756655736315,-0.009354619362637505,0.06687885131286253
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,5.45,0.025099478036684747,-0.009385572604390671,0.070357226554228
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,5.55,0.027486831930159623,-0.010061928519222161,0.07451027536933841
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,5.65,0.030089141541495296,-0.010163691194378491,0.07824839507774987
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,5.75,0.03291593883026455,-0.010391160251309912,0.0836727134287421
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,5.8500000000000005,0.03597425185875773,-0.010748674294836263,0.08822864849037561
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,5.95,0.03926781427585373,-0.009679272115325275,0.09419119067704253
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,6.05,0.042796221490100136,-0.008554558324697424,0.10108049924956751
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,6.15,0.046554070735235285,-0.008882847655982106,0.10704358394401797
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,6.25,0.05053013595802277,-0.007839574782932247,0.11486531843150481
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,6.3500000000000005,0.054706702827482905,-0.006083400341055749,0.12326391028510314
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,6.45,0.05906345201493813,-0.0050139393387331165,0.1313351592619138
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,6.55,0.06358212616360924,-0.0033836097562157967,0.13923316255649631
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,6.65,0.06824190816902287,-0.002429210762234549,0.14694646792547142
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,6.75,0.07301884812158836,-0.002439289358865371,0.15479809969539385
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,6.8500000000000005,0.07788585038840574,-3.554376931492041e-4,0.16252503368498114
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,6.95,0.08281268336664585,0.0021502389646160976,0.16947231461782838
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,7.05,0.08776601699281147,0.004296459928302743,0.1737727372940846
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,7.15,0.09270949546835096,0.006172384484955216,0.18290857694653354
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,7.25,0.09760385494505423,0.007494300787220502,0.18901236494273105
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,7.3500000000000005,0.10240709789853708,0.008141353787053036,0.19406905427475282
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,7.45,0.10707473738571482,0.007828112915228657,0.19833887624808474
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,7.55,0.11156012510569428,0.008074607376202214,0.2049049850853585
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,7.65,0.11581487693794924,0.00887252585251337,0.21168594988553188
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,7.75,0.11978940820669987,0.009675397270222751,0.21787565440664208
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,7.8500000000000005,0.1234335881376764,0.010162103850629677,0.22439553111729274
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,7.95,0.126697518707961,0.010391190420744904,0.23028933085387115
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,8.05,0.1295324372950965,0.012030064260086178,0.23592945294787646
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,8.15,0.13189173526792913,0.013820678830681518,0.23909190109934805
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,8.250000000000002,0.13373207612124138,0.01505748599638874,0.24511167806366402
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,8.350000000000001,0.13501458728657523,0.015407887427976644,0.24448645800366386
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,8.450000000000001,0.1357060898679423,0.01701436739690125,0.24636892397908344
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,8.55,0.13578032093456152,0.018979091591559395,0.24565192498915703
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,8.65,0.1352206162176417,0.01859771745565754,0.2457330315146692
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,8.750000000000002,0.13404277839646261,0.016840405232993013,0.2438857160183722
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,8.850000000000001,0.13228922878728364,0.015297287457955576,0.24201267710025673
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,8.950000000000001,0.13000899302003638,0.01652933328673031,0.23899190337311343
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,9.05,0.12725528770997932,0.019262327672155292,0.23241004858492859
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,9.15,0.12408371908927986,0.01837433832571602,0.22861679957930936
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,9.250000000000002,0.12055064783255197,0.01724939526870807,0.2233354191954918
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,9.350000000000001,0.11671176187961221,0.01759706925107927,0.21686040596284623
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,9.450000000000001,0.11262088133205643,0.016107787316059746,0.2102557543477041
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,9.55,0.10832900373838311,0.014459449815238857,0.20384943027111185
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,9.650000000000002,0.10388358492749337,0.01288580754225656,0.19595081464285852
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,9.750000000000002,0.09932804029670428,0.010628146388082998,0.1878071303939747
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,9.850000000000001,0.09470144411372676,0.007924112769818211,0.18136484045023496
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,9.950000000000001,0.09003839974115042,0.0035130267227144224,0.17214769309886074
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,10.05,0.08536905138137328,8.151458336410432e-4,0.16606567582314322
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,10.150000000000002,0.08071920753608892,-0.002589533496075523,0.15739160212994247
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,10.250000000000002,0.0761105474205378,-0.002875653757372548,0.1499825537807697
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,10.350000000000001,0.07156088362958679,-0.00589428565982136,0.14442271867368406
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,10.450000000000001,0.0670844570259352,-0.010361646538422791,0.14017509352160468
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,10.55,0.06269224277527394,-0.014078015341465216,0.134156358074096
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,10.650000000000002,0.05839224941723751,-0.016595463254285698,0.12824880780158793
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,10.750000000000002,0.05418979562181762,-0.01738211417829315,0.12241617767728614
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,10.850000000000001,0.05008775167498163,-0.020470675655107934,0.11673012702996695
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,10.950000000000001,0.0460859584804483,-0.022219966471607917,0.11168220355719362
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,11.05,0.04217822712733113,-0.023853233704089528,0.10557715740720536
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,11.150000000000002,0.03835698100894536,-0.026000531747327853,0.10215351902812352
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,11.250000000000002,0.034615138767966715,-0.027419786384672705,0.09794120155559005
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,11.350000000000001,0.03094594509565805,-0.02948116263708787,0.09161222761774444
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,11.450000000000001,0.027342866815390082,-0.032033499247173,0.08741566431754745
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,11.55,0.02379954675155036,-0.03566832944399885,0.08311751279950852
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,11.650000000000002,0.02030980571248736,-0.03867113300479682,0.07877614550456842
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,11.750000000000002,0.016867683957234474,-0.04229037517823122,0.074424080891825
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,11.850000000000001,0.013467514390875237,-0.04438752491384602,0.07006913124180188
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,11.950000000000001,0.010104020427637209,-0.04757021701850533,0.0658114091349359
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,12.05,0.006772431956082735,-0.050304441662181544,0.06296891332758899
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,12.150000000000002,0.0034686131236020133,-0.054153347402252604,0.06047423135789788
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,12.250000000000002,1.8919572471363683e-4,-0.058405005074806435,0.05676042478384874
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,12.350000000000001,-0.003068288158834545,-0.06267675610875474,0.05381392402400465
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,12.450000000000001,-0.006305280928861848,-0.066377730726766,0.051935880616694866
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,12.55,-0.009522088750713123,-0.07102145642652187,0.049465551053743534
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,12.650000000000002,-0.012717792931890614,-0.07529384194799191,0.04638355965092753
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,12.750000000000002,-0.015890191448383804,-0.07826459951226049,0.04426651168805841
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,12.850000000000001,-0.01903577899395613,-0.08247687927660298,0.04173942137618734
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,12.950000000000001,-0.02214977401182398,-0.0862259266985044,0.04042996726593258
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,13.05,-0.02522620090442995,-0.09014109535058241,0.03687479042514609
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,13.150000000000002,-0.02825803744817738,-0.0926173406314532,0.03379284678542014
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,13.250000000000002,-0.031238987913807505,-0.0965293789203461,0.030206060626834487
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,13.350000000000001,-0.03416703388943469,-0.10051576613389863,0.02665808054800603
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,13.450000000000001,-0.037041975383612404,-0.10363963717123753,0.023098009536289595
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,13.55,-0.03986479842377331,-0.1065477598129736,0.021343564070459828
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,13.650000000000002,-0.04263758857073648,-0.11043477860014245,0.017945941434078592
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,13.750000000000002,-0.04536340794345869,-0.1133813622070072,0.016516680940645394
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,13.850000000000001,-0.048046146619459655,-0.11689702325810192,0.014637304521655127
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,13.950000000000001,-0.05069035846446501,-0.11963995260262274,0.012950651972648244
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,14.05,-0.053301090462405054,-0.12303040412389774,0.011795779241517427
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,14.150000000000002,-0.055883713588668664,-0.12543265788545985,0.010661590765111079
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,14.250000000000002,-0.058443762304254264,-0.12773385088885547,0.009535091003345982
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,14.350000000000001,-0.06098678893181382,-0.13214166648608175,0.008296402149487896
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,14.450000000000001,-0.06351823856548826,-0.13469597453163953,0.00450264813475913
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,14.55,-0.06604334979673676,-0.13720126922476286,0.00284426137386987
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,14.650000000000002,-0.06856708641452981,-0.14043861082135273,0.002028395077029226
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,14.750000000000002,-0.07109410534479195,-0.14446296275224493,-6.109028518777175e-4
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,14.850000000000001,-0.07362876639788422,-0.1462535964092486,-5.755805995641643e-4
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,14.950000000000001,-0.07617518984958523,-0.14993585415102495,-0.0019825922027096525
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,15.05,-0.07873736844136235,-0.15540448677392238,-0.0035293434159119953
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,15.150000000000002,-0.08131934100519587,-0.16054315776112685,-0.005399814064670827
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,15.250000000000002,-0.0839254355684426,-0.16455136984976856,-0.006961250915094118
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,15.350000000000001,-0.08656059047759665,-0.1663529054109384,-0.008082399461431392
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,15.450000000000001,-0.08923049326888012,-0.17093226436847747,-0.009369053865602042
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,15.55,-0.09193199256998458,-0.17392779549617415,-0.01137371415098286
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,15.650000000000002,-0.09464867599324457,-0.17848981726760518,-0.013475598200976619
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,15.750000000000002,-0.09736143288402223,-0.18146405855891612,-0.016432931824357608
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,15.850000000000001,-0.10004890844008449,-0.18546051685534035,-0.018134705983771187
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,15.950000000000001,-0.1026871993121412,-0.1889971059228397,-0.020391227810146503
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,16.05,-0.10524959560263618,-0.19225241488868317,-0.0205714225429702
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,16.150000000000002,-0.10770639339404597,-0.1963878838992044,-0.0208052228838667
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,16.25,-0.11002480514418067,-0.20061975451974637,-0.02172724379127526
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,16.35,-0.11216899765628945,-0.20413538603629056,-0.021874029662923532
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,16.450000000000003,-0.11410028838745975,-0.20747049798787123,-0.022852717552598895
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,16.55,-0.11577753003681923,-0.21114642719468132,-0.022801621754585017
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,16.650000000000002,-0.11715771004313434,-0.21711198806371476,-0.024316310098230758
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,16.75,-0.11819678521895938,-0.21668033791879135,-0.02543680476885374
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,16.85,-0.11885076175515938,-0.22077845840352625,-0.023903185039998925
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,16.950000000000003,-0.11907701695970122,-0.2225617717649238,-0.02278807378274124
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,17.05,-0.11883584140925293,-0.22558070749151699,-0.022876400973924522
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,17.150000000000002,-0.11809215923413013,-0.22544333484868848,-0.022128467542847682
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,17.25,-0.11681736116471578,-0.2245954335381287,-0.021663599526167043
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,17.35,-0.11499116153702348,-0.22414752928176462,-0.02069575886510813
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,17.450000000000003,-0.11260336911893909,-0.21908991122893196,-0.020418434891990623
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,17.55,-0.10965544530701656,-0.21670964458226705,-0.01906401040766193
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,17.650000000000002,-0.1061617151102351,-0.21098782909120362,-0.0166832779974581
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,17.75,-0.10215379154436775,-0.20157625051210615,-0.01447612762874225
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,17.85,-0.0977149926590915,-0.19349034098486842,-0.012403293810800348
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,17.950000000000003,-0.09295493884348613,-0.18445744418989662,-0.012270020733510764
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,18.05,-0.08797867918725269,-0.17618243635695696,-0.011255273441697874
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,18.150000000000002,-0.08288313963861121,-0.1659810087453488,-0.009059915160314748
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,18.25,-0.07775490351830742,-0.15447981134223845,-0.00814586924866881
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,18.35,-0.07266888422200507,-0.14426856653509038,-0.007323922072164151
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,18.450000000000003,-0.06768778646889821,-0.1340896093113801,-0.006581130897582275
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,18.55,-0.06286221978927779,-0.1264416717983834,-0.005387690012549431
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,18.650000000000002,-0.058231314748316144,-0.11970181454997061,-0.004203685565324661
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,18.75,-0.05382369473395681,-0.11343236273738559,-0.003814515648176283
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,18.85,-0.049658669495772356,-0.10586981876373233,-0.0022166893248180327
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,18.950000000000003,-0.04574753667151771,-0.09945501651306587,-0.0018943649523806671
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,19.05,-0.04209490056385684,-0.09374256581701468,-9.817269733377674e-4
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,19.150000000000002,-0.03869994056699127,-0.08836203279601,-2.247581042267396e-4
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,19.250000000000004,-0.03555758292047529,-0.08246769865937627,2.856035872957177e-4
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,19.35,-0.032659547724659184,-0.07781088641907102,0.0011072121040910303
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,19.450000000000003,-0.029995257887148977,-0.07287298317912141,0.0019120285660230959
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,19.55,-0.02755260786459363,-0.0672016697904231,0.0020007412983120147
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,19.650000000000002,-0.02531859801837799,-0.06345233620975073,0.0020276712110557796
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,19.750000000000004,-0.023279845592234838,-0.0591641180057644,0.002175385908448201
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,19.85,-0.021422986289311424,-0.05532052216868037,0.0026861822516639207
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,19.950000000000003,-0.019734981716023392,-0.05219582042889281,0.0029030334327004937
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,20.05,-0.018202869897263108,-0.04930054569684808,0.0031160877544133612
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,20.150000000000002,-0.016812499065403535,-0.04612642896765723,0.0030061759060173686
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,20.250000000000004,-0.015550581826956492,-0.04307008995922539,0.003325678052126084
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,20.35,-0.014405178314734214,-0.039994328601882616,0.003639258673357544
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,20.450000000000003,-0.013365500872348899,-0.037516076140129404,0.004182192661752163
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,20.55,-0.012421764996071883,-0.03481828635436469,0.004156789369453083
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,20.650000000000002,-0.011565073956757837,-0.03301056138222204,0.004302990788320286
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,20.750000000000004,-0.01078732774995587,-0.032006284525535916,0.004468170496018468
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,20.85,-0.010081149548304434,-0.030587701704329208,0.004501212264263714
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,20.950000000000003,-0.009439824754175333,-0.0296195895746453,0.004716131226955915
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,21.05,-0.008857249195409379,-0.028468349243388147,0.004841276269453008
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,21.150000000000002,-0.008327884073924883,-0.02754120734746712,0.005043529859854263
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,21.250000000000004,-0.007846716049594492,-0.026103874595596637,0.005106477518444646
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,21.35,-0.007409221389162906,-0.025181462759554036,0.0051830275664893335
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,21.450000000000003,-0.007011333488797828,-0.023806450556588424,0.005179772030632158
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,21.55,-0.006649413335176008,-0.02305731316665529,0.005162896328326537
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,21.650000000000002,-0.006320222640859223,-0.02266411399797597,0.005187622163605202
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,21.750000000000004,-0.006020899504702615,-0.021784239847057806,0.005331786715629864
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,21.85,-0.005748936530686685,-0.020911925530750917,0.00572599781689186
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,21.950000000000003,-0.005502161407602232,-0.020522130169723186,0.005826034807411623
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,22.05,-0.005278720022462598,-0.020375590468157238,0.006154616499245942
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,22.150000000000002,-0.005077062264641535,-0.019719379419978703,0.006685000688701285
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,22.250000000000004,-0.004895927686321445,-0.01933568974030166,0.006678730041352315
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,22.35,-0.004733862811098733,-0.0199175057464672,0.006809780701691302
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,22.450000000000003,-0.004588674271859739,-0.019411255698087528,0.006996051022696055
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,22.55,-0.004458206111597373,-0.01947303272665224,0.007333265615615638
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,22.650000000000002,-0.004340382816931061,-0.019363236082452055,0.0073538406725831935
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,22.750000000000004,-0.00423314929330479,-0.019081534614426424,0.007815553545913338
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,22.85,-0.0041344264316539436,-0.018464412124222125,0.008166493778925867
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,22.950000000000003,-0.0040420802606689985,-0.01836869813253474,0.008871063133364688
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,23.05,-0.003953903946402189,-0.018277285751582783,0.009425258272453354
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,23.150000000000002,-0.0038676129167683573,-0.018431154743821735,0.009870736198316655
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,23.250000000000004,-0.003780854120703814,-0.019044403935240744,0.010329493471989576
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,23.35,-0.0036912308220309843,-0.019344533168120667,0.010939369184780189
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,23.450000000000003,-0.0035963443021386782,-0.01984630503120761,0.011482739304701301
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,23.55,-0.0034938533281036483,-0.019416998414582047,0.012053938285386333
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,23.650000000000002,-0.0033815511784163906,-0.01996596631338373,0.012621198537723151
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,23.750000000000004,-0.003257458398184249,-0.019716178878494976,0.013205733101997129
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,23.85,-0.0031199273469919918,-0.019968439783803107,0.013764656448414644
+Juvenile,Wolf x jackal difference-in-differences,Global smooth P < 0.001,23.95,-0.002967752176090469,-0.020145278957208287,0.0141905072917001

@@ -1,0 +1,4 @@
+scope,predator_effect,term,EDF,reference_df,statistic,raw_P,contrast,Holm_adjusted_P
+Juvenile - Adult female,Wolf x jackal x time,"s(demographic_class,Time):wolf_jackal",1.5037057686410993,20,5.127297716938545,0.00603696551368404,Juvenile - Adult female,0.01207393102736809
+Juvenile - Adult male,Wolf x jackal x time,"s(demographic_class,Time):wolf_jackal",1.6297768294384911,20,6.724419683551114,0.00370398691491513,Juvenile - Adult male,0.0111119607447454
+Adult female - Adult male,Wolf x jackal x time,"s(demographic_class,Time):wolf_jackal",3.287942927191363e-4,20,1.3648048126073953e-4,0.27673335521531417,Adult female - Adult male,0.27673335521531417

@@ -1,0 +1,11 @@
+demographic_analysis,term,EDF,statistic,P,supported_specifications,tested_specifications,interpretation,selected_model,source
+Juvenile,Wolf × time,1.188304060606266,3.2540991056596535,0.059142373923293357,0,7,unsupported,E,definitive_hierarchical_diel_model_summary.csv; definitive_hierarchical_diel_effect_stability.csv
+Juvenile,Jackal × time,1.6102972395359735e-5,2.526457388590307e-6,0.8998087153911289,0,7,unsupported,E,definitive_hierarchical_diel_model_summary.csv; definitive_hierarchical_diel_effect_stability.csv
+Juvenile,Wolf × jackal × time,2.0672841448698502,21.061207159411858,1.9378038258976993e-4,7,7,robust,E,definitive_hierarchical_diel_model_summary.csv; definitive_hierarchical_diel_effect_stability.csv
+Adult female,Wolf × time,3.9162016457293882,8.58587132043492,2.498789664027168e-4,7,7,robust,E,definitive_hierarchical_diel_model_summary.csv; definitive_hierarchical_diel_effect_stability.csv
+Adult female,Jackal × time,4.169867030843642e-5,1.681063290161181e-5,0.43243671904172243,2,7,unsupported,E,definitive_hierarchical_diel_model_summary.csv; definitive_hierarchical_diel_effect_stability.csv
+Adult female,Wolf × jackal × time,5.067874925639418e-4,4.565943653898948e-4,0.031308541595910566,6,7,sensitivity-dependent,E,definitive_hierarchical_diel_model_summary.csv; definitive_hierarchical_diel_effect_stability.csv
+Adult male,Wolf × time,4.322902421405338e-4,3.8150077098721635e-4,0.03707859056682761,4,7,sensitivity-dependent,E,definitive_hierarchical_diel_model_summary.csv; definitive_hierarchical_diel_effect_stability.csv
+Adult male,Jackal × time,6.085430404554691e-5,2.1873859825632767e-5,0.520588406650959,1,7,unsupported,E,definitive_hierarchical_diel_model_summary.csv; definitive_hierarchical_diel_effect_stability.csv
+Adult male,Wolf × jackal × time,2.99143793781118,6.071954159091083,4.98532688424369e-4,6,7,sensitivity-dependent,E,definitive_hierarchical_diel_model_summary.csv; definitive_hierarchical_diel_effect_stability.csv
+Pooled gazelles,Wolf × time,3.8696427845902086,8.040122584929934,1.7252200477135826e-4,7,7,robust,B,definitive_hierarchical_diel_model_summary.csv; definitive_hierarchical_diel_effect_stability.csv

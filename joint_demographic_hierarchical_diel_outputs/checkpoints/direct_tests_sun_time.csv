@@ -1,0 +1,13 @@
+specification,predator_effect,test_type,contrast,statistic,df_rank,raw_P,adjusted_P
+Sun time,Wolf x time,Omnibus,All demographic classes,5.228733184942728,20,0.9996080972687191,0.9996080972687191
+Sun time,Wolf x time,Pairwise,Juvenile - Adult female,3.9860003823042587,10,0.9479763197184365,1
+Sun time,Wolf x time,Pairwise,Juvenile - Adult male,0.76947639723577,10,0.999948942979596,1
+Sun time,Wolf x time,Pairwise,Adult female - Adult male,4.460872637710596,10,0.9241710612161562,1
+Sun time,Jackal x time,Omnibus,All demographic classes,6.01869391647861e-5,20,1,1
+Sun time,Jackal x time,Pairwise,Juvenile - Adult female,4.550027441253671e-5,10,1,1
+Sun time,Jackal x time,Pairwise,Juvenile - Adult male,1.911774905481568e-5,10,1,1
+Sun time,Jackal x time,Pairwise,Adult female - Adult male,3.949929156155919e-5,10,1,1
+Sun time,Wolf x jackal x time,Omnibus,All demographic classes,5.996261780696406,20,0.9989025499822591,0.9989025499822591
+Sun time,Wolf x jackal x time,Pairwise,Juvenile - Adult female,5.219960556415902,10,0.8760082741076924,1
+Sun time,Wolf x jackal x time,Pairwise,Juvenile - Adult male,3.9587133478846073,10,0.9491902726887342,1
+Sun time,Wolf x jackal x time,Pairwise,Adult female - Adult male,0.7803122570819265,10,0.9999454896506907,1

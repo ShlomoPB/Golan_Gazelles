@@ -1,0 +1,3 @@
+Df,AIC,BIC,logLik,deviance,Chisq,Chi Df,Pr(>Chisq),comparison
+16,440.89874041040287,495.2693436346869,-204.44937020520143,408.89874041040287,NA,NA,NA,Additive versus interacting wolf-jackal composition model
+17,439.80792120586534,497.57668713166714,-202.90396060293267,405.80792120586534,3.0908192045375245,1,0.07873516021543625,Additive versus interacting wolf-jackal composition model

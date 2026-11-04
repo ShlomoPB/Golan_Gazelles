@@ -1,0 +1,2 @@
+comparison,additive_AIC,interaction_AIC,delta_AIC_interaction_minus_additive,df_difference,likelihood_ratio,p_value,additive_convergence,interaction_convergence,additive_positive_definite_hessian,interaction_positive_definite_hessian
+Add wolf x jackal interaction to primary additive model,441.0754863031773,442.72176266120505,1.6462763580277624,1,0.3537236419722376,0.5520127977009719,0,0,TRUE,TRUE

@@ -1,0 +1,13 @@
+predator_context,class,n_events,n_cameras
+Low both,Fawn,67,14
+High jackal / Low wolf,Fawn,3,16
+Low jackal / High wolf,Fawn,72,16
+High both,Fawn,38,14
+Low both,Female,531,14
+High jackal / Low wolf,Female,69,16
+Low jackal / High wolf,Female,601,16
+High both,Female,276,14
+Low both,Male,791,14
+High jackal / Low wolf,Male,163,16
+Low jackal / High wolf,Male,770,16
+High both,Male,544,14

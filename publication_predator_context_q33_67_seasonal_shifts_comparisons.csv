@@ -1,0 +1,16 @@
+group1,group2,n1,n2,overlap_type,overlap,overlap_lwr,overlap_upr,activity1,activity2,activity_diff_p,predator_context_label,class,class_code,overlap_ci,activity_diff_p_fmt,sig
+Early (hotter),Late (mild-cold),1,1,Dhat1,NA,NA,NA,NA,NA,NA,High jackal / Low wolf,Fawn,juvenile,NA,NA,NA
+Early (hotter),Late (mild-cold),7,10,Dhat1,NA,NA,NA,NA,NA,NA,High jackal / Low wolf,Female,female,NA,NA,NA
+Early (hotter),Late (mild-cold),42,45,Dhat1,0.7720065250478974,0.6291678307716752,0.9148452193241196,0.5344727778865285,0.34356710820538566,0.18181818181818182,High jackal / Low wolf,Male,male,"0.772 [0.629, 0.915]",0.182,ns
+Early (hotter),Late (mild-cold),31,27,Dhat1,0.8009187566206738,0.641981492788338,0.9598560204530096,0.49132952157208937,0.3362635697914612,0.35353535353535354,Low jackal / High wolf,Fawn,juvenile,"0.801 [0.642, 0.960]",0.354,ns
+Early (hotter),Late (mild-cold),302,169,Dhat4,0.65145052855012,0.5771770676420275,0.7257239894582125,0.5624025906617809,0.43000129148532173,0,Low jackal / High wolf,Female,female,"0.651 [0.577, 0.726]",<0.001,***
+Early (hotter),Late (mild-cold),339,243,Dhat4,0.8487491254457882,0.7852097970215258,0.9122884538700505,0.5595630664104609,0.5062708837274401,0,Low jackal / High wolf,Male,male,"0.849 [0.785, 0.912]",<0.001,***
+Early (hotter),Late (mild-cold),4,8,Dhat1,NA,NA,NA,NA,NA,NA,High both,Fawn,juvenile,NA,NA,NA
+Early (hotter),Late (mild-cold),42,66,Dhat1,0.7441860973108343,0.6250397486208461,0.8633324460008225,0.4985784078815567,0.4488783707551832,0.030303030303030304,High both,Female,female,"0.744 [0.625, 0.863]",0.030,*
+Early (hotter),Late (mild-cold),71,109,Dhat1,0.6722821166550835,0.5594761517265847,0.7850880815835823,0.7480895993111474,0.38211353919442387,0,High both,Male,male,"0.672 [0.559, 0.785]",<0.001,***
+Early (hotter),Late (mild-cold),3,27,Dhat1,NA,NA,NA,NA,NA,NA,Low both,Fawn,juvenile,NA,NA,NA
+Early (hotter),Late (mild-cold),91,190,Dhat4,0.7584756243780776,0.6753042010521816,0.8416470477039736,0.5796712210711272,0.40822312959802987,0,Low both,Female,female,"0.758 [0.675, 0.842]",<0.001,***
+Early (hotter),Late (mild-cold),108,227,Dhat4,0.7526537727699187,0.6608619522941782,0.8444455932456593,0.47235381385215386,0.5850160011548711,0,Low both,Male,male,"0.753 [0.661, 0.844]",<0.001,***
+Early (hotter),Late (mild-cold),27,51,Dhat1,0.8044566117502999,0.6692718487586482,0.9396413747419516,0.5378150922843247,0.3947260032042319,0.3838383838383838,Intermediate / mixed,Fawn,juvenile,"0.804 [0.669, 0.940]",0.384,ns
+Early (hotter),Late (mild-cold),300,302,Dhat4,0.8170441820621699,0.7599690105648168,0.874119353559523,0.6180767921817645,0.42784863147371877,0,Intermediate / mixed,Female,female,"0.817 [0.760, 0.874]",<0.001,***
+Early (hotter),Late (mild-cold),598,491,Dhat4,0.8494963148865369,0.8083876323590005,0.8906049974140733,0.6932261576797432,0.4850957705609447,0,Intermediate / mixed,Male,male,"0.849 [0.808, 0.891]",<0.001,***

@@ -1,0 +1,21 @@
+response_class,model_id,hierarchy,AIC,deviance_explained,convergence,primary_time_scale,delta_AIC,selected
+Juvenile,A,camera_round,1336.3217660610676,0.4519257070606171,No convergence warning returned,Apparent solar time,14.966120834244293,FALSE
+Juvenile,B,camera_round,1335.1866472971367,0.45307501365804637,No convergence warning returned,Apparent solar time,13.831002070313389,FALSE
+Juvenile,C,camera_round,1331.744029979728,0.4553387729188648,No convergence warning returned,Apparent solar time,10.388384752904813,FALSE
+Juvenile,D,camera_round,1331.0212049613503,0.45634720489317493,No convergence warning returned,Apparent solar time,9.66555973452705,FALSE
+Juvenile,E,camera_round,1321.3556452268233,0.4657144423793949,No convergence warning returned,Apparent solar time,0,TRUE
+Adult female,A,site_shape,5995.248623915008,0.5724256009847561,No convergence warning returned,Apparent solar time,10.438652676573838,FALSE
+Adult female,B,site_shape,5990.346871760954,0.5733994168458483,No convergence warning returned,Apparent solar time,5.536900522520227,FALSE
+Adult female,C,site_shape,5991.936501789574,0.5725215321890806,No convergence warning returned,Apparent solar time,7.126530551140604,FALSE
+Adult female,D,site_shape,5987.304556917978,0.5734373407943243,No convergence warning returned,Apparent solar time,2.4945856795438885,FALSE
+Adult female,E,site_shape,5984.809971238434,0.5735518911321997,No convergence warning returned,Apparent solar time,0,TRUE
+Adult male,A,site_shape,8589.60797021943,0.46558737733075184,No convergence warning returned,Apparent solar time,6.000315079774737,FALSE
+Adult male,B,site_shape,8587.37601654665,0.4657553542998372,No convergence warning returned,Apparent solar time,3.7683614069956093,FALSE
+Adult male,C,site_shape,8588.870371123707,0.46546439472960083,No convergence warning returned,Apparent solar time,5.262715984052193,FALSE
+Adult male,D,site_shape,8586.869221597106,0.4656256849767002,No convergence warning returned,Apparent solar time,3.2615664574514085,FALSE
+Adult male,E,site_shape,8583.607655139655,0.4662441667976851,No convergence warning returned,Apparent solar time,0,TRUE
+Pooled species,A,site_shape,11276.833631544678,0.546819154043754,No convergence warning returned,Apparent solar time,2.151877013964622,FALSE
+Pooled species,B,site_shape,11274.681754530713,0.5471326506344812,No convergence warning returned,Apparent solar time,0,TRUE
+Pooled species,C,site_shape,11276.99439100753,0.5467193350502026,No convergence warning returned,Apparent solar time,2.3126364768177154,FALSE
+Pooled species,D,site_shape,11274.877700595318,0.5470439964858501,No convergence warning returned,Apparent solar time,0.1959460646048683,FALSE
+Pooled species,E,site_shape,11276.252237994051,0.5470292816612525,No convergence warning returned,Apparent solar time,1.5704834633379505,FALSE

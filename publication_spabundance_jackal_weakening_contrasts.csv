@@ -1,0 +1,4 @@
+demographic_class,contrast,interpretation,ratio_of_ratios,lower_95_CrI,upper_95_CrI,posterior_probability_gt_1
+Juvenile,Jackal low/high ratio at low wolf divided by jackal low/high ratio at high wolf,Values >1 indicate that the negative jackal association is weaker at high wolf activity,6.849293117802294,0.4351637402178583,184.31083713769124,0.9138518518518518
+Adult female,Jackal low/high ratio at low wolf divided by jackal low/high ratio at high wolf,Values >1 indicate that the negative jackal association is weaker at high wolf activity,7.9708698631680015,1.1710486081556213,59.046214316160295,0.9817037037037037
+Adult male,Jackal low/high ratio at low wolf divided by jackal low/high ratio at high wolf,Values >1 indicate that the negative jackal association is weaker at high wolf activity,4.898044013864765,1.1054865626218988,21.667158379528992,0.9817777777777777

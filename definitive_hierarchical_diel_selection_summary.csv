@@ -1,0 +1,5 @@
+response_class,selected_hierarchy,hierarchy_competitor,hierarchy_competitor_minus_selected,selected_ecology,ecology_competitor,ecology_competitor_minus_selected
+Juvenile,camera_round,camera,51.33876501341865,E,D,9.66555973452705
+Adult female,site_shape,camera_round,463.34209317808654,E,D,2.4945856795438885
+Adult male,site_shape,camera_round,276.13421473430935,E,D,3.2615664574514085
+Pooled species,site_shape,camera_round,570.7194859003594,B,D,0.1959460646048683

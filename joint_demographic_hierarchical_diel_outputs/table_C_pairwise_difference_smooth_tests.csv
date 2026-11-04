@@ -1,0 +1,10 @@
+predator_effect,contrast,statistic,df_rank,raw_P,Holm_adjusted_P,simultaneous_CI_excludes_zero,time_intervals_of_difference
+Wolf x time,Juvenile - Adult female,2.7263590945438185,10,0.9871508559509063,1,FALSE,None
+Wolf x time,Juvenile - Adult male,1.164271438675756,10,0.9996558353115841,1,FALSE,None
+Wolf x time,Adult female - Adult male,2.631897034894617,10,0.9888111080931042,1,FALSE,None
+Jackal x time,Juvenile - Adult female,5.4073734286353796e-5,10,0.9999999999999999,1,FALSE,None
+Jackal x time,Juvenile - Adult male,2.9385198995815178e-5,10,0.9999999999999999,1,FALSE,None
+Jackal x time,Adult female - Adult male,4.397228061965819e-5,10,1,1,FALSE,None
+Wolf x jackal x time,Juvenile - Adult female,6.505795855552117,10,0.7711309228484238,1,FALSE,None
+Wolf x jackal x time,Juvenile - Adult male,4.792340304519982,10,0.9046110916728684,1,FALSE,None
+Wolf x jackal x time,Adult female - Adult male,1.75224644632686,10,0.9979105199607772,1,FALSE,None

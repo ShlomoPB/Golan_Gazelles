@@ -1,0 +1,6 @@
+"analysis","family","abundance_or_fixed_formula","detection_formula","chains","samples_per_chain","burn_in","thinning","seed","inferential_role"
+"Separate-class spAbundance NMix","Negative binomial","~ Null.Wolf.Abundance.z * null.jackal.abundance.z","~ log_days_operational.z + cattle_sightings.z",3,50000,5000,10,"20260623","Primary"
+"Matched unmarked pcount sensitivity","Negative binomial","~ wolf_z * jackal_z","~ Path.Type + Camera.Model + Vegetation.Structure + Area.Behind.Camera",,,,,"20260623","Sensitivity"
+"Focused two-factor lfMsNMix correlations","Negative binomial","~ Open.Spaces.z + Null.Wolf.Abundance.z * null.jackal.abundance.z","~ log_days_operational.z + cattle_sightings.z",3,50000,5000,10,"20260819","Secondary"
+"Fawn representation beta-binomial","Beta-binomial","~ wolf_z + jackal_z + season + open_z + built_z + reserve_z + human_z + path_type + camera_model + vegetation_structure + area_behind_camera + (1 | Polygon.Name / camera_id)",,,,,,"20260804","Primary"
+"Overall and predator-context diel activity","Circular kernel density and overlap","Class-specific activity distributions; median wolf-jackal contexts",,,,,,"20260810; 20260811","Primary"

@@ -1,0 +1,25 @@
+class,predator_context,predator,gazelle_events,predator_events,estimator,temporal_overlap,status
+Fawn,Low both,Wolf,67,104,Dhat1,0.3240020485671174,Descriptive estimate
+Fawn,Low both,Jackal,67,934,Dhat1,0.2958590950879393,Descriptive estimate
+Fawn,High jackal / Low wolf,Wolf,3,109,Dhat1,NA,Fewer than 5 events
+Fawn,High jackal / Low wolf,Jackal,3,4613,Dhat1,NA,Fewer than 5 events
+Fawn,Low jackal / High wolf,Wolf,72,305,Dhat1,0.37709573940995494,Descriptive estimate
+Fawn,Low jackal / High wolf,Jackal,72,1175,Dhat1,0.3418313600971462,Descriptive estimate
+Fawn,High both,Wolf,38,318,Dhat1,0.34606963334527924,Descriptive estimate
+Fawn,High both,Jackal,38,3036,Dhat1,0.3043725079358999,Descriptive estimate
+Female,Low both,Wolf,531,104,Dhat4,0.48248132333320926,Descriptive estimate
+Female,Low both,Jackal,531,934,Dhat4,0.4615999638425834,Descriptive estimate
+Female,High jackal / Low wolf,Wolf,56,109,Dhat1,0.5184941664035737,Descriptive estimate
+Female,High jackal / Low wolf,Jackal,56,4613,Dhat1,0.5452226200767525,Descriptive estimate
+Female,Low jackal / High wolf,Wolf,603,305,Dhat4,0.6577312140422904,Descriptive estimate
+Female,Low jackal / High wolf,Jackal,603,1175,Dhat4,0.6254365522334577,Descriptive estimate
+Female,High both,Wolf,276,318,Dhat4,0.47296692054274847,Descriptive estimate
+Female,High both,Jackal,276,3036,Dhat4,0.42887030260003456,Descriptive estimate
+Male,Low both,Wolf,794,104,Dhat4,0.5516709283761276,Descriptive estimate
+Male,Low both,Jackal,794,934,Dhat4,0.5427786805488661,Descriptive estimate
+Male,High jackal / Low wolf,Wolf,151,109,Dhat4,0.7069074598040721,Descriptive estimate
+Male,High jackal / Low wolf,Jackal,151,4613,Dhat4,0.7407454508838528,Descriptive estimate
+Male,Low jackal / High wolf,Wolf,771,305,Dhat4,0.6295137887865961,Descriptive estimate
+Male,Low jackal / High wolf,Jackal,771,1175,Dhat4,0.6021860084441883,Descriptive estimate
+Male,High both,Wolf,544,318,Dhat4,0.5841798448817589,Descriptive estimate
+Male,High both,Jackal,544,3036,Dhat4,0.5392782855154197,Descriptive estimate

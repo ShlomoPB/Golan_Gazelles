@@ -1,0 +1,13 @@
+predictor,component,center,scale,window_hours
+wolf_1h,between_camera,0.005543044562028237,0.0044316334543078595,1
+wolf_1h,between_round_within_camera,0,0.005129674211201018,1
+wolf_1h,hour_within_camera_round,0,0.01925588513299691,1
+jackal_1h,between_camera,0.06422117913356941,0.054455494852481016,1
+jackal_1h,between_round_within_camera,0,0.03368686304025094,1
+jackal_1h,hour_within_camera_round,0,0.07779410556756401,1
+wolf_3h,between_camera,0.005654776763702783,0.004516882578497576,3
+wolf_3h,between_round_within_camera,0,0.00523273701987683,3
+wolf_3h,hour_within_camera_round,0,0.012171869614479847,3
+jackal_3h,between_camera,0.06536290130866701,0.055272594665180884,3
+jackal_3h,between_round_within_camera,0,0.03422961195925229,3
+jackal_3h,hour_within_camera_round,0,0.062442832155187186,3

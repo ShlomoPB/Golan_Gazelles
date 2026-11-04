@@ -1,0 +1,15 @@
+audit_type,item,value,detail,predator
+Survey effort,Recorded camera-days,5999,All positive-effort rounds,
+Survey effort,Known camera-days analyzed,5978,Camera 45 round 2 excluded,
+Survey effort,Known hourly observations,143472,24 true one-hour apparent-solar intervals per known day,
+Survey effort,Excluded ambiguous camera-round,1,Camera 45 round 2: 21 operational days across 32 nominal days,
+Independent predator events,Jackal,10262,60 cameras,Jackal
+Independent predator events,Wolf,852,57 cameras,Wolf
+Hourly 24-h exposure category,Neither,59031,41.1% of analyzed hours,
+Hourly 24-h exposure category,Wolf only,4670,3.3% of analyzed hours,
+Hourly 24-h exposure category,Jackal only,67543,47.1% of analyzed hours,
+Hourly 24-h exposure category,Both,12228,8.5% of analyzed hours,
+Hourly exposure indicator,wolf_0_6h,4740,3.3% of analyzed hours,
+Hourly exposure indicator,wolf_6_24h,13072,9.1% of analyzed hours,
+Hourly exposure indicator,jackal_0_6h,38020,26.5% of analyzed hours,
+Hourly exposure indicator,jackal_6_24h,71160,49.6% of analyzed hours,

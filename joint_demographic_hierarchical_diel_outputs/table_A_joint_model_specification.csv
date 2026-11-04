@@ -1,0 +1,13 @@
+class_specific_term,basis,k,EDF,smoothing_parameter,notes
+s(Time):demographic_classJuvenile,cyclic cubic regression spline,12,6.181740320501278,15.988710,Confirmatory ecological smooth; boundary likelihood-ratio test reported
+s(Time):demographic_classAdult female,cyclic cubic regression spline,12,9.275246078418586,10.368865,Confirmatory ecological smooth; boundary likelihood-ratio test reported
+s(Time):demographic_classAdult male,cyclic cubic regression spline,12,9.539789471802067,10.520448,Confirmatory ecological smooth; boundary likelihood-ratio test reported
+s(Time):wolf_juvenile,cyclic cubic regression spline,12,1.2233084881582188,2077.016560; 3540.726414,Confirmatory ecological smooth; boundary likelihood-ratio test reported
+s(Time):jackal_juvenile,cyclic cubic regression spline,12,1.311006179170691e-4,23261722.928240; 3389.045825,Confirmatory ecological smooth; boundary likelihood-ratio test reported
+s(Time):interaction_juvenile,cyclic cubic regression spline,12,2.061077472913289,490.537393; 3026.619089,Confirmatory ecological smooth; boundary likelihood-ratio test reported
+s(Time):wolf_female,cyclic cubic regression spline,12,3.859628521036933,685.979390; 4532.546275,Confirmatory ecological smooth; boundary likelihood-ratio test reported
+s(Time):jackal_female,cyclic cubic regression spline,12,2.7787292019866745e-4,25313697.944857; 3981.826196,Confirmatory ecological smooth; boundary likelihood-ratio test reported
+s(Time):interaction_female,cyclic cubic regression spline,12,0.002491027760863969,2784201.144144; 3732.553056,Confirmatory ecological smooth; boundary likelihood-ratio test reported
+s(Time):wolf_male,cyclic cubic regression spline,12,9.460297874747491e-4,22717918.756164; 5166.396052,Confirmatory ecological smooth; boundary likelihood-ratio test reported
+s(Time):jackal_male,cyclic cubic regression spline,12,1.0700259968451423e-4,154216658.244534; 4615.949514,Confirmatory ecological smooth; boundary likelihood-ratio test reported
+s(Time):interaction_male,cyclic cubic regression spline,12,2.996342109576618,2285.211774; 4483.031036,Confirmatory ecological smooth; boundary likelihood-ratio test reported

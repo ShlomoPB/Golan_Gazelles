@@ -1,0 +1,47 @@
+variable,description
+source_row_id,Stable row number in the 2026-04-15 20:06 source export.
+station_camera_id,Camera-trap station number from Camera Name; use this as the site ID.
+hardware_camera_id_exported,Camelot Camera ID retained from the export; this is not the station ID.
+trap_station_id_exported,Camelot trap-station database ID retained from the export.
+trap_station_name_exported,Camelot trap-station name retained from the export.
+trap_station_session_id,Camelot deployment/session identifier used for timestamp corrections.
+trap_station_session_camera_id,Camelot session-camera database identifier.
+survey_round,Survey round assigned from corrected date and the authoritative deployment table; documented correction sessions use their verified expected round.
+round_assignment_method,Whether round came from the corrected date or a documented corrected session; rows outside deployment dates remain unassigned.
+deployment_start_date,Authoritative deployment start date from ObsCovs_050524.csv.
+deployment_end_date,Authoritative deployment end date from ObsCovs_050524.csv.
+days_operational,Recorded operational days for the camera-round.
+datetime_original_local,"Original camera-clock sighting timestamp, standardized to ISO order without timezone conversion."
+datetime_corrected_local,Date-corrected camera-clock timestamp. Clock time of day is preserved exactly.
+date_correction_applied,TRUE only for documented camera 22 or 24 sessions requiring correction.
+date_correction_days,Whole days added to the original camera date: 148 for affected camera-22 sessions and 238 for camera 24.
+date_correction_reason,Documented reason for the date correction.
+sighting_created_exported,"Camelot database creation timestamp, standardized only; it is not the camera sighting time."
+species,Species or non-wildlife category exactly as recorded in the source export.
+species_label_corrected,"Recorded label with evident spelling, capitalization, or word-order errors corrected; the source label remains in species."
+species_common_name,Consistent English common name or non-wildlife category derived from the recorded label; duplicate scientific/common labels are harmonized here.
+species_recorded,Whether the export contains a nonmissing species/category label.
+sighting_quantity,Recorded number of individuals for the sighting row.
+sex,Recorded sex category.
+life_stage,Recorded life-stage category.
+attention_needed_flag,Camelot attention-needed flag retained from the export.
+camera_check_flag,Camelot camera-check flag retained from the export.
+latitude_exported,Latitude in the Camelot export; retained for provenance.
+longitude_exported,Longitude in the Camelot export; retained for provenance.
+latitude_authoritative,Authoritative camera-map latitude; preferred for analysis.
+longitude_authoritative,Authoritative camera-map longitude; preferred for analysis.
+sampling_stratum,Named sampling stratum from the authoritative camera-site table.
+stratum_type,Sampling-stratum category from the authoritative camera-site table.
+session_start_exported_original,Original Camelot session start; known to inherit clock-date errors for affected cameras and retained only for provenance.
+session_end_exported_original,Original Camelot session end; known to inherit clock-date errors for affected cameras and retained only for provenance.
+camera_model,Camera model recorded for the assigned camera-round.
+camera_sensitivity,Camera sensitivity setting recorded for the assigned camera-round.
+capture_delay,Capture-delay setting recorded for the assigned camera-round.
+vegetation_structure,Vegetation structure recorded for the assigned camera-round.
+path_type,Path type recorded for the assigned camera-round.
+area_behind_camera,Area behind camera recorded for the assigned camera-round.
+bottleneck,Bottleneck indicator recorded for the assigned camera-round.
+livestock_presence,Livestock-presence category recorded for the assigned camera-round.
+agricultural_presence,Agricultural-presence category recorded for the assigned camera-round.
+first_source_row_id,Collapsed-file only: first source row represented by the exact-record group.
+raw_row_multiplicity,Collapsed-file only: number of exactly repeated raw rows represented. This is not an independent-event count.

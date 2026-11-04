@@ -1,0 +1,2 @@
+specification,time_scale,history_type,k,hierarchy,EDF,reference_df,statistic,raw_P,warnings,maximum_absolute_gradient,minimum_hessian_eigenvalue
+Independent 30-min histories,Apparent solar time,Independent 30-min histories,12,full,1.4839310608114173,30,5.273990990719784,0.009690386369300752,None,6.746177293335901e-5,-1.417328315840786e-13

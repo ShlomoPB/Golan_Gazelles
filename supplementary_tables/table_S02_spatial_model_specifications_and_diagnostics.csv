@@ -1,0 +1,37 @@
+panel,analysis,item,value,source,note
+A. Predator activity indices,Wolf,Count distribution,Zero-inflated Poisson,Current manuscript Methods; original index-fit objects unavailable,
+A. Predator activity indices,Wolf,State structure,~ 1,Current manuscript Methods; original index-fit objects unavailable,
+A. Predator activity indices,Wolf,Final detection formula,~ Path.Type + Camera.Model + Vegetation.Structure + Area.Behind.Camera,Current manuscript Methods; original index-fit objects unavailable,
+A. Predator activity indices,Wolf,Sampling design,60 sites; 7 nominal occasions,SiteCovs_060324.csv; ObsCovs_050524.csv,
+A. Predator activity indices,Wolf,Site-level extraction,"Empirical-Bayes posterior mode from ranef()/bup(), then standardized",Current manuscript Methods,Relative site-level activity index; not density or absolute abundance
+A. Predator activity indices,Jackal,Count distribution,Poisson,Current manuscript Methods; original index-fit objects unavailable,
+A. Predator activity indices,Jackal,State structure,~ 1,Current manuscript Methods; original index-fit objects unavailable,
+A. Predator activity indices,Jackal,Final detection formula,~ Path.Type + Camera.Model + Vegetation.Structure + Area.Behind.Camera,Current manuscript Methods; original index-fit objects unavailable,
+A. Predator activity indices,Jackal,Sampling design,60 sites; 7 nominal occasions,SiteCovs_060324.csv; ObsCovs_050524.csv,
+A. Predator activity indices,Jackal,Site-level extraction,"Empirical-Bayes posterior mode from ranef()/bup(), then standardized",Current manuscript Methods,Relative site-level activity index; not density or absolute abundance
+A. Predator activity indices,Wolf and jackal,Site-level correlation,r = -0.182689,SiteCovs_060324.csv,
+A. Predator activity indices,Provenance,Historical model comparison,Not recoverable from archived files,Repository audit,Original predator-index fit objects and candidate-model fit statistics were not found; no AIC/WAIC values are inferred
+B. Joint demographic lfMsNMix,All three classes,Abundance formula,~ Open.Spaces.z + Null.Wolf.Abundance.z * null.jackal.abundance.z,fit_focused_multiclass_nmix.R; final lf2 fit,
+B. Joint demographic lfMsNMix,All three classes,Detection formula,~ log_days_operational.z + cattle_sightings.z,fit_focused_multiclass_nmix.R; final lf2 fit,
+B. Joint demographic lfMsNMix,All three classes,Distribution and latent structure,Negative binomial; 2 latent factors,final lf2 fit,
+B. Joint demographic lfMsNMix,All three classes,MCMC,"3 chains; 50,000 iterations/chain; burn-in 5,000; thinning 10; seed 20260819",final lf2 metadata,
+B. Joint demographic lfMsNMix,All three classes,Grouped Freeman–Tukey PPC,Juvenile = 0.408; Adult male = 0.402; Adult female = 0.318,publication_focused_lfmsnmix_ppc.csv,
+B. Joint demographic lfMsNMix,All three classes,Ungrouped Freeman–Tukey PPC,Juvenile = 0.047; Adult male = 0.002; Adult female = 0.002,publication_focused_lfmsnmix_ppc.csv,
+B. Joint demographic lfMsNMix,All three classes,Free-loading diagnostics,R-hat 1.001–1.015; ESS 322.9–709.8,publication_focused_lfmsnmix_diagnostics.csv,
+B. Joint demographic lfMsNMix,All three classes,Convergence limitation,Intercept diagnostics included R-hat up to 1.815 and ESS as low as 9.3,publication_focused_lfmsnmix_diagnostics.csv,Residual-correlation inference is secondary and interpreted with this limitation
+C. Class-specific spAbundance::NMix,Juvenile,Abundance formula,~ Null.Wolf.Abundance.z * null.jackal.abundance.z,analyze_wolf_jackal_interaction_nmix.R; final class fit,
+C. Class-specific spAbundance::NMix,Juvenile,Detection formula,~ log_days_operational.z + cattle_sightings.z,analyze_wolf_jackal_interaction_nmix.R; final class fit,
+C. Class-specific spAbundance::NMix,Juvenile,Distribution and MCMC,"Negative binomial; 3 chains; 50,000 iterations/chain; burn-in 5,000; thinning 10",publication_final_model_specifications.csv,
+C. Class-specific spAbundance::NMix,Juvenile,Focal abundance-slope diagnostics,R-hat 1.002–1.004; ESS 3548.6–5454.7,publication_wolf_jackal_interaction_nmix_spabundance_diagnostics.csv,
+C. Class-specific spAbundance::NMix,Juvenile,Intercept convergence limitation,R-hat up to 1.231; ESS as low as 23.9,publication_wolf_jackal_interaction_nmix_spabundance_diagnostics.csv,Ecological inference restricted to well-mixed slopes and normalized predictions
+C. Class-specific spAbundance::NMix,Adult female,Abundance formula,~ Null.Wolf.Abundance.z * null.jackal.abundance.z,analyze_wolf_jackal_interaction_nmix.R; final class fit,
+C. Class-specific spAbundance::NMix,Adult female,Detection formula,~ log_days_operational.z + cattle_sightings.z,analyze_wolf_jackal_interaction_nmix.R; final class fit,
+C. Class-specific spAbundance::NMix,Adult female,Distribution and MCMC,"Negative binomial; 3 chains; 50,000 iterations/chain; burn-in 5,000; thinning 10",publication_final_model_specifications.csv,
+C. Class-specific spAbundance::NMix,Adult female,Focal abundance-slope diagnostics,R-hat 1.001–1.004; ESS 6834.8–9092.5,publication_wolf_jackal_interaction_nmix_spabundance_diagnostics.csv,
+C. Class-specific spAbundance::NMix,Adult female,Intercept convergence limitation,R-hat up to 3.492; ESS as low as 7.5,publication_wolf_jackal_interaction_nmix_spabundance_diagnostics.csv,Ecological inference restricted to well-mixed slopes and normalized predictions
+C. Class-specific spAbundance::NMix,Adult male,Abundance formula,~ Null.Wolf.Abundance.z * null.jackal.abundance.z,analyze_wolf_jackal_interaction_nmix.R; final class fit,
+C. Class-specific spAbundance::NMix,Adult male,Detection formula,~ log_days_operational.z + cattle_sightings.z,analyze_wolf_jackal_interaction_nmix.R; final class fit,
+C. Class-specific spAbundance::NMix,Adult male,Distribution and MCMC,"Negative binomial; 3 chains; 50,000 iterations/chain; burn-in 5,000; thinning 10",publication_final_model_specifications.csv,
+C. Class-specific spAbundance::NMix,Adult male,Focal abundance-slope diagnostics,R-hat 1.001–1.003; ESS 7188.0–9537.8,publication_wolf_jackal_interaction_nmix_spabundance_diagnostics.csv,
+C. Class-specific spAbundance::NMix,Adult male,Intercept convergence limitation,R-hat up to 1.380; ESS as low as 9.9,publication_wolf_jackal_interaction_nmix_spabundance_diagnostics.csv,Ecological inference restricted to well-mixed slopes and normalized predictions
+C. Class-specific spAbundance::NMix,Historical clarification,Expanded covariate models,Exploratory only; inadequate all-parameter MCMC diagnostics,Repository scripts and diagnostic outputs,No WAIC/AIC comparison selected the final predator-only state formula

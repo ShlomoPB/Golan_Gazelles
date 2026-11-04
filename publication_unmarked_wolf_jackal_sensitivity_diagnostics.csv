@@ -1,0 +1,4 @@
+species,n_sites,n_replicates,observed_count_total,missing_count_cells,K,AIC,convergence_code,optimizer_message
+Fawn,60,7,199,76,150,667.646338804316,0,NA
+Female,60,7,1951,76,246,2547.320893689757,0,NA
+Male,60,7,2355,76,150,2618.032269024045,0,NA

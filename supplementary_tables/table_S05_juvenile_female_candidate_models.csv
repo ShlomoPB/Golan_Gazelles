@@ -1,0 +1,10 @@
+panel,model,predator_structure,survey_period_structure,parameters_df,AIC,delta_AIC,selected,convergence_code,positive_definite_hessian,source,LR_statistic,P
+A. Candidate models,Wolf × jackal; no survey-period term,Wolf × jackal,None,24,444.91252244542204,3.837036142244756,No,0,TRUE,publication_fawn_female_beta_binomial_wolf_jackal_model_fits.rds,,
+A. Candidate models,Additive wolf + jackal; no survey-period term,Additive,None,23,443.22240387968156,2.146917576504279,No,0,TRUE,publication_fawn_female_beta_binomial_wolf_jackal_model_fits.rds,,
+A. Candidate models,Wolf × jackal × survey period,Wolf × jackal with period-specific main and interaction terms,All predator terms vary by Early/Late,28,444.19407924036284,3.1185929371855536,No,0,TRUE,publication_fawn_female_beta_binomial_wolf_jackal_model_fits.rds,,
+A. Candidate models,Additive predator slopes varying by survey period,Additive with period-specific slopes,Predator slopes vary by Early/Late,26,444.1048265388341,3.029340235656832,No,0,TRUE,publication_fawn_female_beta_binomial_wolf_jackal_model_fits.rds,,
+A. Candidate models,Wolf × jackal + common survey-period shift,Wolf × jackal,Common Early/Late shift,25,442.72176266120505,1.6462763580277624,No,0,TRUE,publication_fawn_female_beta_binomial_wolf_jackal_model_fits.rds,,
+A. Candidate models,Additive wolf + jackal + common survey-period shift,Additive,Common Early/Late shift,24,441.0754863031773,0,Yes,0,TRUE,publication_fawn_female_beta_binomial_wolf_jackal_model_fits.rds,,
+B. Nested likelihood-ratio tests,Add common Early/Late shift to additive model,,,1,,-2.146917576504279,,,,publication_fawn_female_beta_binomial_wolf_jackal_model_fits.rds,4.146917576504279,0.04171038734204568
+B. Nested likelihood-ratio tests,Add wolf × jackal to retained model,,,1,,1.6462763580277624,,,,publication_fawn_female_beta_binomial_wolf_jackal_model_fits.rds,0.3537236419722376,0.5520127977009719
+B. Nested likelihood-ratio tests,Allow additive predator slopes to vary by Early/Late,,,2,,3.029340235656832,,,,publication_fawn_female_beta_binomial_wolf_jackal_model_fits.rds,0.9706597643431678,0.6154941227330712

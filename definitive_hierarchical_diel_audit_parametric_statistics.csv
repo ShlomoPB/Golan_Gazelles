@@ -1,0 +1,39 @@
+response_class,selected_model,selected_structure,hierarchy,term,estimate,std_error,z_value,P,test_method
+Juvenile,E,wolf x jackal,camera_round,(Intercept),-8.411578976970091,0.41189084201877596,-20.42186453027924,1.0690517766285012e-92,Approximate Wald z test using mgcv Bayesian covariance
+Juvenile,E,wolf x jackal,camera_round,round_factor2,0.18633157051504776,0.42630313886164534,0.4370870245351883,0.662048237029528,Approximate Wald z test using mgcv Bayesian covariance
+Juvenile,E,wolf x jackal,camera_round,round_factor3,-0.3127941441567733,0.4708646884260854,-0.6642973063075095,0.506500044747145,Approximate Wald z test using mgcv Bayesian covariance
+Juvenile,E,wolf x jackal,camera_round,round_factor4,0.040539714699998085,0.4299048407974711,0.09429927475298286,0.9248714260126978,Approximate Wald z test using mgcv Bayesian covariance
+Juvenile,E,wolf x jackal,camera_round,round_factor5,0.3695177842961342,0.41561703259930394,0.8890823891050346,0.3739588028317468,Approximate Wald z test using mgcv Bayesian covariance
+Juvenile,E,wolf x jackal,camera_round,round_factor6,0.5468540371685424,0.4209983799544538,1.2989457043224357,0.19396256317693214,Approximate Wald z test using mgcv Bayesian covariance
+Juvenile,E,wolf x jackal,camera_round,round_factor7,0.5742836611529077,0.6859227214623232,0.8372425102474934,0.40245626691051045,Approximate Wald z test using mgcv Bayesian covariance
+Juvenile,E,wolf x jackal,camera_round,wolf_z,0.2584896385113563,0.23519416113969926,1.0990478558599086,0.2717471925035358,Approximate Wald z test using mgcv Bayesian covariance
+Juvenile,E,wolf x jackal,camera_round,jackal_z,-0.5990229291010096,0.2530613548218712,-2.3671055168524617,0.017927820713617284,Approximate Wald z test using mgcv Bayesian covariance
+Juvenile,E,wolf x jackal,camera_round,wolf_z:jackal_z,0.29985148450860166,0.2840736362117775,1.0555414029518098,0.291177784209287,Approximate Wald z test using mgcv Bayesian covariance
+Adult female,E,wolf x jackal,site_shape,(Intercept),-5.6989229733926,0.24062317573186884,-23.6840152909586,5.269285624036774e-124,Approximate Wald z test using mgcv Bayesian covariance
+Adult female,E,wolf x jackal,site_shape,round_factor2,-0.226711873595122,0.21816315832834074,-1.0391849629070515,0.2987187225002444,Approximate Wald z test using mgcv Bayesian covariance
+Adult female,E,wolf x jackal,site_shape,round_factor3,-0.18292247094507058,0.21856817411775128,-0.8369126552090015,0.4026416663234917,Approximate Wald z test using mgcv Bayesian covariance
+Adult female,E,wolf x jackal,site_shape,round_factor4,-0.04160564675634755,0.21368931355400103,-0.19470157896236334,0.8456265757356072,Approximate Wald z test using mgcv Bayesian covariance
+Adult female,E,wolf x jackal,site_shape,round_factor5,-0.023605362933946137,0.2134950574257428,-0.11056632045056351,0.9119602560745927,Approximate Wald z test using mgcv Bayesian covariance
+Adult female,E,wolf x jackal,site_shape,round_factor6,-0.21276146463370388,0.22040937779402223,-0.9653013259378396,0.33439390787306195,Approximate Wald z test using mgcv Bayesian covariance
+Adult female,E,wolf x jackal,site_shape,round_factor7,-0.8362596918267423,0.4330450516166757,-1.9311147620894316,0.05346886183424129,Approximate Wald z test using mgcv Bayesian covariance
+Adult female,E,wolf x jackal,site_shape,wolf_z,0.44873689911956777,0.18980582187995332,2.364189331365088,0.018069575415133116,Approximate Wald z test using mgcv Bayesian covariance
+Adult female,E,wolf x jackal,site_shape,jackal_z,-0.606199821154094,0.19770503817959562,-3.0661829700233585,0.0021681059472441716,Approximate Wald z test using mgcv Bayesian covariance
+Adult female,E,wolf x jackal,site_shape,wolf_z:jackal_z,0.4739694214757433,0.21425731125270306,2.2121505152126457,0.026956266717213125,Approximate Wald z test using mgcv Bayesian covariance
+Adult male,E,wolf x jackal,site_shape,(Intercept),-5.011907157066692,0.2102716536681262,-23.835391359869334,1.4354532174017612e-125,Approximate Wald z test using mgcv Bayesian covariance
+Adult male,E,wolf x jackal,site_shape,round_factor2,-0.13054201066306814,0.18087175082007298,-0.7217379721885276,0.47045559147282084,Approximate Wald z test using mgcv Bayesian covariance
+Adult male,E,wolf x jackal,site_shape,round_factor3,0.02702541130139374,0.18007755580389717,0.1500765110940542,0.8807042515155826,Approximate Wald z test using mgcv Bayesian covariance
+Adult male,E,wolf x jackal,site_shape,round_factor4,0.13722785703134283,0.17727943823399547,0.7740765561892881,0.43888552028674377,Approximate Wald z test using mgcv Bayesian covariance
+Adult male,E,wolf x jackal,site_shape,round_factor5,0.20186048547659055,0.17675607809358154,1.1420285381627315,0.2534421575328229,Approximate Wald z test using mgcv Bayesian covariance
+Adult male,E,wolf x jackal,site_shape,round_factor6,-0.015900926913739576,0.18143331185567377,-0.08764061434533266,0.9301623207770195,Approximate Wald z test using mgcv Bayesian covariance
+Adult male,E,wolf x jackal,site_shape,round_factor7,-1.1875997306718609,0.3459178873483229,-3.4331839263229664,5.965372794047348e-4,Approximate Wald z test using mgcv Bayesian covariance
+Adult male,E,wolf x jackal,site_shape,wolf_z,0.42920020589390895,0.17038531054322498,2.5189977030621153,0.011768942444518225,Approximate Wald z test using mgcv Bayesian covariance
+Adult male,E,wolf x jackal,site_shape,jackal_z,-0.6000639767303033,0.17440803328131105,-3.440575330394509,5.804788250539748e-4,Approximate Wald z test using mgcv Bayesian covariance
+Adult male,E,wolf x jackal,site_shape,wolf_z:jackal_z,0.3686098055486776,0.1902931297524755,1.9370631300675343,0.05273762687206191,Approximate Wald z test using mgcv Bayesian covariance
+Pooled species,B,wolf-only,site_shape,(Intercept),-4.586353064559058,0.23002951694410403,-19.938106750332903,1.9012540711842648e-88,Approximate Wald z test using mgcv Bayesian covariance
+Pooled species,B,wolf-only,site_shape,round_factor2,-0.11744561796814905,0.17230323457808397,-0.681621666916098,0.495478210812635,Approximate Wald z test using mgcv Bayesian covariance
+Pooled species,B,wolf-only,site_shape,round_factor3,-0.02457553166613523,0.17146134482870076,-0.1433298665112392,0.886029669276478,Approximate Wald z test using mgcv Bayesian covariance
+Pooled species,B,wolf-only,site_shape,round_factor4,0.07071529385148365,0.1699074850789784,0.4161988144231134,0.6772645272148845,Approximate Wald z test using mgcv Bayesian covariance
+Pooled species,B,wolf-only,site_shape,round_factor5,0.06935339835594452,0.1703197651308722,0.407195244208175,0.6838645942738368,Approximate Wald z test using mgcv Bayesian covariance
+Pooled species,B,wolf-only,site_shape,round_factor6,-0.09981724631601237,0.17345381200119295,-0.5754687381291215,0.5649743274787942,Approximate Wald z test using mgcv Bayesian covariance
+Pooled species,B,wolf-only,site_shape,round_factor7,-1.0933783888577622,0.3297335286706948,-3.3159454340772254,9.133366003158012e-4,Approximate Wald z test using mgcv Bayesian covariance
+Pooled species,B,wolf-only,site_shape,wolf_z,0.5393913153081601,0.1974924161046629,2.7312001440212508,0.0063104136112822635,Approximate Wald z test using mgcv Bayesian covariance

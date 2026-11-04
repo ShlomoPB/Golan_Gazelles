@@ -1,0 +1,11 @@
+class,covariate,low_events,high_events,overlap,p_value
+Female,Built and roads,312,124,"0.697 [0.613, 0.780]",0.000
+Female,Orchards,349,165,"0.704 [0.622, 0.785]",0.000
+Female,Cropland,564,341,"0.737 [0.683, 0.792]",0.000
+Female,Nature reserves,319,450,"0.795 [0.738, 0.852]",0.000
+Female,Boar abundance,213,433,"0.795 [0.726, 0.864]",0.000
+Male,Built and roads,388,318,"0.766 [0.710, 0.822]",0.000
+Male,Human abundance,642,339,"0.847 [0.795, 0.899]",0.000
+Male,Orchards,732,301,"0.862 [0.810, 0.914]",0.000
+Male,Jackal abundance,855,226,"0.866 [0.809, 0.924]",0.010
+Male,Boar abundance,416,620,"0.869 [0.824, 0.913]",0.000

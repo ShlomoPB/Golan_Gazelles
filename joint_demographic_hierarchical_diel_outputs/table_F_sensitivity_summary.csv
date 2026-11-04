@@ -1,0 +1,10 @@
+predator_effect,contrast,primary_result,number_supported,number_tested,failed_specifications,robust_across_all_specifications
+Jackal x time,Adult female - Adult male,Holm P = 1.000,0,7,Primary apparent solar; k = 8; k = 16; Sun time; Alternate camera-only hierarchy; Independent 30-min histories; Sun time + camera-only hierarchy,FALSE
+Jackal x time,Juvenile - Adult female,Holm P = 1.000,2,7,Primary apparent solar; k = 8; k = 16; Sun time; Independent 30-min histories,FALSE
+Jackal x time,Juvenile - Adult male,Holm P = 1.000,0,7,Primary apparent solar; k = 8; k = 16; Sun time; Alternate camera-only hierarchy; Independent 30-min histories; Sun time + camera-only hierarchy,FALSE
+Wolf x jackal x time,Adult female - Adult male,Holm P = 1.000,1,7,Primary apparent solar; k = 8; k = 16; Sun time; Alternate camera-only hierarchy; Independent 30-min histories,FALSE
+Wolf x jackal x time,Juvenile - Adult female,Holm P = 1.000,0,7,Primary apparent solar; k = 8; k = 16; Sun time; Alternate camera-only hierarchy; Independent 30-min histories; Sun time + camera-only hierarchy,FALSE
+Wolf x jackal x time,Juvenile - Adult male,Holm P = 1.000,0,7,Primary apparent solar; k = 8; k = 16; Sun time; Alternate camera-only hierarchy; Independent 30-min histories; Sun time + camera-only hierarchy,FALSE
+Wolf x time,Adult female - Adult male,Holm P = 1.000,2,7,Primary apparent solar; k = 8; k = 16; Sun time; Independent 30-min histories,FALSE
+Wolf x time,Juvenile - Adult female,Holm P = 1.000,0,7,Primary apparent solar; k = 8; k = 16; Sun time; Alternate camera-only hierarchy; Independent 30-min histories; Sun time + camera-only hierarchy,FALSE
+Wolf x time,Juvenile - Adult male,Holm P = 1.000,0,7,Primary apparent solar; k = 8; k = 16; Sun time; Alternate camera-only hierarchy; Independent 30-min histories; Sun time + camera-only hierarchy,FALSE

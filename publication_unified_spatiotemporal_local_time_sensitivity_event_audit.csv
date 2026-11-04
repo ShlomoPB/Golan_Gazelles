@@ -1,0 +1,8 @@
+metric,value
+raw_event_rows,3932
+mapped_to_any_round,3906
+mapped_to_active_round,3906
+excluded_outside_active_survey,26
+survey_start,2020-08-20
+survey_end,2020-12-15
+survey_midpoint_split,2020-10-17

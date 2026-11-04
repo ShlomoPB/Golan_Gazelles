@@ -1,0 +1,37 @@
+period,sex,life_stage,raw_sighting_rows,summed_sighting_quantity,cameras
+Early,Female,Adult,13166,15744,47
+Early,Male,Adult,8432,8775,50
+Early,Unidentifiable,Too far,497,558,30
+Early,Female,Juvenile,340,351,11
+Early,Unidentifiable,Juvenile,191,198,10
+Early,Missing,Juvenile,157,196,5
+Early,Not Adult Male,Too far,102,177,7
+Early,Missing,Missing,97,110,13
+Early,Unidentifiable,Unidentifiable,73,82,4
+Early,Male,Juvenile,61,61,5
+Early,Female,Unidentifiable,31,31,1
+Early,Unidentifiable,Adult,21,21,2
+Early,Missing,Adult,21,23,8
+Early,Missing,Too far,15,15,2
+Early,Not Adult Male,Missing,13,13,1
+Early,Male,Too far,11,11,2
+Early,Male,Sub-adult,7,16,1
+Early,Female,Too far,3,3,1
+Late,Male,Adult,8727,8922,49
+Late,Female,Adult,8723,11898,46
+Late,Unidentifiable,Too far,821,1091,33
+Late,Male,Juvenile,519,550,20
+Late,Unidentifiable,Juvenile,402,452,17
+Late,Not Adult Male,Too far,166,222,11
+Late,Unidentifiable,Unidentifiable,155,171,4
+Late,Female,Juvenile,140,147,7
+Late,Missing,Missing,126,171,10
+Late,Missing,Adult,62,99,16
+Late,Missing,Juvenile,55,55,7
+Late,Not Adult Male,Missing,22,42,1
+Late,Male,Sub-adult,14,14,2
+Late,Female,Unidentifiable,8,8,2
+Late,Not Adult Male,Juvenile,8,8,1
+Late,Male,Unidentifiable,8,8,1
+Late,Female,Too far,5,5,1
+Late,Missing,Sub-adult,1,1,1

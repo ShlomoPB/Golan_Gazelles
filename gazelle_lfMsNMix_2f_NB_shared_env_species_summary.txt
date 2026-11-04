@@ -1,0 +1,132 @@
+Model: lfMsNMix
+Family: NB 
+n_factors: 2 
+Abundance formula: ~ Nature.Reserves.z + Open.Spaces.z + Built.and.Roads.z + null.jackal.abundance.z + Null.Wolf.Abundance.z
+Detection formula: ~ log_days_operational.z + cattle_sightings.z
+
+
+Call:
+lfMsNMix(abund.formula = abund_formula, det.formula = det_formula, 
+    data = data_list, inits = inits, priors = priors, tuning = tuning, 
+    n.factors = n_factors, n.batch = n_batch, batch.length = batch_length, 
+    family = family_name, n.omp.threads = 1, verbose = TRUE, 
+    n.report = max(1L, floor(n_batch/10)), n.burn = if (is.null(n_burn)) round(0.1 * 
+        n_batch * batch_length) else n_burn, n.thin = n_thin, 
+    n.chains = n_chains)
+
+Samples per Chain: 10000
+Burn-in: 1000
+Thinning Rate: 5
+Number of Chains: 3
+Total Posterior Samples: 5400
+Run Time (min): 1.1472
+
+----------------------------------------
+	Community Level
+----------------------------------------
+Abundance Means (log scale): 
+                           Mean     SD    2.5%     50%  97.5%   Rhat  ESS
+(Intercept)              4.3059 1.3587  1.5787  4.3162 6.8975 1.0782  564
+Nature.Reserves.z       -0.2371 0.5331 -1.1623 -0.2390 0.6820 1.0030  986
+Open.Spaces.z            0.6548 0.5854 -0.3489  0.6492 1.7513 1.0037 1078
+Built.and.Roads.z       -0.4431 0.5915 -1.5200 -0.4483 0.6155 1.0119  789
+null.jackal.abundance.z -0.7730 0.4810 -1.6217 -0.7734 0.0675 1.0144 1069
+Null.Wolf.Abundance.z    0.4784 0.5050 -0.3150  0.4690 1.3669 1.0139 1950
+
+Abundance Variances (log scale): 
+                          Mean      SD   2.5%    50%   97.5%   Rhat  ESS
+(Intercept)             7.1877 45.8511 0.2459 1.9719 39.3374 1.0746 5400
+Nature.Reserves.z       0.8433  6.0880 0.0345 0.1923  3.9825 1.1573 5400
+Open.Spaces.z           0.9533  5.7463 0.0387 0.2276  5.0025 1.1139 5400
+Built.and.Roads.z       1.1180  7.1431 0.0405 0.2510  5.5455 1.1497 4131
+null.jackal.abundance.z 0.6578  4.6175 0.0327 0.1766  3.5827 1.0588 5400
+Null.Wolf.Abundance.z   0.8727 12.2608 0.0294 0.1615  3.4273 1.2710 5400
+
+Detection Means (logit scale): 
+                          Mean     SD    2.5%     50%   97.5%   Rhat  ESS
+(Intercept)            -3.7407 1.1471 -5.0515 -4.0316 -0.4080 1.1228  204
+log_days_operational.z  0.2347 0.3041 -0.3933  0.2396  0.8420 1.0069 5400
+cattle_sightings.z      0.0634 0.3198 -0.5823  0.0575  0.7484 0.9999 5400
+
+Detection Variances (logit scale): 
+                         Mean      SD   2.5%    50%   97.5%   Rhat  ESS
+(Intercept)            4.8276 36.8867 0.0431 0.3961 32.1501 1.1867 5189
+log_days_operational.z 0.3871  1.3944 0.0252 0.1263  2.2438 1.0391 5037
+cattle_sightings.z     0.4195  1.8850 0.0294 0.1411  2.2372 1.0246 4813
+
+----------------------------------------
+	Species Level
+----------------------------------------
+Abundance (log scale): 
+                                  Mean     SD    2.5%     50%   97.5%   Rhat
+(Intercept)-fawn                2.9390 0.5641  1.7719  2.9368  4.0658 2.1436
+(Intercept)-male                5.1853 0.5574  4.1596  5.1705  6.1854 1.6276
+(Intercept)-female              4.9607 0.4887  3.9274  5.0384  5.7136 1.3358
+Nature.Reserves.z-fawn         -0.0541 0.2692 -0.5654 -0.0595  0.4788 1.0036
+Nature.Reserves.z-male         -0.3268 0.2293 -0.7637 -0.3281  0.1095 1.0031
+Nature.Reserves.z-female       -0.3228 0.2704 -0.8560 -0.3167  0.2002 1.0085
+Open.Spaces.z-fawn              0.8899 0.2591  0.4036  0.8868  1.4070 1.0206
+Open.Spaces.z-male              0.3863 0.1984 -0.0219  0.3912  0.7677 1.0075
+Open.Spaces.z-female            0.6957 0.2225  0.2549  0.6918  1.1505 1.0135
+Built.and.Roads.z-fawn         -0.1494 0.3188 -0.7600 -0.1477  0.4927 1.0343
+Built.and.Roads.z-male         -0.6205 0.2686 -1.1449 -0.6244 -0.0901 1.0443
+Built.and.Roads.z-female       -0.5713 0.2911 -1.1435 -0.5701 -0.0081 1.0384
+null.jackal.abundance.z-fawn   -0.6204 0.2509 -1.1389 -0.6148 -0.1337 1.0038
+null.jackal.abundance.z-male   -0.8396 0.2121 -1.2473 -0.8340 -0.4351 1.1084
+null.jackal.abundance.z-female -0.8586 0.2291 -1.3144 -0.8524 -0.4290 1.0660
+Null.Wolf.Abundance.z-fawn      0.3579 0.2151 -0.0726  0.3647  0.7804 1.0258
+Null.Wolf.Abundance.z-male      0.4711 0.1824  0.1129  0.4742  0.8208 1.0381
+Null.Wolf.Abundance.z-female    0.5697 0.2068  0.1624  0.5629  0.9967 1.0139
+                               ESS
+(Intercept)-fawn                23
+(Intercept)-male                13
+(Intercept)-female              22
+Nature.Reserves.z-fawn         268
+Nature.Reserves.z-male         196
+Nature.Reserves.z-female       178
+Open.Spaces.z-fawn             226
+Open.Spaces.z-male             177
+Open.Spaces.z-female           174
+Built.and.Roads.z-fawn         257
+Built.and.Roads.z-male         123
+Built.and.Roads.z-female       149
+null.jackal.abundance.z-fawn   316
+null.jackal.abundance.z-male   189
+null.jackal.abundance.z-female 224
+Null.Wolf.Abundance.z-fawn     378
+Null.Wolf.Abundance.z-male     244
+Null.Wolf.Abundance.z-female   233
+
+Detection (logit scale): 
+                                 Mean     SD    2.5%     50%   97.5%   Rhat
+(Intercept)-fawn              -4.5354 0.5126 -5.5091 -4.5506 -3.5230 2.2651
+(Intercept)-male              -4.1547 0.5427 -5.1584 -4.1373 -3.1022 1.6729
+(Intercept)-female            -4.4007 0.4513 -4.9837 -4.5377 -3.5753 1.4860
+log_days_operational.z-fawn    0.2455 0.0757  0.0971  0.2467  0.3931 1.0010
+log_days_operational.z-male    0.2142 0.0227  0.1696  0.2144  0.2578 1.0059
+log_days_operational.z-female  0.2800 0.0251  0.2302  0.2799  0.3282 1.0019
+cattle_sightings.z-fawn        0.1923 0.0873  0.0201  0.1921  0.3582 1.0414
+cattle_sightings.z-male       -0.0253 0.0252 -0.0746 -0.0258  0.0228 1.0164
+cattle_sightings.z-female      0.0110 0.0293 -0.0454  0.0110  0.0669 1.0089
+                               ESS
+(Intercept)-fawn                13
+(Intercept)-male                 7
+(Intercept)-female               8
+log_days_operational.z-fawn   3649
+log_days_operational.z-male   2607
+log_days_operational.z-female 2656
+cattle_sightings.z-fawn        630
+cattle_sightings.z-male        409
+cattle_sightings.z-female      385
+
+----------------------------------------
+	NB overdispersion
+----------------------------------------
+               Mean     SD   2.5%    50%  97.5%   Rhat ESS
+kappa-fawn   2.3388 1.9120 0.5863 1.6166 7.9422 1.1427 139
+kappa-male   6.6555 2.1152 2.5380 6.8747 9.8095 1.0119 471
+kappa-female 3.5651 2.0283 1.3393 2.8674 9.0502 1.0513 173
+               Mean     SD   2.5%    50%  97.5%   Rhat ESS
+kappa-fawn   2.3388 1.9120 0.5863 1.6166 7.9422 1.1427 139
+kappa-male   6.6555 2.1152 2.5380 6.8747 9.8095 1.0119 471
+kappa-female 3.5651 2.0283 1.3393 2.8674 9.0502 1.0513 173

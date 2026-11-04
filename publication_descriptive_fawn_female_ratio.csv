@@ -1,0 +1,4 @@
+"analysis_population","fawn_count","adult_female_count","status","fawn_per_adult_female","fawns_per_100_adult_females"
+"Final 60 x 7 count histories",199,1951,"AUTHORITATIVE descriptive composition index and beta-binomial counts",0.101998974884675,10.1998974884675
+"All prepared 30-min independent events",199,1951,"Source-event sensitivity; includes events outside documented active rounds",0.101998974884675,10.1998974884675
+"Diel events within date-resolved active camera-rounds",199,1951,"Diel-population sensitivity; excludes events not mapped to date-resolved active rounds",0.101998974884675,10.1998974884675

@@ -1,0 +1,2 @@
+convergence,maximum_absolute_gradient,minimum_hessian_eigenvalue,hessian_numerically_positive_semidefinite,coefficients,coefficient_rank,deviance_explained,pearson_dispersion
+Numerically converged,6.902114199884893e-5,-1.4057721931447557e-13,TRUE,3008,3008,0.5635732246648646,0.682957111564057

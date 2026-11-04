@@ -1,0 +1,85 @@
+specification,predator_effect,test_type,contrast,statistic,df_rank,raw_P,adjusted_P
+Primary apparent solar,Wolf x time,Omnibus,All demographic classes,3.7945232278809464,20,0.9999699191807814,0.9999699191807814
+Primary apparent solar,Jackal x time,Omnibus,All demographic classes,7.338436341176357e-5,20,0.9999999999999999,0.9999999999999999
+Primary apparent solar,Wolf x jackal x time,Omnibus,All demographic classes,8.147355148338516,20,0.9908471412599197,0.9908471412599197
+Primary apparent solar,Wolf x time,Pairwise,Juvenile - Adult female,2.7263590945438185,10,0.9871508559509063,1
+Primary apparent solar,Wolf x time,Pairwise,Juvenile - Adult male,1.164271438675756,10,0.9996558353115841,1
+Primary apparent solar,Wolf x time,Pairwise,Adult female - Adult male,2.631897034894617,10,0.9888111080931042,1
+Primary apparent solar,Jackal x time,Pairwise,Juvenile - Adult female,5.4073734286353796e-5,10,0.9999999999999999,1
+Primary apparent solar,Jackal x time,Pairwise,Juvenile - Adult male,2.9385198995815178e-5,10,0.9999999999999999,1
+Primary apparent solar,Jackal x time,Pairwise,Adult female - Adult male,4.397228061965819e-5,10,1,1
+Primary apparent solar,Wolf x jackal x time,Pairwise,Juvenile - Adult female,6.505795855552117,10,0.7711309228484238,1
+Primary apparent solar,Wolf x jackal x time,Pairwise,Juvenile - Adult male,4.792340304519982,10,0.9046110916728684,1
+Primary apparent solar,Wolf x jackal x time,Pairwise,Adult female - Adult male,1.75224644632686,10,0.9979105199607772,1
+k = 8,Wolf x time,Omnibus,All demographic classes,3.741783305721584,12,0.9876580013039156,0.9876580013039156
+k = 8,Wolf x time,Pairwise,Juvenile - Adult female,2.7501834819116926,6,0.839484542759461,1
+k = 8,Wolf x time,Pairwise,Juvenile - Adult male,1.2178195883344247,6,0.9759954008796152,1
+k = 8,Wolf x time,Pairwise,Adult female - Adult male,2.5258580375148014,6,0.8655625884983631,1
+k = 8,Jackal x time,Omnibus,All demographic classes,6.841681122896866e-5,12,1,1
+k = 8,Jackal x time,Pairwise,Juvenile - Adult female,4.9872449692954145e-5,6,0.9999999999999974,1
+k = 8,Jackal x time,Pairwise,Juvenile - Adult male,2.839311794525177e-5,6,0.9999999999999996,1
+k = 8,Jackal x time,Pairwise,Adult female - Adult male,3.995199081228674e-5,6,0.9999999999999988,1
+k = 8,Wolf x jackal x time,Omnibus,All demographic classes,7.969036852832305,12,0.7875453489305653,0.7875453489305653
+k = 8,Wolf x jackal x time,Pairwise,Juvenile - Adult female,6.650978723065489,6,0.35433318270120434,1
+k = 8,Wolf x jackal x time,Pairwise,Juvenile - Adult male,4.823931509600821,6,0.5665856224294968,1
+k = 8,Wolf x jackal x time,Pairwise,Adult female - Adult male,1.3536766349088498,6,0.9686155864452316,1
+k = 16,Wolf x time,Omnibus,All demographic classes,3.962364507965157,28,0.9999999738764952,0.9999999738764952
+k = 16,Wolf x time,Pairwise,Juvenile - Adult female,2.8420408707494436,14,0.9993215738142992,1
+k = 16,Wolf x time,Pairwise,Juvenile - Adult male,1.1564717170255985,14,0.999997408930872,1
+k = 16,Wolf x time,Pairwise,Adult female - Adult male,2.807617957137949,14,0.99936780074255,1
+k = 16,Jackal x time,Omnibus,All demographic classes,6.292367288609055e-5,28,1,1
+k = 16,Jackal x time,Pairwise,Juvenile - Adult female,4.3863011561745535e-5,14,1,1
+k = 16,Jackal x time,Pairwise,Juvenile - Adult male,3.000902888160219e-5,14,1,1
+k = 16,Jackal x time,Pairwise,Adult female - Adult male,3.390077857385003e-5,14,1,1
+k = 16,Wolf x jackal x time,Omnibus,All demographic classes,8.023232589182662,28,0.999921348477995,0.999921348477995
+k = 16,Wolf x jackal x time,Pairwise,Juvenile - Adult female,6.453567366632657,14,0.9537336327987808,1
+k = 16,Wolf x jackal x time,Pairwise,Juvenile - Adult male,4.784698914882848,14,0.9885890789833706,1
+k = 16,Wolf x jackal x time,Pairwise,Adult female - Adult male,1.7254541251006104,14,0.9999666656205533,1
+Sun time,Wolf x time,Omnibus,All demographic classes,5.228733184942728,20,0.9996080972687192,0.9996080972687192
+Sun time,Wolf x time,Pairwise,Juvenile - Adult female,3.9860003823042582,10,0.9479763197184364,1
+Sun time,Wolf x time,Pairwise,Juvenile - Adult male,0.76947639723577,10,0.999948942979596,1
+Sun time,Wolf x time,Pairwise,Adult female - Adult male,4.460872637710596,10,0.9241710612161562,1
+Sun time,Jackal x time,Omnibus,All demographic classes,6.01869391647861e-5,20,1,1
+Sun time,Jackal x time,Pairwise,Juvenile - Adult female,4.550027441253671e-5,10,1,1
+Sun time,Jackal x time,Pairwise,Juvenile - Adult male,1.911774905481568e-5,10,1,1
+Sun time,Jackal x time,Pairwise,Adult female - Adult male,3.949929156155919e-5,10,1,1
+Sun time,Wolf x jackal x time,Omnibus,All demographic classes,5.996261780696406,20,0.9989025499822592,0.9989025499822592
+Sun time,Wolf x jackal x time,Pairwise,Juvenile - Adult female,5.219960556415902,10,0.8760082741076924,1
+Sun time,Wolf x jackal x time,Pairwise,Juvenile - Adult male,3.9587133478846073,10,0.9491902726887342,1
+Sun time,Wolf x jackal x time,Pairwise,Adult female - Adult male,0.7803122570819265,10,0.9999454896506909,1
+Alternate camera-only hierarchy,Wolf x time,Omnibus,All demographic classes,24.22309172734012,20,0.23278288193147695,0.23278288193147695
+Alternate camera-only hierarchy,Wolf x time,Pairwise,Juvenile - Adult female,5.366321734537912,10,0.8654035937096038,1
+Alternate camera-only hierarchy,Wolf x time,Pairwise,Juvenile - Adult male,1.1779724460892778,10,0.9996371494631384,1
+Alternate camera-only hierarchy,Wolf x time,Pairwise,Adult female - Adult male,22.750564534367427,10,0.01170568923771776,0.0351170677131533
+Alternate camera-only hierarchy,Jackal x time,Omnibus,All demographic classes,27.33978363720345,20,0.12597224260938605,0.12597224260938605
+Alternate camera-only hierarchy,Jackal x time,Pairwise,Juvenile - Adult female,25.784119070261596,10,0.00404164319942942,0.01212492959828827
+Alternate camera-only hierarchy,Jackal x time,Pairwise,Juvenile - Adult male,1.5706111595601104,10,0.9986981025067824,0.9986981025067824
+Alternate camera-only hierarchy,Jackal x time,Pairwise,Adult female - Adult male,12.52786723129271,10,0.2512794690297208,0.5025589380594416
+Alternate camera-only hierarchy,Wolf x jackal x time,Omnibus,All demographic classes,18.990394919855603,20,0.5224504433168106,0.5224504433168106
+Alternate camera-only hierarchy,Wolf x jackal x time,Pairwise,Juvenile - Adult female,2.636437724628611,10,0.9887348418997504,1
+Alternate camera-only hierarchy,Wolf x jackal x time,Pairwise,Juvenile - Adult male,5.821117229049617,10,0.8300615404004922,1
+Alternate camera-only hierarchy,Wolf x jackal x time,Pairwise,Adult female - Adult male,14.473917238582066,10,0.15245122139693865,0.4573536641908159
+Independent 30-min histories,Wolf x time,Omnibus,All demographic classes,3.369813041247667,20,0.9999888996236204,0.9999888996236204
+Independent 30-min histories,Wolf x time,Pairwise,Juvenile - Adult female,2.5605492014637545,10,0.9899636853125704,1
+Independent 30-min histories,Wolf x time,Pairwise,Juvenile - Adult male,0.8996423991921707,10,0.9998942898870272,1
+Independent 30-min histories,Wolf x time,Pairwise,Adult female - Adult male,2.471216504133994,10,0.9912885579727287,1
+Independent 30-min histories,Jackal x time,Omnibus,All demographic classes,3.729932373642303e-5,20,1,1
+Independent 30-min histories,Jackal x time,Pairwise,Juvenile - Adult female,2.5206277818527775e-5,10,1,1
+Independent 30-min histories,Jackal x time,Pairwise,Juvenile - Adult male,1.904123182378083e-5,10,1,1
+Independent 30-min histories,Jackal x time,Pairwise,Adult female - Adult male,1.903168852326739e-5,10,1,1
+Independent 30-min histories,Wolf x jackal x time,Omnibus,All demographic classes,8.686739129681714,20,0.9862597091160852,0.9862597091160852
+Independent 30-min histories,Wolf x jackal x time,Pairwise,Juvenile - Adult female,6.149101632240546,10,0.8025846123219083,1
+Independent 30-min histories,Wolf x jackal x time,Pairwise,Juvenile - Adult male,4.515089719294876,10,0.921134207492309,1
+Independent 30-min histories,Wolf x jackal x time,Pairwise,Adult female - Adult male,2.62545448333746,10,0.9889187138296054,1
+Sun time + camera-only hierarchy,Wolf x time,Omnibus,All demographic classes,31.102292346896043,20,0.05385443075356794,0.05385443075356794
+Sun time + camera-only hierarchy,Wolf x time,Pairwise,Juvenile - Adult female,8.855949691717123,10,0.5458269810359452,1
+Sun time + camera-only hierarchy,Wolf x time,Pairwise,Juvenile - Adult male,0.8504989163462441,10,0.9999185422322014,1
+Sun time + camera-only hierarchy,Wolf x time,Pairwise,Adult female - Adult male,30.28248147764018,10,7.700698170154626e-4,0.00231020945104638
+Sun time + camera-only hierarchy,Jackal x time,Omnibus,All demographic classes,35.525612601458526,20,0.01747705346080277,0.01747705346080277
+Sun time + camera-only hierarchy,Jackal x time,Pairwise,Juvenile - Adult female,32.25606535868246,10,3.629252355475864e-4,0.00108877570664275
+Sun time + camera-only hierarchy,Jackal x time,Pairwise,Juvenile - Adult male,3.2905782780487063,10,0.9737354966813734,0.9737354966813734
+Sun time + camera-only hierarchy,Jackal x time,Pairwise,Adult female - Adult male,17.522178951658297,10,0.06357894080296261,0.12715788160592523
+Sun time + camera-only hierarchy,Wolf x jackal x time,Omnibus,All demographic classes,27.477354340696643,20,0.1223602149017601,0.1223602149017601
+Sun time + camera-only hierarchy,Wolf x jackal x time,Pairwise,Juvenile - Adult female,1.902637233542793,10,0.997033343925562,1
+Sun time + camera-only hierarchy,Wolf x jackal x time,Pairwise,Juvenile - Adult male,5.355560384242769,10,0.8661967448508074,1
+Sun time + camera-only hierarchy,Wolf x jackal x time,Pairwise,Adult female - Adult male,22.22020679782196,10,0.01402125560539804,0.04206376681619414

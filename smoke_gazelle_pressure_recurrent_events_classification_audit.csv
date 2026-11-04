@@ -1,0 +1,18 @@
+source_label,stage,n
+Sus scrofa,Raw target rows,33835
+Vehicle civilian,Raw target rows,26489
+Gazella gazella,Raw target rows,43433
+Canis aureus,Raw target rows,65030
+Canis lupus,Raw target rows,5653
+Vehicle military,Raw target rows,6458
+Homo sapiens-solider,Raw target rows,1624
+Homo sapiens,Raw target rows,5327
+Vehicle construction,Raw target rows,2464
+Bicycle Rider,Raw target rows,1424
+Boar,Valid formal-survey rows,28812
+Human,Valid formal-survey rows,43287
+Male,Valid formal-survey rows,17178
+Jackal,Valid formal-survey rows,60688
+Fawn,Valid formal-survey rows,1873
+Female,Valid formal-survey rows,21936
+Wolf,Valid formal-survey rows,5548

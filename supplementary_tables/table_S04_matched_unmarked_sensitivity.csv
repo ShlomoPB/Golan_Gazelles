@@ -1,0 +1,10 @@
+demographic_class,term,estimate,SE,lower_95_CI,upper_95_CI,z,P,direction,support,source
+Juvenile,Wolf activity,0.265344223552755,0.224592648915729,-0.174849279514523,0.705537726620034,1.18144660937819,0.237425351389358,Positive,95% CI includes zero,publication_unmarked_sensitivity_coefficients.csv
+Juvenile,Jackal activity,-0.742420133222124,0.293880758749788,-1.31841583612101,-0.166424430323235,-2.52626315646009,0.0115283091237124,Negative,95% CI excludes zero,publication_unmarked_sensitivity_coefficients.csv
+Juvenile,Wolf × jackal,0.485235524412549,0.288201645951633,-0.079629321937816,1.05010037076291,1.6836667355258,0.0922460934723875,Positive,95% CI includes zero,publication_unmarked_sensitivity_coefficients.csv
+Adult female,Wolf activity,0.354696805215814,0.160463562667006,0.0401940015574957,0.669199608874133,2.21045076726783,0.0270738937763784,Positive,95% CI excludes zero,publication_unmarked_sensitivity_coefficients.csv
+Adult female,Jackal activity,-0.546523733225364,0.171691027324571,-0.883031963250205,-0.210015503200522,-3.18318168247776,0.00145666181330393,Negative,95% CI excludes zero,publication_unmarked_sensitivity_coefficients.csv
+Adult female,Wolf × jackal,0.444205165230946,0.186117594401754,0.0794213833142746,0.808988947147618,2.38669088034785,0.0170007792981599,Positive,95% CI excludes zero,publication_unmarked_sensitivity_coefficients.csv
+Adult male,Wolf activity,0.31849852193319,0.137889555126095,0.0482399600417938,0.588757083824585,2.30980890207337,0.0208987362395065,Positive,95% CI excludes zero,publication_unmarked_sensitivity_coefficients.csv
+Adult male,Jackal activity,-0.541790483775002,0.144677346611599,-0.825352872512554,-0.25822809503745,-3.74481905055595,1.80523837310951e-4,Negative,95% CI excludes zero,publication_unmarked_sensitivity_coefficients.csv
+Adult male,Wolf × jackal,0.422511448915224,0.155285981436482,0.118156517995763,0.726866379834684,2.72086021549889,0.00651122884728633,Positive,95% CI excludes zero,publication_unmarked_sensitivity_coefficients.csv

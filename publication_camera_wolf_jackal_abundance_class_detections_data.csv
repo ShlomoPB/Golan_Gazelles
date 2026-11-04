@@ -1,0 +1,181 @@
+camera_id,polygon,gazelle_class,independent_detections,jackal_abundance_bup,wolf_abundance_bup,predator_context
+1,Keshet Yonatan,Adult female,30,194.9591943,23.76511364,High both
+1,Keshet Yonatan,Adult male,154,194.9591943,23.76511364,High both
+1,Keshet Yonatan,Juvenile,11,194.9591943,23.76511364,High both
+2,Keshet Yonatan,Adult female,0,149.7826549,21.38927184,High jackal / Low wolf
+2,Keshet Yonatan,Adult male,0,149.7826549,21.38927184,High jackal / Low wolf
+2,Keshet Yonatan,Juvenile,0,149.7826549,21.38927184,High jackal / Low wolf
+3,Keshet Yonatan,Adult female,13,149.9296922,11.43469261,High jackal / Low wolf
+3,Keshet Yonatan,Adult male,32,149.9296922,11.43469261,High jackal / Low wolf
+3,Keshet Yonatan,Juvenile,1,149.9296922,11.43469261,High jackal / Low wolf
+4,Keshet Yonatan,Adult female,23,132.6695143,13.09873526,Low both
+4,Keshet Yonatan,Adult male,54,132.6695143,13.09873526,Low both
+4,Keshet Yonatan,Juvenile,18,132.6695143,13.09873526,Low both
+5,Keshet Yonatan,Adult female,5,221.5463929,17.3947505,High jackal / Low wolf
+5,Keshet Yonatan,Adult male,28,221.5463929,17.3947505,High jackal / Low wolf
+5,Keshet Yonatan,Juvenile,2,221.5463929,17.3947505,High jackal / Low wolf
+6,Yehudiya,Adult female,22,71.58926226,30.48753734,Low jackal / High wolf
+6,Yehudiya,Adult male,125,71.58926226,30.48753734,Low jackal / High wolf
+6,Yehudiya,Juvenile,24,71.58926226,30.48753734,Low jackal / High wolf
+7,Yehudiya,Adult female,255,120.1191666,33.94129555,Low jackal / High wolf
+7,Yehudiya,Adult male,58,120.1191666,33.94129555,Low jackal / High wolf
+7,Yehudiya,Juvenile,18,120.1191666,33.94129555,Low jackal / High wolf
+8,Yehudiya,Adult female,20,63.01406069,34.72403358,Low jackal / High wolf
+8,Yehudiya,Adult male,131,63.01406069,34.72403358,Low jackal / High wolf
+8,Yehudiya,Juvenile,5,63.01406069,34.72403358,Low jackal / High wolf
+9,Yehudiya,Adult female,98,139.9233728,21.25966486,Low both
+9,Yehudiya,Adult male,188,139.9233728,21.25966486,Low both
+9,Yehudiya,Juvenile,8,139.9233728,21.25966486,Low both
+10,Yehudiya,Adult female,57,75.24161999,33.74985455,Low jackal / High wolf
+10,Yehudiya,Adult male,66,75.24161999,33.74985455,Low jackal / High wolf
+10,Yehudiya,Juvenile,2,75.24161999,33.74985455,Low jackal / High wolf
+11,Saki,Adult female,5,199.4099288,18.84095029,High jackal / Low wolf
+11,Saki,Adult male,20,199.4099288,18.84095029,High jackal / Low wolf
+11,Saki,Juvenile,0,199.4099288,18.84095029,High jackal / Low wolf
+12,Saki,Adult female,0,298.7187141,18.08620706,High jackal / Low wolf
+12,Saki,Adult male,0,298.7187141,18.08620706,High jackal / Low wolf
+12,Saki,Juvenile,0,298.7187141,18.08620706,High jackal / Low wolf
+13,Saki,Adult female,1,135.9350737,25.95275831,Low jackal / High wolf
+13,Saki,Adult male,6,135.9350737,25.95275831,Low jackal / High wolf
+13,Saki,Juvenile,0,135.9350737,25.95275831,Low jackal / High wolf
+14,Saki,Adult female,0,270.2876537,15.97161968,High jackal / Low wolf
+14,Saki,Adult male,5,270.2876537,15.97161968,High jackal / Low wolf
+14,Saki,Juvenile,0,270.2876537,15.97161968,High jackal / Low wolf
+15,Saki,Adult female,1,180.7996946,17.90153264,High jackal / Low wolf
+15,Saki,Adult male,27,180.7996946,17.90153264,High jackal / Low wolf
+15,Saki,Juvenile,0,180.7996946,17.90153264,High jackal / Low wolf
+16,Shaal,Adult female,6,113.4973593,14.51129573,Low both
+16,Shaal,Adult male,10,113.4973593,14.51129573,Low both
+16,Shaal,Juvenile,1,113.4973593,14.51129573,Low both
+17,Shaal,Adult female,31,207.8968618,37.75576253,High both
+17,Shaal,Adult male,33,207.8968618,37.75576253,High both
+17,Shaal,Juvenile,1,207.8968618,37.75576253,High both
+18,Shaal,Adult female,31,152.7492107,24.29853039,High both
+18,Shaal,Adult male,7,152.7492107,24.29853039,High both
+18,Shaal,Juvenile,5,152.7492107,24.29853039,High both
+19,Shaal,Adult female,19,56.53020193,19.99988327,Low both
+19,Shaal,Adult male,50,56.53020193,19.99988327,Low both
+19,Shaal,Juvenile,1,56.53020193,19.99988327,Low both
+20,Shaal,Adult female,7,29.73059949,32.36352784,Low jackal / High wolf
+20,Shaal,Adult male,49,29.73059949,32.36352784,Low jackal / High wolf
+20,Shaal,Juvenile,5,29.73059949,32.36352784,Low jackal / High wolf
+21,Hazeka,Adult female,63,147.0530374,23.90261062,Low jackal / High wolf
+21,Hazeka,Adult male,43,147.0530374,23.90261062,Low jackal / High wolf
+21,Hazeka,Juvenile,10,147.0530374,23.90261062,Low jackal / High wolf
+22,Hazeka,Adult female,16,161.5331862,17.79284068,High jackal / Low wolf
+22,Hazeka,Adult male,12,161.5331862,17.79284068,High jackal / Low wolf
+22,Hazeka,Juvenile,0,161.5331862,17.79284068,High jackal / Low wolf
+23,Hazeka,Adult female,6,233.5914858,24.44160935,High both
+23,Hazeka,Adult male,17,233.5914858,24.44160935,High both
+23,Hazeka,Juvenile,0,233.5914858,24.44160935,High both
+24,Hazeka,Adult female,0,248.0627494,20.79630726,High jackal / Low wolf
+24,Hazeka,Adult male,5,248.0627494,20.79630726,High jackal / Low wolf
+24,Hazeka,Juvenile,0,248.0627494,20.79630726,High jackal / Low wolf
+25,Hazeka,Adult female,5,296.0453285,16.42525533,High jackal / Low wolf
+25,Hazeka,Adult male,6,296.0453285,16.42525533,High jackal / Low wolf
+25,Hazeka,Juvenile,0,296.0453285,16.42525533,High jackal / Low wolf
+26,Makhfi,Adult female,43,46.9489323,30.39961821,Low jackal / High wolf
+26,Makhfi,Adult male,65,46.9489323,30.39961821,Low jackal / High wolf
+26,Makhfi,Juvenile,4,46.9489323,30.39961821,Low jackal / High wolf
+27,Makhfi,Adult female,7,151.6205368,39.02973809,High both
+27,Makhfi,Adult male,57,151.6205368,39.02973809,High both
+27,Makhfi,Juvenile,0,151.6205368,39.02973809,High both
+28,Makhfi,Adult female,12,178.1591065,37.79402141,High both
+28,Makhfi,Adult male,32,178.1591065,37.79402141,High both
+28,Makhfi,Juvenile,1,178.1591065,37.79402141,High both
+29,Makhfi,Adult female,4,159.3991017,28.22157724,High both
+29,Makhfi,Adult male,27,159.3991017,28.22157724,High both
+29,Makhfi,Juvenile,0,159.3991017,28.22157724,High both
+30,Makhfi,Adult female,60,70.53264966,38.14221567,Low jackal / High wolf
+30,Makhfi,Adult male,70,70.53264966,38.14221567,Low jackal / High wolf
+30,Makhfi,Juvenile,0,70.53264966,38.14221567,Low jackal / High wolf
+31,Odem,Adult female,5,23.31206906,24.3221095,Low jackal / High wolf
+31,Odem,Adult male,17,23.31206906,24.3221095,Low jackal / High wolf
+31,Odem,Juvenile,0,23.31206906,24.3221095,Low jackal / High wolf
+32,Odem,Adult female,10,46.03096614,23.4880342,Low jackal / High wolf
+32,Odem,Adult male,25,46.03096614,23.4880342,Low jackal / High wolf
+32,Odem,Juvenile,2,46.03096614,23.4880342,Low jackal / High wolf
+33,Odem,Adult female,24,212.7037792,35.03398555,High both
+33,Odem,Adult male,76,212.7037792,35.03398555,High both
+33,Odem,Juvenile,7,212.7037792,35.03398555,High both
+34,Odem,Adult female,26,203.3241185,31.75098158,High both
+34,Odem,Adult male,27,203.3241185,31.75098158,High both
+34,Odem,Juvenile,4,203.3241185,31.75098158,High both
+35,Odem,Adult female,1,216.5412389,25.23618094,High both
+35,Odem,Adult male,3,216.5412389,25.23618094,High both
+35,Odem,Juvenile,0,216.5412389,25.23618094,High both
+36,Masade,Adult female,0,149.1793308,23.58073334,High both
+36,Masade,Adult male,0,149.1793308,23.58073334,High both
+36,Masade,Juvenile,0,149.1793308,23.58073334,High both
+37,Masade,Adult female,38,119.9383192,19.44044878,Low both
+37,Masade,Adult male,73,119.9383192,19.44044878,Low both
+37,Masade,Juvenile,10,119.9383192,19.44044878,Low both
+38,Masade,Adult female,60,63.15341804,15.69534197,Low both
+38,Masade,Adult male,99,63.15341804,15.69534197,Low both
+38,Masade,Juvenile,1,63.15341804,15.69534197,Low both
+39,Masade,Adult female,0,129.1420973,10.81707418,Low both
+39,Masade,Adult male,0,129.1420973,10.81707418,Low both
+39,Masade,Juvenile,0,129.1420973,10.81707418,Low both
+40,Masade,Adult female,67,70.94830757,17.64400319,Low both
+40,Masade,Adult male,51,70.94830757,17.64400319,Low both
+40,Masade,Juvenile,4,70.94830757,17.64400319,Low both
+41,Hermon,Adult female,1,145.6520996,20.7322888,Low both
+41,Hermon,Adult male,1,145.6520996,20.7322888,Low both
+41,Hermon,Juvenile,1,145.6520996,20.7322888,Low both
+42,Hermon,Adult female,0,293.2813542,12.89625818,High jackal / Low wolf
+42,Hermon,Adult male,0,293.2813542,12.89625818,High jackal / Low wolf
+42,Hermon,Juvenile,0,293.2813542,12.89625818,High jackal / Low wolf
+43,Hermon,Adult female,0,131.6850039,23.25036808,Low jackal / High wolf
+43,Hermon,Adult male,0,131.6850039,23.25036808,Low jackal / High wolf
+43,Hermon,Juvenile,0,131.6850039,23.25036808,Low jackal / High wolf
+44,Hermon,Adult female,0,202.0899328,10.81707418,High jackal / Low wolf
+44,Hermon,Adult male,0,202.0899328,10.81707418,High jackal / Low wolf
+44,Hermon,Juvenile,0,202.0899328,10.81707418,High jackal / Low wolf
+45,Hermon,Adult female,0,92.94830332,22.17267339,Low jackal / High wolf
+45,Hermon,Adult male,3,92.94830332,22.17267339,Low jackal / High wolf
+45,Hermon,Juvenile,0,92.94830332,22.17267339,Low jackal / High wolf
+46,Slopes (south),Adult female,29,128.905088,23.14857385,Low jackal / High wolf
+46,Slopes (south),Adult male,84,128.905088,23.14857385,Low jackal / High wolf
+46,Slopes (south),Juvenile,0,128.905088,23.14857385,Low jackal / High wolf
+47,Slopes (south),Adult female,24,135.3737289,19.23231178,Low both
+47,Slopes (south),Adult male,77,135.3737289,19.23231178,Low both
+47,Slopes (south),Juvenile,3,135.3737289,19.23231178,Low both
+48,Slopes (south),Adult female,63,91.87288254,22.06226816,Low both
+48,Slopes (south),Adult male,60,91.87288254,22.06226816,Low both
+48,Slopes (south),Juvenile,6,91.87288254,22.06226816,Low both
+49,Slopes (south),Adult female,91,112.3041251,18.9195461,Low both
+49,Slopes (south),Adult male,55,112.3041251,18.9195461,Low both
+49,Slopes (south),Juvenile,11,112.3041251,18.9195461,Low both
+50,Slopes (south),Adult female,22,69.24369309,19.5304724,Low both
+50,Slopes (south),Adult male,28,69.24369309,19.5304724,Low both
+50,Slopes (south),Juvenile,0,69.24369309,19.5304724,Low both
+51,Firing Zones,Adult female,13,195.1749594,20.119221370000002,High jackal / Low wolf
+51,Firing Zones,Adult male,10,195.1749594,20.119221370000002,High jackal / Low wolf
+51,Firing Zones,Juvenile,0,195.1749594,20.119221370000002,High jackal / Low wolf
+52,Firing Zones,Adult female,8,80.43393937,22.34890051,Low jackal / High wolf
+52,Firing Zones,Adult male,16,80.43393937,22.34890051,Low jackal / High wolf
+52,Firing Zones,Juvenile,0,80.43393937,22.34890051,Low jackal / High wolf
+53,Firing Zones,Adult female,20,186.4919949,29.23631888,High both
+53,Firing Zones,Adult male,24,186.4919949,29.23631888,High both
+53,Firing Zones,Juvenile,0,186.4919949,29.23631888,High both
+54,Firing Zones,Adult female,3,216.2325823,21.02216626,High jackal / Low wolf
+54,Firing Zones,Adult male,5,216.2325823,21.02216626,High jackal / Low wolf
+54,Firing Zones,Juvenile,0,216.2325823,21.02216626,High jackal / Low wolf
+55,Firing Zones,Adult female,56,193.3320326,23.56102994,High both
+55,Firing Zones,Adult male,43,193.3320326,23.56102994,High both
+55,Firing Zones,Juvenile,6,193.3320326,23.56102994,High both
+56,Snir,Adult female,7,148.5413441,21.43183632,High jackal / Low wolf
+56,Snir,Adult male,13,148.5413441,21.43183632,High jackal / Low wolf
+56,Snir,Juvenile,0,148.5413441,21.43183632,High jackal / Low wolf
+57,Snir,Adult female,19,100.9021464,0.007725168,Low both
+57,Snir,Adult male,45,100.9021464,0.007725168,Low both
+57,Snir,Juvenile,3,100.9021464,0.007725168,Low both
+58,Snir,Adult female,21,141.7366111,39.76442002,Low jackal / High wolf
+58,Snir,Adult male,12,141.7366111,39.76442002,Low jackal / High wolf
+58,Snir,Juvenile,2,141.7366111,39.76442002,Low jackal / High wolf
+59,Snir,Adult female,28,169.9025264,25.4314045,High both
+59,Snir,Adult male,44,169.9025264,25.4314045,High both
+59,Snir,Juvenile,3,169.9025264,25.4314045,High both
+60,Snir,Adult female,1,240.1189089,13.6695192,High jackal / Low wolf
+60,Snir,Adult male,0,240.1189089,13.6695192,High jackal / Low wolf
+60,Snir,Juvenile,0,240.1189089,13.6695192,High jackal / Low wolf

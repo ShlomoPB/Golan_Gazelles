@@ -1,0 +1,2 @@
+specification,time_scale,history_type,k,hierarchy,EDF,reference_df,statistic,raw_P,warnings,maximum_absolute_gradient,minimum_hessian_eigenvalue
+k = 16,Apparent solar time,Raw sightings,16,full,1.5797297493408913,42,6.0597975462235905,0.00612191959321684,None,7.741669029853196e-5,-1.729146890852815e-13

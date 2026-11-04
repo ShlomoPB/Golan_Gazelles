@@ -1,0 +1,9 @@
+model,group,variance,standard_deviation
+primary,polygon,0.04045306075382418,0.20112946266975454
+primary,camera_factor,0.47295675957779676,0.6877185176929561
+primary,encounter_factor,1.1525877524699395,1.0735863973010926
+candidate_full_with_encounter,polygon,0.04045306075382418,0.20112946266975454
+candidate_full_with_encounter,camera_factor,0.47295675957779676,0.6877185176929561
+candidate_full_with_encounter,encounter_factor,1.1525877524699395,1.0735863973010926
+candidate_full_without_encounter,polygon,0.02999322399622267,0.17318551901421397
+candidate_full_without_encounter,camera_factor,0.3289132883413708,0.5735096235821774

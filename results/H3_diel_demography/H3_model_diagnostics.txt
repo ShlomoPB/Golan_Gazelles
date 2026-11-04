@@ -1,0 +1,102 @@
+Revised H3 model diagnostics
+============================
+
+Primary formula: daylight ~ class * wolf_z * jackal_z + human_z + period + (1 |      polygon) + (1 | camera_factor) + (1 | encounter_factor)
+Primary interaction structure: full_three_way
+Encounter random effect retained: TRUE
+Encounter variance in full candidate: 1.15259
+
+Validation summary:
+# A tibble: 23 × 3
+   section  metric                        value                               
+   <chr>    <chr>                         <chr>                               
+ 1 sample   class_specific_event_rows     3925                                
+ 2 sample   underlying_30min_encounters   3507                                
+ 3 sample   multiclass_encounters         389                                 
+ 4 sample   rows_in_multiclass_encounters 807                                 
+ 5 sample   cameras_with_events           53                                  
+ 6 sample   study_cameras                 60                                  
+ 7 sample   polygons_with_events          12                                  
+ 8 sample   survey_rounds                 7                                   
+ 9 sample   survey_start                  2020-08-20                          
+10 sample   survey_end                    2020-12-15                          
+11 sample   early_late_split              2020-10-17                          
+12 predator wolf_raw_range                0.000194273 to 1                    
+13 predator wolf_raw_mean_sd              0.578505475116667, 0.201985902942223
+14 predator jackal_raw_range              0.078040203 to 1                    
+15 predator jackal_raw_mean_sd            0.50034658155, 0.226117972851584    
+16 predator wolf_jackal_pearson_r         -0.182689289473995                  
+17 predator wolf_jackal_pearson_p         0.162375593859676                   
+18 daylight Fawn_proportion               0.827777777777778                   
+19 daylight Female_proportion             0.611374407582938                   
+20 daylight Male_proportion               0.567901234567901                   
+21 class    Fawn_events                   180                                 
+22 class    Female_events                 1477                                
+23 class    Male_events                   2268                                
+
+Model diagnostics:
+# A tibble: 9 × 12
+  model     convergence pd_hessian max_abs_gradient max_abs_beta max_se singular
+  <chr>           <int> <lgl>                 <dbl>        <dbl>  <dbl> <lgl>   
+1 candidat…           0 TRUE               0.00102         1.69   0.505 FALSE   
+2 candidat…           0 TRUE               0.00135         1.54   0.441 FALSE   
+3 candidat…           0 TRUE               0.00207         1.76   0.379 FALSE   
+4 candidat…           0 TRUE               0.00125         1.60   0.331 FALSE   
+5 primary             0 TRUE               0.00102         1.69   0.505 FALSE   
+6 no_preda…           0 TRUE               0.000765        1.76   0.376 FALSE   
+7 continuo…           0 TRUE               0.00139         1.83   0.502 FALSE   
+8 no_human…           0 TRUE               0.000959        1.70   0.508 FALSE   
+9 beta_noc…           0 TRUE               0.0241          0.325  0.106 FALSE   
+# ℹ 5 more variables: pearson_dispersion <dbl>, min_fitted <dbl>,
+#   max_fitted <dbl>, AIC <dbl>, nobs <int>
+
+Random-effect variances:
+# A tibble: 8 × 4
+  model                            group            variance standard_deviation
+  <chr>                            <chr>               <dbl>              <dbl>
+1 primary                          polygon            0.0405              0.201
+2 primary                          camera_factor      0.473               0.688
+3 primary                          encounter_factor   1.15                1.07 
+4 candidate_full_with_encounter    polygon            0.0405              0.201
+5 candidate_full_with_encounter    camera_factor      0.473               0.688
+6 candidate_full_with_encounter    encounter_factor   1.15                1.07 
+7 candidate_full_without_encounter polygon            0.0300              0.173
+8 candidate_full_without_encounter camera_factor      0.329               0.574
+
+Joint predator-gradient coverage and separation screen:
+# A tibble: 27 × 8
+   class  wolf_band jackal_band events cameras daylight_events
+   <fct>  <fct>     <fct>        <int>   <int>           <int>
+ 1 Fawn   Low       Low             30       6              26
+ 2 Fawn   Low       Middle          22       3              17
+ 3 Fawn   Low       High             2       1               2
+ 4 Fawn   Middle    Low              9       3               8
+ 5 Fawn   Middle    Middle          24       4              20
+ 6 Fawn   Middle    High            17       2              13
+ 7 Fawn   High      Low             58       6              46
+ 8 Fawn   High      Middle           6       3               6
+ 9 Fawn   High      High            12       3              11
+10 Female Low       Low            281       6             163
+11 Female Low       Middle          76       4              54
+12 Female Low       High            17       5               9
+13 Female Middle    Low            122       5              84
+14 Female Middle    Middle         229       6             149
+15 Female Middle    High           102       4              66
+16 Female High      Low            469       8             243
+17 Female High      Middle          73       6              55
+18 Female High      High           108       6              80
+19 Male   Low       Low            333       6             154
+20 Male   Low       Middle         175       4             106
+21 Male   Low       High            86       5              39
+22 Male   Middle    Low            182       6              99
+23 Male   Middle    Middle         336       6             228
+24 Male   Middle    High           217       5             129
+25 Male   High      Low            581       8             311
+26 Male   High      Middle         178       6             116
+27 Male   High      High           180       6             106
+# ℹ 2 more variables: daylight_proportion <dbl>, all_same_response <lgl>
+
+R version: R version 4.5.3 (2026-03-11 ucrt)
+glmmTMB version: 1.1.13
+emmeans version: 1.11.2.8
+activity version: 1.3.4

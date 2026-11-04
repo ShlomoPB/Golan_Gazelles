@@ -1,0 +1,203 @@
+response_class,selected_model,selected_structure,hierarchy,term,EDF,reference_df,statistic,statistic_label,P,null_space_dimension,test_method
+Juvenile,E,wolf x jackal,camera_round,s(Time),6.181962979814203,10,81.76020836586598,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Juvenile,E,wolf x jackal,camera_round,s(Time):wolf_z,1.188304060606266,10,3.2540991056596535,Chi.sq,0.059142373923293357,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Juvenile,E,wolf x jackal,camera_round,s(Time):jackal_z,1.6102972395359735e-5,10,2.526457388590307e-6,Chi.sq,0.8998087153911289,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Juvenile,E,wolf x jackal,camera_round,s(Time):wolf_jackal,2.0672841448698502,10,21.061207159411858,Chi.sq,1.9378038258976993e-4,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Juvenile,E,wolf x jackal,camera_round,s(camera_round),53.37118168551917,334,171.1755413358328,Chi.sq,5.245564063727226e-5,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Juvenile,E,wolf x jackal,camera_round,s(camera_id),31.77366403532663,56,264.99289313943694,Chi.sq,1.9216501566776678e-5,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time),9.27255085898945,10,166.01660566086497,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):wolf_z,3.9162016457293882,10,8.58587132043492,Chi.sq,2.498789664027168e-4,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):jackal_z,4.169867030843642e-5,10,1.681063290161181e-5,Chi.sq,0.43243671904172243,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):wolf_jackal,5.067874925639418e-4,10,4.565943653898948e-4,Chi.sq,0.031308541595910566,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id1,2.6082110001359773,10,4.5502092155823615,Chi.sq,0.3355415625797238,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id2,0.32834803647999206,10,0.02662435971646325,Chi.sq,0.9742592894086985,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id3,1.703989502332889,10,12.883565404359672,Chi.sq,0.027708730446389884,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id4,2.180261137074063,10,9.2249291656066,Chi.sq,0.06215512239221699,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id5,1.116388971822162,10,13.22331168673241,Chi.sq,0.007268861099109625,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id6,2.102321845562943,10,23.96394274715599,Chi.sq,0.017067909707898177,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id7,4.380239070865186,10,47.536556145497514,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id8,2.1185885076946884,10,4.731498285218847,Chi.sq,0.22274757943786505,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id9,3.6851396016019313,10,15.858591177762694,Chi.sq,0.0031569190309215234,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id10,2.9844530657842654,10,6.920693585559335,Chi.sq,0.047152403111927255,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id11,1.3405625637209517,10,1.2329448340345714,Chi.sq,0.4422197554617504,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id12,0.22746867922927255,10,0.011773737376868418,Chi.sq,0.9896486802644827,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id13,0.7803655392091376,10,0.25654291399372775,Chi.sq,0.8091745531745747,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id14,0.25139496058553795,10,0.01484614454073155,Chi.sq,0.9862611818176962,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id15,0.6859311458336692,10,0.768817716227463,Chi.sq,0.34319444202833327,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id16,1.196538542094091,10,7.842493219313005,Chi.sq,0.06815986861071166,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id17,2.479092141811161,10,7.578984134804352,Chi.sq,0.006016023407368509,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id18,2.492499706381579,10,13.524638339339463,Chi.sq,0.1134890149364911,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id19,2.1856546028169626,10,6.718551932686367,Chi.sq,0.22388232205895298,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id20,1.4590861540267377,10,5.685109592583973,Chi.sq,0.1673533264568794,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id21,3.358622263373825,10,13.089324874332416,Chi.sq,9.939925546800232e-4,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id22,1.967604258042124,10,27.302715154586494,Chi.sq,0.0032141217464980443,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id23,1.5522767663900523,10,1.7211759250749896,Chi.sq,0.4021533908415197,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id24,0.38140070325182024,10,0.037510156938017826,Chi.sq,0.9634211432951432,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id25,1.0790161305917783,10,6.350921762596584,Chi.sq,0.051230377097740365,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id26,2.8392913540142413,10,41.563941368568535,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id27,1.3060400690407774,10,15.472744934423938,Chi.sq,0.005282369112668883,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id28,1.6113384293947872,10,21.292538924834673,Chi.sq,0.002756670125577232,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id29,1.2569363402817568,10,8.230010142083188,Chi.sq,0.08242523291278925,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id30,2.859350868063385,10,7.196724598549315,Chi.sq,0.021289896403071995,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id31,1.4752179167569117,10,2.293404782728276,Chi.sq,0.1868345153349079,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id32,1.8500744406350709,10,6.3277475307543805,Chi.sq,0.03900976297428793,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id33,2.2983276123235856,10,1.2691622870561172,Chi.sq,0.7439727640926046,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id34,2.1589288713320545,10,38.881244970178265,Chi.sq,0.0015592715782608568,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id35,0.7073851720808619,10,0.2140592749970999,Chi.sq,0.8257074827597175,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id36,0.5468284617244167,10,0.08855664571943238,Chi.sq,0.9184315647752858,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id37,2.4290704578125237,10,113.47646420639893,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id38,3.1573953102240786,10,42.15645566578657,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id39,0.4941720657025163,10,0.07345895005368686,Chi.sq,0.9273871886548366,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id40,3.2419192002573896,10,21.002353757676623,Chi.sq,9.511756379310121e-6,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id41,0.767381205012726,10,1.095787428299308,Chi.sq,0.22812077915833395,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id42,0.1455273765965983,10,0.004597355690186965,Chi.sq,0.9967987931311011,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id43,0.5615213617862191,10,0.09460321026695974,Chi.sq,0.913602856689785,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id44,0.3030484621916711,10,0.023369938197273957,Chi.sq,0.9764394000877141,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id45,0.5866472453620984,10,0.10576081362801582,Chi.sq,0.9048546947766241,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id46,2.409009870312088,10,17.978947502730634,Chi.sq,0.06765551602040165,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id47,1.7617733268063485,10,219.85365189303639,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id48,3.2152221985734593,10,3.435519519550217,Chi.sq,0.48312763566310135,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id49,3.24263864950915,10,47.62919925782912,Chi.sq,1.767883865633202e-5,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id50,2.099466158636977,10,35.96765051329166,Chi.sq,0.0072634459550844355,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id51,1.883647066132735,10,14.150018416789068,Chi.sq,0.09209388642777194,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id52,1.6751923846526666,10,1.268708678248579,Chi.sq,0.6529633707702234,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id53,2.2536984124291166,10,5.0146519857103495,Chi.sq,0.33152000575601104,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id54,0.9930181477763039,10,1.4691244552286788,Chi.sq,0.24994806632764122,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id55,2.863891336685575,10,95.1383455047743,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id56,1.3464353987947892,10,21.005385329508854,Chi.sq,0.01982476892026186,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id57,1.783619463914424,10,1.5488032669611596,Chi.sq,0.36831535424373285,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id58,2.228917162226505,10,4.8658070853744615,Chi.sq,0.045036855875865034,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id59,2.423591598255713,10,9.287353092655723,Chi.sq,0.19369900084119906,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(Time):camera_id60,0.4449575945938209,10,0.8225044186839938,Chi.sq,0.14311345502120099,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(camera_round),135.13452988738482,334,1082.1297561031881,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult female,E,wolf x jackal,site_shape,s(camera_id),44.676454642599666,56,2721.0163854993393,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time),9.53955525144687,10,181.89165304696857,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):wolf_z,4.322902421405338e-4,10,3.8150077098721635e-4,Chi.sq,0.03707859056682761,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):jackal_z,6.085430404554691e-5,10,2.1873859825632767e-5,Chi.sq,0.520588406650959,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):wolf_jackal,2.99143793781118,10,6.071954159091083,Chi.sq,4.98532688424369e-4,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id1,3.167706691211224,10,15.706133334620828,Chi.sq,0.007507660882180245,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id2,0.213615020286672,10,0.0074272000023732606,Chi.sq,0.9964395398195076,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id3,1.994355202723793,10,3.645616307048251,Chi.sq,0.1436368145813719,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id4,2.355987069109343,10,3.767183107835989,Chi.sq,0.33921353022898704,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id5,1.8006742979105272,10,53.08847322636934,Chi.sq,5.134273004525625e-7,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id6,2.9210959790218096,10,27.93524521329112,Chi.sq,7.403280173701177e-5,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id7,2.4289330348135456,10,4.022950826235329,Chi.sq,0.22896390493942687,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id8,2.890703670976712,10,1.8519864130639896,Chi.sq,0.5078412878695029,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id9,3.2644287689256526,10,70.53987747550177,Chi.sq,7.90454942833918e-7,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id10,2.4068138833497557,10,7.365128479929233,Chi.sq,0.0337729560502551,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id11,1.6975744076977262,10,24.98005612390252,Chi.sq,7.297463006793459e-4,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id12,0.16717050670232286,10,0.0031083433916582934,Chi.sq,0.999425505938454,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id13,0.9910945054675948,10,1.0388069405891216,Chi.sq,0.3572042826128784,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id14,0.7439795673681407,10,1.0966389667020173,Chi.sq,0.24639639752556242,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id15,1.864476714340329,10,1.0994964798610858,Chi.sq,0.712888905837681,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id16,1.2078244420538495,10,1.5178091293706262,Chi.sq,0.3904395924589481,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id17,1.940089608130025,10,2.8591800341284825,Chi.sq,0.14910825712463927,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id18,1.1136969288267329,10,1.1231869868959483,Chi.sq,0.49522070427360376,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id19,2.322931451139406,10,2.2076435600812556,Chi.sq,0.4727278368056793,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id20,2.0950736934434775,10,17.431250938823396,Chi.sq,7.515033500971047e-5,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id21,2.223301543480827,10,1.731778224556363,Chi.sq,0.7064922223167478,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id22,1.3214783807158834,10,8.288303514028557,Chi.sq,0.06458425652668442,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id23,1.4649462330881238,10,21.352408365633835,Chi.sq,0.013148281803931017,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id24,0.8248184457658879,10,0.3512493618628387,Chi.sq,0.7050493537728787,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id25,0.7917754924640777,10,2.614524386807041,Chi.sq,0.06027623482685007,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id26,2.4313347099072704,10,9.100415128913678,Chi.sq,0.0019750937002744884,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id27,2.3375743269604956,10,34.41912479299462,Chi.sq,0.0023875210637869237,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id28,1.9416062370020193,10,2.7932399611101384,Chi.sq,0.42642733344971584,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id29,1.8505937562372006,10,12.81335260210868,Chi.sq,0.0823803759270878,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id30,2.419986969745799,10,2.131506454429577,Chi.sq,0.28373909754750926,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id31,1.564884241074711,10,20.7198216654394,Chi.sq,2.70371837797323e-4,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id32,1.858671741619756,10,5.211555127521847,Chi.sq,0.09866622677816816,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id33,2.505179121562901,10,9.869869812495589,Chi.sq,0.0026596924240467334,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id34,1.6777742714737158,10,58.11219083415396,Chi.sq,9.93412279994832e-5,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id35,0.6696782862765597,10,0.17677416066538554,Chi.sq,0.8411295491505473,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id36,0.3487196794015462,10,0.02158407000428069,Chi.sq,0.9863571564821606,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id37,2.510467426189339,10,143.37939748497718,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id38,2.7688036413128763,10,7.560969655731376,Chi.sq,0.010117787186394,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id39,0.31881281152896906,10,0.020458629080020312,Chi.sq,0.9849117608111889,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id40,2.2987315116088105,10,5.180903195991118,Chi.sq,0.15324840911530013,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id41,0.4618714418409511,10,0.22937704719966445,Chi.sq,0.6484369432791053,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id42,0.12101493725257101,10,0.0013568029617205936,Chi.sq,0.9998892328777416,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id43,0.3580464168781975,10,0.02284128874448393,Chi.sq,0.9854703040142934,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id44,0.21355688175892495,10,0.005408834710940632,Chi.sq,0.9985675234276064,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id45,0.7134303354526188,10,0.27920811982392435,Chi.sq,0.7541835461315135,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id46,2.5882413419821537,10,44.651816850934054,Chi.sq,9.77156678761304e-4,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id47,2.5315620051843757,10,78.6234160607017,Chi.sq,1.4658515444132547e-5,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id48,2.448748627900762,10,8.563297468722613,Chi.sq,0.06690897660985684,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id49,2.2122436886476997,10,105.2596010926574,Chi.sq,9.966006127903881e-6,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id50,1.712423387963809,10,70.99179804523341,Chi.sq,1.3702525745218352e-4,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id51,1.1603767102540545,10,5.446445054363101,Chi.sq,0.08736634591569681,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id52,1.6061194650927157,10,2.642919287066717,Chi.sq,0.3447633439128448,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id53,1.722453572361251,10,17.669085896182864,Chi.sq,0.03216022713894018,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id54,0.7996451431742921,10,1.228828578588075,Chi.sq,0.2265217478526429,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id55,2.118827320093566,10,53.73283646865206,Chi.sq,5.889991236953662e-4,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id56,1.3773016534488045,10,7.867747799165095,Chi.sq,0.08274239659528337,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id57,2.062219463684968,10,3.1275540357272833,Chi.sq,0.09622275873438813,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id58,1.4125737334149826,10,0.765587461762943,Chi.sq,0.7404335287337069,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id59,2.102561989574879,10,26.686087127977444,Chi.sq,0.017740951665048743,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(Time):camera_id60,0.165430765254584,10,0.0029240237162077394,Chi.sq,0.9995115986644802,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(camera_round),155.40431307725862,334,1527.999690662322,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Adult male,E,wolf x jackal,site_shape,s(camera_id),47.915805230989086,56,3274.719868897561,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time),9.6762175077741,10,282.24321371271566,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):wolf_z,3.8696427845902086,10,8.040122584929934,Chi.sq,1.7252200477135826e-4,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id1,3.7970141470568826,10,9.940985223692206,Chi.sq,0.03913742904738782,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id2,0.265612599588837,10,0.005752583841303872,Chi.sq,0.9991524660093896,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id3,2.4075464655176075,10,3.554354646914283,Chi.sq,0.23232123713184838,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id4,2.8301625490347035,10,5.069214467830841,Chi.sq,0.1296088708651406,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id5,2.209959490777406,10,92.73666639099149,Chi.sq,-8.817919194825663e-8,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id6,3.458712181798725,10,31.80213538671228,Chi.sq,6.577570526311582e-5,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id7,4.08686904001406,10,55.35009668142528,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id8,3.5403189198283753,10,3.765048620348646,Chi.sq,0.26877224332784855,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id9,4.0634640004895335,10,38.32965430167652,Chi.sq,-8.552031471875665e-7,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id10,3.2423146267583207,10,15.491522664698662,Chi.sq,3.919472762452525e-4,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id11,2.0916699099539553,10,58.4250196991123,Chi.sq,7.75348592738645e-5,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id12,0.35737470914261316,10,0.009977055446160238,Chi.sq,0.9983240394020453,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id13,1.2618343845272282,10,1.5716797826882631,Chi.sq,0.34671371918778116,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id14,1.1379549453856463,10,3.5562255232542546,Chi.sq,0.0728225363267847,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id15,2.186436308312655,10,2.9571498265318663,Chi.sq,0.39697577616155877,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id16,1.6133697365258601,10,11.868438685356713,Chi.sq,0.039536256524885016,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id17,2.694690380093957,10,5.206520633557365,Chi.sq,0.05329492706336114,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id18,2.4271556440888116,10,38.98595098903812,Chi.sq,0.006218784711673031,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id19,2.9355546111590076,10,5.592549344771014,Chi.sq,0.18102116057388218,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id20,2.5800460214106966,10,25.415042093870806,Chi.sq,0.0015239300574639847,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id21,3.3880611677410983,10,2.359088751411907,Chi.sq,0.6617500814850648,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id22,1.9801310206460032,10,38.651097966190946,Chi.sq,0.0018693754715756183,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id23,1.9713559641291645,10,8.006022733023457,Chi.sq,0.19802810916191982,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id24,1.0828824195311821,10,0.4970469723725122,Chi.sq,0.6847700547426194,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id25,1.50070503203266,10,10.884653303854252,Chi.sq,0.044727967639878075,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id26,3.183230769202233,10,56.19108089933542,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id27,2.5620570077604774,10,14.161566892004087,Chi.sq,4.4773052051616524e-4,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id28,2.2958168171693596,10,6.1574950899789345,Chi.sq,0.09134453797291697,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id29,2.217471013043687,10,29.743363558619514,Chi.sq,0.012763288952907792,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id30,3.32222997710799,10,4.023675874795691,Chi.sq,0.14900353178602166,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id31,1.877960482061771,10,51.56087041344954,Chi.sq,9.141864433226399e-5,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id32,2.365316046942198,10,15.74909074710519,Chi.sq,0.005773854163579006,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id33,3.095060358419284,10,8.938866906524245,Chi.sq,0.009350466578815442,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id34,2.3778973825372396,10,86.95947226351187,Chi.sq,6.723218025639355e-7,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id35,1.0911348826587841,10,0.23440371996765216,Chi.sq,0.9001285904450388,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id36,0.3975405398155748,10,0.014878616040491002,Chi.sq,0.9962567595852567,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id37,3.1677096927674833,10,128.53741832508763,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id38,3.5470054034366623,10,14.959487675610925,Chi.sq,1.0199667564758652e-4,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id39,0.3241913347813913,10,0.006381803999552165,Chi.sq,0.9994186485125013,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id40,3.2750958371661367,10,39.53086111154498,Chi.sq,-4.253936012332815e-7,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id41,0.7131216135087108,10,0.870836267523437,Chi.sq,0.3019190566920321,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id42,0.3350317710394096,10,0.007348602127380757,Chi.sq,0.9991866823899309,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id43,0.3937021188818356,10,0.01442004256800545,Chi.sq,0.9964605351745487,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id44,0.32299670822424625,10,0.006330219041629851,Chi.sq,0.9994261204322294,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id45,0.8281999909028924,10,0.43825397475156286,Chi.sq,0.676787008535334,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id46,3.149154448843524,10,44.17499415573905,Chi.sq,2.4079767348661463e-4,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id47,2.958465009385634,10,91.62689013421604,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id48,3.289706250836274,10,4.507220666770322,Chi.sq,0.33048451755465735,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id49,3.216056380801196,10,111.38805894435237,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id50,2.259052498742607,10,145.9128157191396,Chi.sq,6.677208830296877e-7,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id51,1.8925220691105529,10,8.740172494695413,Chi.sq,0.14538076105889752,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id52,2.0840212201666026,10,5.774484651968985,Chi.sq,0.21100053671677232,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id53,2.397772402543901,10,15.586818868521844,Chi.sq,0.05294426033827315,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id54,1.2946160176055779,10,4.540889744699236,Chi.sq,0.06785488552604124,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id55,2.915106060488569,10,131.87680727784084,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id56,1.7819728421221692,10,42.28358568965734,Chi.sq,0.005347869551444395,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id57,2.5195071193101506,10,2.4436976633753114,Chi.sq,0.1646824927127324,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id58,2.2515798835016843,10,3.2338602249648627,Chi.sq,0.18809604570186567,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id59,2.796281970184937,10,21.946648096847202,Chi.sq,0.02205227548816613,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(Time):camera_id60,0.6487822278233195,10,0.39253642983087267,Chi.sq,0.5704990649114625,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(camera_round),179.09974806730415,336,2613.4469025546305,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution
+Pooled species,B,wolf-only,site_shape,s(camera_id),52.50589235604094,58,6960.085404877517,Chi.sq,0,0,mgcv reTest likelihood-ratio test with boundary reference distribution

@@ -1,0 +1,67 @@
+Species: female 
+Model: spPGOcc 
+Habitat covariate(s): Nature.Reserves, Built.and.Roads 
+Wolf covariate: Null.Wolf.Abundance 
+
+Detection model: design 
+
+
+Call:
+spPGOcc(occ.formula = occ_formula, det.formula = det_formula, 
+    data = data_list, inits = inits, priors = priors, tuning = tuning, 
+    cov.model = "exponential", NNGP = FALSE, n.neighbors = n_neighbors, 
+    n.batch = n_batch, batch.length = batch_length, n.omp.threads = 1, 
+    verbose = TRUE, n.report = max(1L, floor(n_batch/10)), n.burn = if (is.null(n_burn)) round(0.1 * 
+        n_batch * batch_length) else n_burn, n.thin = n_thin, 
+    n.chains = n_chains)
+
+Samples per Chain: 10000
+Burn-in: 1000
+Thinning Rate: 5
+Number of Chains: 3
+Total Posterior Samples: 5400
+Run Time (min): 0.274
+
+Occurrence (logit scale): 
+                           Mean     SD    2.5%     50%   97.5%   Rhat  ESS
+(Intercept)              2.9618 0.6936  1.6861  2.9311  4.4011 1.0037 2317
+Nature.Reserves.z       -1.1819 0.6304 -2.4562 -1.1809  0.0093 1.0009 4080
+Built.and.Roads.z       -0.6038 0.6174 -1.8424 -0.5894  0.5996 1.0000 4612
+null.jackal.abundance.z -1.5865 0.6117 -2.8614 -1.5507 -0.4611 1.0006 3746
+Null.Wolf.Abundance.z    0.9304 0.5862 -0.1442  0.9062  2.1333 1.0013 4529
+
+Detection (logit scale): 
+                                                  Mean     SD    2.5%     50%
+(Intercept)                                     1.2771 0.3453  0.6197  1.2678
+path_typeAnimal path without vehicles          -0.8938 0.5366 -1.9236 -0.8979
+path_typeDirt path less than 1m wide            1.4063 1.2270 -0.8834  1.3478
+path_typeDirt path more than 1m wide           -0.1121 0.3774 -0.8374 -0.1148
+path_typePaved road                            -0.5068 0.4987 -1.4516 -0.5199
+camera_sensitivityNormal                        0.3525 0.3540 -0.3549  0.3554
+area_behind_cameraFence                        -0.2624 0.5283 -1.2949 -0.2739
+area_behind_cameraImpassable due to topography -0.6305 0.4383 -1.4868 -0.6342
+area_behind_cameraObstructed by vegetation      0.5227 0.4197 -0.2887  0.5210
+vegetation_structureShrubs < 2 m               -1.1541 0.6926 -2.4858 -1.1652
+vegetation_structureShrubs > 2 m               -0.5565 0.5305 -1.5634 -0.5716
+vegetation_structureTree Cover Overhead        -0.9448 0.4230 -1.7871 -0.9441
+                                                 97.5%   Rhat  ESS
+(Intercept)                                     1.9694 1.0006 5400
+path_typeAnimal path without vehicles           0.1800 1.0001 5400
+path_typeDirt path less than 1m wide            3.9383 1.0044 5102
+path_typeDirt path more than 1m wide            0.6421 1.0017 5400
+path_typePaved road                             0.4937 1.0019 5400
+camera_sensitivityNormal                        1.0386 1.0024 5559
+area_behind_cameraFence                         0.7554 1.0053 5400
+area_behind_cameraImpassable due to topography  0.2257 1.0022 5400
+area_behind_cameraObstructed by vegetation      1.3247 0.9999 5400
+vegetation_structureShrubs < 2 m                0.2463 1.0042 5400
+vegetation_structureShrubs > 2 m                0.5131 1.0004 5400
+vegetation_structureTree Cover Overhead        -0.1075 1.0002 5400
+
+Spatial Covariance: 
+           Mean     SD   2.5%    50%  97.5%   Rhat ESS
+sigma.sq 1.5719 1.4830 0.3647 1.1414 5.0643 1.0115 603
+phi      1.5332 0.9114 0.1132 1.4923 3.0802 1.0060 782
+           Mean     SD   2.5%    50%  97.5%   Rhat ESS
+sigma.sq 1.5719 1.4830 0.3647 1.1414 5.0643 1.0115 603
+phi      1.5332 0.9114 0.1132 1.4923 3.0802 1.0060 782

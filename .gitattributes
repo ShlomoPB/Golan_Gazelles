@@ -1,0 +1,17 @@
+# Preserve large and binary research artifacts with Git LFS.
+*.rds filter=lfs diff=lfs merge=lfs -text
+*.docx filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.gz filter=lfs diff=lfs merge=lfs -text
+student_data_all_species/golan_all_species.csv filter=lfs diff=lfs merge=lfs -text
+student_data_all_species/golan_all_species_raw_rows_date_corrected.csv filter=lfs diff=lfs merge=lfs -text
+
+# Keep scripts, tabular data, reports, and configuration files as text.
+*.R text eol=lf
+*.csv text
+*.md text eol=lf
+*.txt text eol=lf
+*.ps1 text eol=crlf

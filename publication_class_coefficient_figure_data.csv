@@ -1,0 +1,16 @@
+class,term,term_label,mean,lwr,upr,highlight,supported
+Fawn,Open.Spaces.z,Open spaces,1.051,0.5307,1.6077,Key effect,CrI excludes 0
+Fawn,null.jackal.abundance.z,Jackal abundance,-0.5282,-1.1529,0.0718,Key effect,CrI overlaps 0
+Fawn,null.boar.abundance.z,Boar abundance,0.2747,-0.3222,0.8766,Other effect,CrI overlaps 0
+Fawn,human.abundance.z,Human abundance,-0.3262,-0.9285,0.256,Other effect,CrI overlaps 0
+Fawn,Null.Wolf.Abundance.z,Wolf abundance,0.2371,-0.2118,0.7082,Key effect,CrI overlaps 0
+Male,Built.and.Roads.z,Built and roads,-0.6419,-1.0412,-0.2411,Key effect,CrI excludes 0
+Male,null.jackal.abundance.z,Jackal abundance,-0.7313,-1.1134,-0.362,Key effect,CrI excludes 0
+Male,null.boar.abundance.z,Boar abundance,0.2158,-0.1535,0.589,Other effect,CrI overlaps 0
+Male,human.abundance.z,Human abundance,-0.1192,-0.4479,0.2375,Other effect,CrI overlaps 0
+Male,Null.Wolf.Abundance.z,Wolf abundance,0.2594,-0.0056,0.5229,Key effect,CrI overlaps 0
+Female,Nature.Reserves.z,Nature reserves,-0.1001,-0.5486,0.3489,Key effect,CrI overlaps 0
+Female,null.jackal.abundance.z,Jackal abundance,-0.8121,-1.3449,-0.2998,Key effect,CrI excludes 0
+Female,null.boar.abundance.z,Boar abundance,0.2686,-0.2749,0.8484,Other effect,CrI overlaps 0
+Female,human.abundance.z,Human abundance,-0.119,-0.59,0.4113,Other effect,CrI overlaps 0
+Female,Null.Wolf.Abundance.z,Wolf abundance,0.4198,0.0103,0.8394,Key effect,CrI excludes 0

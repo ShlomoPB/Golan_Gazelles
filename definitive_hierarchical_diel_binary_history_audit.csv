@@ -1,0 +1,5 @@
+response_class,raw_positive_day_hours,independent_positive_day_hours,shared_positive_day_hours,raw_only,independent_only,jaccard
+Juvenile,183,177,177,6,0,0.9672131147540983
+Adult female,1576,1451,1448,128,3,0.9170360987967068
+Adult male,2307,2245,2242,65,3,0.9705627705627705
+Pooled species,3857,3625,3625,232,0,0.9398496240601504

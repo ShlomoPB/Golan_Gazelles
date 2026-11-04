@@ -1,0 +1,7 @@
+field,available,implication
+Sex,TRUE,Available as broad categorical metadata
+Life stage,TRUE,"Adult, Juvenile, Sub-adult, or missing; no finer juvenile ages"
+Sighting Quantity,TRUE,Available but not an age estimate
+Date/Time,TRUE,Available for seasonal assignment
+Body-size or juvenile-age notes,FALSE,Cannot test juvenile maturation or identify neonates
+Image filename or path,FALSE,Targeted photograph review cannot be linked reproducibly from this export

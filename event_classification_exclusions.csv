@@ -1,0 +1,8 @@
+camera_name,trap_station_session_id,gazelle_class,event_time,retained_class,reason
+10,112,female,2020-11-11T13:45:00Z,juvenile,Raw classification is Female + Juvenile; exclude from adult-female class
+10,112,female,2020-11-11T15:54:00Z,juvenile,Raw classification is Female + Juvenile; exclude from adult-female class
+4,84,male,2020-12-06T09:56:00Z,juvenile,Raw classification is Male + Juvenile; exclude from adult-male class
+5,88,male,2020-11-14T08:52:00Z,juvenile,Raw classification is Male + Juvenile; exclude from adult-male class
+7,96,male,2020-10-05T11:46:00Z,juvenile,Raw classification is Male + Juvenile; exclude from adult-male class
+37,305,male,2020-10-21T07:13:00Z,juvenile,Raw classification is Male + Juvenile; exclude from adult-male class
+57,432,male,2020-11-03T11:02:00Z,juvenile,Raw classification is Male + Juvenile; exclude from adult-male class

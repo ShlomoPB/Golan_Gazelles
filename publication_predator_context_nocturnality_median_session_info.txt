@@ -1,0 +1,5 @@
+R version 4.5.3 (2026-03-11 ucrt)
+glmmTMB 1.1.13
+emmeans 1.11.2.8
+ggplot2 4.0.0
+dplyr 1.1.4

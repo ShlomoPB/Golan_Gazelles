@@ -1,0 +1,17 @@
+model,term,k_prime,EDF,k_index,P
+Requested k = 8,s(solar_hour),6,5.8726419897684545,0.780293354623139,0
+Requested k = 8,s(solar_hour):wolf_z,7,3.4413319436008245,0.780293354623139,0
+Requested k = 8,s(solar_hour):jackal_z,7,1.5377022942149778,0.780293354623139,0
+Requested k = 8,s(solar_hour):wolf_jackal_z,7,1.6065374449426626,0.780293354623139,0
+Requested k = 8,s(camera_id),60,52.244953227168374,NA,NA
+Larger basis k = 12,s(solar_hour),10,9.46672917920925,0.789197234118917,0
+Larger basis k = 12,s(solar_hour):wolf_z,11,4.710381657678344e-4,0.789197234118917,0
+Larger basis k = 12,s(solar_hour):jackal_z,11,1.483162509775981,0.789197234118917,0
+Larger basis k = 12,s(solar_hour):wolf_jackal_z,11,3.297967873015051,0.789197234118917,0
+Larger basis k = 12,s(camera_id),60,52.24772623955491,NA,NA
+Camera-round sensitivity,s(solar_hour),6,5.890434419498188,0.7671348155774862,0
+Camera-round sensitivity,s(solar_hour):wolf_z,7,4.146979515423466,0.7671348155774862,0
+Camera-round sensitivity,s(solar_hour):jackal_z,7,1.9143448151866371,0.7671348155774862,0
+Camera-round sensitivity,s(solar_hour):wolf_jackal_z,7,1.8124678390630269,0.7671348155774862,0
+Camera-round sensitivity,s(camera_round),344,166.56794121423317,NA,NA
+Camera-round sensitivity,s(camera_id),60,49.891182034184155,NA,NA

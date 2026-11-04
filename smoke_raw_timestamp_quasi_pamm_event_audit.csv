@@ -1,0 +1,8 @@
+taxon,analysis_events,cameras,sessions,first_event,last_event,median_raw_rows_per_event,max_raw_rows_per_event,direct_person_events,raw_annotated_rows,distinct_timestamps,exact_duplicate_rows_collapsed,raw_rows_total,valid_sessions,inconsistent_session_dates,unclassified_gazelle_rows,sampling_frame,event_definition,event_gap_minutes
+Fawn,283,31,76,2020-08-23T03:32:00Z,2020-12-13T15:39:00Z,7,32,,1839,283,1556,359844,341,0,2168,camelot_sessions,timestamp,
+Female,3288,50,217,2020-05-12T15:10:00Z,2020-12-14T05:53:00Z,7,27,,21099,3288,17811,359844,341,0,2168,camelot_sessions,timestamp,
+Male,3010,52,258,2020-01-13T11:49:00Z,2020-12-14T15:29:00Z,5,32,,16671,3010,13661,359844,341,0,2168,camelot_sessions,timestamp,
+Wolf,1084,56,213,2020-02-09T22:13:00Z,2020-12-14T02:29:00Z,5,16,,5516,1084,4432,359844,341,0,2168,camelot_sessions,timestamp,
+Jackal,13839,60,322,2019-12-31T22:15:00Z,2020-12-14T22:00:00Z,5,16,,62942,13839,49103,359844,341,0,2168,camelot_sessions,timestamp,
+Boar,5499,58,270,2020-01-01T01:20:00Z,2020-12-14T20:52:00Z,5,91,,32882,5499,27383,359844,341,0,2168,camelot_sessions,timestamp,
+Human,10808,57,263,2020-01-15T11:29:00Z,2020-12-14T22:00:00Z,3,33,1152,42645,10808,31837,359844,341,0,2168,camelot_sessions,timestamp,

@@ -1,0 +1,6 @@
+primary,secondary,direction,ped_rows,events,cameras,deviance_explained,pearson_dispersion,variance_family,converged,full_session_frailty
+Dog,Fawn,Pressure to gazelle,3528,20,35,0.459527397319034,0.236539644520741,poisson,TRUE,TRUE
+Dog,Female,Pressure to gazelle,3528,102,35,0.433854038676161,0.390795421919035,poisson,TRUE,TRUE
+Dog,Male,Pressure to gazelle,3528,147,35,0.410162832512412,0.557058826806319,poisson,TRUE,TRUE
+Female,Dog,Gazelle to pressure,16575,74,50,0.409153171135618,0.247423220015196,poisson,TRUE,TRUE
+Male,Dog,Gazelle to pressure,23963,74,52,0.343907596147027,0.363450027665274,poisson,TRUE,TRUE

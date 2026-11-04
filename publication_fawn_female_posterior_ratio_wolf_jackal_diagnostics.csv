@@ -1,0 +1,169 @@
+period,parameter_group,parameter,rhat,ess
+Overall,abundance_species,(Intercept)-fawn,1.723778375007939,19.829705519000058
+Overall,abundance_species,(Intercept)-male,1.5460901504776459,45.719129774893716
+Overall,abundance_species,(Intercept)-female,1.1411864232896822,32.320900020664595
+Overall,abundance_species,Null.Wolf.Abundance.z-fawn,1.0143023408228182,1104.432756825129
+Overall,abundance_species,Null.Wolf.Abundance.z-male,1.0013251914457948,1003.4298771914032
+Overall,abundance_species,Null.Wolf.Abundance.z-female,1.0034003912288745,892.2353123039022
+Overall,abundance_species,null.jackal.abundance.z-fawn,1.0179255464520751,551.1337517904399
+Overall,abundance_species,null.jackal.abundance.z-male,1.007638789645336,965.7649186847627
+Overall,abundance_species,null.jackal.abundance.z-female,1.0015032685425578,835.9492303398746
+Overall,abundance_species,Null.Wolf.Abundance.z:null.jackal.abundance.z-fawn,1.0077715290083644,700.0513437996378
+Overall,abundance_species,Null.Wolf.Abundance.z:null.jackal.abundance.z-male,1.0748393037787662,572.3659031375093
+Overall,abundance_species,Null.Wolf.Abundance.z:null.jackal.abundance.z-female,1.100583682074037,641.4061891107078
+Overall,detection_species,(Intercept)-fawn,1.5008194128465555,44.968355334891214
+Overall,detection_species,(Intercept)-male,1.8251085072469446,24.36152028300048
+Overall,detection_species,(Intercept)-female,1.2735973337737598,24.202622816964443
+Overall,detection_species,path_typeAnimal path without vehicles-fawn,1.5452755696693394,94.43649964827526
+Overall,detection_species,path_typeAnimal path without vehicles-male,1.6925174787262187,33.35087179033217
+Overall,detection_species,path_typeAnimal path without vehicles-female,1.7341773142727048,41.272725775369295
+Overall,detection_species,path_typeDirt path less than 1m wide-fawn,1.3235354267638508,123.39045323769727
+Overall,detection_species,path_typeDirt path less than 1m wide-male,1.889409845886451,35.1662993527706
+Overall,detection_species,path_typeDirt path less than 1m wide-female,1.4488616618577368,44.10589277535757
+Overall,detection_species,path_typeDirt path more than 1m wide-fawn,1.011330739566833,222.8338193826768
+Overall,detection_species,path_typeDirt path more than 1m wide-male,1.0283270110744267,82.8408423468998
+Overall,detection_species,path_typeDirt path more than 1m wide-female,1.0577511729869604,50.510120138601884
+Overall,detection_species,path_typePaved road-fawn,1.7336721016492038,105.31571542570641
+Overall,detection_species,path_typePaved road-male,2.0680916325211083,21.42321623170493
+Overall,detection_species,path_typePaved road-female,2.982989291083358,21.004823044201665
+Overall,detection_species,camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-fawn,1.0359251016967599,278.1480269384516
+Overall,detection_species,camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-male,1.109935989933636,97.10991033021085
+Overall,detection_species,camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-female,1.1136994573659553,131.09828636525032
+Overall,detection_species,camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-fawn,1.0589790981637857,249.30816436108108
+Overall,detection_species,camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-male,1.0845792583746574,87.62654384714746
+Overall,detection_species,camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-female,1.1544241745664194,113.97617677973045
+Overall,detection_species,camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-fawn,1.0002749311140533,7899.347735708127
+Overall,detection_species,camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-male,1.0039386019492398,3875.6148768456173
+Overall,detection_species,camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-female,1.0027249522792725,3674.422480036758
+Overall,detection_species,vegetation_structureShrubs < 2 m-fawn,1.5459776779023173,79.24125023070883
+Overall,detection_species,vegetation_structureShrubs < 2 m-male,2.4363418624168456,16.939202538812392
+Overall,detection_species,vegetation_structureShrubs < 2 m-female,1.7515000956101778,43.79342402111024
+Overall,detection_species,vegetation_structureShrubs > 2 m-fawn,1.0329953419395888,158.51242345347364
+Overall,detection_species,vegetation_structureShrubs > 2 m-male,1.0668237238659453,23.797886733973215
+Overall,detection_species,vegetation_structureShrubs > 2 m-female,1.3211310526789455,29.581962584762525
+Overall,detection_species,vegetation_structureTree Cover Overhead-fawn,1.1226273606801906,119.47610552794802
+Overall,detection_species,vegetation_structureTree Cover Overhead-male,1.0622710045583723,45.531225880744444
+Overall,detection_species,vegetation_structureTree Cover Overhead-female,1.1841693855178608,33.26732139614585
+Overall,detection_species,area_behind_cameraFence-fawn,1.1209094909276225,133.44788963101007
+Overall,detection_species,area_behind_cameraFence-male,1.642742584454612,32.780862185839204
+Overall,detection_species,area_behind_cameraFence-female,1.6473355081195022,41.9559312757415
+Overall,detection_species,area_behind_cameraImpassable due to topography-fawn,1.072686242104142,199.73217265831116
+Overall,detection_species,area_behind_cameraImpassable due to topography-male,1.208823127983673,45.1870349805302
+Overall,detection_species,area_behind_cameraImpassable due to topography-female,1.1430930767588212,45.369585965094736
+Overall,detection_species,area_behind_cameraObstructed by vegetation-fawn,1.1630685269980823,126.70120474565438
+Overall,detection_species,area_behind_cameraObstructed by vegetation-male,1.5202984538374411,23.88428517633588
+Overall,detection_species,area_behind_cameraObstructed by vegetation-female,1.0612676644251289,48.447286201317105
+Overall,negative_binomial,kappa-fawn,1.097358672023206,282.08340634127075
+Overall,negative_binomial,kappa-male,1.0031410301990629,1895.0970979430315
+Overall,negative_binomial,kappa-female,1.0081782750346335,747.711254648071
+Early (hotter),abundance_species,(Intercept)-fawn,1.314025918207959,30.927110287689448
+Early (hotter),abundance_species,(Intercept)-male,1.3422093556863153,40.3248300000669
+Early (hotter),abundance_species,(Intercept)-female,1.9636619679778033,42.324666435048876
+Early (hotter),abundance_species,Null.Wolf.Abundance.z-fawn,1.030302495315593,937.7649792564197
+Early (hotter),abundance_species,Null.Wolf.Abundance.z-male,1.019992225579617,1052.4468518082529
+Early (hotter),abundance_species,Null.Wolf.Abundance.z-female,1.0253151719888147,962.7952470454854
+Early (hotter),abundance_species,null.jackal.abundance.z-fawn,1.0024619469201088,860.1582664384929
+Early (hotter),abundance_species,null.jackal.abundance.z-male,1.001461409133764,964.1487052806837
+Early (hotter),abundance_species,null.jackal.abundance.z-female,1.0247248631396313,762.95569243126
+Early (hotter),abundance_species,Null.Wolf.Abundance.z:null.jackal.abundance.z-fawn,1.1038596232771225,395.63505295363444
+Early (hotter),abundance_species,Null.Wolf.Abundance.z:null.jackal.abundance.z-male,1.0310762472018398,594.4440688017326
+Early (hotter),abundance_species,Null.Wolf.Abundance.z:null.jackal.abundance.z-female,1.016012867537765,501.51838158136377
+Early (hotter),detection_species,(Intercept)-fawn,1.0176281449835698,87.20371197635797
+Early (hotter),detection_species,(Intercept)-male,1.4186316222794406,33.707683743210424
+Early (hotter),detection_species,(Intercept)-female,1.994403455971452,33.540034966808186
+Early (hotter),detection_species,path_typeAnimal path without vehicles-fawn,1.0455248943608815,1654.3171454385113
+Early (hotter),detection_species,path_typeAnimal path without vehicles-male,1.085665775962336,81.96982948688324
+Early (hotter),detection_species,path_typeAnimal path without vehicles-female,1.0713477280300494,186.65037340557754
+Early (hotter),detection_species,path_typeDirt path less than 1m wide-fawn,1.001915299454683,191.50714124437064
+Early (hotter),detection_species,path_typeDirt path less than 1m wide-male,1.0325483894886391,59.79973626855657
+Early (hotter),detection_species,path_typeDirt path less than 1m wide-female,1.032101885069635,78.8595072000416
+Early (hotter),detection_species,path_typeDirt path more than 1m wide-fawn,1.0938897511067274,392.01154395036025
+Early (hotter),detection_species,path_typeDirt path more than 1m wide-male,1.219297180962173,102.62080199791984
+Early (hotter),detection_species,path_typeDirt path more than 1m wide-female,1.3056945436982759,64.48269057156635
+Early (hotter),detection_species,path_typePaved road-fawn,1.0707580940515888,244.62455062800345
+Early (hotter),detection_species,path_typePaved road-male,1.3064084041195454,50.802525835843056
+Early (hotter),detection_species,path_typePaved road-female,1.034458241200064,49.03948072622823
+Early (hotter),detection_species,camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-fawn,1.3592829758070326,164.35994791554026
+Early (hotter),detection_species,camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-male,1.5312489294647724,49.07646333296391
+Early (hotter),detection_species,camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-female,1.536715645569897,63.93247391328642
+Early (hotter),detection_species,camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-fawn,1.3608142059523778,175.8829579413237
+Early (hotter),detection_species,camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-male,1.529155240176118,46.36562234398455
+Early (hotter),detection_species,camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-female,1.493699432098335,83.31716862517145
+Early (hotter),detection_species,camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-fawn,1.0102871390812727,2548.0292072931124
+Early (hotter),detection_species,camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-male,1.0080041469247933,3400.608594529436
+Early (hotter),detection_species,camera_modelBushnell TROPHY CAM HD AGGRESSOR NO-GLOW-female,1.0001501156356638,2498.092700099059
+Early (hotter),detection_species,vegetation_structureShrubs < 2 m-fawn,1.0566247869544574,181.6330308870138
+Early (hotter),detection_species,vegetation_structureShrubs < 2 m-male,1.0329715794535759,31.723529139151854
+Early (hotter),detection_species,vegetation_structureShrubs < 2 m-female,1.1613175582809545,69.75956681850542
+Early (hotter),detection_species,vegetation_structureShrubs > 2 m-fawn,1.2416739572144067,159.51251501983978
+Early (hotter),detection_species,vegetation_structureShrubs > 2 m-male,1.4548151190123984,38.97432144382887
+Early (hotter),detection_species,vegetation_structureShrubs > 2 m-female,1.3723911785608347,61.760846050495864
+Early (hotter),detection_species,vegetation_structureTree Cover Overhead-fawn,1.2779320210580927,164.331743209114
+Early (hotter),detection_species,vegetation_structureTree Cover Overhead-male,1.5950074939300214,55.69810523425551
+Early (hotter),detection_species,vegetation_structureTree Cover Overhead-female,1.3476403459401936,70.9090309040187
+Early (hotter),detection_species,area_behind_cameraFence-fawn,1.1543356135151186,244.78471021864846
+Early (hotter),detection_species,area_behind_cameraFence-male,1.3489376125179449,85.6674111313995
+Early (hotter),detection_species,area_behind_cameraFence-female,1.4424012527451648,80.48166784794209
+Early (hotter),detection_species,area_behind_cameraImpassable due to topography-fawn,1.1108350388255321,193.459238670009
+Early (hotter),detection_species,area_behind_cameraImpassable due to topography-male,1.1534008182072784,61.81716565003967
+Early (hotter),detection_species,area_behind_cameraImpassable due to topography-female,1.2655366669896664,67.5621885603998
+Early (hotter),detection_species,area_behind_cameraObstructed by vegetation-fawn,1.0828505419638315,137.91962891846038
+Early (hotter),detection_species,area_behind_cameraObstructed by vegetation-male,1.3365881613412598,66.80125250072723
+Early (hotter),detection_species,area_behind_cameraObstructed by vegetation-female,1.1638455253550626,84.95246921752775
+Early (hotter),negative_binomial,kappa-fawn,1.0525030088728915,335.13939613717326
+Early (hotter),negative_binomial,kappa-male,1.0076153058831987,1459.6640624820639
+Early (hotter),negative_binomial,kappa-female,1.0121282895533366,877.0264888256133
+Late (mild-cold),abundance_species,(Intercept)-fawn,2.4262733433569386,14.459171823926487
+Late (mild-cold),abundance_species,(Intercept)-male,1.3303539153155906,83.30176516133005
+Late (mild-cold),abundance_species,(Intercept)-female,1.716197492622569,78.63535626750671
+Late (mild-cold),abundance_species,Null.Wolf.Abundance.z-fawn,1.0024519011712756,801.6329247691131
+Late (mild-cold),abundance_species,Null.Wolf.Abundance.z-male,1.0044241494186714,918.3936591293303
+Late (mild-cold),abundance_species,Null.Wolf.Abundance.z-female,1.0047881314928735,770.0000391205111
+Late (mild-cold),abundance_species,null.jackal.abundance.z-fawn,1.0461517216463108,495.86794602154924
+Late (mild-cold),abundance_species,null.jackal.abundance.z-male,1.0034998859614352,1000.6895848911081
+Late (mild-cold),abundance_species,null.jackal.abundance.z-female,1.003381325861248,913.0746865626376
+Late (mild-cold),abundance_species,Null.Wolf.Abundance.z:null.jackal.abundance.z-fawn,1.0257804251241367,473.7523470984064
+Late (mild-cold),abundance_species,Null.Wolf.Abundance.z:null.jackal.abundance.z-male,1.1210549513957773,443.73421487839573
+Late (mild-cold),abundance_species,Null.Wolf.Abundance.z:null.jackal.abundance.z-female,1.0965156021024156,564.517958152248
+Late (mild-cold),detection_species,(Intercept)-fawn,2.080914082916736,21.071563060071043
+Late (mild-cold),detection_species,(Intercept)-male,1.1515187714131723,40.847555857980616
+Late (mild-cold),detection_species,(Intercept)-female,1.6979347563155283,29.03016587792212
+Late (mild-cold),detection_species,path_typeAnimal path without vehicles-fawn,1.079751202851679,156.27264801495946
+Late (mild-cold),detection_species,path_typeAnimal path without vehicles-male,1.3081726385712642,73.21510968924528
+Late (mild-cold),detection_species,path_typeAnimal path without vehicles-female,1.1602802735388942,61.29902735837368
+Late (mild-cold),detection_species,path_typeDirt path less than 1m wide-fawn,1.0510932003435505,188.32386495400888
+Late (mild-cold),detection_species,path_typeDirt path less than 1m wide-male,1.2377019943636831,64.86486031715087
+Late (mild-cold),detection_species,path_typeDirt path less than 1m wide-female,1.0908616091395,72.88887573675713
+Late (mild-cold),detection_species,path_typeDirt path more than 1m wide-fawn,1.0759398109661378,186.57680373019602
+Late (mild-cold),detection_species,path_typeDirt path more than 1m wide-male,1.1866097287498572,69.60437902021097
+Late (mild-cold),detection_species,path_typeDirt path more than 1m wide-female,1.2966158877962983,53.60664654858935
+Late (mild-cold),detection_species,path_typePaved road-fawn,1.1122851955344946,191.99841040557132
+Late (mild-cold),detection_species,path_typePaved road-male,1.168801925457945,54.77311267399948
+Late (mild-cold),detection_species,path_typePaved road-female,1.2412895345881105,59.506293657755265
+Late (mild-cold),detection_species,camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-fawn,1.0384971299039762,192.702805463359
+Late (mild-cold),detection_species,camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-male,1.0798405647383478,78.31322753769152
+Late (mild-cold),detection_species,camera_modelBrowning DARK OPS HD PRO X - Long Sensitivity-female,1.040384851572639,76.73958773184184
+Late (mild-cold),detection_species,camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-fawn,1.0348240554960444,112.71278586484482
+Late (mild-cold),detection_species,camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-male,1.0673175638007173,45.88741924395687
+Late (mild-cold),detection_species,camera_modelBrowning DARK OPS HD PRO X - Normal Sensitivity-female,1.015963949001954,50.70792417919082
+Late (mild-cold),detection_species,vegetation_structureShrubs < 2 m-fawn,1.1256741147502094,142.03519327905937
+Late (mild-cold),detection_species,vegetation_structureShrubs < 2 m-male,2.1132875712219374,36.9059940581106
+Late (mild-cold),detection_species,vegetation_structureShrubs < 2 m-female,2.0511912904320573,26.071830628639663
+Late (mild-cold),detection_species,vegetation_structureShrubs > 2 m-fawn,1.0618786797629158,125.87417881852068
+Late (mild-cold),detection_species,vegetation_structureShrubs > 2 m-male,1.0894564493950196,38.88931017807221
+Late (mild-cold),detection_species,vegetation_structureShrubs > 2 m-female,1.1547209952906246,42.015429858596704
+Late (mild-cold),detection_species,vegetation_structureTree Cover Overhead-fawn,1.0236351098014393,146.10615405267916
+Late (mild-cold),detection_species,vegetation_structureTree Cover Overhead-male,1.060913296695454,38.026246972075015
+Late (mild-cold),detection_species,vegetation_structureTree Cover Overhead-female,1.0749850591793046,36.09146229496054
+Late (mild-cold),detection_species,area_behind_cameraFence-fawn,1.007207325967186,161.88529623321585
+Late (mild-cold),detection_species,area_behind_cameraFence-male,1.037207355578206,79.95481187474971
+Late (mild-cold),detection_species,area_behind_cameraFence-female,1.0218083216060327,77.81996776210332
+Late (mild-cold),detection_species,area_behind_cameraImpassable due to topography-fawn,1.0565915072388241,173.483336900743
+Late (mild-cold),detection_species,area_behind_cameraImpassable due to topography-male,1.238049342099683,61.158248186233955
+Late (mild-cold),detection_species,area_behind_cameraImpassable due to topography-female,1.1900207230107243,52.85035515995203
+Late (mild-cold),detection_species,area_behind_cameraObstructed by vegetation-fawn,1.0524411812623193,208.76844298684952
+Late (mild-cold),detection_species,area_behind_cameraObstructed by vegetation-male,1.0905515995503412,41.67031972918823
+Late (mild-cold),detection_species,area_behind_cameraObstructed by vegetation-female,1.0660079908686606,42.35396113417217
+Late (mild-cold),negative_binomial,kappa-fawn,1.0447894968556857,361.86968769273767
+Late (mild-cold),negative_binomial,kappa-male,1.0036809418868862,2294.2385340254073
+Late (mild-cold),negative_binomial,kappa-female,1.011157700526374,1522.0477020497594

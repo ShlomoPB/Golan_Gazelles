@@ -1,0 +1,13 @@
+sampling_stratum,stratum_type,n_cameras
+Firing Zones,Low culling,5
+Hazeka,Minefields,5
+Hermon,Nature Reserve,5
+Keshet Yonatan,High culling,5
+Makhfi,Minefields,5
+Masade,Low culling,5
+Odem,Nature Reserve,5
+Saki,Minefields,5
+Shaal,High culling,5
+Slopes (south),Low culling,5
+Snir,High culling,5
+Yehudiya,Nature Reserve,5

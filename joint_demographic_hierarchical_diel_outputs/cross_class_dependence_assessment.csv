@@ -1,0 +1,6 @@
+component,treatment,implication
+Shared camera dependence,Shared camera random intercept retained,Accounts for persistent cross-class covariance among cameras
+Shared camera-round dependence,Shared camera-round random intercept retained,Accounts for cross-class covariance within camera survey rounds
+Class-specific hierarchy,Camera-class and camera-round-class random intercepts retained; female and male camera-specific cyclic deviations retained,Does not force demographic classes to share latent camera responses
+Residual shared camera-day-hour dependence,Not fully represented after grouped-binomial aggregation,Same-day/hour co-detection dependence may remain
+Unaggregated shared-unit sensitivity feasibility,"Not fitted: exact operational dates are unavailable for camera 45 round 2; the 5,978 known days alone imply 430,416 stacked rows and 143,472 shared sampling-unit levels, making a dense GAM coefficient covariance computationally infeasible in this workspace",Primary direct contrasts are conditional on the grouped shared hierarchy

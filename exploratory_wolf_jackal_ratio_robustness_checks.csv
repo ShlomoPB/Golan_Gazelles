@@ -1,0 +1,5 @@
+check,outcome,excluded_camera,n_cameras,spearman_rho,p_value,p_fdr
+Partial Spearman controlling Open.Spaces,gazelleabundance,NA,60,0.3433831962260647,0.007753170318573092,0.007753170318573092
+Partial Spearman controlling Open.Spaces,observed_gazelle_rate_100_days,NA,60,0.4689079592915049,1.7971584082633263e-4,3.5943168165266526e-4
+Spearman excluding minimum-ratio camera,gazelleabundance,57,59,0.4092695685645616,0.0012880252201215084,0.0017173669601620112
+Spearman excluding minimum-ratio camera,observed_gazelle_rate_100_days,57,59,0.5096882574339754,3.737517433646553e-5,1.4950069734586213e-4

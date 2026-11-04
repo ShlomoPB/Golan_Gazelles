@@ -1,0 +1,1 @@
+bam(formula = formula, family = binomial(link = "logit"), data = data, method = "fREML", control = gam.control(trace = FALSE), select = TRUE, knots = list(Time = c(0, 24)), discrete = TRUE, nthreads = cfg$nthreads)

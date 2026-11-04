@@ -1,0 +1,10 @@
+"structure","class","fit_stat","group","type","bayesian_p"
+"lf2","fawn","freeman-tukey",0,"marginal",0.0465185185185185
+"lf2","male","freeman-tukey",0,"marginal",0.00185185185185185
+"lf2","female","freeman-tukey",0,"marginal",0.002
+"lf2","fawn","freeman-tukey",1,"marginal",0.407777777777778
+"lf2","male","freeman-tukey",1,"marginal",0.40237037037037
+"lf2","female","freeman-tukey",1,"marginal",0.318296296296296
+"lf2","fawn","chi-squared",2,"marginal",0.130740740740741
+"lf2","male","chi-squared",2,"marginal",0.0272592592592593
+"lf2","female","chi-squared",2,"marginal",0.14762962962963

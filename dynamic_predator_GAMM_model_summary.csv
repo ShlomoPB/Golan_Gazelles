@@ -1,0 +1,379 @@
+class,exposure_window,model_structure,term,term_type,estimate,SE,EDF,reference_df,test_statistic,P,supported
+Juvenile,1h,random intercepts,(Intercept),parametric,-8.209722759068988,0.4496134842369125,NA,NA,-18.259511884975144,4.887580024164654e-73,TRUE
+Juvenile,1h,random intercepts,wolf_between_z,parametric,0.274622325375091,0.22933555421226381,NA,NA,1.1974694735771827,0.23115840948478053,FALSE
+Juvenile,1h,random intercepts,jackal_between_z,parametric,-0.6175692941596594,0.28958741140903743,NA,NA,-2.1325833576631306,0.03298869053093576,TRUE
+Juvenile,1h,random intercepts,wolf_round_z,parametric,0.118518797156638,0.11832246892678411,NA,NA,1.001659264141753,0.316537894815935,FALSE
+Juvenile,1h,random intercepts,jackal_round_z,parametric,0.4174347965953372,0.15844883375802268,NA,NA,2.63450848261104,0.00844183706016966,TRUE
+Juvenile,1h,random intercepts,wolf_hour_z,parametric,-0.028424458190506024,0.09860698035594452,NA,NA,-0.2882601017483896,0.7731549684537076,FALSE
+Juvenile,1h,random intercepts,jackal_hour_z,parametric,-0.012726212423565348,0.12492351902655234,NA,NA,-0.1018720295644282,0.9188607551522283,FALSE
+Juvenile,1h,random intercepts,round_factor2,parametric,0.059088982411103275,0.421069612810134,NA,NA,0.14033067363079296,0.8884021943548952,FALSE
+Juvenile,1h,random intercepts,round_factor3,parametric,-0.5586808077244699,0.4724397675052312,NA,NA,-1.1825439900511419,0.23702438370992704,FALSE
+Juvenile,1h,random intercepts,round_factor4,parametric,-0.11179537725633605,0.4296445625190907,NA,NA,-0.26020433402172655,0.7947127278143796,FALSE
+Juvenile,1h,random intercepts,round_factor5,parametric,0.24479464169401471,0.41302785935256836,NA,NA,0.5926831233073152,0.5534096649256309,FALSE
+Juvenile,1h,random intercepts,round_factor6,parametric,0.16525365968296468,0.43051217207825154,NA,NA,0.3838536292370557,0.701096939871614,FALSE
+Juvenile,1h,random intercepts,round_factor7,parametric,0.12637893375085177,0.7254241712832357,NA,NA,0.1742138444701868,0.8617017282194482,FALSE
+Juvenile,1h,random intercepts,wolf_between_z:jackal_between_z,parametric,0.2386805501396691,0.25065277812090486,NA,NA,0.9522358057589099,0.3410056158551248,FALSE
+Juvenile,1h,random intercepts,wolf_round_z:jackal_round_z,parametric,-0.17066458815362365,0.16081923033946513,NA,NA,-1.0612200281855375,0.2886213333485836,FALSE
+Juvenile,1h,random intercepts,wolf_hour_z:jackal_hour_z,parametric,-0.04104090356379008,0.08638957129705321,NA,NA,-0.4750677998235419,0.6347513660931423,FALSE
+Juvenile,1h,random intercepts,s(solar_hour),baseline cyclic smooth,NA,NA,6.034972795836051,10,6.8859578582148,0,TRUE
+Juvenile,1h,random intercepts,s(solar_hour):wolf_hour_z,dynamic-predator cyclic smooth,NA,NA,1.42017654992966e-5,10,5.931582314068889e-7,0.6684014516227386,FALSE
+Juvenile,1h,random intercepts,s(solar_hour):jackal_hour_z,dynamic-predator cyclic smooth,NA,NA,0.12495635610025183,10,0.013744642341170381,0.3052575869198826,FALSE
+Juvenile,1h,random intercepts,s(solar_hour):wolf_jackal_hour_z,dynamic-predator cyclic smooth,NA,NA,1.1026792518858784e-5,11,6.719613767004224e-7,0.5084155311819746,FALSE
+Juvenile,1h,random intercepts,s(camera_round_factor),random smooth,NA,NA,44.343327713911506,343,0.3233252583896407,1.842847455960639e-4,TRUE
+Juvenile,1h,random intercepts,s(camera_factor),random smooth,NA,NA,26.134059888948787,60,3.3406680788775747,0.02487525774675814,TRUE
+Juvenile,1h,random intercepts,s(polygon_factor),random smooth,NA,NA,4.99351992766796,11,18.194663215632122,0.03881599923196544,TRUE
+Adult female,1h,camera-specific cyclic deviations,(Intercept),parametric,-5.661844230562477,0.3674634263781948,NA,NA,-15.407912255015237,8.266812885132157e-53,TRUE
+Adult female,1h,camera-specific cyclic deviations,wolf_between_z,parametric,0.2682822024010845,0.188855560137852,NA,NA,1.4205681961667231,0.1554813062829798,FALSE
+Adult female,1h,camera-specific cyclic deviations,jackal_between_z,parametric,-0.5471633073188833,0.2184916578664717,NA,NA,-2.504275507183322,0.012289989472271537,TRUE
+Adult female,1h,camera-specific cyclic deviations,wolf_round_z,parametric,0.11457216130365873,0.05994215195382371,NA,NA,1.9113788472579216,0.05599161140415415,FALSE
+Adult female,1h,camera-specific cyclic deviations,jackal_round_z,parametric,0.11048944669329695,0.07405762734635422,NA,NA,1.4919387867580156,0.13575462841265107,FALSE
+Adult female,1h,camera-specific cyclic deviations,wolf_hour_z,parametric,0.010356391733317092,0.03158953595239389,NA,NA,0.32784247761424534,0.7430393482817835,FALSE
+Adult female,1h,camera-specific cyclic deviations,jackal_hour_z,parametric,-4.760225765689821e-4,0.04711518741642436,NA,NA,-0.010103378606174038,0.991939059297119,FALSE
+Adult female,1h,camera-specific cyclic deviations,round_factor2,parametric,-0.2585388857169831,0.20767811952932588,NA,NA,-1.2449019006091069,0.21320428177289433,FALSE
+Adult female,1h,camera-specific cyclic deviations,round_factor3,parametric,-0.2679220072297789,0.20998036571664208,NA,NA,-1.275938377930659,0.20201435094993783,FALSE
+Adult female,1h,camera-specific cyclic deviations,round_factor4,parametric,-0.10095394782127944,0.20499766535991756,NA,NA,-0.49246389047423067,0.6224049586910422,FALSE
+Adult female,1h,camera-specific cyclic deviations,round_factor5,parametric,-0.1420345215269827,0.20600867706417755,NA,NA,-0.6894589274156395,0.4905545106632965,FALSE
+Adult female,1h,camera-specific cyclic deviations,round_factor6,parametric,-0.3411962447825698,0.2132561093261939,NA,NA,-1.5999365545053637,0.10965215067785122,FALSE
+Adult female,1h,camera-specific cyclic deviations,round_factor7,parametric,-0.9337765573372361,0.42800300568539584,NA,NA,-2.1817056070480256,0.029160274511919757,TRUE
+Adult female,1h,camera-specific cyclic deviations,wolf_between_z:jackal_between_z,parametric,0.31360030404459244,0.20551344169761693,NA,NA,1.525935731765952,0.12706540633632318,FALSE
+Adult female,1h,camera-specific cyclic deviations,wolf_round_z:jackal_round_z,parametric,-0.11981668400630557,0.06136722180507101,NA,NA,-1.9524541030535076,0.05091914788327041,FALSE
+Adult female,1h,camera-specific cyclic deviations,wolf_hour_z:jackal_hour_z,parametric,0.005550494894338794,0.0309314556480946,NA,NA,0.17944499468393785,0.8575928490639975,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour),baseline cyclic smooth,NA,NA,11.281839052229346,14,12.177654790344588,0,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):wolf_hour_z,dynamic-predator cyclic smooth,NA,NA,6.088897045858382e-5,14,1.1574276136240928e-6,0.7990470528348584,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):jackal_hour_z,dynamic-predator cyclic smooth,NA,NA,5.066270862956175e-5,14,8.968616105551034e-7,0.8198668081184071,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):wolf_jackal_hour_z,dynamic-predator cyclic smooth,NA,NA,0.3173537447893897,15,0.02652717817535709,0.28026686069274254,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor1,random smooth,NA,NA,1.5763535447177708,2,2.1072662483268925,0.2487521521104703,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor2,random smooth,NA,NA,0.24366439936106216,2,0.011356790318249776,0.9117493010956541,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor3,random smooth,NA,NA,1.1950392238319099,2,6.21038119380031,0.05896070550625665,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor4,random smooth,NA,NA,1.4644193156809129,2,1.6591582698112513,0.3620980120279558,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor5,random smooth,NA,NA,0.7846797413359523,2,3.783647113495923,0.011773986737965814,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor6,random smooth,NA,NA,1.4102479985100318,2,13.705097411047126,0.015641189163070446,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor7,random smooth,NA,NA,1.8650670406408718,2,16.474887832621736,0,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor8,random smooth,NA,NA,1.4336958130707718,2,1.2066707018912144,0.49800226631312805,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor9,random smooth,NA,NA,1.7916908787521548,2,2.332171852577062,0.20838334978234363,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor10,random smooth,NA,NA,1.7138554006136648,2,1.9981202883235993,0.25827269467696923,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor11,random smooth,NA,NA,0.8160764361735593,2,0.4042070621975045,0.4152702264300122,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor12,random smooth,NA,NA,0.16122535985803982,2,0.004583537776767404,0.9448207517039224,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor13,random smooth,NA,NA,0.3832004038251441,2,0.08484356687311466,0.6630971966177449,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor14,random smooth,NA,NA,0.1359584097023558,2,0.0031504066857754726,0.9547506896190443,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor15,random smooth,NA,NA,0.3172174563711508,2,0.19698227660957804,0.2964668132068785,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor16,random smooth,NA,NA,0.8596570733625218,2,3.533083934452337,0.0336539097278602,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor17,random smooth,NA,NA,1.5795993006180833,2,3.980724124877655,0.012316010860137783,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor18,random smooth,NA,NA,1.5298095973988066,2,5.553362237177392,0.1322916937391454,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor19,random smooth,NA,NA,1.3839826979651844,2,2.891520540508172,0.2350877715909021,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor20,random smooth,NA,NA,0.9741656728783473,2,2.948745542618539,0.0775731195018291,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor21,random smooth,NA,NA,1.7536974651536335,2,5.095184404623159,0.002020799951454322,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor22,random smooth,NA,NA,1.330568715697348,2,8.502372644920026,0.017862589962061026,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor23,random smooth,NA,NA,0.983273495926438,2,0.2731063620576644,0.6358618528265095,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor24,random smooth,NA,NA,0.3152979147825068,2,0.02086625847620529,0.877964163646179,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor25,random smooth,NA,NA,0.778160588141842,2,1.084368259509259,0.16614602753205276,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor26,random smooth,NA,NA,1.6742140170705717,2,20.621218013011145,8.121141228167872e-6,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor27,random smooth,NA,NA,0.9373333755834599,2,8.967700789825939,0.003433280178227971,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor28,random smooth,NA,NA,1.1102994525451786,2,11.596631680649523,0.00441919586016315,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor29,random smooth,NA,NA,0.7865503346262437,2,0.7626761836902447,0.2855454405707173,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor30,random smooth,NA,NA,1.686874629984756,2,4.048109784981947,0.1190609393487313,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor31,random smooth,NA,NA,0.9497220249520684,2,0.8207028973344462,0.18357189471572477,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor32,random smooth,NA,NA,1.2293956253977814,2,2.2435311827382907,0.02859225296187773,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor33,random smooth,NA,NA,1.4708300880466227,2,0.29569138137440165,0.7511232166243226,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor34,random smooth,NA,NA,1.391820851467272,2,26.291243646429518,0.0017668920481653805,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor35,random smooth,NA,NA,0.46773914544257517,2,0.039658845793749266,0.8559399726698982,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor36,random smooth,NA,NA,0.42478718970119034,2,0.04113966410846394,0.8290058593092119,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor37,random smooth,NA,NA,1.519637912825618,2,67.514765591277,9.498344377689705e-7,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor38,random smooth,NA,NA,1.7193060616646318,2,44.46068687242169,0,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor39,random smooth,NA,NA,0.4394441866884251,2,0.046208326443306885,0.8162771567252267,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor40,random smooth,NA,NA,1.7392258684442456,2,6.760291514757804,0.004593056613364954,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor41,random smooth,NA,NA,0.3255504349392877,2,0.30130045095617647,0.15867500151076597,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor42,random smooth,NA,NA,0.027156681310673055,2,1.1026576976882074e-4,0.9919256941127786,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor43,random smooth,NA,NA,0.20569637215332745,2,0.00792819125092278,0.9263834930143728,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor44,random smooth,NA,NA,0.14653584571984363,2,0.0037341703414784794,0.9503534299231569,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor45,random smooth,NA,NA,0.20707933616936297,2,0.008062246273342632,0.9256831749072402,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor46,random smooth,NA,NA,1.498450144535329,2,6.562810314371582,0.09403490892193489,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor47,random smooth,NA,NA,1.2539393093176583,2,97.13872931165153,5.660895601167226e-7,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor48,random smooth,NA,NA,1.7349336062766503,2,0.2665860116859635,0.8307116877795349,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor49,random smooth,NA,NA,1.7371303920150267,2,15.834795303541416,0.002103043943769478,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor50,random smooth,NA,NA,1.381035029594519,2,14.086308519000422,0.011643001628591998,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor51,random smooth,NA,NA,1.2089407355247452,2,2.350940312466186,0.22548210320710504,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor52,random smooth,NA,NA,1.137762489832118,2,0.46647562555650407,0.5410249869791512,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor53,random smooth,NA,NA,1.4279683576360207,2,0.8128193053475453,0.6196617349260445,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor54,random smooth,NA,NA,0.6532116880553063,2,0.38691119299628607,0.32185474204758946,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor55,random smooth,NA,NA,1.63949161590418,2,48.85195482223266,1.994833010443564e-6,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor56,random smooth,NA,NA,0.8991965601412212,2,4.64656201543139,0.02091096711287954,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor57,random smooth,NA,NA,1.3717714785393473,2,3.9077382178691673,0.14658883432803704,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor58,random smooth,NA,NA,1.487922640120368,2,1.2529484061383032,0.29624848104653767,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor59,random smooth,NA,NA,1.5258264360594982,2,2.0718045047558378,0.33955565830753476,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor60,random smooth,NA,NA,0.3966955023189899,2,0.3343851844843795,0.18675906787072405,FALSE
+Adult female,1h,camera-specific cyclic deviations,s(camera_round_factor),random smooth,NA,NA,120.78738122291627,344,1.903271426906987,0,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(camera_factor),random smooth,NA,NA,35.64176624799684,60,28.22256723289928,5.764099767313624e-5,TRUE
+Adult female,1h,camera-specific cyclic deviations,s(polygon_factor),random smooth,NA,NA,8.260290988911484,11,147.742258213843,0.07243572067939719,FALSE
+Adult male,1h,camera-specific cyclic deviations,(Intercept),parametric,-5.009953022553528,0.3315813138679348,NA,NA,-15.10927429568283,7.093131835977501e-51,TRUE
+Adult male,1h,camera-specific cyclic deviations,wolf_between_z,parametric,0.2840605796215645,0.17180821368645557,NA,NA,1.653358553275956,0.09829728450971582,FALSE
+Adult male,1h,camera-specific cyclic deviations,jackal_between_z,parametric,-0.49834965234052686,0.190321793785071,NA,NA,-2.6184581514784875,0.008849519335575387,TRUE
+Adult male,1h,camera-specific cyclic deviations,wolf_round_z,parametric,0.10791486577164408,0.0487597104969803,NA,NA,2.213197426148116,0.026912250578450567,TRUE
+Adult male,1h,camera-specific cyclic deviations,jackal_round_z,parametric,0.08254886793099502,0.056029910235867675,NA,NA,1.4733000210689462,0.14070963416879806,FALSE
+Adult male,1h,camera-specific cyclic deviations,wolf_hour_z,parametric,0.05024250699033908,0.023019274706723658,NA,NA,2.182627716574573,0.02909231569739683,TRUE
+Adult male,1h,camera-specific cyclic deviations,jackal_hour_z,parametric,0.05107798709048306,0.032627043064613115,NA,NA,1.5655107632441754,0.11750288446737331,FALSE
+Adult male,1h,camera-specific cyclic deviations,round_factor2,parametric,-0.14822268745461148,0.17202718161813765,NA,NA,-0.8616236461028183,0.3889205682533632,FALSE
+Adult male,1h,camera-specific cyclic deviations,round_factor3,parametric,-0.027318528676706998,0.17204875638050446,NA,NA,-0.15878364512143936,0.8738433564756742,FALSE
+Adult male,1h,camera-specific cyclic deviations,round_factor4,parametric,0.07894320500093377,0.16976405872227485,NA,NA,0.4650171867655494,0.6419318490477887,FALSE
+Adult male,1h,camera-specific cyclic deviations,round_factor5,parametric,0.1109986867295066,0.17010176336484611,NA,NA,0.6525428339706795,0.5140698640473548,FALSE
+Adult male,1h,camera-specific cyclic deviations,round_factor6,parametric,-0.15457100585645872,0.17551024603596888,NA,NA,-0.8806950554030966,0.378509441485825,FALSE
+Adult male,1h,camera-specific cyclic deviations,round_factor7,parametric,-1.1431105245285467,0.3308367052684364,NA,NA,-3.4552107016089475,5.527267553141591e-4,TRUE
+Adult male,1h,camera-specific cyclic deviations,wolf_between_z:jackal_between_z,parametric,0.22892497227567982,0.18149718103263351,NA,NA,1.2613142031915014,0.20723257108871626,FALSE
+Adult male,1h,camera-specific cyclic deviations,wolf_round_z:jackal_round_z,parametric,-0.09909231513979681,0.045338951944476534,NA,NA,-2.1855890109932026,0.02887468274025081,TRUE
+Adult male,1h,camera-specific cyclic deviations,wolf_hour_z:jackal_hour_z,parametric,-0.011404557813147458,0.022486013328398592,NA,NA,-0.5071845171746888,0.6120393857964824,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour),baseline cyclic smooth,NA,NA,12.066759071210772,14,12.881620846176165,0,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):wolf_hour_z,dynamic-predator cyclic smooth,NA,NA,0.7059339893849101,14,0.0916727035075554,0.2076820384015443,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):jackal_hour_z,dynamic-predator cyclic smooth,NA,NA,1.63807550299369e-4,14,9.07231598874569e-6,0.4553306699004743,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):wolf_jackal_hour_z,dynamic-predator cyclic smooth,NA,NA,3.582442022778974e-4,15,2.009670435549342e-5,0.4243284533617837,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor1,random smooth,NA,NA,1.754287731940035,2,0.54140556801278,0.6348825198340129,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor2,random smooth,NA,NA,0.19752005551029628,2,0.0027907971923932786,0.9721323180026968,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor3,random smooth,NA,NA,1.3588217589138307,2,1.209660508138058,0.1590940949133708,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor4,random smooth,NA,NA,1.5301627539782054,2,0.46536436013276994,0.6121202878862382,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor5,random smooth,NA,NA,1.2416014577812138,2,21.418411430226534,1.9118399209316905e-6,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor6,random smooth,NA,NA,1.700445952645638,2,13.981587977530886,0.002421013673641337,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor7,random smooth,NA,NA,1.5582710776806707,2,1.584087271561924,0.22178315405889204,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor8,random smooth,NA,NA,1.7361805864630417,2,0.736253022882203,0.44659594339559094,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor9,random smooth,NA,NA,1.7599880989633052,2,35.32588759139249,2.9334159529215142e-6,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor10,random smooth,NA,NA,1.5860892301194305,2,5.834896153741855,0.012495304689518094,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor11,random smooth,NA,NA,1.097650635773443,2,7.452477621354674,0.0013852878590328022,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor12,random smooth,NA,NA,0.17168154714728445,2,0.002148384368264657,0.9752518206978134,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor13,random smooth,NA,NA,0.643524952027861,2,0.3519063413090792,0.34005220384577894,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor14,random smooth,NA,NA,0.5094935640281917,2,0.40417747395175113,0.21262752783405003,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor15,random smooth,NA,NA,1.263244309227153,2,0.30392671267697424,0.6642137320416888,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor16,random smooth,NA,NA,0.8187679237161529,2,0.6249010029599259,0.285687805900797,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor17,random smooth,NA,NA,1.3603403024342313,2,0.535987954661894,0.4543574143652005,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor18,random smooth,NA,NA,0.704806070509945,2,0.11051417817501927,0.7512659531366388,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor19,random smooth,NA,NA,1.5082911120465736,2,0.3502241884701359,0.6812809791924007,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor20,random smooth,NA,NA,1.465831392963505,2,8.876150283279552,0.023911167685538137,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor21,random smooth,NA,NA,1.4477130034636412,2,0.12319057860830052,0.890664007879134,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor22,random smooth,NA,NA,0.8841402668353002,2,1.2464153915657699,0.17413412700060293,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor23,random smooth,NA,NA,1.0105616718508985,2,4.614006781400461,0.0242112894381028,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor24,random smooth,NA,NA,0.5514949129678097,2,0.09999907459897954,0.6990811831043163,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor25,random smooth,NA,NA,0.5802102206455211,2,0.6250066891294794,0.1367281667803406,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor26,random smooth,NA,NA,1.5781451773260209,2,3.4064166964817244,0.0165294576420264,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor27,random smooth,NA,NA,1.5133372378833134,2,13.707479234150457,0.001532832137791651,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor28,random smooth,NA,NA,1.327184871821164,2,1.4803443272045103,0.2599211090357423,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor29,random smooth,NA,NA,1.24432392780984,2,5.096058952566496,0.046683380633946614,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor30,random smooth,NA,NA,1.6056255432979332,2,1.778073036452641,0.0941438088276565,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor31,random smooth,NA,NA,1.0747774636033665,2,6.543927458662971,3.726575581881608e-4,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor32,random smooth,NA,NA,1.2490527116472212,2,2.1072819591830227,0.07820184881857117,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor33,random smooth,NA,NA,1.6053495822842074,2,6.669738950976598,0.001873321201207201,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor34,random smooth,NA,NA,1.1703165486753668,2,28.379619361970484,6.236067330411821e-5,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor35,random smooth,NA,NA,0.45757867244722605,2,0.035332900674041795,0.8590747497728193,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor36,random smooth,NA,NA,0.2733555853576729,2,0.005200211075766922,0.9627019893772921,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor37,random smooth,NA,NA,1.5834354038822158,2,68.44078820147439,0,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor38,random smooth,NA,NA,1.6866809265333584,2,2.534488311087018,0.04757478028810824,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor39,random smooth,NA,NA,0.2691070060290227,2,0.008087608798479086,0.9419174433567387,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor40,random smooth,NA,NA,1.5000219228406655,2,3.8601183222501656,0.08445906428068084,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor41,random smooth,NA,NA,0.1949162929314005,2,0.06408852917365566,0.519710555819531,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor42,random smooth,NA,NA,0.02863829409265338,2,3.992139564717685e-5,0.9972027697198101,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor43,random smooth,NA,NA,0.13551324949193216,2,0.0019139944525998404,0.9721389806698373,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor44,random smooth,NA,NA,0.103843618775318,2,9.289688234920594e-4,0.9824204352931747,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor45,random smooth,NA,NA,0.3467169487226018,2,0.10881662175675931,0.5502414044289672,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor46,random smooth,NA,NA,1.5992846334124136,2,14.648653345037555,0.004688573270871688,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor47,random smooth,NA,NA,1.5776916045531841,2,32.204231138334436,2.3870704920980756e-4,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor48,random smooth,NA,NA,1.5622796355612412,2,2.6996355266081604,0.05433506088473228,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor49,random smooth,NA,NA,1.4443024676828577,2,43.42651902982157,3.0109402739508795e-5,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor50,random smooth,NA,NA,1.2050246048545916,2,23.053215055432496,3.280288840563639e-4,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor51,random smooth,NA,NA,0.7856212322749139,2,1.170546751683125,0.12724032148473663,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor52,random smooth,NA,NA,1.0475971633868268,2,0.9980066307707677,0.2473702787140214,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor53,random smooth,NA,NA,1.1864224321174135,2,4.630801323722011,0.05066580951609423,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor54,random smooth,NA,NA,0.5178209734955739,2,0.32590448595579075,0.28670259846907464,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor55,random smooth,NA,NA,1.410530729298824,2,17.967909189222397,0.0019356925695692695,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor56,random smooth,NA,NA,0.8848817452518221,2,2.5402745933739617,0.04185006818289183,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor57,random smooth,NA,NA,1.4779160075748106,2,0.9009311714733133,0.29911031188465353,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor58,random smooth,NA,NA,0.9289635854300254,2,0.06269558483342229,0.8929864138881094,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor59,random smooth,NA,NA,1.428347580500248,2,5.499503624467428,0.06602336203850179,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(solar_hour):camera_factor60,random smooth,NA,NA,0.16798222954171108,2,0.0018545993432904132,0.9781339818696897,FALSE
+Adult male,1h,camera-specific cyclic deviations,s(camera_round_factor),random smooth,NA,NA,142.8431865359821,344,3.728117783539743,0,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(camera_factor),random smooth,NA,NA,38.88010780160684,60,64.86892334474642,4.109645689176489e-5,TRUE
+Adult male,1h,camera-specific cyclic deviations,s(polygon_factor),random smooth,NA,NA,8.425035847666466,11,505.9627239800491,0.09345091708509012,FALSE
+Juvenile,3h,random intercepts,(Intercept),parametric,-8.26392284407088,0.450614791723092,NA,NA,-18.339217877137855,1.1995869875537354e-73,TRUE
+Juvenile,3h,random intercepts,wolf_between_z,parametric,0.2649089113455221,0.2306187821492951,NA,NA,1.148687495773994,0.2507185458403414,FALSE
+Juvenile,3h,random intercepts,jackal_between_z,parametric,-0.6152961488296023,0.2901314345953376,NA,NA,-2.1207496860441544,0.033972961921172565,TRUE
+Juvenile,3h,random intercepts,wolf_round_z,parametric,0.09491242833802467,0.1217566091987155,NA,NA,0.7795258833392839,0.43569261201554343,FALSE
+Juvenile,3h,random intercepts,jackal_round_z,parametric,0.41596975906741585,0.16059512626166822,NA,NA,2.590176730454752,0.009609727326153075,TRUE
+Juvenile,3h,random intercepts,wolf_hour_z,parametric,-0.06358361775234893,0.11824913782760342,NA,NA,-0.537708933193645,0.5907926797604868,FALSE
+Juvenile,3h,random intercepts,jackal_hour_z,parametric,-0.04628596588419073,0.13992554069855556,NA,NA,-0.3307899733895296,0.7408116311926568,FALSE
+Juvenile,3h,random intercepts,round_factor2,parametric,0.0699139653919677,0.42103638357865736,NA,NA,0.1660520755895826,0.8681200839301888,FALSE
+Juvenile,3h,random intercepts,round_factor3,parametric,-0.5793436655136109,0.4740471777013454,NA,NA,-1.222122380989268,0.2216966640104684,FALSE
+Juvenile,3h,random intercepts,round_factor4,parametric,-0.10488755019381214,0.4298177763839854,NA,NA,-0.24402794848603232,0.8072153114889213,FALSE
+Juvenile,3h,random intercepts,round_factor5,parametric,0.256408008209772,0.4133884353269751,NA,NA,0.6202592677924399,0.5351044342284343,FALSE
+Juvenile,3h,random intercepts,round_factor6,parametric,0.16926826168937698,0.43098442501447687,NA,NA,0.39274797849989873,0.6945158930200824,FALSE
+Juvenile,3h,random intercepts,round_factor7,parametric,0.12681502596276323,0.7263055824388868,NA,NA,0.17460285178715912,0.8613960408116415,FALSE
+Juvenile,3h,random intercepts,wolf_between_z:jackal_between_z,parametric,0.2543773901588109,0.25130967324762865,NA,NA,1.0122069193419365,0.3114691511366008,FALSE
+Juvenile,3h,random intercepts,wolf_round_z:jackal_round_z,parametric,-0.17999087874735434,0.16195161494863763,NA,NA,-1.1113867484707565,0.26643466974550745,FALSE
+Juvenile,3h,random intercepts,wolf_hour_z:jackal_hour_z,parametric,-0.09197657493035494,0.10085659061330565,NA,NA,-0.9119540366281308,0.36181986369478614,FALSE
+Juvenile,3h,random intercepts,s(solar_hour),baseline cyclic smooth,NA,NA,6.028783407514577,10,6.577745844171474,0,TRUE
+Juvenile,3h,random intercepts,s(solar_hour):wolf_hour_z,dynamic-predator cyclic smooth,NA,NA,1.3222188083075004,10,0.3538876421628719,0.08467120163119235,FALSE
+Juvenile,3h,random intercepts,s(solar_hour):jackal_hour_z,dynamic-predator cyclic smooth,NA,NA,1.5283434900316232e-5,10,4.0497883049996147e-7,0.7934930229752422,FALSE
+Juvenile,3h,random intercepts,s(solar_hour):wolf_jackal_hour_z,dynamic-predator cyclic smooth,NA,NA,3.288957218489729e-5,11,2.247915407884939e-6,0.4535255007926362,FALSE
+Juvenile,3h,random intercepts,s(camera_round_factor),random smooth,NA,NA,44.48299336662731,344,0.32219232951681487,1.5974832195175814e-4,TRUE
+Juvenile,3h,random intercepts,s(camera_factor),random smooth,NA,NA,26.02942643374288,60,3.2749694674810033,0.02368846558274873,TRUE
+Juvenile,3h,random intercepts,s(polygon_factor),random smooth,NA,NA,5.000476251917374,11,17.65074370329016,0.03646276468389931,TRUE
+Adult female,3h,camera-specific cyclic deviations,(Intercept),parametric,-5.688464834949742,0.3666715786878859,NA,NA,-15.513787175176217,1.6755315239418855e-53,TRUE
+Adult female,3h,camera-specific cyclic deviations,wolf_between_z,parametric,0.26963945685377094,0.19000768001110044,NA,NA,1.4190976745677772,0.1559095029652996,FALSE
+Adult female,3h,camera-specific cyclic deviations,jackal_between_z,parametric,-0.5500894535861776,0.21940862932129043,NA,NA,-2.5071459371848843,0.012190708461698061,TRUE
+Adult female,3h,camera-specific cyclic deviations,wolf_round_z,parametric,0.11402463021415579,0.060177571682328866,NA,NA,1.8948027816090676,0.05815456000864603,FALSE
+Adult female,3h,camera-specific cyclic deviations,jackal_round_z,parametric,0.11110940766181371,0.07429168834502366,NA,NA,1.4955832898264756,0.13480172743578187,FALSE
+Adult female,3h,camera-specific cyclic deviations,wolf_hour_z,parametric,0.008018127018827483,0.03454423582979298,NA,NA,0.23211186544506449,0.8164570665806895,FALSE
+Adult female,3h,camera-specific cyclic deviations,jackal_hour_z,parametric,-0.001996142156487158,0.05678348871585342,NA,NA,-0.035153566672803845,0.971958164838689,FALSE
+Adult female,3h,camera-specific cyclic deviations,round_factor2,parametric,-0.2571606395901824,0.2075560942856703,NA,NA,-1.2389934416295134,0.21538427801834745,FALSE
+Adult female,3h,camera-specific cyclic deviations,round_factor3,parametric,-0.26678733084562734,0.20982411260673922,NA,NA,-1.2714808013779182,0.2035946190651738,FALSE
+Adult female,3h,camera-specific cyclic deviations,round_factor4,parametric,-0.09957274235559013,0.2048089937808377,NA,NA,-0.48617368074246325,0.626857347491151,FALSE
+Adult female,3h,camera-specific cyclic deviations,round_factor5,parametric,-0.1402425294557391,0.20581650593438752,NA,NA,-0.6813959299282205,0.4956407222065995,FALSE
+Adult female,3h,camera-specific cyclic deviations,round_factor6,parametric,-0.3406069257887495,0.213141707272423,NA,NA,-1.5980303908958058,0.11007570860661273,FALSE
+Adult female,3h,camera-specific cyclic deviations,round_factor7,parametric,-0.9322361461893642,0.427911649069649,NA,NA,-2.178571553768635,0.029392604889845644,TRUE
+Adult female,3h,camera-specific cyclic deviations,wolf_between_z:jackal_between_z,parametric,0.3098126545222216,0.2071220235717045,NA,NA,1.4957977388385557,0.1347458186850231,FALSE
+Adult female,3h,camera-specific cyclic deviations,wolf_round_z:jackal_round_z,parametric,-0.12061580264456408,0.06138828995590562,NA,NA,-1.9648014748610978,0.04947177698332711,TRUE
+Adult female,3h,camera-specific cyclic deviations,wolf_hour_z:jackal_hour_z,parametric,0.0064539632369117585,0.0369183529063708,NA,NA,0.17481720414991844,0.861227693666587,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour),baseline cyclic smooth,NA,NA,11.284056856207934,14,12.15084689901099,0,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):wolf_hour_z,dynamic-predator cyclic smooth,NA,NA,4.144598181984953e-5,14,8.715207713177005e-7,0.7804247257896774,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):jackal_hour_z,dynamic-predator cyclic smooth,NA,NA,1.2849685953428126e-4,14,5.2577525743923524e-6,0.5716657684189738,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):wolf_jackal_hour_z,dynamic-predator cyclic smooth,NA,NA,4.0069546887652316e-5,15,1.4649011893013556e-6,0.6169269853290711,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor1,random smooth,NA,NA,1.5757123304290372,2,1.976517693078605,0.2821749560037766,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor2,random smooth,NA,NA,0.24159000503741535,2,0.013227977355431395,0.897545486664099,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor3,random smooth,NA,NA,1.1958166726952473,2,6.565741838248696,0.05869940974049004,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor4,random smooth,NA,NA,1.4639005207176083,2,1.737203798034161,0.36046937042359994,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor5,random smooth,NA,NA,0.7814550144367063,2,3.7234388717181623,0.013356864947679958,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor6,random smooth,NA,NA,1.4102659390312193,2,13.671644890371772,0.016898801633216,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor7,random smooth,NA,NA,1.8643174624960492,2,16.251873812389984,0,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor8,random smooth,NA,NA,1.4332989108011782,2,1.2877998633505219,0.49126051099723456,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor9,random smooth,NA,NA,1.7903910230679148,2,2.299430304526331,0.22316160123103823,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor10,random smooth,NA,NA,1.7124866795239755,2,1.937552518667556,0.28037796703272133,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor11,random smooth,NA,NA,0.8150710690026965,2,0.4103914016579113,0.4196594262500045,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor12,random smooth,NA,NA,0.16149159990826498,2,0.005344665251619689,0.9362178598009638,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor13,random smooth,NA,NA,0.3850525665741069,2,0.08320100777767606,0.6728397739593837,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor14,random smooth,NA,NA,0.1378551710899512,2,0.003777411876580369,0.9467656781823424,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor15,random smooth,NA,NA,0.3178928242017873,2,0.19805288918161898,0.2969256028752201,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor16,random smooth,NA,NA,0.861640226764231,2,3.733912761364848,0.03420322312329649,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor17,random smooth,NA,NA,1.5636873755806833,2,3.8176690669249167,0.013571683494610465,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor18,random smooth,NA,NA,1.5284665948842737,2,5.691811610266578,0.13108603046838707,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor19,random smooth,NA,NA,1.383307329114524,2,3.049461966966354,0.23136775257141817,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor20,random smooth,NA,NA,0.9759556201558945,2,3.0789495353423315,0.0783430083235338,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor21,random smooth,NA,NA,1.7520617250559676,2,5.371312184648043,0.001967131562647162,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor22,random smooth,NA,NA,1.3272381138928664,2,7.909418856097584,0.02377552308026032,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor23,random smooth,NA,NA,0.9825166443307485,2,0.28270824540679296,0.636409170233279,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor24,random smooth,NA,NA,0.314350097253249,2,0.02423909817500526,0.8599371500806456,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor25,random smooth,NA,NA,0.7797115087905298,2,1.1149689685642925,0.16774317578415765,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor26,random smooth,NA,NA,1.67156250626189,2,17.2335241981627,2.057397406551864e-5,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor27,random smooth,NA,NA,0.9370671994566857,2,8.726954206659512,0.0039470977371588445,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor28,random smooth,NA,NA,1.1120607267278388,2,12.009644268369248,0.004499413733836333,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor29,random smooth,NA,NA,0.7880045387183133,2,0.7988162344022127,0.2841901054307773,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor30,random smooth,NA,NA,1.6842109135604186,2,4.059323514667726,0.11959252407470966,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor31,random smooth,NA,NA,0.9480753690547361,2,0.8483225824983767,0.17896638579488278,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor32,random smooth,NA,NA,1.2271890076963963,2,2.1913259261733775,0.030533959661876442,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor33,random smooth,NA,NA,1.4601613199154477,2,0.2616543233066351,0.7649492862841818,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor34,random smooth,NA,NA,1.391598914495188,2,27.147629552675234,0.0017331062682510723,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor35,random smooth,NA,NA,0.468287826927453,2,0.03806366896086041,0.8631796808564213,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor36,random smooth,NA,NA,0.4237178777667169,2,0.04871782635975749,0.8018258013765752,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor37,random smooth,NA,NA,1.5190172027295978,2,64.51576122462662,1.7801401785977333e-7,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor38,random smooth,NA,NA,1.7186318456544047,2,39.81233693253104,0,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor39,random smooth,NA,NA,0.4382033272342623,2,0.054006974337701394,0.7896856727666839,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor40,random smooth,NA,NA,1.7384563947497618,2,6.335755464223276,0.007345604487660307,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor41,random smooth,NA,NA,0.3261933561683791,2,0.3045045499567133,0.15725101666736763,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor42,random smooth,NA,NA,0.027737979419197728,2,1.3295504143119612e-4,0.9905619931001728,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor43,random smooth,NA,NA,0.2072981155811876,2,0.009359955592268904,0.9146363303292186,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor44,random smooth,NA,NA,0.14815155770219812,2,0.004424472772849627,0.9422281344151159,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor45,random smooth,NA,NA,0.2087699238716746,2,0.009527197390489593,0.91378550653355906,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor46,random smooth,NA,NA,1.4980008481992664,2,6.909376194137663,0.09439749310481838,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor47,random smooth,NA,NA,1.256111306733621,2,96.80065483579038,6.277377111452154e-7,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor48,random smooth,NA,NA,1.7340461952852526,2,0.25503210635947177,0.8412169592611234,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor49,random smooth,NA,NA,1.735791068082253,2,15.962599206713795,0.002147834926895187,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor50,random smooth,NA,NA,1.3803941307548744,2,14.177648343527935,0.01144099366108342,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor51,random smooth,NA,NA,1.2084373799496686,2,2.5331864182026655,0.2195798490016846,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor52,random smooth,NA,NA,1.1365119645586839,2,0.4828060544651339,0.5431305988114258,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor53,random smooth,NA,NA,1.426792738405551,2,0.8858831618757279,0.6050553728410301,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor54,random smooth,NA,NA,0.6523429619146874,2,0.39160497831580665,0.3216993481651692,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor55,random smooth,NA,NA,1.6389480726314973,2,46.79783120948443,1.911743466198601e-6,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor56,random smooth,NA,NA,0.9012328562488507,2,4.982578992269934,0.02058303980198939,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor57,random smooth,NA,NA,1.3706794359588357,2,3.9991930187101974,0.14434644077827996,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor58,random smooth,NA,NA,1.4851735109195316,2,1.2456139187787443,0.31167201544960654,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor59,random smooth,NA,NA,1.525865867735975,2,2.2614319317615554,0.32936771479210736,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor60,random smooth,NA,NA,0.3946622711157228,2,0.34126177312898887,0.1800933832825128,FALSE
+Adult female,3h,camera-specific cyclic deviations,s(camera_round_factor),random smooth,NA,NA,120.64190172240556,344,1.8657859458615536,0,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(camera_factor),random smooth,NA,NA,35.71300085235496,60,27.432026998662007,6.49524394100709e-5,TRUE
+Adult female,3h,camera-specific cyclic deviations,s(polygon_factor),random smooth,NA,NA,8.213516622143965,11,140.70443322645653,0.07116726504874538,FALSE
+Adult male,3h,camera-specific cyclic deviations,(Intercept),parametric,-5.025998414713422,0.33145560120316514,NA,NA,-15.163413731641075,3.1872437774143715e-51,TRUE
+Adult male,3h,camera-specific cyclic deviations,wolf_between_z,parametric,0.2882695859546909,0.1723638844716806,NA,NA,1.6724477220867784,0.09447530789874417,FALSE
+Adult male,3h,camera-specific cyclic deviations,jackal_between_z,parametric,-0.49590961118655147,0.19066265973145954,NA,NA,-2.6009791947989167,0.009312977633000364,TRUE
+Adult male,3h,camera-specific cyclic deviations,wolf_round_z,parametric,0.11087899685381565,0.04892168575776556,NA,NA,2.2664590382847822,0.02344997429607679,TRUE
+Adult male,3h,camera-specific cyclic deviations,jackal_round_z,parametric,0.08782095951993643,0.056161666671051116,NA,NA,1.5637171174837,0.11792370749457808,FALSE
+Adult male,3h,camera-specific cyclic deviations,wolf_hour_z,parametric,0.029366307065486316,0.02693261824056915,NA,NA,1.0903621327558586,0.2755866103437181,FALSE
+Adult male,3h,camera-specific cyclic deviations,jackal_hour_z,parametric,0.11348204241514943,0.0396990573449681,NA,NA,2.858557608283699,0.004266753346447235,TRUE
+Adult male,3h,camera-specific cyclic deviations,round_factor2,parametric,-0.14324441248998707,0.17210071494547674,NA,NA,-0.832328979780057,0.40524820890981805,FALSE
+Adult male,3h,camera-specific cyclic deviations,round_factor3,parametric,-0.02404276902735894,0.17209669160755064,NA,NA,-0.13970500422045345,0.8888966014942811,FALSE
+Adult male,3h,camera-specific cyclic deviations,round_factor4,parametric,0.0779999653697549,0.16979874637142023,NA,NA,0.4593671451445033,0.6459830626837086,FALSE
+Adult male,3h,camera-specific cyclic deviations,round_factor5,parametric,0.10922048506022064,0.1700904202042116,NA,NA,0.6421319021323473,0.5208060073302789,FALSE
+Adult male,3h,camera-specific cyclic deviations,round_factor6,parametric,-0.15714800892862618,0.17553214666752848,NA,NA,-0.8952662626879208,0.37067179970339204,FALSE
+Adult male,3h,camera-specific cyclic deviations,round_factor7,parametric,-1.1401522314917074,0.33105175790754937,NA,NA,-3.444030138061101,5.760609619242814e-4,TRUE
+Adult male,3h,camera-specific cyclic deviations,wolf_between_z:jackal_between_z,parametric,0.227320444525917,0.18243045793153123,NA,NA,1.2460662934433548,0.21277667367318528,FALSE
+Adult male,3h,camera-specific cyclic deviations,wolf_round_z:jackal_round_z,parametric,-0.09879494319156146,0.04546222859304252,NA,NA,-2.173121429570237,0.029800525565852436,TRUE
+Adult male,3h,camera-specific cyclic deviations,wolf_hour_z:jackal_hour_z,parametric,-0.023169621770751256,0.025309465152950867,NA,NA,-0.9154528406954454,0.3599816378921603,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour),baseline cyclic smooth,NA,NA,12.05110881857747,14,13.230229890050481,0,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):wolf_hour_z,dynamic-predator cyclic smooth,NA,NA,1.2107651571002712e-4,14,4.258724412191909e-6,0.6149749777401468,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):jackal_hour_z,dynamic-predator cyclic smooth,NA,NA,8.296234363365576e-5,14,3.4854018250563347e-06,0.560586238648149,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):wolf_jackal_hour_z,dynamic-predator cyclic smooth,NA,NA,1.3465468632550737,15,0.24313724984998478,0.0814584767287252,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor1,random smooth,NA,NA,1.7499862413027467,2,0.9680430926403799,0.4757317539588747,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor2,random smooth,NA,NA,0.19384068428890677,2,0.0026065052572350044,0.9734742875954048,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor3,random smooth,NA,NA,1.3496213328606346,2,1.4180980406872865,0.11842214459473954,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor4,random smooth,NA,NA,1.522991402513675,2,0.5428933323057701,0.5856938852513742,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor5,random smooth,NA,NA,1.2213325028269026,2,16.714366952490703,1.0774999450791078e-5,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor6,random smooth,NA,NA,1.696245440514406,2,14.140530251302163,0.003169905501285708,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor7,random smooth,NA,NA,1.5519611923739247,2,1.5868125131448212,0.24662803496465313,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor8,random smooth,NA,NA,1.7323386187267908,2,0.9189341838702378,0.39910892102257867,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor9,random smooth,NA,NA,1.7556920906266826,2,39.76724607970235,2.0266157862991463e-6,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor10,random smooth,NA,NA,1.5797433423566414,2,4.828349380746932,0.023420989787132807,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor11,random smooth,NA,NA,1.086375216978132,2,7.12759963566279,0.001477770016124591,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor12,random smooth,NA,NA,0.169654769606026,2,0.0020542838039264107,0.976012946608632,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor13,random smooth,NA,NA,0.6341540648862507,2,0.33464987892302867,0.35341178021132336,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor14,random smooth,NA,NA,0.5013087575709433,2,0.3603794021283299,0.24609228419530926,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor15,random smooth,NA,NA,1.2533655294727648,2,0.32174993966118937,0.6613164887847383,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor16,random smooth,NA,NA,0.8110207401667202,2,0.6333560789156536,0.28422919944826697,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor17,random smooth,NA,NA,1.3391633674570205,2,0.2803608191657291,0.6580927877742938,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor18,random smooth,NA,NA,0.697184308532187,2,0.1274487003058546,0.7188170356907779,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor19,random smooth,NA,NA,1.500228737365644,2,0.6899500780071481,0.5157304314925526,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor20,random smooth,NA,NA,1.4570335062937754,2,7.592948683956294,0.040292287578068464,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor21,random smooth,NA,NA,1.439233636509623,2,0.2353756095170628,0.8137774505162064,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor22,random smooth,NA,NA,0.8688792328193872,2,1.122984994276191,0.2256574720517719,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor23,random smooth,NA,NA,0.9975525197788309,2,4.5910410338851495,0.03060881672842619,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor24,random smooth,NA,NA,0.5431091922812555,2,0.10265312975618116,0.6937753286085682,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor25,random smooth,NA,NA,0.5711291520968333,2,0.5681943837388983,0.1601055828682585,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor26,random smooth,NA,NA,1.5723502690639757,2,3.3286676989226014,0.0162182763838018,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor27,random smooth,NA,NA,1.500690490975431,2,13.912632648554679,0.0013321652490175806,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor28,random smooth,NA,NA,1.3181559211911584,2,1.877040729451278,0.2044985772806347,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor29,random smooth,NA,NA,1.2351429264123888,2,5.559642149753508,0.04515266487553127,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor30,random smooth,NA,NA,1.598627424457697,2,2.3839525939343846,0.04960578328943166,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor31,random smooth,NA,NA,1.0661513618987364,2,5.897641590266389,2.3955348474935523e-4,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor32,random smooth,NA,NA,1.238875434671462,2,2.007643170047413,0.0953784186297324,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor33,random smooth,NA,NA,1.5804919057967384,2,6.19219176501388,0.001784429540776844,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor34,random smooth,NA,NA,1.1589512685621721,2,29.822646532540478,6.387803669971603e-5,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor35,random smooth,NA,NA,0.45327476359114705,2,0.047314486867190655,0.8141237166545144,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor36,random smooth,NA,NA,0.26831581270463073,2,0.006803463076505465,0.9506718970915073,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor37,random smooth,NA,NA,1.577501196748429,2,59.75984035879041,0,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor38,random smooth,NA,NA,1.6821157327803231,2,3.0320175977357966,0.030026572561639986,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor39,random smooth,NA,NA,0.2636160920939029,2,0.013224570215188778,0.9055046498268808,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor40,random smooth,NA,NA,1.4931806140179744,2,3.345117404049576,0.1298565160819688,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor41,random smooth,NA,NA,0.19098279182346864,2,0.06617917942511901,0.5031495438467368,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor42,random smooth,NA,NA,0.028406596380853036,2,2.643197974488482e-5,0.9981240558785027,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor43,random smooth,NA,NA,0.1328573960448022,2,0.0031575495608407267,0.9536773059561365,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor44,random smooth,NA,NA,0.10172880680571485,2,0.0012486687559113993,0.9759941009936053,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor45,random smooth,NA,NA,0.34028224970449883,2,0.09944743534243351,0.5803697078265209,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor46,random smooth,NA,NA,1.5934644628808199,2,16.044521261378776,0.004439553778594618,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor47,random smooth,NA,NA,1.5715221292579606,2,30.872126374542077,4.332486958507076e-4,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor48,random smooth,NA,NA,1.5558048401719287,2,2.687268512061136,0.05018284996877398,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor49,random smooth,NA,NA,1.4361861254159118,2,41.38238055101128,6.022827751694937e-5,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor50,random smooth,NA,NA,1.1936207786626252,2,21.663708219019814,6.326722084517566e-4,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor51,random smooth,NA,NA,0.7765071887213759,2,1.2148725123047697,0.12236248862880617,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor52,random smooth,NA,NA,1.0368139366856668,2,0.9292496410709556,0.2782366686878376,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor53,random smooth,NA,NA,1.1748548916129713,2,4.369157151096873,0.0691459052245631,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor54,random smooth,NA,NA,0.509020706648193,2,0.306117891569268,0.3046838447692525,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor55,random smooth,NA,NA,1.4029009345322248,2,17.49453564629384,0.0026166356198009666,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor56,random smooth,NA,NA,0.8783649621031788,2,2.8247916856642785,0.03369627388239893,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor57,random smooth,NA,NA,1.469290085342592,2,1.312269852561697,0.19572844604219197,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor58,random smooth,NA,NA,0.9178021771423552,2,0.04733517494743169,0.9213371117268897,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor59,random smooth,NA,NA,1.4203453270112294,2,5.612279307814834,0.07232506554693452,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(solar_hour):camera_factor60,random smooth,NA,NA,0.16498596209496352,2,0.0015522610422232777,0.9813350136471606,FALSE
+Adult male,3h,camera-specific cyclic deviations,s(camera_round_factor),random smooth,NA,NA,142.97737441062745,344,3.664761428410594,0,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(camera_factor),random smooth,NA,NA,38.90925267648414,60,61.913641188747796,3.2224202068942276e-5,TRUE
+Adult male,3h,camera-specific cyclic deviations,s(polygon_factor),random smooth,NA,NA,8.40742637900244,11,454.17738894718156,0.09775894592630041,FALSE

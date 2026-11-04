@@ -1,0 +1,4 @@
+pair,posterior_estimate,lower_95_CrI,upper_95_CrI,source
+Juvenile – adult female,0.8633474253110366,0.5233384246390953,0.9984488279406438,gazelle_lf2_NMix_NB_open_wolf_jackal_interaction_order-fawn-male-female_2000b_25bl_10th_3ch_fit.rds
+Juvenile – adult male,0.6573682072773506,0.4353709422569792,0.8062268165470031,gazelle_lf2_NMix_NB_open_wolf_jackal_interaction_order-fawn-male-female_2000b_25bl_10th_3ch_fit.rds
+Adult female – adult male,0.9065364315285055,0.7124806609921518,0.9995658558430295,gazelle_lf2_NMix_NB_open_wolf_jackal_interaction_order-fawn-male-female_2000b_25bl_10th_3ch_fit.rds

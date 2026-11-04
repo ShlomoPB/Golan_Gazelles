@@ -1,0 +1,10 @@
+metric,value
+raw_gazelle_sighting_rows,43433
+species_level_30min_encounters,3688
+encounters_assigned_to_positive_effort_rounds,3688
+encounters_excluded_from_model,0
+cameras_with_encounters,53
+positive_effort_camera_rounds,344
+camera_round_hour_cells,8256
+total_camera_nights,5999
+timestamp_correction_sessions,9

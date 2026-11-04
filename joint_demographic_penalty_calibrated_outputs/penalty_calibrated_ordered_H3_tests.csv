@@ -1,0 +1,3 @@
+hypothesis,delta_Wald_intersection_union_P,simulation_intersection_union_tail_area,joint_simulation_probability,delta_Wald_supported_at_0_05,simulation_tail_area_below_0_05,interpretation
+Prespecified strict order: Juvenile > Adult female > Adult male,0.4994952116015749,0.491,0.4844,FALSE,FALSE,Requires both Juvenile > Female and Female > Male
+Post-hoc simplified order: Juvenile > both adult classes,0.10367186135295055,0.0458,0.9542,FALSE,TRUE,Requires Juvenile > Female and Juvenile > Male

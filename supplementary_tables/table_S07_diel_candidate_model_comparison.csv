@@ -1,0 +1,21 @@
+demographic_analysis,model,AIC,delta_AIC,selected_under_least_complex_within_2_AIC,hierarchy,convergence,source
+Juvenile,Baseline,1336.3217660610676,14.966120834244293,No,camera_round,No convergence warning returned,definitive_hierarchical_diel_ecological_model_comparison.csv
+Juvenile,Wolf-only,1335.1866472971367,13.831002070313389,No,camera_round,No convergence warning returned,definitive_hierarchical_diel_ecological_model_comparison.csv
+Juvenile,Jackal-only,1331.744029979728,10.388384752904813,No,camera_round,No convergence warning returned,definitive_hierarchical_diel_ecological_model_comparison.csv
+Juvenile,Additive wolf + jackal,1331.0212049613503,9.66555973452705,No,camera_round,No convergence warning returned,definitive_hierarchical_diel_ecological_model_comparison.csv
+Juvenile,Wolf × jackal,1321.3556452268233,0,Yes,camera_round,No convergence warning returned,definitive_hierarchical_diel_ecological_model_comparison.csv
+Adult female,Baseline,5995.248623915008,10.438652676573838,No,site_shape,No convergence warning returned,definitive_hierarchical_diel_ecological_model_comparison.csv
+Adult female,Wolf-only,5990.346871760954,5.536900522520227,No,site_shape,No convergence warning returned,definitive_hierarchical_diel_ecological_model_comparison.csv
+Adult female,Jackal-only,5991.936501789574,7.126530551140604,No,site_shape,No convergence warning returned,definitive_hierarchical_diel_ecological_model_comparison.csv
+Adult female,Additive wolf + jackal,5987.304556917978,2.4945856795438885,No,site_shape,No convergence warning returned,definitive_hierarchical_diel_ecological_model_comparison.csv
+Adult female,Wolf × jackal,5984.809971238434,0,Yes,site_shape,No convergence warning returned,definitive_hierarchical_diel_ecological_model_comparison.csv
+Adult male,Baseline,8589.60797021943,6.000315079774737,No,site_shape,No convergence warning returned,definitive_hierarchical_diel_ecological_model_comparison.csv
+Adult male,Wolf-only,8587.37601654665,3.7683614069956093,No,site_shape,No convergence warning returned,definitive_hierarchical_diel_ecological_model_comparison.csv
+Adult male,Jackal-only,8588.870371123707,5.262715984052193,No,site_shape,No convergence warning returned,definitive_hierarchical_diel_ecological_model_comparison.csv
+Adult male,Additive wolf + jackal,8586.869221597106,3.2615664574514085,No,site_shape,No convergence warning returned,definitive_hierarchical_diel_ecological_model_comparison.csv
+Adult male,Wolf × jackal,8583.607655139655,0,Yes,site_shape,No convergence warning returned,definitive_hierarchical_diel_ecological_model_comparison.csv
+Pooled gazelles,Baseline,11276.833631544678,2.151877013964622,No,site_shape,No convergence warning returned,definitive_hierarchical_diel_ecological_model_comparison.csv
+Pooled gazelles,Wolf-only,11274.681754530713,0,Yes,site_shape,No convergence warning returned,definitive_hierarchical_diel_ecological_model_comparison.csv
+Pooled gazelles,Jackal-only,11276.99439100753,2.3126364768177154,No,site_shape,No convergence warning returned,definitive_hierarchical_diel_ecological_model_comparison.csv
+Pooled gazelles,Additive wolf + jackal,11274.877700595318,0.1959460646048683,No,site_shape,No convergence warning returned,definitive_hierarchical_diel_ecological_model_comparison.csv
+Pooled gazelles,Wolf × jackal,11276.252237994051,1.5704834633379505,No,site_shape,No convergence warning returned,definitive_hierarchical_diel_ecological_model_comparison.csv

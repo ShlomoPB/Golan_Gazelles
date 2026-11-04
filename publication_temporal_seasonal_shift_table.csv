@@ -1,0 +1,17 @@
+period,class,covariate,low_events,high_events,overlap,p_value
+Early (hotter),Female,Orchards,201,50,"0.613 [0.482, 0.743]",0.000
+Early (hotter),Female,Cropland,367,133,"0.664 [0.587, 0.741]",0.000
+Early (hotter),Female,Firing zones,109,240,"0.682 [0.596, 0.768]",0.000
+Early (hotter),Female,Human abundance,207,52,"0.702 [0.602, 0.802]",0.000
+Early (hotter),Male,Built and roads,227,170,"0.748 [0.669, 0.827]",0.000
+Early (hotter),Male,Jackal abundance,397,101,"0.806 [0.718, 0.895]",0.007
+Early (hotter),Male,Boar abundance,232,337,"0.820 [0.756, 0.885]",0.000
+Early (hotter),Male,Orchards,397,107,"0.832 [0.747, 0.916]",0.027
+Late (mild-cold),Female,Built and roads,150,75,"0.678 [0.564, 0.792]",0.000
+Late (mild-cold),Female,Orchards,148,115,"0.761 [0.667, 0.855]",0.000
+Late (mild-cold),Female,Boar abundance,125,152,"0.809 [0.723, 0.895]",0.040
+Late (mild-cold),Female,Wolf abundance,133,257,"0.817 [0.739, 0.895]",0.000
+Late (mild-cold),Male,Built and roads,161,148,"0.769 [0.686, 0.852]",0.000
+Late (mild-cold),Male,Jackal abundance,458,125,"0.774 [0.688, 0.860]",0.000
+Late (mild-cold),Male,Boar abundance,184,283,"0.817 [0.750, 0.885]",0.007
+Late (mild-cold),Male,Human abundance,271,181,"0.819 [0.756, 0.882]",0.000

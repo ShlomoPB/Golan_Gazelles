@@ -1,0 +1,6 @@
+predator_context_label,n_cameras,juvenile_total,female_total,male_total,mean_juvenile_per_camera,mean_juvenile_per_active_round,median_juvenile_per_active_round,cameras_with_any_juvenile,juvenile_camera_occupancy,juveniles_per_100_females
+High jackal / Low wolf,9,2,18,86,2,0.031746031746031744,0,1,0.1111111111111111,11.11111111111111
+Low jackal / High wolf,8,63,664,609,63,1.3005952380952381,0.7023809523809523,6,0.75,9.487951807228916
+High both,6,13,130,185,13,0.3611111111111111,0.08333333333333333,3,0.5,10
+Low both,6,30,354,337,30,0.8472222222222222,0.5833333333333333,6,1,8.474576271186441
+Intermediate / mixed,31,91,785,1138,91,0.5102918586789554,0,15,0.4838709677419355,11.59235668789809

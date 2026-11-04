@@ -1,0 +1,40 @@
+Model: spPGOcc 
+Wolf covariate: Wolf.pack.abundance 
+
+
+Call:
+spPGOcc(occ.formula = occ_formula, det.formula = det_formula, 
+    data = data_list, inits = inits, priors = priors, tuning = tuning, 
+    cov.model = "exponential", NNGP = FALSE, n.neighbors = n_neighbors, 
+    n.batch = n_batch, batch.length = batch_length, n.omp.threads = 1, 
+    verbose = TRUE, n.report = max(1L, floor(n_batch/10)), n.burn = if (is.null(n_burn)) round(0.1 * 
+        n_batch * batch_length) else n_burn, n.thin = n_thin, 
+    n.chains = n_chains)
+
+Samples per Chain: 10000
+Burn-in: 1000
+Thinning Rate: 5
+Number of Chains: 3
+Total Posterior Samples: 5400
+Run Time (min): 0.1813
+
+Occurrence (logit scale): 
+                           Mean     SD    2.5%     50%   97.5%   Rhat  ESS
+(Intercept)              0.4344 0.6345 -0.7549  0.4012  1.7824 1.0019 2267
+Nature.Reserves.z        0.1101 0.5821 -0.9736  0.0916  1.3859 1.0018 3019
+null.jackal.abundance.z -1.3458 0.6715 -2.9511 -1.2583 -0.2471 1.0072  990
+Wolf.pack.abundance.z    0.0517 0.5151 -0.9648  0.0497  1.0926 1.0005 4074
+
+Detection (logit scale): 
+                          Mean     SD    2.5%     50%   97.5%   Rhat  ESS
+(Intercept)            -0.4359 0.1711 -0.7786 -0.4319 -0.1096 0.9998 4768
+log_days_operational.z  0.2838 0.1610 -0.0268  0.2798  0.6072 1.0012 5400
+cattle_sightings.z     -0.1032 0.1401 -0.3806 -0.0999  0.1617 1.0011 5400
+
+Spatial Covariance: 
+           Mean      SD   2.5%    50%   97.5%   Rhat ESS
+sigma.sq 6.7527 14.9934 0.4504 2.4414 40.0668 1.1201 264
+phi      1.3620  0.9110 0.1186 1.2042  3.0553 1.0108 728
+           Mean      SD   2.5%    50%   97.5%   Rhat ESS
+sigma.sq 6.7527 14.9934 0.4504 2.4414 40.0668 1.1201 264
+phi      1.3620  0.9110 0.1186 1.2042  3.0553 1.0108 728

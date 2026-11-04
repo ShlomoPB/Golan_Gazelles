@@ -1,0 +1,13 @@
+response_class,effect,primary_P,supported_specifications,tested_specifications,retained_model,term_retained,robust,robustness_status
+Adult female,interaction,0.031308541595910566,6,7,E,TRUE,FALSE,sensitivity-dependent
+Adult female,jackal,0.43243671904172243,2,7,E,TRUE,FALSE,unsupported
+Adult female,wolf,2.498789664027168e-4,7,7,E,TRUE,TRUE,robust
+Adult male,interaction,4.98532688424369e-4,6,7,E,TRUE,FALSE,sensitivity-dependent
+Adult male,jackal,0.520588406650959,1,7,E,TRUE,FALSE,unsupported
+Adult male,wolf,0.03707859056682761,4,7,E,TRUE,FALSE,sensitivity-dependent
+Juvenile,interaction,1.9378038258976993e-4,7,7,E,TRUE,TRUE,robust
+Juvenile,jackal,0.8998087153911289,0,7,E,TRUE,FALSE,unsupported
+Juvenile,wolf,0.059142373923293357,0,7,E,TRUE,FALSE,unsupported
+Pooled species,interaction,2.567830801368798e-4,7,7,B,FALSE,FALSE,not retained
+Pooled species,jackal,0.606434278865102,2,7,B,FALSE,FALSE,not retained
+Pooled species,wolf,7.399822828706437e-4,7,7,B,TRUE,TRUE,robust

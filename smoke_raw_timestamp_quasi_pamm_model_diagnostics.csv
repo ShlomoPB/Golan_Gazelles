@@ -1,0 +1,25 @@
+primary,secondary,direction,ped_rows,events,cameras,deviance_explained,pearson_dispersion,variance_family,converged,full_session_frailty
+Boar,Fawn,Pressure to gazelle,29867,216,58,0.442644497982611,0.387589428622799,quasipoisson,TRUE,TRUE
+Boar,Female,Pressure to gazelle,29867,2511,58,0.518204450630011,1.362565242299,quasipoisson,TRUE,TRUE
+Boar,Male,Pressure to gazelle,29867,2176,58,0.344631743646274,1.21736983017161,quasipoisson,TRUE,TRUE
+Human,Fawn,Pressure to gazelle,35227,181,57,0.508237155325899,0.188682273347182,quasipoisson,TRUE,TRUE
+Human,Female,Pressure to gazelle,35227,2134,57,0.554973880591521,1.34256518569377,quasipoisson,TRUE,TRUE
+Human,Male,Pressure to gazelle,35227,1921,57,0.402923361513376,1.05741507616498,quasipoisson,TRUE,TRUE
+Jackal,Fawn,Pressure to gazelle,51024,254,60,0.423150789535862,0.413624808868561,quasipoisson,TRUE,TRUE
+Jackal,Female,Pressure to gazelle,51024,3074,60,0.462603603664909,1.55756289792749,quasipoisson,TRUE,TRUE
+Jackal,Male,Pressure to gazelle,51024,2589,60,0.30852977614972,1.14524600014464,quasipoisson,TRUE,TRUE
+Wolf,Fawn,Pressure to gazelle,13719,188,56,0.427870834586446,0.514226011834161,quasipoisson,TRUE,TRUE
+Wolf,Female,Pressure to gazelle,13719,1978,56,0.519389499774975,1.58211562802725,quasipoisson,TRUE,TRUE
+Wolf,Male,Pressure to gazelle,13719,1655,56,0.365545411681739,1.22567024913244,quasipoisson,TRUE,TRUE
+Fawn,Boar,Gazelle to pressure,3485,884,31,0.467826442975292,1.3646985847971,quasipoisson,TRUE,TRUE
+Female,Boar,Gazelle to pressure,17470,2072,50,0.423255338140024,1.27328264319385,quasipoisson,TRUE,TRUE
+Male,Boar,Gazelle to pressure,24364,2883,52,0.389393271699887,1.34606140303314,quasipoisson,TRUE,TRUE
+Fawn,Human,Gazelle to pressure,3485,977,31,0.596753697462746,1.59327814163186,quasipoisson,TRUE,TRUE
+Female,Human,Gazelle to pressure,17470,3522,50,0.539409414621859,1.41304862870243,quasipoisson,TRUE,TRUE
+Male,Human,Gazelle to pressure,24364,4651,52,0.53344479039756,1.7923707612904,quasipoisson,TRUE,TRUE
+Fawn,Jackal,Gazelle to pressure,3485,1526,31,0.526273901297182,1.217275431022,quasipoisson,TRUE,TRUE
+Female,Jackal,Gazelle to pressure,17470,4894,50,0.499797787027412,1.11877721977786,quasipoisson,TRUE,TRUE
+Male,Jackal,Gazelle to pressure,24364,7209,52,0.50577384498872,1.17998637340184,quasipoisson,TRUE,TRUE
+Fawn,Wolf,Gazelle to pressure,3485,187,31,0.327948045748997,1.09615296804499,quasipoisson,TRUE,TRUE
+Female,Wolf,Gazelle to pressure,17470,635,50,0.301523893910159,0.887464435146158,quasipoisson,TRUE,TRUE
+Male,Wolf,Gazelle to pressure,24364,802,52,0.250082092607289,1.09811102882903,quasipoisson,TRUE,TRUE

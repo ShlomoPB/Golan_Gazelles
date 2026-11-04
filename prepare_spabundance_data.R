@@ -1,6 +1,8 @@
 # Prepare gazelle camera-trap data for spAbundance::msNMix.
 # Run from the folder containing the CSV files.
 
+library(readxl)
+
 count_files <- c(
   male = "gazelle_male_abundance_60x7.csv",
   female = "gazelle_female_abundance_60x7.csv",
@@ -9,6 +11,7 @@ count_files <- c(
 
 site_cov_file <- "SiteCovs_060324.csv"
 obs_cov_file <- "ObsCovs_050524.csv"
+coords_file <- "Camera Coordinates.xlsx"
 
 read_counts <- function(path) {
   x <- read.csv(path, na.strings = c("NA", ""), check.names = FALSE)
@@ -44,6 +47,7 @@ if (any(is.na(site_covs_raw$Camera.ID))) {
 
 abund_keep <- c(
   "Predicted.Wolf.Abundance",
+  "Null.Wolf.Abundance",
   "null.jackal.abundance",
   "null.boar.abundance",
   "human.abundance",
@@ -52,11 +56,19 @@ abund_keep <- c(
   "Built.and.Roads",
   "Firing.Zones",
   "Proximity.to.Water",
-  "Wolf.pack.abundance"
+  "Wolf.pack.abundance",
+  "Cattle.Abundance",
+  "Cropland",
+  "Animal.Structures",
+  "Open.Spaces",
+  "Orchards"
 )
 
 abund_covs <- site_covs_raw[abund_keep]
 names(abund_covs) <- make.names(names(abund_covs))
+abund_covs[] <- lapply(abund_covs, as.numeric)
+abund_covs_scaled <- as.data.frame(scale(abund_covs))
+names(abund_covs_scaled) <- paste0(names(abund_covs), ".z")
 
 obs_covs_raw <- read.csv(obs_cov_file, na.strings = c("NA", ""), check.names = FALSE)
 obs_covs_raw <- obs_covs_raw[order(obs_covs_raw$`Camera Number`, obs_covs_raw$`Round Number`), ]
@@ -78,10 +90,17 @@ to_site_by_round <- function(column) {
   )
 }
 
+z_matrix <- function(x) {
+  (x - mean(x, na.rm = TRUE)) / stats::sd(as.vector(x), na.rm = TRUE)
+}
+
 det_covs <- list(
   days_operational = to_site_by_round("Days.Operational"),
   cattle_sightings = to_site_by_round("Cattle.Sightings")
 )
+
+det_covs$log_days_operational.z <- z_matrix(log(det_covs$days_operational))
+det_covs$cattle_sightings.z <- z_matrix(det_covs$cattle_sightings)
 
 y_missing <- apply(is.na(y), c(2, 3), any)
 days_missing <- is.na(det_covs$days_operational)
@@ -92,10 +111,23 @@ if (!identical(y_missing, days_missing)) {
   )
 }
 
+coords <- read_excel(coords_file)
+names(coords) <- c("site", "lat", "lon")
+coords$site <- as.integer(gsub("[^0-9]", "", as.character(coords$site)))
+coords <- coords[match(as.integer(site_ids), coords$site), ]
+if (any(is.na(coords$site))) {
+  stop("Camera coordinates are missing one or more sites found in the count files.")
+}
+
+# data$coords for lfMsNMix latent factor models
+coords_mat <- as.matrix(coords[c("lon", "lat")])
+rownames(coords_mat) <- coords$site
+
 data_list <- list(
   y = y,
-  abund.covs = abund_covs,
-  det.covs = det_covs
+  abund.covs = cbind(abund_covs, abund_covs_scaled),
+  det.covs = det_covs,
+  coords = coords_mat
 )
 
 saveRDS(data_list, "gazelle_msNMix_data_list.rds")

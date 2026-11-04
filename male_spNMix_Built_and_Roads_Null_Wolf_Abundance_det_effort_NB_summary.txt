@@ -1,0 +1,47 @@
+Species: male 
+Model: spNMix
+Habitat covariate: Built.and.Roads 
+Wolf covariate: Null.Wolf.Abundance 
+Detection model: effort 
+Family: NB 
+
+
+Call:
+spNMix(abund.formula = abund_formula, det.formula = det_formula, 
+    data = data_list, inits = inits, priors = priors, tuning = tuning, 
+    cov.model = "exponential", NNGP = TRUE, n.neighbors = n_neighbors, 
+    n.batch = n_batch, batch.length = batch_length, family = family_name, 
+    n.omp.threads = 1, verbose = TRUE, n.report = max(1L, floor(n_batch/10)), 
+    n.burn = if (is.null(n_burn)) round(0.1 * n_batch * batch_length) else n_burn, 
+    n.thin = n_thin, n.chains = n_chains)
+
+Samples per Chain: 10000
+Burn-in: 1000
+Thinning Rate: 5
+Number of Chains: 3
+Total Posterior Samples: 5400
+Run Time (min): 0.7883
+
+Abundance (log scale): 
+                           Mean     SD    2.5%     50%   97.5%   Rhat ESS
+(Intercept)              5.2562 0.4029  4.3599  5.3200  5.9329 1.1565  60
+Built.and.Roads.z       -0.8133 0.2517 -1.3395 -0.8074 -0.3249 1.0575 216
+null.jackal.abundance.z -0.8328 0.2089 -1.2355 -0.8344 -0.4103 1.0190 270
+Null.Wolf.Abundance.z    0.3591 0.1704  0.0245  0.3585  0.7010 1.0073 330
+
+Detection (logit scale): 
+                          Mean     SD    2.5%     50%   97.5%   Rhat  ESS
+(Intercept)            -4.1106 0.3352 -4.5506 -4.2020 -3.3069 1.2770   12
+log_days_operational.z  0.2130 0.0233  0.1676  0.2133  0.2597 1.0038 3916
+cattle_sightings.z     -0.0267 0.0259 -0.0787 -0.0261  0.0228 1.0069  409
+
+Spatial Covariance: 
+           Mean     SD   2.5%    50%  97.5%   Rhat ESS
+sigma.sq 1.2977 0.4222 0.5993 1.2485 2.2918 1.0335 424
+phi      1.1991 0.8403 0.1863 0.9240 3.0198 1.0252 445
+
+NB overdispersion: 
+        Mean     SD   2.5%   50%  97.5%   Rhat ESS
+kappa 5.4017 2.5517 1.3403 5.295 9.7381 1.0451 203
+        Mean     SD   2.5%   50%  97.5%   Rhat ESS
+kappa 5.4017 2.5517 1.3403 5.295 9.7381 1.0451 203

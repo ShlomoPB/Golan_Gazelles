@@ -1,0 +1,61 @@
+camera_name,Polygon.Name,jackal,wolf,predator_context,predator_context_label,predator_context_group
+1,Keshet Yonatan,0.652651425,0.597647687,mixed,Intermediate / mixed,mixed
+2,Keshet Yonatan,0.501417045,0.537899756,mixed,Intermediate / mixed,mixed
+3,Keshet Yonatan,0.501909272,0.287560905,mixed,Intermediate / mixed,mixed
+4,Keshet Yonatan,0.444128567,0.329408432,mixed,Intermediate / mixed,mixed
+5,Keshet Yonatan,0.741655553,0.437445095,high_jackal_low_wolf,High jackal / Low wolf,extreme
+6,Yehudiya,0.239654427,0.766703936,low_jackal_high_wolf,Low jackal / High wolf,extreme
+7,Yehudiya,0.402114635,0.853559427,mixed,Intermediate / mixed,mixed
+8,Yehudiya,0.210947817,0.873243809,low_jackal_high_wolf,Low jackal / High wolf,extreme
+9,Yehudiya,0.468411808,0.534640386,mixed,Intermediate / mixed,mixed
+10,Yehudiya,0.251881173,0.848745047,low_jackal_high_wolf,Low jackal / High wolf,extreme
+11,Saki,0.667550841,0.473814286,mixed,Intermediate / mixed,mixed
+12,Saki,1,0.454833921,mixed,Intermediate / mixed,mixed
+13,Saki,0.455060454,0.652662815,mixed,Intermediate / mixed,mixed
+14,Saki,0.904823303,0.401656045,high_jackal_low_wolf,High jackal / Low wolf,extreme
+15,Saki,0.605250646,0.450189708,mixed,Intermediate / mixed,mixed
+16,Shaal,0.379947268,0.364931658,mixed,Intermediate / mixed,mixed
+17,Shaal,0.69596196,0.949486061,high_both,High both,extreme
+18,Shaal,0.511347979,0.61106211,mixed,Intermediate / mixed,mixed
+19,Shaal,0.189242251,0.50295926,mixed,Intermediate / mixed,mixed
+20,Shaal,0.099527074,0.813881551,low_jackal_high_wolf,Low jackal / High wolf,extreme
+21,Hazeka,0.492279293,0.601105476,mixed,Intermediate / mixed,mixed
+22,Hazeka,0.540753487,0.447456311,mixed,Intermediate / mixed,mixed
+23,Hazeka,0.781978078,0.614660275,mixed,Intermediate / mixed,mixed
+24,Hazeka,0.830422527,0.522987818,mixed,Intermediate / mixed,mixed
+25,Hazeka,0.991050492,0.413064124,high_jackal_low_wolf,High jackal / Low wolf,extreme
+26,Makhfi,0.157167697,0.764492936,low_jackal_high_wolf,Low jackal / High wolf,extreme
+27,Makhfi,0.507569595,0.981524138,mixed,Intermediate / mixed,mixed
+28,Makhfi,0.596410932,0.9504482,mixed,Intermediate / mixed,mixed
+29,Makhfi,0.53360936,0.709719323,mixed,Intermediate / mixed,mixed
+30,Makhfi,0.236117278,0.959204627,low_jackal_high_wolf,Low jackal / High wolf,extreme
+31,Odem,0.078040203,0.61165508,mixed,Intermediate / mixed,mixed
+32,Odem,0.154094685,0.590679663,mixed,Intermediate / mixed,mixed
+33,Odem,0.712053746,0.881038515,high_both,High both,extreme
+34,Odem,0.680654104,0.79847717,high_both,High both,extreme
+35,Odem,0.724900144,0.634642249,mixed,Intermediate / mixed,mixed
+36,Masade,0.499397339,0.593010871,mixed,Intermediate / mixed,mixed
+37,Masade,0.401509224,0.48889054,mixed,Intermediate / mixed,mixed
+38,Masade,0.211414334,0.394708183,low_both,Low both,extreme
+39,Masade,0.432320076,0.272028969,mixed,Intermediate / mixed,mixed
+40,Masade,0.237508747,0.443713329,low_both,Low both,extreme
+41,Hermon,0.48758947,0.521377875,mixed,Intermediate / mixed,mixed
+42,Hermon,0.981797726,0.324316516,high_jackal_low_wolf,High jackal / Low wolf,extreme
+43,Hermon,0.440832789,0.584702809,mixed,Intermediate / mixed,mixed
+44,Hermon,0.676522505,0.272028969,high_jackal_low_wolf,High jackal / Low wolf,extreme
+45,Hermon,0.311156613,0.557600825,mixed,Intermediate / mixed,mixed
+46,Slopes (south),0.431526657,0.582142876,mixed,Intermediate / mixed,mixed
+47,Slopes (south),0.453181279,0.483656288,mixed,Intermediate / mixed,mixed
+48,Slopes (south),0.307556501,0.554824342,mixed,Intermediate / mixed,mixed
+49,Slopes (south),0.37595276,0.475790822,mixed,Intermediate / mixed,mixed
+50,Slopes (south),0.231802327,0.491154464,mixed,Intermediate / mixed,mixed
+51,Firing Zones,0.653373727,0.505960388,mixed,Intermediate / mixed,mixed
+52,Firing Zones,0.269263141,0.562032603,mixed,Intermediate / mixed,mixed
+53,Firing Zones,0.624306366,0.735238157,mixed,Intermediate / mixed,mixed
+54,Firing Zones,0.723866876,0.528667745,mixed,Intermediate / mixed,mixed
+55,Firing Zones,0.647204288,0.592515368,mixed,Intermediate / mixed,mixed
+56,Snir,0.497261595,0.538970173,mixed,Intermediate / mixed,mixed
+57,Snir,0.337783144,1.94273e-4,mixed,Intermediate / mixed,mixed
+58,Snir,0.47448186,1,mixed,Intermediate / mixed,mixed
+59,Snir,0.568770949,0.639551752,mixed,Intermediate / mixed,mixed
+60,Snir,0.803829481,0.34376257,high_jackal_low_wolf,High jackal / Low wolf,extreme

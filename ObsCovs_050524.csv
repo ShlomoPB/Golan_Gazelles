@@ -307,12 +307,12 @@ Camera Number,Round Number,Start date,End Date,Camera.Model,Camera.Sensitivity,C
 44,5,16/11/2020,01/12/2020,Browning DARK OPS HD PRO X - Normal Sensitivity,Normal,1 minute,Shrubs > 2 m,Dirt path more than 1m wide,Obstructed by vegetation,No,Livestock lightly present,Not near orchard/vineyard,15,6
 44,6,01/12/2020,15/12/2020,Browning DARK OPS HD PRO X - Normal Sensitivity,Normal,30 seconds,Shrubs > 2 m,Dirt path more than 1m wide,Obstructed by vegetation,No,Livestock lightly present,Not near orchard/vineyard,14,1
 44,7,,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-45,1,03/09/2020,05/10/2020,Browning DARK OPS HD PRO X - Normal Sensitivity,Normal,1 minute,Shrubs < 2 m,Dirt path less than 1m wide,Obstructed by vegetation,No,No livestock presence,Not near orchard/vineyard,13,0
-45,2,18/10/2020,16/11/2020,Browning DARK OPS HD PRO X - Normal Sensitivity,Normal,1 minute,Shrubs < 2 m,Dirt path less than 1m wide,Obstructed by vegetation,No,No livestock presence,Not near orchard/vineyard,21,0
-45,3,,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-45,4,,,Browning DARK OPS HD PRO X - Normal Sensitivity,Normal,1 minute,Shrubs < 2 m,Dirt path less than 1m wide,Obstructed by vegetation,No,No livestock presence,Not near orchard/vineyard,29,0
-45,5,16/11/2020,01/12/2020,Browning DARK OPS HD PRO X - Normal Sensitivity,Normal,1 minute,Shrubs < 2 m,Dirt path less than 1m wide,Obstructed by vegetation,No,No livestock presence,Not near orchard/vineyard,15,14
-45,6,01/12/2020,15/12/2020,Browning DARK OPS HD PRO X - Normal Sensitivity,Normal,1 minute,Shrubs < 2 m,Dirt path less than 1m wide,Obstructed by vegetation,No,No livestock presence,Not near orchard/vineyard,14,18
+45,1,03/09/2020,16/09/2020,Browning DARK OPS HD PRO X - Normal Sensitivity,Normal,1 minute,Shrubs < 2 m,Dirt path less than 1m wide,Obstructed by vegetation,No,No livestock presence,Not near orchard/vineyard,13,0
+45,2,16/09/2020,18/10/2020,Browning DARK OPS HD PRO X - Normal Sensitivity,Normal,1 minute,Shrubs < 2 m,Dirt path less than 1m wide,Obstructed by vegetation,No,No livestock presence,Not near orchard/vineyard,21,0
+45,3,18/10/2020,16/11/2020,Browning DARK OPS HD PRO X - Normal Sensitivity,Normal,1 minute,Shrubs < 2 m,Dirt path less than 1m wide,Obstructed by vegetation,No,No livestock presence,Not near orchard/vineyard,29,0
+45,4,16/11/2020,01/12/2020,Browning DARK OPS HD PRO X - Normal Sensitivity,Normal,1 minute,Shrubs < 2 m,Dirt path less than 1m wide,Obstructed by vegetation,No,No livestock presence,Not near orchard/vineyard,15,14
+45,5,01/12/2020,15/12/2020,Browning DARK OPS HD PRO X - Normal Sensitivity,Normal,1 minute,Shrubs < 2 m,Dirt path less than 1m wide,Obstructed by vegetation,No,No livestock presence,Not near orchard/vineyard,14,18
+45,6,,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 45,7,,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 46,1,,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 46,2,13/09/2020,01/10/2020,Bushnell TROPHY CAM HD AGGRESSOR NO-GLOW,Normal,0.6 seconds,Grassland,4x4 Road with off-road vehicles,Clear,Yes,Livestock very present,Not near orchard/vineyard,18,0

@@ -1,0 +1,24 @@
+section,metric,value
+sample,class_specific_event_rows,3925
+sample,underlying_30min_encounters,3507
+sample,multiclass_encounters,389
+sample,rows_in_multiclass_encounters,807
+sample,cameras_with_events,53
+sample,study_cameras,60
+sample,polygons_with_events,12
+sample,survey_rounds,7
+sample,survey_start,2020-08-20
+sample,survey_end,2020-12-15
+sample,early_late_split,2020-10-17
+predator,wolf_raw_range,0.000194273 to 1
+predator,wolf_raw_mean_sd,"0.578505475116667, 0.201985902942223"
+predator,jackal_raw_range,0.078040203 to 1
+predator,jackal_raw_mean_sd,"0.50034658155, 0.226117972851584"
+predator,wolf_jackal_pearson_r,-0.182689289473995
+predator,wolf_jackal_pearson_p,0.162375593859676
+daylight,Fawn_proportion,0.827777777777778
+daylight,Female_proportion,0.611374407582938
+daylight,Male_proportion,0.567901234567901
+class,Fawn_events,180
+class,Female_events,1477
+class,Male_events,2268

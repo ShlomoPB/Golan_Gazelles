@@ -1,0 +1,8 @@
+test,method,statistic,df,p_value,reduced_AIC,full_AIC
+Baseline demographic-class differences at mean predator activity,Wald chi-square,36.97864934234863,2,9.336590714762575e-9,NA,5030.740148696601
+Any wolf association across classes and jackal contexts,Likelihood-ratio test,3.3673458494104125,6,0.7615268548816716,5022.107494546011,5030.740148696601
+Any jackal association across classes and wolf contexts,Likelihood-ratio test,4.879675942867834,6,0.559335792275588,5023.619824639469,5030.740148696601
+Wolf slopes differ among demographic classes,Likelihood-ratio test,1.6482219362806063,4,0.8001002548987552,5024.388370632882,5030.740148696601
+Jackal slopes differ among demographic classes,Likelihood-ratio test,2.3752043819786195,4,0.6671127966461813,5025.11535307858,5030.740148696601
+"Wolf by jackal interaction, including class-specific interaction if retained",Likelihood-ratio test,2.7144779926402407,3,0.43777251560736835,5027.454626689241,5030.740148696601
+Class by wolf by jackal interaction,Likelihood-ratio test,1.5843901571879542,2,0.4528496628837332,5028.324538853789,5030.740148696601

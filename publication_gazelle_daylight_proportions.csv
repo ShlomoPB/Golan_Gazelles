@@ -1,0 +1,7 @@
+"class","light_period","event_rows","event_row_proportion","summed_classified_animals","classified_animal_proportion","solar_definition"
+"Adult female","Daylight",903,0.611374407582938,1215,0.622757560225525,"Solar elevation >= 0 degrees"
+"Adult female","Non-daylight",574,0.388625592417062,736,0.377242439774475,"Solar elevation < 0 degrees"
+"Fawn","Daylight",149,0.827777777777778,165,0.829145728643216,"Solar elevation >= 0 degrees"
+"Fawn","Non-daylight",31,0.172222222222222,34,0.170854271356784,"Solar elevation < 0 degrees"
+"Adult male","Daylight",1288,0.567901234567901,1353,0.574522292993631,"Solar elevation >= 0 degrees"
+"Adult male","Non-daylight",980,0.432098765432099,1002,0.425477707006369,"Solar elevation < 0 degrees"

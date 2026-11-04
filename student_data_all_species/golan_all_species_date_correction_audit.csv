@@ -1,0 +1,11 @@
+station_camera_id,trap_station_session_id,date_correction_days,survey_round,date_correction_reason,deployment_start_date,deployment_end_date,source_rows,original_date_min,original_date_max,corrected_date_min,corrected_date_max,rows_within_authoritative_deployment,rows_outside_authoritative_deployment
+22,201,148,3,Replacement camera date entered as 05/10 instead of 10/05; shift recorded May date to October,2020-10-05,2020-10-14,131,2020-05-10,2020-05-19,2020-10-05,2020-10-14,131,0
+22,450,148,4,Replacement camera date entered as 05/10 instead of 10/05; shift recorded May date to October,2020-10-14,2020-11-02,262,2020-05-19,2020-06-07,2020-10-14,2020-11-02,262,0
+22,451,148,5,Replacement camera date entered as 05/10 instead of 10/05; shift recorded June date to November,2020-11-02,2020-11-23,262,2020-06-07,2020-06-28,2020-11-02,2020-11-23,262,0
+22,452,148,6,Replacement camera date entered as 05/10 instead of 10/05; shift recorded June-July date to November-December,2020-11-23,2020-12-14,332,2020-06-28,2020-07-19,2020-11-23,2020-12-14,332,0
+24,25,238,1,All-species extension: first camera-24 session from the clock set to 01 January; authoritative deployment began 26 August,2020-08-26,2020-09-07,349,2020-01-01,2020-01-05,2020-08-26,2020-08-30,349,0
+24,455,238,2,Camera date set to 01 January when installed on 26 August,2020-09-07,2020-10-05,276,2020-01-12,2020-02-09,2020-09-06,2020-10-04,271,5
+24,456,238,3,Camera date set to 01 January when installed on 26 August,2020-10-05,2020-10-14,825,2020-02-09,2020-02-18,2020-10-04,2020-10-13,810,15
+24,457,238,4,Camera date set to 01 January when installed on 26 August,2020-10-14,2020-11-02,1866,2020-02-18,2020-03-08,2020-10-13,2020-11-01,1831,35
+24,458,238,5,Camera date set to 01 January when installed on 26 August,2020-11-02,2020-11-23,3937,2020-03-08,2020-03-29,2020-11-01,2020-11-22,3919,18
+24,459,238,6,Camera date set to 01 January when installed on 26 August,2020-11-23,2020-12-14,3569,2020-03-29,2020-04-19,2020-11-22,2020-12-13,3512,57

@@ -1,0 +1,2 @@
+comparison,pooled_AIC,season_adjusted_AIC,delta_AIC_season_adjusted_minus_pooled,df_difference,likelihood_ratio,p_value
+Common Early-Late shift in additive model,443.2224038796903,441.0754863031774,-2.1469175765129194,1,4.146917576512919,0.04171038734183276

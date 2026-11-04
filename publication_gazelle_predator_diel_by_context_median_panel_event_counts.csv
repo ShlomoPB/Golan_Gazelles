@@ -1,0 +1,49 @@
+predator_context,panel_class,gazelle_events,gazelle_cameras,wolf_events,jackal_events,n_cameras,panel_context,annotation,x,y
+Low both,Fawn,67,14,104,934,14,"Low both
+14 cameras","Gazelle n=67
+Wolf n=104
+Jackal n=934",23.65,0.5286209942731763
+Low both,Female,531,14,104,934,14,"Low both
+14 cameras","Gazelle n=531
+Wolf n=104
+Jackal n=934",23.65,0.5286209942731763
+Low both,Male,794,14,104,934,14,"Low both
+14 cameras","Gazelle n=794
+Wolf n=104
+Jackal n=934",23.65,0.5286209942731763
+High jackal / Low wolf,Fawn,3,16,109,4613,16,"High jackal / Low wolf
+16 cameras","Gazelle: data deficient (n=3)
+Wolf n=109
+Jackal n=4613",23.65,0.5286209942731763
+High jackal / Low wolf,Female,56,16,109,4613,16,"High jackal / Low wolf
+16 cameras","Gazelle n=56
+Wolf n=109
+Jackal n=4613",23.65,0.5286209942731763
+High jackal / Low wolf,Male,151,16,109,4613,16,"High jackal / Low wolf
+16 cameras","Gazelle n=151
+Wolf n=109
+Jackal n=4613",23.65,0.5286209942731763
+Low jackal / High wolf,Fawn,72,16,305,1175,16,"Low jackal / High wolf
+16 cameras","Gazelle n=72
+Wolf n=305
+Jackal n=1175",23.65,0.5286209942731763
+Low jackal / High wolf,Female,603,16,305,1175,16,"Low jackal / High wolf
+16 cameras","Gazelle n=603
+Wolf n=305
+Jackal n=1175",23.65,0.5286209942731763
+Low jackal / High wolf,Male,771,16,305,1175,16,"Low jackal / High wolf
+16 cameras","Gazelle n=771
+Wolf n=305
+Jackal n=1175",23.65,0.5286209942731763
+High both,Fawn,38,14,318,3036,14,"High both
+14 cameras","Gazelle n=38
+Wolf n=318
+Jackal n=3036",23.65,0.5286209942731763
+High both,Female,276,14,318,3036,14,"High both
+14 cameras","Gazelle n=276
+Wolf n=318
+Jackal n=3036",23.65,0.5286209942731763
+High both,Male,544,14,318,3036,14,"High both
+14 cameras","Gazelle n=544
+Wolf n=318
+Jackal n=3036",23.65,0.5286209942731763

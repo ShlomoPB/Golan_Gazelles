@@ -1,0 +1,4 @@
+scope,predator_effect,term,EDF,reference_df,statistic,raw_P,original_rank_Wald_statistic,original_rank_Wald_df,original_rank_Wald_P
+All three classes,Wolf x time,"s(demographic_class,Time):wolf_z",1.0065544964896047,30,2.0805029526438603,0.07778664278629988,3.7945232278809464,20,0.9999699191807814
+All three classes,Jackal x time,"s(demographic_class,Time):jackal_z",4.1414980053941866e-4,30,1.5988537355327609e-4,0.7065648483181086,7.338436341176357e-5,20,1
+All three classes,Wolf x jackal x time,"s(demographic_class,Time):wolf_jackal",1.5754683630305462,30,6.10990923642753,0.00596393847454235,8.147355148338516,20,0.9908471412599196

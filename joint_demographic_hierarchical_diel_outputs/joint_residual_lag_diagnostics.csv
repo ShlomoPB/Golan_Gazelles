@@ -1,0 +1,4 @@
+demographic_class,mean_lag1_pearson,median_lag1_pearson,camera_rounds_with_defined_lag
+Juvenile,0.7299164175357249,0.9370184891267932,344
+Adult female,0.3159080512299979,0.22962400150348547,344
+Adult male,0.17427940742725886,0.043798735929748533,344

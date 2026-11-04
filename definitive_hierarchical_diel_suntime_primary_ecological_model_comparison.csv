@@ -1,0 +1,21 @@
+response_class,model_id,hierarchy,AIC,deviance_explained,convergence,delta_AIC,selected
+Juvenile,A,camera_round,1332.0928041107366,0.4509973135381106,No convergence warning returned,12.794821749031371,FALSE
+Juvenile,B,camera_round,1330.9673844361841,0.45214123566143355,No convergence warning returned,11.669402074478967,FALSE
+Juvenile,C,camera_round,1328.5735920848613,0.45366759426102465,No convergence warning returned,9.275609723156094,FALSE
+Juvenile,D,camera_round,1327.858405414795,0.45467089371958497,No convergence warning returned,8.560423053089835,FALSE
+Juvenile,E,camera_round,1319.2979823617052,0.4632842266222148,No convergence warning returned,0,TRUE
+Adult female,A,site_shape,5992.494645368516,0.5724366281228079,No convergence warning returned,11.904936314766019,FALSE
+Adult female,B,site_shape,5986.161994853428,0.5737008406749805,No convergence warning returned,5.572285799677957,FALSE
+Adult female,C,site_shape,5989.2238783780485,0.572534899317344,No convergence warning returned,8.634169324298455,FALSE
+Adult female,D,site_shape,5983.107505365957,0.5737532607195412,No convergence warning returned,2.517796312206883,FALSE
+Adult female,E,site_shape,5980.58970905375,0.5738624621488231,No convergence warning returned,0,TRUE
+Adult male,A,site_shape,8566.943093385858,0.4740842772089559,No convergence warning returned,4.703239009284516,FALSE
+Adult male,B,site_shape,8564.663868722459,0.4742608874156975,No convergence warning returned,2.4240143458846433,FALSE
+Adult male,C,site_shape,8566.143365133388,0.4739579377879613,No convergence warning returned,3.903510756814285,FALSE
+Adult male,D,site_shape,8564.087608310158,0.47413708787266545,No convergence warning returned,1.84775393358359,TRUE
+Adult male,E,site_shape,8562.239854376574,0.47466266831350157,No convergence warning returned,0,FALSE
+Pooled species,A,site_shape,11231.328477626535,0.5525141182074244,No convergence warning returned,4.695031120167187,FALSE
+Pooled species,B,site_shape,11226.633446506368,0.553043863506169,No convergence warning returned,0,TRUE
+Pooled species,C,site_shape,11231.465630174265,0.5524112441422588,No convergence warning returned,4.83218366789697,FALSE
+Pooled species,D,site_shape,11226.822001724559,0.5529511901028092,No convergence warning returned,0.18855521819023124,FALSE
+Pooled species,E,site_shape,11227.598688860047,0.553051819411859,No convergence warning returned,0.9652423536790593,FALSE

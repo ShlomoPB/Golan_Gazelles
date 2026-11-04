@@ -1,0 +1,13 @@
+class,effect,term,primary_edf,primary_P,season_adjusted_edf,season_adjusted_P,convergence,delta_aic_season_adjusted_minus_primary,season_adjusted_deviance_explained
+Juvenile,Wolf time-varying effect,s(solar_hour):wolf_z,1.0211412378210682,0.08577654591098716,1.0211355815791159,0.085777618935591,full convergence,6.930712916073389e-4,0.466303404945478
+Juvenile,Jackal time-varying effect,s(solar_hour):jackal_z,7.748717012032404e-6,0.9467941254939113,1.6135019139069775e-5,0.9467942417433197,full convergence,6.930712916073389e-4,0.466303404945478
+Juvenile,Wolf x jackal time-varying effect,s(solar_hour):wolf_jackal_z,2.0238441740375492,2.3425616023231566e-4,2.0238431458079136,2.3425657515929732e-4,full convergence,6.930712916073389e-4,0.466303404945478
+Juvenile,Late versus Early curve-shape control,s(solar_hour):late_indicator,NA,NA,7.196376865618143e-5,0.4840107202263636,full convergence,6.930712916073389e-4,0.466303404945478
+Adult female,Wolf time-varying effect,s(solar_hour):wolf_z,3.8273292890443407,2.5732670700251425e-4,3.871626208808944,1.914121931758661e-4,full convergence,-41.63479525159528,0.5351118484770702
+Adult female,Jackal time-varying effect,s(solar_hour):jackal_z,8.22898437229297e-5,0.3148919600924762,3.691230713600942e-5,0.27967635908700583,full convergence,-41.63479525159528,0.5351118484770702
+Adult female,Wolf x jackal time-varying effect,s(solar_hour):wolf_jackal_z,0.08463614728371424,0.06179202207150203,0.021832887918789807,0.06543106173525703,full convergence,-41.63479525159528,0.5351118484770702
+Adult female,Late versus Early curve-shape control,s(solar_hour):late_indicator,NA,NA,2.9680332063806727,0,full convergence,-41.63479525159528,0.5351118484770702
+Adult male,Wolf time-varying effect,s(solar_hour):wolf_z,0.002310538750014934,0.06425094307635848,0.14656705805488837,0.05211976306521915,full convergence,-19.863868427519265,0.44778993204241724
+Adult male,Jackal time-varying effect,s(solar_hour):jackal_z,4.892132823440004e-5,0.6431934880220793,4.7636663720746335e-5,0.6299547553445652,full convergence,-19.863868427519265,0.44778993204241724
+Adult male,Wolf x jackal time-varying effect,s(solar_hour):wolf_jackal_z,3.0055364882947595,0.001525460365808029,2.9375792362544884,0.001993621264154144,full convergence,-19.863868427519265,0.44778993204241724
+Adult male,Late versus Early curve-shape control,s(solar_hour):late_indicator,NA,NA,2.922676122977336,4.749073726828534e-6,full convergence,-19.863868427519265,0.44778993204241724

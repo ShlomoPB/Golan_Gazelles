@@ -1,0 +1,283 @@
+---
+title: "Supplementary information"
+format:
+  html: default
+  docx: default
+execute:
+  echo: false
+---
+
+# Appendix S1. Spatial analyses
+
+Wolf and jackal covariates were detection-corrected relative site-level activity indices, not estimates of predator density. The archived manuscript specification used intercept-only predator state models and detection models containing path type, camera model, vegetation structure, and area behind the camera; empirical-Bayes site effects were extracted and standardized. The original predator-index fit objects and candidate-fit statistics were not retained, so this provenance is reported explicitly rather than reconstructed.
+
+The joint negative-binomial `spAbundance::lfMsNMix` model used open-space cover and the wolf × jackal activity structure in the state process, effort and cattle activity in detection, and two latent factors. Open-space cover was specified a priori rather than selected by information-criterion comparison. The class-specific negative-binomial `NMix` models used wolf × jackal activity in the state process and the same detection covariates. Bayesian fits used three chains of 50,000 iterations, a 5,000-iteration burn-in, and thinning by 10; posterior predictive checks, R-hat, and effective sample size were used diagnostically. Class-specific priors were normal with variance 100 for state coefficients and 2.72 for detection coefficients, with a Uniform(0, 10) negative-binomial dispersion prior; the joint model used the corresponding community normal priors, inverse-gamma(0.1, 0.1) among-class variance priors, and class-specific Uniform(0, 10) dispersion priors. Conditional ratios were calculated draw by draw, and matched `unmarked::pcount` models provided a parallel-framework sensitivity analysis.
+
+## Table S1. Residual spatial correlations among mountain gazelle demographic classes.
+
+| Pair | Posterior estimate | Lower 95% CrI | Upper 95% CrI |
+| --- | --- | --- | --- |
+| Juvenile – adult female | 0.863 | 0.523 | 0.998 |
+| Juvenile – adult male | 0.657 | 0.435 | 0.806 |
+| Adult female – adult male | 0.907 | 0.712 | 1.000 |
+
+Residual correlations are from the final two-factor joint demographic model after accounting for open-space cover and wolf–jackal context. Point estimates are posterior means. CrI, credible interval.
+
+## Table S2. Model specification and diagnostics for predator activity indices and Bayesian spatial abundance models.
+
+| panel | analysis | item | value | note |
+| --- | --- | --- | --- | --- |
+| A. Predator activity indices | Wolf | Count distribution | Zero-inflated Poisson |  |
+| A. Predator activity indices | Wolf | State structure | ~ 1 |  |
+| A. Predator activity indices | Wolf | Final detection formula | ~ Path.Type + Camera.Model + Vegetation.Structure + Area.Behind.Camera |  |
+| A. Predator activity indices | Wolf | Sampling design | 60 sites; 7 nominal occasions |  |
+| A. Predator activity indices | Wolf | Site-level extraction | Empirical-Bayes posterior mode from ranef()/bup(), then standardized | Relative site-level activity index; not density or absolute abundance |
+| A. Predator activity indices | Jackal | Count distribution | Poisson |  |
+| A. Predator activity indices | Jackal | State structure | ~ 1 |  |
+| A. Predator activity indices | Jackal | Final detection formula | ~ Path.Type + Camera.Model + Vegetation.Structure + Area.Behind.Camera |  |
+| A. Predator activity indices | Jackal | Sampling design | 60 sites; 7 nominal occasions |  |
+| A. Predator activity indices | Jackal | Site-level extraction | Empirical-Bayes posterior mode from ranef()/bup(), then standardized | Relative site-level activity index; not density or absolute abundance |
+| A. Predator activity indices | Wolf and jackal | Site-level correlation | r = -0.182689 |  |
+| A. Predator activity indices | Provenance | Historical model comparison | Not recoverable from archived files | Original predator-index fit objects and candidate-model fit statistics were not found; no AIC/WAIC values are inferred |
+| B. Joint demographic lfMsNMix | All three classes | Abundance formula | ~ Open.Spaces.z + Null.Wolf.Abundance.z * null.jackal.abundance.z |  |
+| B. Joint demographic lfMsNMix | All three classes | Detection formula | ~ log_days_operational.z + cattle_sightings.z |  |
+| B. Joint demographic lfMsNMix | All three classes | Distribution and latent structure | Negative binomial; 2 latent factors |  |
+| B. Joint demographic lfMsNMix | All three classes | MCMC | 3 chains; 50,000 iterations/chain; burn-in 5,000; thinning 10; seed 20260819 |  |
+| B. Joint demographic lfMsNMix | All three classes | Grouped Freeman–Tukey PPC | Juvenile = 0.408; Adult male = 0.402; Adult female = 0.318 |  |
+| B. Joint demographic lfMsNMix | All three classes | Ungrouped Freeman–Tukey PPC | Juvenile = 0.047; Adult male = 0.002; Adult female = 0.002 |  |
+| B. Joint demographic lfMsNMix | All three classes | Free-loading diagnostics | R-hat 1.001–1.015; ESS 322.9–709.8 |  |
+| B. Joint demographic lfMsNMix | All three classes | Convergence limitation | Intercept diagnostics included R-hat up to 1.815 and ESS as low as 9.3 | Residual-correlation inference is secondary and interpreted with this limitation |
+| C. Class-specific spAbundance::NMix | Juvenile | Abundance formula | ~ Null.Wolf.Abundance.z * null.jackal.abundance.z |  |
+| C. Class-specific spAbundance::NMix | Juvenile | Detection formula | ~ log_days_operational.z + cattle_sightings.z |  |
+| C. Class-specific spAbundance::NMix | Juvenile | Distribution and MCMC | Negative binomial; 3 chains; 50,000 iterations/chain; burn-in 5,000; thinning 10 |  |
+| C. Class-specific spAbundance::NMix | Juvenile | Focal abundance-slope diagnostics | R-hat 1.002–1.004; ESS 3548.6–5454.7 |  |
+| C. Class-specific spAbundance::NMix | Juvenile | Intercept convergence limitation | R-hat up to 1.231; ESS as low as 23.9 | Ecological inference restricted to well-mixed slopes and normalized predictions |
+| C. Class-specific spAbundance::NMix | Adult female | Abundance formula | ~ Null.Wolf.Abundance.z * null.jackal.abundance.z |  |
+| C. Class-specific spAbundance::NMix | Adult female | Detection formula | ~ log_days_operational.z + cattle_sightings.z |  |
+| C. Class-specific spAbundance::NMix | Adult female | Distribution and MCMC | Negative binomial; 3 chains; 50,000 iterations/chain; burn-in 5,000; thinning 10 |  |
+| C. Class-specific spAbundance::NMix | Adult female | Focal abundance-slope diagnostics | R-hat 1.001–1.004; ESS 6834.8–9092.5 |  |
+| C. Class-specific spAbundance::NMix | Adult female | Intercept convergence limitation | R-hat up to 3.492; ESS as low as 7.5 | Ecological inference restricted to well-mixed slopes and normalized predictions |
+| C. Class-specific spAbundance::NMix | Adult male | Abundance formula | ~ Null.Wolf.Abundance.z * null.jackal.abundance.z |  |
+| C. Class-specific spAbundance::NMix | Adult male | Detection formula | ~ log_days_operational.z + cattle_sightings.z |  |
+| C. Class-specific spAbundance::NMix | Adult male | Distribution and MCMC | Negative binomial; 3 chains; 50,000 iterations/chain; burn-in 5,000; thinning 10 |  |
+| C. Class-specific spAbundance::NMix | Adult male | Focal abundance-slope diagnostics | R-hat 1.001–1.003; ESS 7188.0–9537.8 |  |
+| C. Class-specific spAbundance::NMix | Adult male | Intercept convergence limitation | R-hat up to 1.380; ESS as low as 9.9 | Ecological inference restricted to well-mixed slopes and normalized predictions |
+| C. Class-specific spAbundance::NMix | Historical clarification | Expanded covariate models | Exploratory only; inadequate all-parameter MCMC diagnostics | No WAIC/AIC comparison selected the final predator-only state formula |
+
+Gazelle latent-state results are interpreted as relative local abundance or site use. Expanded habitat/human candidate models were exploratory and had inadequate all-parameter diagnostics; no WAIC or AIC comparison selected the final predator-only class-specific formula.
+
+## Table S3. Conditional effects of jackal activity across the wolf activity gradient.
+
+| Panel | Demographic class | Wolf activity | Contrast | Posterior median | Lower 95% CrI | Upper 95% CrI | Pr(ratio > 1) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| A. Low-jackal / high-jackal abundance ratio | Juvenile | Low (−1 SD) | Low jackal (−1 SD) / high jackal (+1 SD) | 12.79 | 1.50 | 163.91 | 0.989 |
+| A. Low-jackal / high-jackal abundance ratio | Juvenile | Mean (0 SD) | Low jackal (−1 SD) / high jackal (+1 SD) | 4.90 | 1.29 | 21.44 | 0.990 |
+| A. Low-jackal / high-jackal abundance ratio | Juvenile | High (+1 SD) | Low jackal (−1 SD) / high jackal (+1 SD) | 1.86 | 0.33 | 10.02 | 0.769 |
+| B. Attenuation ratio-of-ratios | Juvenile | Low versus high wolf | Jackal-effect ratio at low wolf / jackal-effect ratio at high wolf | 6.85 | 0.44 | 184.31 | 0.914 |
+| A. Low-jackal / high-jackal abundance ratio | Adult female | Low (−1 SD) | Low jackal (−1 SD) / high jackal (+1 SD) | 12.16 | 3.66 | 38.04 | 1.000 |
+| A. Low-jackal / high-jackal abundance ratio | Adult female | Mean (0 SD) | Low jackal (−1 SD) / high jackal (+1 SD) | 4.21 | 1.73 | 10.72 | 0.999 |
+| A. Low-jackal / high-jackal abundance ratio | Adult female | High (+1 SD) | Low jackal (−1 SD) / high jackal (+1 SD) | 1.50 | 0.33 | 6.48 | 0.706 |
+| B. Attenuation ratio-of-ratios | Adult female | Low versus high wolf | Jackal-effect ratio at low wolf / jackal-effect ratio at high wolf | 7.97 | 1.17 | 59.05 | 0.982 |
+| A. Low-jackal / high-jackal abundance ratio | Adult male | Low (−1 SD) | Low jackal (−1 SD) / high jackal (+1 SD) | 7.47 | 2.61 | 20.56 | 1.000 |
+| A. Low-jackal / high-jackal abundance ratio | Adult male | Mean (0 SD) | Low jackal (−1 SD) / high jackal (+1 SD) | 3.37 | 1.68 | 6.81 | 1.000 |
+| A. Low-jackal / high-jackal abundance ratio | Adult male | High (+1 SD) | Low jackal (−1 SD) / high jackal (+1 SD) | 1.53 | 0.55 | 4.15 | 0.805 |
+| B. Attenuation ratio-of-ratios | Adult male | Low versus high wolf | Jackal-effect ratio at low wolf / jackal-effect ratio at high wolf | 4.90 | 1.11 | 21.67 | 0.982 |
+
+Point estimates are posterior medians. Panel A reports low-jackal/high-jackal predicted relative abundance, so values greater than one indicate lower predicted abundance as jackal activity increases from −1 to +1 SD. Panel B divides that jackal-effect ratio at low wolf activity by the corresponding ratio at high wolf activity; values greater than one indicate attenuation of the negative jackal association at high wolf activity.
+
+## Table S4. Sensitivity analysis using matched unmarked N-mixture models.
+
+| Demographic class | Term | Estimate | SE | Lower 95% CI | Upper 95% CI | z | P | Support |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Juvenile | Wolf activity | 0.265 | 0.225 | -0.175 | 0.706 | 1.181 | 0.237 | 95% CI includes zero |
+| Juvenile | Jackal activity | -0.742 | 0.294 | -1.318 | -0.166 | -2.526 | 0.012 | 95% CI excludes zero |
+| Juvenile | Wolf × jackal | 0.485 | 0.288 | -0.080 | 1.050 | 1.684 | 0.092 | 95% CI includes zero |
+| Adult female | Wolf activity | 0.355 | 0.160 | 0.040 | 0.669 | 2.210 | 0.027 | 95% CI excludes zero |
+| Adult female | Jackal activity | -0.547 | 0.172 | -0.883 | -0.210 | -3.183 | 0.001 | 95% CI excludes zero |
+| Adult female | Wolf × jackal | 0.444 | 0.186 | 0.079 | 0.809 | 2.387 | 0.017 | 95% CI excludes zero |
+| Adult male | Wolf activity | 0.318 | 0.138 | 0.048 | 0.589 | 2.310 | 0.021 | 95% CI excludes zero |
+| Adult male | Jackal activity | -0.542 | 0.145 | -0.825 | -0.258 | -3.745 | <0.001 | 95% CI excludes zero |
+| Adult male | Wolf × jackal | 0.423 | 0.155 | 0.118 | 0.727 | 2.721 | 0.007 | 95% CI excludes zero |
+
+These matched negative-binomial `unmarked` fits are a sensitivity analysis. Differences in fitting framework and detection-model implementation preclude treating their coefficients as numerically equivalent to the Bayesian estimates.
+
+# Appendix S2. Juvenile:female ratio
+
+Camera-round juvenile and adult-female counts were analyzed with a beta-binomial mixed model for 221 informative camera-rounds at 50 cameras. All six candidates retained open-space, built-and-road, nature-reserve, human-activity, and camera-design adjustments, plus camera nested within polygon random intercepts. Only predator and survey-period structure varied. The implemented Early period included camera-round midpoints on or before 17 October 2020 and Late included later midpoints; no midpoint fell exactly on the boundary. Candidate models were compared by AIC, and nested extensions were evaluated by likelihood-ratio tests.
+
+## Table S5. Candidate-model comparison for the juvenile:female ratio.
+
+### Panel A. Candidate models
+
+| Model | Predator structure | Survey-period structure | df | AIC | ΔAIC | Selected |
+| --- | --- | --- | --- | --- | --- | --- |
+| Wolf × jackal; no survey-period term | Wolf × jackal | None | 24 | 444.913 | 3.837 | No |
+| Additive wolf + jackal; no survey-period term | Additive | None | 23 | 443.222 | 2.147 | No |
+| Wolf × jackal × survey period | Wolf × jackal with period-specific main and interaction terms | All predator terms vary by Early/Late | 28 | 444.194 | 3.119 | No |
+| Additive predator slopes varying by survey period | Additive with period-specific slopes | Predator slopes vary by Early/Late | 26 | 444.105 | 3.029 | No |
+| Wolf × jackal + common survey-period shift | Wolf × jackal | Common Early/Late shift | 25 | 442.722 | 1.646 | No |
+| Additive wolf + jackal + common survey-period shift | Additive | Common Early/Late shift | 24 | 441.075 | 0.000 | Yes |
+
+### Panel B. Nested likelihood-ratio tests
+
+| Comparison | df | LR | P | ΔAIC (larger − smaller) |
+| --- | --- | --- | --- | --- |
+| Add common Early/Late shift to additive model | 1 | 4.147 | 0.042 | -2.147 |
+| Add wolf × jackal to retained model | 1 | 0.354 | 0.552 | 1.646 |
+| Allow additive predator slopes to vary by Early/Late | 2 | 0.971 | 0.615 | 3.029 |
+
+All candidates converged with code 0 and positive-definite Hessians. The selected model was the minimum-AIC additive-predator model with a common Early/Late shift.
+
+## Table S6. Full coefficient estimates and sensitivity analyses for the juvenile:female ratio.
+
+### Panel A. Final retained model
+
+| Predictor | Reference | Logit coefficient | SE | Odds ratio | Lower 95% CI | Upper 95% CI | P |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Intercept |  | -4.085 | 0.630 | 0.017 | 0.005 | 0.058 | <0.001 |
+| Wolf activity |  | -0.074 | 0.144 | 0.929 | 0.701 | 1.231 | 0.608 |
+| Jackal activity |  | -0.059 | 0.205 | 0.943 | 0.631 | 1.408 | 0.773 |
+| Late vs Early survey | Early (hotter) | 0.451 | 0.224 | 1.569 | 1.011 | 2.436 | 0.045 |
+| Open-space cover |  | 0.441 | 0.205 | 1.554 | 1.040 | 2.321 | 0.031 |
+| Built-and-road cover |  | 0.005 | 0.361 | 1.005 | 0.496 | 2.038 | 0.988 |
+| Nature-reserve cover |  | 0.010 | 0.234 | 1.010 | 0.639 | 1.596 | 0.967 |
+| Human activity |  | 0.002 | 0.179 | 1.002 | 0.706 | 1.422 | 0.990 |
+| Path type: Animal path without vehicles | 4x4 road with off-road vehicles | 0.411 | 0.832 | 1.509 | 0.295 | 7.707 | 0.621 |
+| Path type: Dirt path less than 1m wide | 4x4 road with off-road vehicles | 1.130 | 0.802 | 3.095 | 0.642 | 14.907 | 0.159 |
+| Path type: Dirt path more than 1m wide | 4x4 road with off-road vehicles | 0.173 | 0.365 | 1.188 | 0.581 | 2.431 | 0.637 |
+| Path type: Paved road | 4x4 road with off-road vehicles | -0.127 | 0.524 | 0.881 | 0.315 | 2.459 | 0.809 |
+| Camera model: Browning DARK OPS HD PRO X - Long Sensitivity | Browning DARK OPS HD MAX | 0.985 | 0.629 | 2.677 | 0.781 | 9.177 | 0.117 |
+| Camera model: Browning DARK OPS HD PRO X - Normal Sensitivity | Browning DARK OPS HD MAX | 0.911 | 0.562 | 2.488 | 0.827 | 7.488 | 0.105 |
+| Camera model: Bushnell TROPHY CAM HD AGGRESSOR NO-GLOW | Browning DARK OPS HD MAX | 0.102 | 0.557 | 1.107 | 0.372 | 3.297 | 0.855 |
+| Vegetation structure: Shrubs < 2 m | Grassland | 2.460 | 0.712 | 11.702 | 2.898 | 47.252 | <0.001 |
+| Vegetation structure: Shrubs > 2 m | Grassland | 0.667 | 0.636 | 1.948 | 0.560 | 6.769 | 0.294 |
+| Vegetation structure: Tree Cover Overhead | Grassland | 0.331 | 0.490 | 1.393 | 0.533 | 3.638 | 0.499 |
+| Area behind camera: Fence | Clear | 0.767 | 0.622 | 2.153 | 0.637 | 7.283 | 0.217 |
+| Area behind camera: Impassable due to topography | Clear | 0.805 | 0.572 | 2.238 | 0.730 | 6.864 | 0.159 |
+| Area behind camera: Obstructed by vegetation | Clear | 0.370 | 0.447 | 1.448 | 0.602 | 3.481 | 0.408 |
+
+| Parameter | Estimate |
+| --- | --- |
+| Random-effect SD: camera_id:Polygon.Name | 0.4266 |
+| Random-effect SD: Polygon.Name | 0.0000 |
+| Beta-binomial dispersion | 41.8133 |
+
+### Panel B. Sensitivity and model-extension tests
+
+| Test | Component | Estimate | SE | Odds ratio | Lower 95% CI | Upper 95% CI | z or LR | df | P |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Wolf × jackal interaction | Coefficient | -0.151 | 0.246 | 0.860 | 0.531 | 1.392 | -0.615 |  | 0.538 |
+| Add wolf × jackal to retained model | Likelihood-ratio test |  |  |  |  |  | 0.354 | 1 | 0.552 |
+| Allow additive predator slopes to vary by Early/Late | Likelihood-ratio test |  |  |  |  |  | 0.971 | 2 | 0.615 |
+
+Continuous covariates were standardized. Odds ratios greater than one indicate a higher juvenile:female ratio.
+
+# Appendix S3. Diel activity analyses
+
+Apparent solar time was calculated from corrected UTC timestamps using longitude and the date-specific equation of time, preserving equal one-hour durations while aligning solar noon to 12:00. Astronomical night was solar elevation below 0°, and class-specific kernel overlap used the Dhat4 estimator. For the hierarchical analysis, each positive-effort camera-round contributed 24 one-hour binomial histories; zero-success hours were retained and recorded operational days supplied the trials. Cyclic binomial GAMs included survey round, camera and camera-round structure, and, where selected, camera-specific cyclic deviations.
+
+Baseline, wolf-only, jackal-only, additive, and wolf × jackal temporal structures were compared by AIC, retaining the least-complex candidate within 2 AIC units of the minimum. Predicted curves were normalized within predator context and therefore represent redistribution across the 24-hour cycle. The seven-specification audit comprised the primary apparent-solar fit, k = 8, k = 16, sun time, an alternate camera-only hierarchy, independent 30-min histories, and sun time plus the camera-only hierarchy. The confirmatory joint GAM used common predator-time smooths and symmetric sum-to-zero demographic deviation smooths with penalty-aware boundary tests.
+
+## Table S7. Candidate-model comparison for predator-associated diel activity.
+
+| Demographic analysis | Model | AIC | ΔAIC | Selected under rule |
+| --- | --- | --- | --- | --- |
+| Juvenile | Baseline | 1336.322 | 14.966 | No |
+| Juvenile | Wolf-only | 1335.187 | 13.831 | No |
+| Juvenile | Jackal-only | 1331.744 | 10.388 | No |
+| Juvenile | Additive wolf + jackal | 1331.021 | 9.666 | No |
+| Juvenile | Wolf × jackal | 1321.356 | 0.000 | Yes |
+| Adult female | Baseline | 5995.249 | 10.439 | No |
+| Adult female | Wolf-only | 5990.347 | 5.537 | No |
+| Adult female | Jackal-only | 5991.937 | 7.127 | No |
+| Adult female | Additive wolf + jackal | 5987.305 | 2.495 | No |
+| Adult female | Wolf × jackal | 5984.810 | 0.000 | Yes |
+| Adult male | Baseline | 8589.608 | 6.000 | No |
+| Adult male | Wolf-only | 8587.376 | 3.768 | No |
+| Adult male | Jackal-only | 8588.870 | 5.263 | No |
+| Adult male | Additive wolf + jackal | 8586.869 | 3.262 | No |
+| Adult male | Wolf × jackal | 8583.608 | 0.000 | Yes |
+| Pooled gazelles | Baseline | 11276.834 | 2.152 | No |
+| Pooled gazelles | Wolf-only | 11274.682 | 0.000 | Yes |
+| Pooled gazelles | Jackal-only | 11276.994 | 2.313 | No |
+| Pooled gazelles | Additive wolf + jackal | 11274.878 | 0.196 | No |
+| Pooled gazelles | Wolf × jackal | 11276.252 | 1.570 | No |
+
+The pooled wolf-only model had the minimum AIC; the additive model was 0.196 AIC units higher. Thus, the simplicity rule agrees with, but is not solely responsible for, the pooled selection.
+
+## Table S8. Predator-associated temporal effects and robustness across sensitivity specifications.
+
+| Demographic analysis | Term | EDF | Statistic | P | Supported specifications | Interpretation |
+| --- | --- | --- | --- | --- | --- | --- |
+| Juvenile | Wolf × time | 1.188 | 3.254 | 0.059 | 0/7 | unsupported |
+| Juvenile | Jackal × time | 0.000 | 0.000 | 0.900 | 0/7 | unsupported |
+| Juvenile | Wolf × jackal × time | 2.067 | 21.061 | <0.001 | 7/7 | robust |
+| Adult female | Wolf × time | 3.916 | 8.586 | <0.001 | 7/7 | robust |
+| Adult female | Jackal × time | 0.000 | 0.000 | 0.432 | 2/7 | unsupported |
+| Adult female | Wolf × jackal × time | 0.001 | 0.000 | 0.031 | 6/7 | sensitivity-dependent |
+| Adult male | Wolf × time | 0.000 | 0.000 | 0.037 | 4/7 | sensitivity-dependent |
+| Adult male | Jackal × time | 0.000 | 0.000 | 0.521 | 1/7 | unsupported |
+| Adult male | Wolf × jackal × time | 2.991 | 6.072 | <0.001 | 6/7 | sensitivity-dependent |
+| Pooled gazelles | Wolf × time | 3.870 | 8.040 | <0.001 | 7/7 | robust |
+
+The seven specifications were the primary apparent-solar fit, k = 8, k = 16, sun time, alternate camera-only hierarchy, independent 30-min histories, and sun time plus camera-only hierarchy. Only terms retained in the selected model and supported in all seven specifications were classified as robust.
+
+## Table S9. Confirmatory tests of demographic heterogeneity in predator-associated diel responses.
+
+### Panel A. Omnibus joint-GAM tests
+
+| Term | EDF | Reference rank | Statistic | P | Sensitivity support | Interpretation |
+| --- | --- | --- | --- | --- | --- | --- |
+| Wolf × time | 1.007 | 30 | 2.081 | 0.078 | Not reopened | Unsupported |
+| Jackal × time | 0.000 | 30 | 0.000 | 0.707 | Not reopened | Unsupported |
+| Wolf × jackal × time | 1.575 | 30 | 6.110 | 0.006 | 7/7 | Supported |
+
+### Panel B. Planned pairwise contrasts
+
+| Contrast | EDF | Reference rank | Statistic | Raw P | Holm-adjusted P | Interpretation |
+| --- | --- | --- | --- | --- | --- | --- |
+| Juvenile – Adult female | 1.504 | 20 | 5.127 | 0.006 | 0.012 | Responses differ |
+| Juvenile – Adult male | 1.630 | 20 | 6.724 | 0.004 | 0.011 | Responses differ |
+| Adult female – Adult male | 0.000 | 20 | 0.000 | 0.277 | 0.277 | No supported difference; not equivalence |
+
+Statistics are `mgcv` penalty-aware boundary-test statistics; reference rank is not a conventional chi-square degrees of freedom. Pairwise tests apply to the primary apparent-solar specification. A nonsignificant adult-female versus adult-male contrast is not evidence of equivalence.
+
+## Table S10. Diagnostic summary for hierarchical cyclic GAMs.
+
+### Panel A. Sample and model structure
+
+| Model | Rows | Camera-rounds | Trials | Positive camera-day-hours | k | Hierarchy |
+| --- | --- | --- | --- | --- | --- | --- |
+| Juvenile | 8256 | 344 | 143976 | 183 | 12 | Camera + camera-round random intercepts |
+| Adult female | 8256 | 344 | 143976 | 1576 | 12 | Camera-specific cyclic deviations + camera and camera-round random intercepts |
+| Adult male | 8256 | 344 | 143976 | 2307 | 12 | Camera-specific cyclic deviations + camera and camera-round random intercepts |
+| Pooled gazelles | 8256 | 344 | 143976 | 3857 | 12 | Camera-specific cyclic deviations + camera and camera-round random intercepts |
+| Confirmatory joint GAM | 24768 | 344 | 431928 | 4066 | 12 | Common and class-specific camera/camera-round random effects; adult camera-specific cyclic deviations |
+
+### Panel B. Common fitting diagnostics
+
+| Model | Deviance explained | Pearson dispersion | Convergence |
+| --- | --- | --- | --- |
+| Juvenile | 0.466 | 0.413 | No convergence warning returned |
+| Adult female | 0.574 | 0.634 | No convergence warning returned |
+| Adult male | 0.466 | 0.784 | No convergence warning returned |
+| Pooled gazelles | 0.547 | 0.874 | No convergence warning returned |
+| Confirmatory joint GAM | 0.564 | 0.683 | Numerically converged |
+
+### Panel C. Structure-specific diagnostic checks
+
+| Model | Diagnostic | Value |
+| --- | --- | --- |
+| Juvenile | Mean camera-round lag-1 Pearson residual correlation | 0.729 |
+| Adult female | Mean camera-round lag-1 Pearson residual correlation | 0.313 |
+| Adult male | Mean camera-round lag-1 Pearson residual correlation | 0.173 |
+| Pooled gazelles | Mean camera-round lag-1 Pearson residual correlation | 0.158 |
+| Juvenile | Minimum time-smooth k-index | 0.852 |
+| Juvenile | Time-smooth k-test P | 0.020 |
+| Juvenile | Maximum time-smooth concurvity | 0.183 |
+| Confirmatory joint GAM | Maximum absolute gradient | 0.000069 |
+| Confirmatory joint GAM | Minimum Hessian eigenvalue | -1.406e-13 |
+| Confirmatory joint GAM | Hessian numerically positive semidefinite | TRUE |
+| Confirmatory joint GAM | Coefficient rank | 3008 |
+
+Structure-specific diagnostics are listed only for models for which they were reported or meaningful. The low juvenile k-index motivated the prespecified k = 8 and k = 16 sensitivity fits rather than post hoc alteration of the primary model. No explicit AR(1) correction was used; residual lag-1 summaries are reported diagnostically.

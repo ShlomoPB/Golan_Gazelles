@@ -1,0 +1,10 @@
+period,round,n_camera_rounds
+Early,1,60
+Early,2,59
+Early,3,60
+Early,4,10
+Late,2,1
+Late,4,50
+Late,5,60
+Late,6,60
+Late,7,60

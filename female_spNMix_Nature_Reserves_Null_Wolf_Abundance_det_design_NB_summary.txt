@@ -1,0 +1,69 @@
+Species: female 
+Model: spNMix
+Habitat covariate: Nature.Reserves 
+Wolf covariate: Null.Wolf.Abundance 
+Detection model: design 
+Family: NB 
+
+
+Call:
+spNMix(abund.formula = abund_formula, det.formula = det_formula, 
+    data = data_list, inits = inits, priors = priors, tuning = tuning, 
+    cov.model = "exponential", NNGP = TRUE, n.neighbors = n_neighbors, 
+    n.batch = n_batch, batch.length = batch_length, family = family_name, 
+    n.omp.threads = 1, verbose = TRUE, n.report = max(1L, floor(n_batch/10)), 
+    n.burn = if (is.null(n_burn)) round(0.1 * n_batch * batch_length) else n_burn, 
+    n.thin = n_thin, n.chains = n_chains)
+
+Samples per Chain: 10000
+Burn-in: 1000
+Thinning Rate: 5
+Number of Chains: 3
+Total Posterior Samples: 5400
+Run Time (min): 1.4507
+
+Abundance (log scale): 
+                           Mean     SD    2.5%     50%   97.5%   Rhat ESS
+(Intercept)              5.2733 0.5797  3.8097  5.2969  6.2903 1.3150  42
+Nature.Reserves.z       -0.2893 0.3356 -0.9605 -0.3001  0.3673 1.0015 117
+null.jackal.abundance.z -0.6371 0.2473 -1.1253 -0.6320 -0.1489 1.1766 185
+Null.Wolf.Abundance.z    0.4778 0.1976  0.0900  0.4744  0.8748 1.0386 266
+
+Detection (logit scale): 
+                                                  Mean     SD    2.5%     50%
+(Intercept)                                    -3.9505 0.4538 -4.5862 -4.0826
+path_typeAnimal path without vehicles          -0.6569 0.6070 -1.8278 -0.6467
+path_typeDirt path less than 1m wide           -0.0581 0.7882 -1.6540 -0.0018
+path_typeDirt path more than 1m wide            0.4275 0.2284  0.0523  0.3998
+path_typePaved road                            -0.2585 0.3692 -0.9530 -0.2914
+camera_sensitivityNormal                       -0.5103 0.0693 -0.6435 -0.5116
+area_behind_cameraFence                        -0.2335 0.5347 -1.1991 -0.2716
+area_behind_cameraImpassable due to topography -0.7202 0.4596 -1.5375 -0.7410
+area_behind_cameraObstructed by vegetation      0.1664 0.3738 -0.7040  0.1458
+vegetation_structureShrubs < 2 m               -0.9335 0.8363 -2.5487 -1.0284
+vegetation_structureShrubs > 2 m               -0.4564 0.3979 -1.2178 -0.4445
+vegetation_structureTree Cover Overhead        -0.3539 0.4462 -1.2547 -0.3463
+                                                 97.5%   Rhat ESS
+(Intercept)                                    -3.0935 1.1614  11
+path_typeAnimal path without vehicles           0.5333 1.2550  53
+path_typeDirt path less than 1m wide            1.4782 1.8185  26
+path_typeDirt path more than 1m wide            0.9256 1.7267  27
+path_typePaved road                             0.4614 1.3099  24
+camera_sensitivityNormal                       -0.3728 1.0374 350
+area_behind_cameraFence                         0.8212 1.0106  15
+area_behind_cameraImpassable due to topography  0.3659 1.7999  16
+area_behind_cameraObstructed by vegetation      0.9007 1.1316  18
+vegetation_structureShrubs < 2 m                0.8688 1.8508  18
+vegetation_structureShrubs > 2 m                0.3455 1.2720  19
+vegetation_structureTree Cover Overhead         0.5520 1.0757  38
+
+Spatial Covariance: 
+           Mean     SD   2.5%    50%  97.5%   Rhat ESS
+sigma.sq 2.0874 0.8804 0.7568 1.9631 4.2274 1.0959 148
+phi      0.4365 0.4363 0.0803 0.3238 1.9465 1.0459 259
+
+NB overdispersion: 
+        Mean     SD   2.5%    50%  97.5%   Rhat ESS
+kappa 4.4477 2.7984 0.8719 3.8114 9.6734 1.0461 135
+        Mean     SD   2.5%    50%  97.5%   Rhat ESS
+kappa 4.4477 2.7984 0.8719 3.8114 9.6734 1.0461 135

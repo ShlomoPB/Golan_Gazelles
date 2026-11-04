@@ -1,0 +1,10 @@
+predator_effect,contrast,difference,lower_95,upper_95,ordering_supported
+Wolf x time,Juvenile - Adult female,0.014894664349129845,-0.133772037940681,0.21285680510939456,Uncertain
+Wolf x time,Juvenile - Adult male,0.15294991419966225,0.043815219215731595,0.3329345501746859,Yes: first class has larger RMS effect
+Wolf x time,Adult female - Adult male,0.1363039779502958,0.05684238110556658,0.24457236024291976,Yes: first class has larger RMS effect
+Jackal x time,Juvenile - Adult female,-8.370084408490996e-7,-0.002043890777481062,0.002023860996042002,Uncertain
+Jackal x time,Juvenile - Adult male,8.228437611714871e-4,-4.650152232372703e-4,0.0026261038407494244,Uncertain
+Jackal x time,Adult female - Adult male,8.070451357737431e-4,-4.1490721235565477e-4,0.00269695138906468,Uncertain
+Wolf x jackal x time,Juvenile - Adult female,0.3245185286753958,0.12395395584623434,0.5455678279771715,Yes: first class has larger RMS effect
+Wolf x jackal x time,Juvenile - Adult male,0.22878316331557966,0.009412065307009354,0.46666430181425594,Yes: first class has larger RMS effect
+Wolf x jackal x time,Adult female - Adult male,-0.09393953072287933,-0.19812964306814085,-0.026458884938854295,No: second class has larger RMS effect

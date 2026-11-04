@@ -1,0 +1,3 @@
+period,operational_cameras,camera_nights,valid_camera_rounds,informative_camera_rounds,juvenile_count,adult_female_count,juvenile_rate_per_100_camera_nights,adult_female_rate_per_100_camera_nights,juvenile_female_ratio,juveniles_per_100_females,model_camera_rounds,model_cameras,model_camera_nights,model_juvenile_count,model_adult_female_count
+Early,60,2701,175,111,74,934,2.73972602739726,34.57978526471677,0.07922912205567452,7.922912205567452,111,47,1686,74,934
+Late,59,3298,169,110,125,1017,3.790175864160097,30.83687083080655,0.12291052114060963,12.291052114060964,110,47,2200,125,1017

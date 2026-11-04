@@ -1,0 +1,11 @@
+camera_name,trap_station_session_id,offset_days,expected_round,reason
+22,201,148,3,Replacement camera date entered as 05/10 instead of 10/05; shift recorded May date to October
+22,450,148,4,Replacement camera date entered as 05/10 instead of 10/05; shift recorded May date to October
+22,451,148,5,Replacement camera date entered as 05/10 instead of 10/05; shift recorded June date to November
+22,452,148,6,Replacement camera date entered as 05/10 instead of 10/05; shift recorded June-July date to November-December
+24,25,238,1,All-species extension: first camera-24 session from the clock set to 01 January; authoritative deployment began 26 August
+24,455,238,2,Camera date set to 01 January when installed on 26 August
+24,456,238,3,Camera date set to 01 January when installed on 26 August
+24,457,238,4,Camera date set to 01 January when installed on 26 August
+24,458,238,5,Camera date set to 01 January when installed on 26 August
+24,459,238,6,Camera date set to 01 January when installed on 26 August

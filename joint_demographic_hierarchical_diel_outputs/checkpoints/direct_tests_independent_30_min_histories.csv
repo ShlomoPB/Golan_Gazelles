@@ -1,0 +1,13 @@
+specification,predator_effect,test_type,contrast,statistic,df_rank,raw_P,adjusted_P
+Independent 30-min histories,Wolf x time,Omnibus,All demographic classes,3.369813041247667,20,0.9999888996236205,0.9999888996236205
+Independent 30-min histories,Wolf x time,Pairwise,Juvenile - Adult female,2.5605492014637545,10,0.9899636853125703,1
+Independent 30-min histories,Wolf x time,Pairwise,Juvenile - Adult male,0.8996423991921707,10,0.9998942898870272,1
+Independent 30-min histories,Wolf x time,Pairwise,Adult female - Adult male,2.4712165041339946,10,0.9912885579727289,1
+Independent 30-min histories,Jackal x time,Omnibus,All demographic classes,3.729932373642303e-5,20,1,1
+Independent 30-min histories,Jackal x time,Pairwise,Juvenile - Adult female,2.5206277818527775e-5,10,0.9999999999999999,1
+Independent 30-min histories,Jackal x time,Pairwise,Juvenile - Adult male,1.9041231823780834e-5,10,1,1
+Independent 30-min histories,Jackal x time,Pairwise,Adult female - Adult male,1.903168852326739e-5,10,1,1
+Independent 30-min histories,Wolf x jackal x time,Omnibus,All demographic classes,8.686739129681714,20,0.9862597091160853,0.9862597091160853
+Independent 30-min histories,Wolf x jackal x time,Pairwise,Juvenile - Adult female,6.149101632240546,10,0.8025846123219083,1
+Independent 30-min histories,Wolf x jackal x time,Pairwise,Juvenile - Adult male,4.515089719294876,10,0.921134207492309,1
+Independent 30-min histories,Wolf x jackal x time,Pairwise,Adult female - Adult male,2.62545448333746,10,0.9889187138296054,1

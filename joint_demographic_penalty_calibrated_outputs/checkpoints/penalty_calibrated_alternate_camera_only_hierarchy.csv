@@ -1,0 +1,2 @@
+specification,time_scale,history_type,k,hierarchy,EDF,reference_df,statistic,raw_P,warnings,maximum_absolute_gradient,minimum_hessian_eigenvalue
+Alternate camera-only hierarchy,Apparent solar time,Raw sightings,12,camera_only,4.175392893758825,30,28.86584701328085,5.471537035117713e-6,None,4.143432903790231e-4,-1.9076182393259663e-13

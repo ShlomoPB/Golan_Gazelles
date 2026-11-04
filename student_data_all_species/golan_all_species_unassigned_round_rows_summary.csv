@@ -1,0 +1,17 @@
+station_camera_id,trap_station_session_id,corrected_date,species,source_rows,first_source_row_id
+4,84,2020-12-09,[missing species label],5,3345
+4,84,2020-12-10,[missing species label],8,26468
+4,84,2020-12-11,[missing species label],2,80984
+4,84,2020-12-12,Bos taurus,23,9637
+4,84,2020-12-12,[missing species label],16,54357
+4,84,2020-12-13,Unidentified Animal,1,142404
+4,84,2020-12-13,[missing species label],8,28330
+12,16,2020-08-24,[missing species label],1,37553
+15,45,2020-08-23,Canis aureus,20,1269
+15,45,2020-08-23,Hystrix indica,40,7992
+15,45,2020-08-23,Vulpes vulpes,8,12257
+15,45,2020-08-23,[missing species label],4,36821
+46,347,2020-11-09,[missing species label],2,14025
+52,56,2020-09-03,[missing species label],23,7559
+55,59,2020-09-03,Vulpes vulpes,2,31144
+55,59,2020-09-03,[missing species label],16,1217

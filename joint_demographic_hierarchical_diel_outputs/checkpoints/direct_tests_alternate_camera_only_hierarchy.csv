@@ -1,0 +1,13 @@
+specification,predator_effect,test_type,contrast,statistic,df_rank,raw_P,adjusted_P
+Alternate camera-only hierarchy,Wolf x time,Omnibus,All demographic classes,24.22309172734012,20,0.23278288193147695,0.23278288193147695
+Alternate camera-only hierarchy,Wolf x time,Pairwise,Juvenile - Adult female,5.366321734537912,10,0.8654035937096038,1
+Alternate camera-only hierarchy,Wolf x time,Pairwise,Juvenile - Adult male,1.1779724460892778,10,0.9996371494631384,1
+Alternate camera-only hierarchy,Wolf x time,Pairwise,Adult female - Adult male,22.750564534367427,10,0.011705689237717767,0.0351170677131533
+Alternate camera-only hierarchy,Jackal x time,Omnibus,All demographic classes,27.33978363720345,20,0.12597224260938603,0.12597224260938603
+Alternate camera-only hierarchy,Jackal x time,Pairwise,Juvenile - Adult female,25.784119070261596,10,0.004041643199429425,0.012124929598288276
+Alternate camera-only hierarchy,Jackal x time,Pairwise,Juvenile - Adult male,1.5706111595601104,10,0.9986981025067823,0.9986981025067823
+Alternate camera-only hierarchy,Jackal x time,Pairwise,Adult female - Adult male,12.52786723129271,10,0.2512794690297208,0.5025589380594416
+Alternate camera-only hierarchy,Wolf x jackal x time,Omnibus,All demographic classes,18.990394919855603,20,0.5224504433168106,0.5224504433168106
+Alternate camera-only hierarchy,Wolf x jackal x time,Pairwise,Juvenile - Adult female,2.636437724628611,10,0.9887348418997505,1
+Alternate camera-only hierarchy,Wolf x jackal x time,Pairwise,Juvenile - Adult male,5.821117229049617,10,0.8300615404004922,1
+Alternate camera-only hierarchy,Wolf x jackal x time,Pairwise,Adult female - Adult male,14.473917238582066,10,0.15245122139693865,0.4573536641908159

@@ -1,0 +1,7 @@
+class,stratum_group,gazelle_events,gazelle_cameras,predator_events,predator_cameras
+Male,Q1: low human activity,640,12,2007,14
+Male,Q4: high human activity,338,12,3648,15
+Female,Q1: low human activity,342,11,2007,14
+Female,Q4: high human activity,126,12,3648,15
+Fawn,Q1: low human activity,41,10,2007,14
+Fawn,Q4: high human activity,13,6,3648,15

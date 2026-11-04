@@ -1,0 +1,3 @@
+comparison,smaller_model,larger_model,smaller_AIC,larger_AIC,delta_AIC_larger_minus_smaller,df_difference,likelihood_ratio,p_value
+Add fixed Early-Late season effect,"cbind(fawn, female) ~ wolf_z * jackal_z + open_z + (1 | Polygon.Name/camera_id)","cbind(fawn, female) ~ wolf_z * jackal_z + open_z + season + (1 | Polygon.Name/camera_id)",438.9123663293036,436.3573150559429,-2.555051273360732,1,4.555051273360732,0.032821781065985135
+Wolf x jackal interaction after fixed season adjustment,"cbind(fawn, female) ~ wolf_z + jackal_z + open_z + season + (1 | Polygon.Name/camera_id)","cbind(fawn, female) ~ wolf_z * jackal_z + open_z + season + (1 | Polygon.Name/camera_id)",434.7502634730023,436.3573150559429,1.607051582940585,1,0.3929484170594151,0.5307536459971751

@@ -1,0 +1,5 @@
+period,demographic_class,independent_event_rows,summed_animals,mean_group_size,median_group_size,maximum_group_size
+Early,Adult female,711,927,1.3037974683544304,1,5
+Early,Juvenile,64,73,1.140625,1,3
+Late,Adult female,766,1024,1.3368146214099217,1,16
+Late,Juvenile,116,126,1.0862068965517242,1,3

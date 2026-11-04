@@ -1,0 +1,10 @@
+period,comparison,n1,n2,overlap,activity_1,activity_2,p_value
+All detections,Female vs Fawn,1479,180,"0.777 [0.731, 0.822]",0.543,0.364,0.000
+All detections,Female vs Male,1479,2273,"0.945 [0.924, 0.966]",0.543,0.606,0.034
+All detections,Fawn vs Male,180,2273,"0.728 [0.679, 0.776]",0.364,0.606,0.000
+Early (hotter),Female vs Fawn,742,66,"0.712 [0.638, 0.787]",0.642,0.439,0.000
+Early (hotter),Female vs Male,742,1158,"0.956 [0.927, 0.985]",0.642,0.679,0.591
+Early (hotter),Fawn vs Male,66,1158,"0.720 [0.650, 0.790]",0.439,0.679,0.000
+Late (mild-cold),Female vs Fawn,737,114,"0.858 [0.795, 0.921]",0.450,0.333,0.248
+Late (mild-cold),Female vs Male,737,1115,"0.892 [0.857, 0.926]",0.450,0.509,0.000
+Late (mild-cold),Fawn vs Male,114,1115,"0.758 [0.689, 0.826]",0.333,0.509,0.000
