@@ -1,8 +1,12 @@
 # Golan mountain gazelle camera-trap project
 
-This private research repository contains the code, source data, derived data,
-model objects, diagnostics, tables, figures, and submission-audit materials for
-the Golan Heights mountain gazelle camera-trap study.
+This research repository contains the code, source data, derived data, model
+objects, diagnostics, tables, and figures for the Golan Heights mountain
+gazelle camera-trap study.
+
+Reviewers should begin with [`REVIEWER_GUIDE.md`](REVIEWER_GUIDE.md), which
+identifies the manuscript-critical inputs, scripts, and outputs and separates
+them from exploratory and archival material.
 
 ## Repository contents
 
@@ -14,8 +18,6 @@ the Golan Heights mountain gazelle camera-trap study.
   figures, supplementary tables, and reproducibility reports.
 - `student_data_all_species/`: date-corrected all-species exports prepared for
   supervised student use.
-- `submission_audit_output/`: manuscript and supplementary-information audit
-  artifacts. These files do not replace the authoritative analysis inputs.
 
 ## Reproducibility
 
@@ -35,9 +37,8 @@ git clone <repository-url>
 ## Sensitive ecological data
 
 This repository contains exact camera coordinates and fine-scale records for an
-endangered species. Keep the repository **private**. Do not make it public,
-redistribute the coordinate-bearing files, or publish fine-scale locations
-without a formal sensitivity, permitting, and data-ownership review. Public
-release should use a separately prepared, spatially de-identified data package.
+endangered species. Reuse or redistribution of coordinate-bearing files should
+follow applicable permitting, data-ownership, and conservation-sensitivity
+requirements.
 
 No general reuse or redistribution license is granted by this repository.

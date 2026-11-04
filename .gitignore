@@ -10,6 +10,11 @@ Rplots.pdf
 *.temp
 ~$*
 
+# Manuscript and submission working files remain local, not in the code archive
+*.doc
+*.docx
+submission_audit_output/
+
 # Operating-system metadata
 .DS_Store
 Thumbs.db
